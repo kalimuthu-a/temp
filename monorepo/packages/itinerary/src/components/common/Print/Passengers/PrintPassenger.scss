@@ -1,0 +1,143 @@
+$black: get-color("black-222");
+$border-color: get-color("border");
+$dark-gray-5: get-color("grey-dark-5");
+
+.pageBreak__after {
+	break-after: page;
+}
+
+.print-passenger {
+	border: rem(1px) solid $black;
+	padding: rem(10px) rem(20px);
+	display: flex;
+	flex-direction: column;
+	border-radius: rem(8px);
+	@include media(">=1024px") {
+		padding: rem(20px) rem(20px);
+	}
+
+	&__heading {
+		width: 100%;
+		font-size: rem(20px);
+		font-weight: 700;
+		margin-bottom: rem(10px);
+		display: flex;
+	}
+
+	&__content {
+		width: 100%;
+		display: flex;
+		flex-direction: column;
+
+		@include media(">=1024px") {
+			flex-direction: row;
+		}
+	}
+
+	&__details {
+		display: flex;
+		flex-direction: column;
+		width: 100%;
+
+		&__name {
+			font-weight: bold;
+			font-size: 16px !important;
+			line-height: 20px !important;
+			font-family: var(--font-family-poppins-semibold);
+			display: block;
+			width: 100%;
+			&--title {
+				text-transform: lowercase;
+				display: inline-block;
+
+				&::first-letter {
+					text-transform: uppercase;
+				}
+			}
+
+			&--infant-piconp {
+				width: rem(20px);
+				height: rem(20px);
+				border: 1px solid lightgrey;
+				border-radius: rem(15px);
+				display: flex;
+				align-items: center;
+				justify-content: center;
+				float: left;
+				font-weight: 600;
+				margin-right: rem(10px);
+
+				&::before {
+					content: "\e9cf";
+					font-size: 10px;
+				}
+			}
+		}
+
+		&__type {
+			font-size: rem(10px);
+			color: $black;
+			margin-left: rem(6px);
+			font-weight: normal;
+		}
+	}
+
+	.skyplus-table {
+		width: 100%;
+	}
+
+	&-col {
+		// display: flex;
+		display: inline-flex;
+		flex: 1;
+		font-size: rem(12px);
+		line-height: rem(20px);
+		padding-top: rem(5px);
+	}
+
+	.print-sector-chip {
+		font-size: 10px;
+		font-weight: 600;
+		padding: 4px 8px;
+		border-radius: 12.5px;
+		white-space: nowrap;
+		height: 20px;
+		display: flex;
+		align-items: center;
+		border: 1px solid black;
+		margin-left: rem(40px);
+
+		&-checked-in {
+			.icon-web_checkin {
+				font-size: rem(14px);
+				font-weight: 700;
+				padding-right: rem(4px);
+				color: inherit;
+			}
+		}
+
+		&-no-show {
+			.icomoon-noshow {
+				font-size: 13px;
+				font-weight: 700;
+				padding-right: 2px;
+
+				&::after {
+					content: "\e9d1";
+					padding-right: rem(4px);
+				}
+			}
+			.icon-close-circle {
+				margin-right: rem(4px);
+				font-size: rem(14px);
+			}
+		}
+	}
+}
+
+.print-passenger-row {
+	width: 100%;
+	display: flex;
+	align-items: flex-start;
+	flex-direction: row;
+}

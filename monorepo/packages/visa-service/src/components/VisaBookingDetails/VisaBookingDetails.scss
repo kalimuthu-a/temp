@@ -1,0 +1,250 @@
+.booking-details {
+  &-container {
+    margin-bottom: rem(32px);
+    display: flex;
+    flex-direction: column;
+
+    @include media('>=tablet') {
+      width: 100%
+    }
+
+    .no-drop-icon {
+      .skyplus-accordion {
+        background: none;
+        border: none;
+        box-shadow: var(--box-shadow-card-soft);
+
+        .flight-card-passenger-info-container-passportNumber {
+          span {
+            font-weight: normal;
+          }
+        }
+      }
+    }
+
+    .icon-accordion-up-simple {
+      display: none;
+    }
+
+    .icon-accordion-down-simple {
+      display: none;
+    }
+
+    .evisa-details {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      width: 70%;
+
+      .evisa-lable {
+        font-size: rem(12px);
+        background: var(--system-warning-light);
+        color: var(--system-warning);
+        border: rem(1px) solid var(--system-warning);
+        border-radius: rem(15px);
+        padding: rem(2px) rem(8px);
+      }
+    }
+
+    .share-btn{
+      cursor: auto;
+    }
+
+    .passenger {
+      &-name {
+        margin-top: rem(24px);
+        font-size: rem(16px);
+        font-weight: 600;
+        margin-bottom: rem(4px);
+      }
+
+      &-process-status {
+        font-size: rem(14px);
+        color: var(--text-secondary);
+        margin: rem(16px) 0;
+
+        @include media('>=tablet') {
+          margin: inital;
+          margin-bottom: rem(16px);
+        }
+      }
+    }
+
+    &-accordian {
+      width: 100%;
+      margin: rem(24px) 0;
+
+      /* stylelint-disable no-descending-specificity */
+      .skyplus-accordion {
+        border: rem(1px) solid var(--secondary-deep);
+      }
+
+      .skyplus-accordion__header {
+        background-color: var(--white);
+        border: rem(1px) solid var(--secondary-deep);
+        border-left: none;
+        border-right: none;
+
+      }
+
+      .skyplus-accordion__header-left {
+        display: none;
+      }
+
+
+      .skyplus-accordion__body {
+        padding: 0;
+      }
+
+      .flight-card {
+        border: none;
+      }
+
+      .skyplus-accordion__header-container {
+        padding: 0;
+      }
+
+      .box-shadow-card-soft {
+        border: rem(1px) solid var(--secondary-deep);
+        border-top-left-radius: rem(8px);
+        border-top-right-radius: rem(8px);
+
+        .skyplus-accordion__header {
+          border-radius: rem(8px) rem(8px) 0 0;
+        }
+      }
+
+      .skyplus-accordion:last-child {
+        border-bottom: rem(1px) solid var(--secondary-deep);
+        border-bottom-left-radius: rem(8px);
+        border-bottom-right-radius: rem(8px);
+      }
+    }
+
+    .invoice-container {
+      min-width: rem(107px);
+      box-shadow: var(--box-shadow-card-soft);
+      border-radius: rem(8px);
+      cursor: pointer;
+      color: var(--text-secondary);
+
+      .skyplus-text {
+        max-width: rem(64px);
+      }
+    }
+
+    .email-itinerary-contact-modal {
+      .modal-component-cross-icon {
+        top: rem(-40px);
+      }
+    }
+
+    .skyplus-design-toast {
+      &-container {
+        &.notifi-variation {
+          &--Success,
+          &--success {
+            background: var(--system-success-light);
+            border: rem(1px) solid var(--system-success);
+          }
+
+          &--Error,
+          &--error {
+            border: rem(1px) solid var(--system-error);
+            background: var(--system-error-light);
+
+            .icon-close-solid {
+              color: var(--system-error);
+            }
+          }
+        }
+      }
+    }
+
+    .flight-payment {
+      .box-shadow-card-soft {
+        border: rem(1px) solid var(--secondary-light);
+        border-top-left-radius: rem(8px);
+        border-top-right-radius: rem(8px);
+      }
+
+      .skyplus-accordion__body {
+        .box-shadow-card-soft {
+          border: none;
+        }
+      }
+
+      .payment-summary-total {
+        border-bottom: rem(1px) solid var(--secondary-deep);
+        border-bottom-left-radius: rem(8px);
+        border-bottom-right-radius: rem(8px);
+      }
+    }
+
+    .e-visa-download {
+      font-size: rem(14px);
+      text-decoration: underline;
+      color: var(--primary-main);
+      cursor: pointer;
+    }
+  }
+
+  &-booking-header {
+    order: 1;
+
+    @include media('>=tablet') {
+      order: initial;
+    }
+  }
+
+  &-download-section {
+    order: 2;
+
+    @include media('>=tablet') {
+      order: initial;
+    }
+  }
+
+  &-visa-status {
+    order: 3;
+
+    @include media('>=tablet') {
+      order: initial;
+    }
+  }
+
+  &-booking-info {
+    order: 4;
+
+    @include media('>=tablet') {
+      order: initial;
+    }
+  }
+
+  &-visa-card {
+    order: 5;
+
+    .skyplus-button {
+      display: none;
+    }
+
+    @include media('>=tablet') {
+      order: initial;
+
+      .skyplus-button {
+        display: block;
+      }
+    }
+  }
+
+  &-traveller-details {
+    order: 6;
+    margin: rem(16px) 0;
+
+    @include media('>=tablet') {
+      margin: 0;
+      order: initial;
+    }
+  }
+
+}

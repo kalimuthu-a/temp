@@ -1,0 +1,488 @@
+{
+  "data": {
+    "bookingDetails": {
+      "bookingKey": "NDQ3NzQyMDYyIUtOU1RGTCFmYWxzZQ--",
+      "recordLocator": "KNSTFL",
+      "isInternational": false,
+      "passengers": {
+        "MCFBRFQ-": {
+          "passengerKey": "MCFBRFQ-",
+          "services": null,
+          "specialServices": null,
+          "seats": null,
+          "upgrades": null,
+          "spoilage": null,
+          "nameChanges": null,
+          "convenience": null,
+          "infant": null,
+          "passengerAlternateKey": "NjUyOTA0Mzk5",
+          "customerNumber": null,
+          "fees": [
+            {
+              "type": 4,
+              "ssrCode": null,
+              "ssrNumber": 0,
+              "paymentNumber": 1,
+              "isConfirmed": true,
+              "code": "CCF",
+              "detail": null,
+              "passengerFeeKey": "MCEwITQ-",
+              "override": false,
+              "flightReference": null,
+              "note": null,
+              "createdDate": "2025-03-08T14:13:52.83Z",
+              "isProtected": false,
+              "serviceCharges": [
+                {
+                  "amount": 399.0,
+                  "code": "CCF",
+                  "detail": "Convenienc",
+                  "type": 6,
+                  "collectType": 0,
+                  "currencyCode": "INR",
+                  "foreignCurrencyCode": "INR",
+                  "foreignAmount": 399.0,
+                  "ticketCode": "CCF"
+                },
+                {
+                  "amount": 19.0,
+                  "code": "07GST",
+                  "detail": "DEL-JAI",
+                  "type": 3,
+                  "collectType": 0,
+                  "currencyCode": "INR",
+                  "foreignCurrencyCode": "INR",
+                  "foreignAmount": 19.0,
+                  "ticketCode": "GST"
+                }
+              ]
+            }
+          ],
+          "name": {
+            "first": "Harish",
+            "middle": null,
+            "last": "Rajput",
+            "title": "MR",
+            "suffix": null
+          },
+          "passengerTypeCode": "ADT",
+          "discountCode": null,
+          "bags": [],
+          "program": null,
+          "info": {
+            "status": 0,
+            "paidStatus": 0,
+            "priceStatus": 0,
+            "profileStatus": 0,
+            "bookingType": null,
+            "channelType": 0,
+            "bookedDate": "0001-01-01T00:00:00",
+            "createdDate": null,
+            "expirationDate": null,
+            "modifiedDate": null,
+            "modifiedAgentId": 0,
+            "createdAgentId": 0,
+            "owningCarrierCode": null,
+            "changeAllowed": false,
+            "nationality": null,
+            "residentCountry": null,
+            "gender": 1,
+            "dateOfBirth": null,
+            "familyNumber": null
+          },
+          "travelDocuments": [
+            {
+              "passengerTravelDocumentKey": "T0FGRiE2RSEg",
+              "documentTypeCode": "OAFF",
+              "birthCountry": null,
+              "issuedByCode": "6E",
+              "name": null,
+              "nationality": null,
+              "expirationDate": null,
+              "number": "NONNOMINEE",
+              "issuedDate": null,
+              "gender": 1,
+              "dateOfBirth": null,
+              "declaredGender": null,
+              "placeOfBirth": "",
+              "placeOfIssue": ""
+            }
+          ],
+          "addresses": [
+            {
+              "status": 3,
+              "companyName": null,
+              "lineOne": null,
+              "passengerAddressKey": "QyE-",
+              "phone": "355*7777777777",
+              "lineTwo": null,
+              "stationCode": null,
+              "lineThree": null,
+              "emailAddress": "gsgsg@ass.com",
+              "countryCode": null,
+              "cultureCode": null,
+              "provinceState": null,
+              "refusedContact": true,
+              "city": null,
+              "postalCode": null
+            },
+            {
+              "status": 2,
+              "companyName": null,
+              "lineOne": null,
+              "passengerAddressKey": "RSE-",
+              "phone": "355*",
+              "lineTwo": null,
+              "stationCode": null,
+              "lineThree": null,
+              "emailAddress": null,
+              "countryCode": null,
+              "cultureCode": null,
+              "provinceState": null,
+              "refusedContact": true,
+              "city": null,
+              "postalCode": null
+            }
+          ],
+          "weightCategory": 1,
+          "activityDate": null,
+          "baggageAllowanceUsed": false,
+          "baggageAllowanceWeight": 0,
+          "baggageAllowanceWeightType": 0,
+          "boardingSequence": null,
+          "createdDate": null,
+          "liftStatus": 0,
+          "modifiedDate": null,
+          "overBookIndicator": 0,
+          "priorityDate": null,
+          "timeChanged": false,
+          "verifiedTravelDocs": null,
+          "sourcePointOfSale": null,
+          "pointOfSale": null,
+          "ssrs": null,
+          "tickets": null,
+          "scores": null,
+          "boardingPassDetail": null,
+          "hasInfant": false,
+          "seatPreferences": null,
+          "bundleCode": null,
+          "verifiedTravelDocuments": null,
+          "status": 0,
+          "identifier": null,
+          "isValid": false,
+          "documentRequirements": null,
+          "addressRequirements": null,
+          "invalidSsrs": null,
+          "requiredSsrs": null,
+          "restrictions": null
+        }
+      },
+      "limitForDeclareBaggage": 3,
+      "pnrType": null,
+      "parentRecordLocator": "",
+      "numericRecordLocator": "212702041123",
+      "bookingStatus": "0",
+      "paymentStatus": "Pending",
+      "channelType": 6,
+      "currencyCode": "INR",
+      "bookedDate": "2025-03-08T14:13:40.967Z",
+      "createdDate": "2025-03-08T14:13:40.967Z",
+      "expirationDate": "2025-03-10T00:55:00Z",
+      "modifiedDate": "2025-03-08T14:13:52.83Z",
+      "cancelledDate": null,
+      "holdDate": null,
+      "utcBookedDate": "2025-03-08T14:13:40.967Z",
+      "utcCreatedDate": "2025-03-08T14:13:40.967Z",
+      "utcExpirationDate": "2025-03-10T00:55:00Z",
+      "utcModifiedDate": "2025-03-08T14:13:52.83Z",
+      "utcCancelledDate": null,
+      "utcHoldDate": null,
+      "createdBy": null,
+      "createdByAgentCode": null,
+      "createdByRoleCode": "",
+      "currentLogin": null,
+      "currentAgentCode": null,
+      "currentRoleCode": null,
+      "owningCarrierCode": "6E",
+      "hasModification": true,
+      "changeAllowed": true,
+      "bagDropClosesB4MinutesDomestic": 0,
+      "bagDropClosesB4MinutesInternational": 0,
+      "newlyAddedSSRs": null,
+      "recordLocators": null,
+      "isLoyaltyBurn": false,
+      "isUMNR": false
+    },
+    "journeysDetail": [
+      {
+        "journeyKey": "NkV_NTAzN34gfn5ERUx_MDMvMDkvMjAyNSAwNjoyNX5KQUl_MDMvMDkvMjAyNSAwNzoxNX5_",
+        "flightType": "NonStop",
+        "stops": 0,
+        "productClass": "R",
+        "flightlabel": "Departing",
+        "isAutoCheckinAllowed": true,
+        "quickCheckInDisabled": false,
+        "quickCheckInDisabledReason": "",
+        "underCheckInWindow": true,
+        "isAllPaxCheckedIn": false,
+        "journeydetail": {
+          "destination": "JAI",
+          "origin": "DEL",
+          "arrival": "2025-03-09T07:15:00",
+          "departure": "2025-03-09T06:25:00",
+          "utcarrival": "2025-03-09T01:45:00Z",
+          "utcdeparture": "2025-03-09T00:55:00Z",
+          "identifier": {
+            "identifier": "5037",
+            "carrierCode": "6E",
+            "opSuffix": null
+          },
+          "destinationName": "Jaipur International Airport",
+          "originName": "Indira Gandhi International Airport",
+          "originCityName": "Delhi",
+          "destinationCityName": "Jaipur",
+          "baggageData": null,
+          "checkinStartTime": null,
+          "checkinStartTimeUTC": null
+        },
+        "passengers": [
+          {
+            "passengerKey": "MCFBRFQ-",
+            "passengerAlternateKey": null,
+            "ExtraSeatTag": null,
+            "showPrintBoardingPass": false,
+            "isAutoCheckedin": false,
+            "isAutoCheckinAllowed": true,
+            "name": {
+              "first": "Harish",
+              "middle": null,
+              "last": "Rajput",
+              "title": "MR",
+              "suffix": null
+            },
+            "passengerTypeCode": "ADT",
+            "discountCode": null,
+            "bags": [],
+            "infant": {
+              "nationality": null,
+              "dateOfBirth": null,
+              "travelDocuments": null,
+              "residentCountry": null,
+              "gender": null,
+              "name": null
+            },
+            "info": {
+              "nationality": null,
+              "gender": 1,
+              "dateOfBirth": null
+            },
+            "travelDocuments": null,
+            "eTicketNumber": null,
+            "segments": [
+              {
+                "segmentDetails": {
+                  "destination": "JAI",
+                  "destinationName": "Jaipur Airport",
+                  "destinationCityName": "Jaipur",
+                  "origin": "DEL",
+                  "originName": "Delhi Airport",
+                  "originCityName": "Delhi",
+                  "arrival": "2025-03-09T07:15:00",
+                  "departure": "2025-03-09T06:25:00",
+                  "utcarrival": "2025-03-09T01:45:00Z",
+                  "utcdeparture": "2025-03-09T00:55:00Z",
+                  "identifier": {
+                    "identifier": "5037",
+                    "carrierCode": "6E",
+                    "opSuffix": null
+                  }
+                },
+                "designator": {
+                  "destination": "JAI",
+                  "origin": "DEL",
+                  "arrival": "2025-03-09T07:15:00",
+                  "departure": "2025-03-09T06:25:00"
+                },
+                "passengerSegment": {
+                  "passengerKey": "MCFBRFQ-",
+                  "activityDate": "2025-03-08T14:13:40.967Z",
+                  "baggageAllowanceUsed": false,
+                  "baggageAllowanceWeight": 0,
+                  "baggageAllowanceWeightType": 0,
+                  "boardingSequence": null,
+                  "createdDate": "2025-03-08T14:13:40.967Z",
+                  "liftStatus": "0",
+                  "modifiedDate": "2025-03-08T14:09:40.2643146Z",
+                  "overBookIndicator": 0,
+                  "priorityDate": "2025-03-08T14:13:40.9778428Z",
+                  "timeChanged": false,
+                  "verifiedTravelDocs": null,
+                  "sourcePointOfSale": null,
+                  "pointOfSale": null,
+                  "ssrs": [],
+                  "tickets": null,
+                  "bags": null,
+                  "scores": null,
+                  "boardingPassDetail": null,
+                  "hasInfant": false,
+                  "seatPreferences": null,
+                  "bundleCode": null,
+                  "verifiedTravelDocuments": null,
+                  "seats": [],
+                  "ssrs (copy)": null,
+                  "seatsAndSsrs": []
+                },
+                "legs": null,
+                "segmentKey": null,
+                "international": false,
+                "flightReference": null,
+                "externalIdentifier": null
+              }
+            ],
+            "excessbaggage": {
+              "ssrCode": null,
+              "ssrName": null,
+              "count": 0,
+              "isConfirmed": false,
+              "note": null,
+              "inBundle": false
+            },
+            "additionalPieceBaggage": {
+              "ssrCode": null,
+              "ssrName": null,
+              "count": 0,
+              "isConfirmed": false,
+              "note": null,
+              "inBundle": false
+            },
+            "fareIncludedBaggage": {
+              "handBaggageWeight": 7,
+              "checkinBaggageWeight": 15,
+              "checkinLimitPerPiece": 0,
+              "handBaggageCount": 1,
+              "checkinBaggageCount": 0
+            }
+          }
+        ],
+        "segments": [
+          {
+            "segmentDetails": {
+              "destination": "JAI",
+              "destinationName": "Jaipur Airport",
+              "destinationCityName": null,
+              "origin": "DEL",
+              "originName": "Delhi Airport",
+              "originCityName": "Delhi",
+              "arrival": "2025-03-09T07:15:00",
+              "departure": "2025-03-09T06:25:00",
+              "utcarrival": "2025-03-09T01:45:00Z",
+              "utcdeparture": "2025-03-09T00:55:00Z",
+              "identifier": {
+                "identifier": "5037",
+                "carrierCode": "6E",
+                "opSuffix": null
+              }
+            },
+            "segmentKey": "NkV_NTAzN34gfn5ERUx_MDMvMDkvMjAyNSAwNjoyNX5KQUl_MDMvMDkvMjAyNSAwNzoxNX5_",
+            "international": false,
+            "flightReference": "20250309 6E5037 DELJAI",
+            "passengerSegment": {},
+            "externalIdentifier": null,
+            "legs": [
+              {
+                "legKey": "NjM4NzcwOTgzMDAwMDAwMDAwITZFITUwMzchICFERUwhSkFJITg0OTA5MDU-",
+                "legDetails": {
+                  "destination": "JAI",
+                  "destinationName": "Jaipur",
+                  "destinationCityName": null,
+                  "origin": "DEL",
+                  "originName": "Delhi",
+                  "originCityName": null,
+                  "arrival": "2025-03-09T07:15:00",
+                  "departure": "2025-03-09T06:25:00",
+                  "identifier": null
+                },
+                "designator": {
+                  "destination": "JAI",
+                  "origin": "DEL",
+                  "arrival": "2025-03-09T07:15:00",
+                  "departure": "2025-03-09T06:25:00"
+                },
+                "ssrs": null,
+                "flightReference": null,
+                "legInfo": {
+                  "departureTimeUtc": "2025-03-09T00:55:00Z",
+                  "arrivalTimeUtc": "2025-03-09T01:45:00Z",
+                  "adjustedCapacity": 0,
+                  "arrivalTerminal": "2",
+                  "arrivalTimeVariant": 0,
+                  "backMoveDays": 0,
+                  "capacity": 0,
+                  "changeOfDirection": false,
+                  "codeShareIndicator": 0,
+                  "departureTerminal": "3",
+                  "departureTimeVariant": 0,
+                  "equipmentType": "321",
+                  "equipmentTypeSuffix": null,
+                  "eTicket": false,
+                  "irop": false,
+                  "lid": 0,
+                  "marketingCode": null,
+                  "marketingOverride": false,
+                  "onTime": null,
+                  "operatedByText": null,
+                  "operatingCarrier": null,
+                  "operatingFlightNumber": null,
+                  "operatingOpSuffix": null,
+                  "outMoveDays": 0,
+                  "arrivalTime": "0001-01-01T00:00:00",
+                  "departureTime": "0001-01-01T00:00:00",
+                  "prbcCode": "Y232",
+                  "scheduleServiceType": "J",
+                  "sold": 0,
+                  "status": 0,
+                  "subjectToGovtApproval": false
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "smartCheckinJourneysDetail": [],
+    "recommendedSSR": [
+      "baggage",
+      "ABHF",
+      "BRB",
+      "Meal",
+      "FFWD",
+      "PRBG",
+      "PROT",
+      "Lounge",
+      "IFNR",
+      "SPEQ",
+      "6EBar",
+      "WCHR",
+      "Goodnight",
+      "FTIM"
+    ],
+    "bookingAnalytics": {
+      "bookingAnalyticsDetails": {
+        "TripType": "OneWay",
+        "SpecialFare": "SMEISF",
+        "BookingChannel": "web",
+        "SourcePersona": "anonymous"
+      },
+      "passengerAnalyticsDetails": {
+        "TotalPax": 1,
+        "AdultPax": 1,
+        "ChildPax": 0,
+        "InfantPax": 0,
+        "SeniorPax": 0
+      }
+    },
+    "EmergencyDetails": []
+  },
+  "errors": null,
+  "metadata": null
+}

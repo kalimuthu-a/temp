@@ -1,0 +1,60 @@
+@mixin card-border {
+    border: 1px solid #e2ebf2;
+    border-radius: 12px;
+    box-shadow: 0px 0px 12px 0px #4c5d9e14;
+}
+  
+@mixin defaultTypoStyles(
+    $size,
+    $space,
+    $height,
+    $weight: normal,
+    $family: $font-family-default,
+    $kerning: auto
+) {
+    font-family: $family;
+    font-kerning: $kerning;
+    font-size: rem($size);
+    font-weight: $weight;
+    line-height: rem($height);
+  
+    @if ($space==normal) {
+      letter-spacing: normal;
+    } @else {
+      letter-spacing: rem($space);
+    }
+}
+
+@mixin sr-only {
+    border: 0;
+    clip: rect(0, 0, 0, 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+  }
+  
+  // Use in conjunction with .sr-only to only display content when it's focused.
+  //
+  // Useful for "Skip to main content" links; see http://www.w3.org/TR/2013/NOTE-WCAG20-TECHS-20130905/G1
+  //
+  // Credit: HTML5 Boilerplate
+  
+  @mixin sr-only-focusable {
+    &:active,
+    &:focus {
+      clip: auto;
+      height: auto;
+      margin: 0;
+      overflow: visible;
+      position: static;
+      width: auto;
+    }
+  }
+
+@mixin bg-filter($px) {
+    backdrop-filter: blur(rem($px));
+}
+  

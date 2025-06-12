@@ -1,0 +1,22 @@
+.skyplus-tiffin-main-card {
+  &__header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    &-btn {
+      cursor: pointer;
+      color:$baseWhiteColor;
+      background-color:var(--primary-main);
+      padding:rem(10px);
+      border-radius:rem(24px);
+      text-align: center;
+    }
+
+    margin-bottom: rem(12px);
+
+    @include media('>=tablet') {
+      margin-bottom: rem(16px);
+    }
+  }
+}

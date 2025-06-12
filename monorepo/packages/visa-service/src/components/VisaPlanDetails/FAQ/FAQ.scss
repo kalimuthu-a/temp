@@ -1,0 +1,66 @@
+.faq-content{
+  padding: rem(0) rem(0) rem(10px) rem(17px);
+}
+
+.skyplus-accordion {
+    border-bottom: 1.5px dotted var(--action-disabled-stroke);
+    border-radius: rem(0px);
+    margin-bottom: rem(0px);
+    box-shadow: rem(0px);
+    background-color: var(--white);
+  }
+  
+  .skyplus-accordion:last-child {
+    border-bottom: none;
+  }
+  
+  .box-shadow-card-soft {
+    -webkit-box-shadow: none;
+    box-shadow: none;
+  }
+  
+  .skyplus-accordion__header {
+    font-family: var(--font-family-poppins-regular);
+    font-weight: 500;
+    font-size: rem(14px);
+    padding-left: rem(0px);
+    padding-right: rem(0px);
+  }
+  
+  .skyplus-accordion__header-name {
+    font-family: var(--font-family-poppins-regular);
+    font-size: rem(14px);
+    color: var(--text-primary);
+    font-weight: bold;
+  }
+  
+  .skyplus-accordion__body {
+    font-family: var(--font-family-poppins-regular);
+    font-weight: 400;
+    font-size: rem(14px);
+    color: var(--text-secondary);
+    padding: rem(0px) rem(0px) rem(10px) rem(0px);
+  }
+  
+  .skyplus-accordion__header-left {
+    display: none;
+  }
+  
+  .skyplus-accordion__icon {
+
+    color: var(--text-primary);
+
+    font-size: rem(25px);
+    font-weight: 100;
+  }
+  
+  .skyplus-accordion__header:focus {
+    border: none
+  }
+  
+  .skyplus-accordion__header--active {
+    background:  var(--white);
+    border: none;
+    
+  }
+  

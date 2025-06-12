@@ -1,0 +1,35 @@
+.skyplus-tabs {
+  display: flex;
+
+  &-elem {
+    background-color: var(--secondary-white);
+    flex: 1;
+    text-align: center;
+    padding: 16px 0;
+    cursor: pointer;
+    background-color: var(--text-disabled);
+    box-shadow: 2px 0px 23px 0px #00000005 inset;
+    border-left: var(--border-secondary);
+
+    &:first-child {
+      border-top-left-radius: 12px;
+      border-left: 0;
+    }
+
+    &:last-child {
+      border-top-right-radius: 12px;
+    }
+
+    &--disabled {
+      opacity: 0.4;
+      cursor: not-allowed;
+      pointer-events: none;
+    }
+  }
+
+  &-isActive {
+    background-color: var(--primary-main);
+    color: var(--secondary-white);
+    box-shadow: 0px 0px 12px 0px #4c5d9e14;
+  }
+}

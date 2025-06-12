@@ -1,0 +1,207 @@
+.boarding-action-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: rem(16px) rem(8px) rem(8px);
+  gap: rem(8px);
+  border-radius: rem(8px);
+  background-color: get-color(white);
+  flex-direction: column;
+  cursor: pointer;
+  box-shadow: 0px 0px 12px 0px #4c5d9e14;
+
+  height: rem(92px);
+  width: rem(96px);
+
+  @include media('>=tablet') {
+    flex: 1;
+    gap: rem(4px);
+    max-width: rem(96px);
+  }
+}
+
+.boarding-pass-action-container {
+  gap: rem(16px);
+  flex-wrap: wrap;
+  @include media('>=tablet') {
+    gap: rem(24px);
+  }
+}
+
+.wc-boarding-pass {
+  display: flex;
+  gap: rem(16px);
+  flex-direction: column;
+
+  @include media('>=tablet') {
+    padding-bottom: rem(120px);
+    flex-direction: row;
+    margin-top: rem(16px);
+  }
+
+  &-left {
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    gap: rem(20px);
+    @include media('>=tablet') {
+      min-width: rem(600px);
+    }
+
+    h1 {
+      display: none;
+      @include media('>=tablet') {
+        display: block;
+      }
+    }
+
+    .h3 {
+      p {
+        color: var(--text-primary);
+      }
+    }
+
+    .confirmation-itinerary-hotel-strip{
+      margin: rem(12) 0;
+      @include media(">=tablet") {
+        margin: rem(12) 0;
+      }
+    }
+    
+  }
+
+  &-right {
+    display: none;
+    flex-direction: column;
+    gap: rem(20px);
+    flex: 1;
+    margin-top: 8rem;
+    @include media('>=tablet') {
+      display: flex;
+    }
+  }
+
+  .disclaimer {
+    p {
+      font-size: rem(14px);
+      color: get-color(text-secondary);
+    }
+  }
+
+  .controlls {
+    display: none !important;
+
+    @include media('>=tablet') {
+      display: flex !important;
+      color: var(--text-primary);
+      font-family: var(--font-family-poppins-medium);
+    }
+  }
+}
+
+.boarding-pass-left {
+  cursor: pointer;
+  &::before {
+    color: get-color(primary-main);
+  }
+  &.swiper-button-disabled {
+    cursor: not-allowed !important;
+
+    &::before {
+      content: '\e96c' !important;
+      color: get-color(text-secondary) !important;
+    }
+  }
+}
+
+.boarding-pass-right {
+  cursor: pointer;
+  &::before {
+    color: get-color(primary-main);
+  }
+
+  &.swiper-button-disabled {
+    cursor: not-allowed !important;
+    &::before {
+      content: '\e972' !important;
+      color: get-color(text-secondary) !important;
+    }
+  }
+}
+
+.checkinboardingpass {
+  .wc-footer {
+    position: relative;
+    margin-top: rem(16px);
+    background-color: transparent;
+    box-shadow: none;
+    padding: unset;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    @include media('>=tablet') {
+      position: fixed;
+      background-color: #edf0f7f5;
+      box-shadow: var(--box-shadow-bottom-sticky);
+      padding: rem(24px);
+      align-items: flex-end;
+      justify-content: flex-end;
+    }
+
+    .wc-footer-wrapper {
+      padding-right: unset;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      @include media('>=tablet') {
+        align-items: flex-end;
+        justify-content: flex-end;
+      }
+
+      .skyplus-button {
+        width: 100%;
+        @include media('>=tablet') {
+          width: unset;
+        }
+        button {
+          width: 100%;
+          @include media('>=tablet') {
+            width: unset;
+          }
+        }
+      }
+    }
+  }
+}
+
+.email-itinerary-form {
+  .footer {
+    border-top: 0;
+  }
+}
+
+.ffwd {
+  max-width: rem(100px);
+  text-align: left;
+}
+
+.auto-checkin-counter {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: rem(2px);
+  .title {
+    font-size: rem(14px);
+    color: get-color(text-primary);
+    font-family: var(--font-family-poppins-medium);
+  }
+
+  .disclaimer {
+    font-size: rem(14px);
+    color: get-color(text-secondary);
+  }
+}

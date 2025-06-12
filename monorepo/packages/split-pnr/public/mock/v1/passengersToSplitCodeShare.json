@@ -1,0 +1,672 @@
+{
+  "data": {
+    "bookingInfo": {
+      "bookingDetails": {
+        "isShowFillHealthFormLink": false,
+        "bookingKey": "NDc5NTE0ODI1IVZUQzVRUyFmYWxzZQ--",
+        "pnrType": null,
+        "recordLocator": "VTC5QS",
+        "parentRecordLocator": "",
+        "numericRecordLocator": "080405283302",
+        "bookingStatus": "Confirmed",
+        "paymentStatus": "Complete",
+        "channelType": 4,
+        "currencyCode": "INR",
+        "bookedDate": "2024-06-04T18:13:42.807Z",
+        "createdDate": "2024-06-04T18:13:42.807Z",
+        "expirationDate": "2024-10-07T17:05:00Z",
+        "modifiedDate": "2024-10-06T15:32:49.383Z",
+        "cancelledDate": null,
+        "holdDate": null,
+        "createdByAgent": "14180431",
+        "createdByRoleCode": "",
+        "owningCarrierCode": "6E",
+        "changeAllowed": true,
+        "recordLocators": [
+          {
+            "actionStatusCode": null,
+            "systemDomainCode": "IST",
+            "owningSystemCode": "TK",
+            "recordCode": "U8FEBT",
+            "bookingSystemCode": "TK",
+            "hostedCarrierCode": "6E",
+            "interactionPurpose": "MC",
+            "bookingStatus": "Confirmed"
+          }
+        ],
+        "showAutoRefundPopUp": false,
+        "hasModification": false,
+        "specialFareCode": "6ETBF",
+        "promoCode": "6ETBF",
+        "plKey": "7l6w1UN6SKP0q1RPZWM9qX+vdI/JFBqQl43TfBv1KWI=",
+        "paymentMethodCode": "AG",
+        "isOtpRequiredForModification": true,
+        "userRoleName": "Anonymous",
+        "userRoleCode": "WWWA",
+        "transactionId": null,
+        "paymentMethodDetails": null,
+        "paymentMethodName": null,
+        "paymentMethod": "Agency Payment",
+        "journeyType": "RoundTrip",
+        "webCheckinWindow": null,
+        "isCheckinOpen": false,
+        "purposeOfTravel": null,
+        "isRedeemTransaction": false,
+        "isLoyaltyActiveUser": true,
+        "IsScratchCardUser": false
+      },
+      "journeysDetail": [
+        {
+          "productClass": "",
+          "journeyKey": "NkV_NDEwMX4gfkx_REVMfjA5LzI4LzIwMjQgMDY6MzB_SVNUfjA5LzI4LzIwMjQgMTA6NTV_fg--",
+          "journeyType": null,
+          "showUdaanLogo": false,
+          "flightType": "NonStop",
+          "stops": 0,
+          "journeydetail": {
+            "destination": "IST",
+            "origin": "DEL",
+            "arrival": "2024-09-28T10:55:00",
+            "departure": "2024-09-28T06:30:00",
+            "utcarrival": "2024-09-28T07:55:00Z",
+            "utcdeparture": "2024-09-28T01:00:00Z",
+            "identifier": null,
+            "destinationName": "Istanbul Grand Airport ",
+            "originName": "Indira Gandhi International Airport",
+            "originCityName": "Delhi",
+            "destinationCityName": "Istanbul",
+            "canBeChanged": false,
+            "canBeCancelled": false,
+            "baggageData": {
+              "handBaggageWeight": 7,
+              "checkinBaggageWeight": 30,
+              "checkinLimitPerPiece": 0,
+              "handBaggageCount": 1,
+              "checkinBaggageCount": 0
+            }
+          },
+          "segments": [
+            {
+              "segmentDetails": {
+                "destination": "IST",
+                "origin": "DEL",
+                "arrival": "2024-09-28T10:55:00",
+                "departure": "2024-09-28T06:30:00",
+                "utcarrival": "2024-09-28T07:55:00Z",
+                "utcdeparture": "2024-09-28T01:00:00Z",
+                "identifier": {
+                  "identifier": "4101",
+                  "carrierCode": "6E",
+                  "opSuffix": null
+                },
+                "destinationName": "Istanbul Grand Airport ",
+                "originName": "Indira Gandhi International Airport",
+                "originCityName": "Delhi",
+                "destinationCityName": "Istanbul"
+              },
+              "segmentKey": "NkV_NDEwMX4gfkx_REVMfjA5LzI4LzIwMjQgMDY6MzB_SVNUfjA5LzI4LzIwMjQgMTA6NTV_fg--",
+              "legs": [
+                {
+                  "legKey": "NjM4NjMxMDE4MDAwMDAwMDAwITZFITQxMDEhICFERUwhSVNUITc5Nzk4MTA-",
+                  "operationsInfo": null,
+                  "legDetails": {
+                    "destination": "IST",
+                    "origin": "DEL",
+                    "arrival": "2024-09-28T10:55:00",
+                    "departure": "2024-09-28T06:30:00",
+                    "identifier": {
+                      "identifier": null,
+                      "carrierCode": "",
+                      "opSuffix": ""
+                    },
+                    "utcarrival": "2024-09-28T07:55:00Z",
+                    "utcdeparture": "2024-09-28T01:00:00Z",
+                    "adjustedCapacity": 0,
+                    "arrivalTerminal": null,
+                    "arrivalTimeVariant": 0,
+                    "backMoveDays": 0,
+                    "capacity": 0,
+                    "changeOfDirection": false,
+                    "codeShareIndicator": 0,
+                    "departureTerminal": "3",
+                    "departureTimeVariant": 0,
+                    "equipmentType": "32B",
+                    "equipmentTypeSuffix": null,
+                    "eTicket": false,
+                    "irop": false,
+                    "lid": 222,
+                    "marketingCode": null,
+                    "marketingOverride": false,
+                    "onTime": null,
+                    "operatedByText": null,
+                    "operatingCarrier": "TK",
+                    "operatingFlightNumber": "717",
+                    "operatingOpSuffix": null,
+                    "outMoveDays": 0,
+                    "prbcCode": "P999",
+                    "scheduleServiceType": null,
+                    "sold": 35,
+                    "status": 0,
+                    "subjectToGovtApproval": false,
+                    "originName": "Indira Gandhi International Airport",
+                    "destinationName": "Istanbul Grand Airport ",
+                    "originCityName": "Delhi",
+                    "destinationCityName": "Istanbul"
+                  },
+                  "designator": null,
+                  "ssrs": null
+                }
+              ],
+              "designator": {
+                "destination": "IST",
+                "origin": "DEL",
+                "arrival": "2024-09-28T10:55:00",
+                "departure": "2024-09-28T06:30:00"
+              },
+              "operatedByText": null,
+              "isvalidforudaanlogo": false,
+              "isSeatmapViewable": true,
+              "baggageAllowanceWeight": 0,
+              "baggageAllowanceUsed": false,
+              "baggageAllowanceWeightType": 0,
+              "boardingSequence": null,
+              "barcodestring": null,
+              "liftStatus": null,
+              "hasInfant": false,
+              "tickets": [
+                {
+                  "ticketNumber": "31223005981531",
+                  "infantTicketNumber": null,
+                  "ticketIndicator": 6,
+                  "ticketStatus": 1,
+                  "passengerKey": "MCFBRFQ-"
+                }
+              ],
+              "bundleCode": null,
+              "isToShowOTB": false,
+              "okToBoardValue": false,
+              "isShowViewHealthFormLink": false,
+              "isShowFillHealthFormLink": false,
+              "isShowBoardingPass": false,
+              "seats": null,
+              "ssrs": null,
+              "seatmapReference": "NkUhNDEwMSEgITYzODYzMTAxODAwMDAwMDAwMCFERUwhSVNU",
+              "externalIdentifier": {
+                "identifier": "717",
+                "carrierCode": "TK",
+                "opSuffix": null
+              },
+              "international": true,
+              "passengerSegment": null,
+              "productClass": "N"
+            }
+          ],
+          "isInboundInternational": false,
+          "flightLable": "DEPARTING"
+        },
+        {
+          "productClass": "",
+          "journeyKey": "NkV_ICAxMn4gfn5JU1R_MTAvMDYvMjAyNCAyMDowNX5ERUx_MTAvMDcvMjAyNCAwNTowNX5_",
+          "journeyType": null,
+          "showUdaanLogo": false,
+          "flightType": "NonStop",
+          "stops": 0,
+          "journeydetail": {
+            "destination": "DEL",
+            "origin": "IST",
+            "arrival": "2024-10-07T05:05:00",
+            "departure": "2024-10-06T20:05:00",
+            "utcarrival": "2024-10-06T23:35:00Z",
+            "utcdeparture": "2024-10-06T17:05:00Z",
+            "identifier": null,
+            "destinationName": "Indira Gandhi International Airport",
+            "originName": "Istanbul Grand Airport ",
+            "originCityName": "Istanbul",
+            "destinationCityName": "Delhi",
+            "canBeChanged": false,
+            "canBeCancelled": false,
+            "baggageData": {
+              "handBaggageWeight": 7,
+              "checkinBaggageWeight": 30,
+              "checkinLimitPerPiece": 0,
+              "handBaggageCount": 1,
+              "checkinBaggageCount": 0
+            }
+          },
+          "segments": [
+            {
+              "segmentDetails": {
+                "destination": "DEL",
+                "origin": "IST",
+                "arrival": "2024-10-07T05:05:00",
+                "departure": "2024-10-06T20:05:00",
+                "utcarrival": "2024-10-06T23:35:00Z",
+                "utcdeparture": "2024-10-06T17:05:00Z",
+                "identifier": {
+                  "identifier": "12",
+                  "carrierCode": "6E",
+                  "opSuffix": null
+                },
+                "destinationName": "Indira Gandhi International Airport",
+                "originName": "Istanbul Grand Airport ",
+                "originCityName": "Istanbul",
+                "destinationCityName": "Delhi"
+              },
+              "segmentKey": "NkV_ICAxMn4gfn5JU1R_MTAvMDYvMjAyNCAyMDowNX5ERUx_MTAvMDcvMjAyNCAwNTowNX5_",
+              "legs": [
+                {
+                  "legKey": "NjM4NjM4NDE5MDAwMDAwMDAwITZFITEyISAhSVNUIURFTCE4MDIzOTYz",
+                  "operationsInfo": null,
+                  "legDetails": {
+                    "destination": "DEL",
+                    "origin": "IST",
+                    "arrival": "2024-10-07T05:05:00",
+                    "departure": "2024-10-06T20:05:00",
+                    "identifier": {
+                      "identifier": null,
+                      "carrierCode": "",
+                      "opSuffix": ""
+                    },
+                    "utcarrival": "2024-10-06T23:35:00Z",
+                    "utcdeparture": "2024-10-06T17:05:00Z",
+                    "adjustedCapacity": 0,
+                    "arrivalTerminal": "3",
+                    "arrivalTimeVariant": 0,
+                    "backMoveDays": 0,
+                    "capacity": 531,
+                    "changeOfDirection": false,
+                    "codeShareIndicator": 0,
+                    "departureTerminal": null,
+                    "departureTimeVariant": 0,
+                    "equipmentType": "77W",
+                    "equipmentTypeSuffix": null,
+                    "eTicket": false,
+                    "irop": false,
+                    "lid": 531,
+                    "marketingCode": null,
+                    "marketingOverride": false,
+                    "onTime": null,
+                    "operatedByText": null,
+                    "operatingCarrier": null,
+                    "operatingFlightNumber": null,
+                    "operatingOpSuffix": null,
+                    "outMoveDays": 0,
+                    "prbcCode": "C531",
+                    "scheduleServiceType": null,
+                    "sold": 530,
+                    "status": 1,
+                    "subjectToGovtApproval": false,
+                    "originName": "Istanbul Grand Airport ",
+                    "destinationName": "Indira Gandhi International Airport",
+                    "originCityName": "Istanbul",
+                    "destinationCityName": "Delhi"
+                  },
+                  "designator": null,
+                  "ssrs": null
+                }
+              ],
+              "designator": {
+                "destination": "DEL",
+                "origin": "IST",
+                "arrival": "2024-10-07T05:05:00",
+                "departure": "2024-10-06T20:05:00"
+              },
+              "operatedByText": null,
+              "isvalidforudaanlogo": false,
+              "isSeatmapViewable": true,
+              "baggageAllowanceWeight": 0,
+              "baggageAllowanceUsed": false,
+              "baggageAllowanceWeightType": 0,
+              "boardingSequence": null,
+              "barcodestring": null,
+              "liftStatus": null,
+              "hasInfant": false,
+              "tickets": [
+                {
+                  "ticketNumber": "31223005981532",
+                  "infantTicketNumber": null,
+                  "ticketIndicator": 6,
+                  "ticketStatus": 1,
+                  "passengerKey": "MCFBRFQ-"
+                }
+              ],
+              "bundleCode": null,
+              "isToShowOTB": false,
+              "okToBoardValue": false,
+              "isShowViewHealthFormLink": false,
+              "isShowFillHealthFormLink": false,
+              "isShowBoardingPass": false,
+              "seats": null,
+              "ssrs": null,
+              "seatmapReference": "NkUhICAxMiEgITYzODYzODQxOTAwMDAwMDAwMCFJU1QhREVM",
+              "externalIdentifier": null,
+              "international": true,
+              "passengerSegment": null,
+              "productClass": "N"
+            }
+          ],
+          "isInboundInternational": true,
+          "flightLable": "RETURNED"
+        }
+      ],
+      "passengers": [
+        {
+          "passengerKey": "MCFBRFQ-",
+          "services": null,
+          "specialServices": null,
+          "upgrades": null,
+          "spoilage": null,
+          "nameChanges": null,
+          "convenience": null,
+          "program": {
+            "code": null,
+            "levelCode": "BASE",
+            "number": null
+          },
+          "infant": null,
+          "passengerAlternateKey": "NzAxMDcwNDU1",
+          "ExtraSeatTag": null,
+          "name": {
+            "first": "Ravish",
+            "middle": null,
+            "last": "Sharma",
+            "title": "MR",
+            "suffix": null
+          },
+          "passengerTypeCode": "ADT",
+          "discountCode": null,
+          "bags": [],
+          "info": {
+            "nationality": "IN",
+            "gender": 1,
+            "dateOfBirth": "1983-08-29T00:00:00"
+          },
+          "travelDocuments": null,
+          "eTicketNumber": "",
+          "seatsAndSsrs": {
+            "journeys": [
+              {
+                "designator": {
+                  "destination": "IST",
+                  "origin": "DEL",
+                  "arrival": "2024-09-28T10:55:00",
+                  "departure": "2024-09-28T06:30:00"
+                },
+                "segments": [
+                  {
+                    "segmentDetails": {
+                      "destination": "IST",
+                      "origin": "DEL",
+                      "arrival": "2024-09-28T10:55:00",
+                      "departure": "2024-09-28T06:30:00",
+                      "utcarrival": "2024-09-28T07:55:00Z",
+                      "utcdeparture": "2024-09-28T01:00:00Z",
+                      "identifier": {
+                        "identifier": "4101",
+                        "carrierCode": "6E",
+                        "opSuffix": null
+                      },
+                      "destinationName": "Istanbul Grand Airport ",
+                      "originName": "Indira Gandhi International Airport",
+                      "originCityName": "Delhi",
+                      "destinationCityName": "Istanbul"
+                    },
+                    "segmentKey": "NkV_NDEwMX4gfkx_REVMfjA5LzI4LzIwMjQgMDY6MzB_SVNUfjA5LzI4LzIwMjQgMTA6NTV_fg--",
+                    "legs": [
+                      {
+                        "legKey": "NjM4NjMxMDE4MDAwMDAwMDAwITZFITQxMDEhICFERUwhSVNUITc5Nzk4MTA-",
+                        "operationsInfo": null,
+                        "legDetails": null,
+                        "designator": {
+                          "destination": "IST",
+                          "origin": "DEL",
+                          "arrival": "2024-09-28T10:55:00",
+                          "departure": "2024-09-28T06:30:00"
+                        },
+                        "ssrs": null
+                      }
+                    ],
+                    "designator": {
+                      "destination": "IST",
+                      "origin": "DEL",
+                      "arrival": "2024-09-28T10:55:00",
+                      "departure": "2024-09-28T06:30:00"
+                    },
+                    "operatedByText": null,
+                    "isvalidforudaanlogo": false,
+                    "isSeatmapViewable": true,
+                    "baggageAllowanceWeight": 0,
+                    "baggageAllowanceUsed": null,
+                    "baggageAllowanceWeightType": null,
+                    "boardingSequence": "0",
+                    "barcodestring": "M1Sharma/Ravish        VTC5QS DELIST6E 0717 272Y000Y00000 009NzAxMDcwNDU1",
+                    "liftStatus": "Default",
+                    "hasInfant": false,
+                    "tickets": null,
+                    "bundleCode": null,
+                    "isToShowOTB": false,
+                    "okToBoardValue": false,
+                    "isShowViewHealthFormLink": false,
+                    "isShowFillHealthFormLink": false,
+                    "isShowBoardingPass": false,
+                    "seats": [],
+                    "ssrs": [],
+                    "seatmapReference": null,
+                    "externalIdentifier": {
+                      "identifier": "717",
+                      "carrierCode": "TK",
+                      "opSuffix": null
+                    },
+                    "international": false,
+                    "passengerSegment": null,
+                    "productClass": null
+                  }
+                ],
+                "journeyKey": "NkV_NDEwMX4gfkx_REVMfjA5LzI4LzIwMjQgMDY6MzB_SVNUfjA5LzI4LzIwMjQgMTA6NTV_fg--",
+                "journeyDetails": {
+                  "destination": "IST",
+                  "origin": "DEL",
+                  "arrival": "2024-09-28T10:55:00",
+                  "departure": "2024-09-28T06:30:00",
+                  "utcarrival": "2024-09-28T07:55:00Z",
+                  "utcdeparture": "2024-09-28T01:00:00Z",
+                  "identifier": null,
+                  "destinationName": "Istanbul Grand Airport ",
+                  "originName": "Indira Gandhi International Airport",
+                  "originCityName": "Delhi",
+                  "destinationCityName": "Istanbul",
+                  "canBeChanged": false,
+                  "canBeCancelled": false,
+                  "baggageData": {
+                    "handBaggageWeight": 7,
+                    "checkinBaggageWeight": 30,
+                    "checkinLimitPerPiece": 0,
+                    "handBaggageCount": 1,
+                    "checkinBaggageCount": 0
+                  }
+                }
+              },
+              {
+                "designator": {
+                  "destination": "DEL",
+                  "origin": "IST",
+                  "arrival": "2024-10-07T05:05:00",
+                  "departure": "2024-10-06T20:05:00"
+                },
+                "segments": [
+                  {
+                    "segmentDetails": {
+                      "destination": "DEL",
+                      "origin": "IST",
+                      "arrival": "2024-10-07T05:05:00",
+                      "departure": "2024-10-06T20:05:00",
+                      "utcarrival": "2024-10-06T23:35:00Z",
+                      "utcdeparture": "2024-10-06T17:05:00Z",
+                      "identifier": {
+                        "identifier": "12",
+                        "carrierCode": "6E",
+                        "opSuffix": null
+                      },
+                      "destinationName": "Indira Gandhi International Airport",
+                      "originName": "Istanbul Grand Airport ",
+                      "originCityName": "Istanbul",
+                      "destinationCityName": "Delhi"
+                    },
+                    "segmentKey": "NkV_ICAxMn4gfn5JU1R_MTAvMDYvMjAyNCAyMDowNX5ERUx_MTAvMDcvMjAyNCAwNTowNX5_",
+                    "legs": [
+                      {
+                        "legKey": "NjM4NjM4NDE5MDAwMDAwMDAwITZFITEyISAhSVNUIURFTCE4MDIzOTYz",
+                        "operationsInfo": null,
+                        "legDetails": null,
+                        "designator": {
+                          "destination": "DEL",
+                          "origin": "IST",
+                          "arrival": "2024-10-07T05:05:00",
+                          "departure": "2024-10-06T20:05:00"
+                        },
+                        "ssrs": null
+                      }
+                    ],
+                    "designator": {
+                      "destination": "DEL",
+                      "origin": "IST",
+                      "arrival": "2024-10-07T05:05:00",
+                      "departure": "2024-10-06T20:05:00"
+                    },
+                    "operatedByText": null,
+                    "isvalidforudaanlogo": false,
+                    "isSeatmapViewable": true,
+                    "baggageAllowanceWeight": 0,
+                    "baggageAllowanceUsed": null,
+                    "baggageAllowanceWeightType": null,
+                    "boardingSequence": "519",
+                    "barcodestring": "M1Sharma/Ravish        VTC5QS ISTDEL6E 0000 280Y000Y00000 009NzAxMDcwNDU1",
+                    "liftStatus": "Boarded",
+                    "hasInfant": false,
+                    "tickets": null,
+                    "bundleCode": null,
+                    "isToShowOTB": false,
+                    "okToBoardValue": false,
+                    "isShowViewHealthFormLink": true,
+                    "isShowFillHealthFormLink": false,
+                    "isShowBoardingPass": false,
+                    "seats": [
+                      {
+                        "unitDesignator": "54G",
+                        "type": "Aisle",
+                        "changeSelectSeatAllowed": true,
+                        "total": null,
+                        "taxes": null,
+                        "adjustments": null,
+                        "charges": null,
+                        "category": "STANDARD"
+                      }
+                    ],
+                    "ssrs": [
+                      {
+                        "ssrCode": "CPML",
+                        "ssrName": "6E curated snack bag",
+                        "ssrCategory": "Meal",
+                        "count": 1,
+                        "isConfirmed": true,
+                        "note": null,
+                        "inBundle": false
+                      },
+                      {
+                        "ssrCode": "CSBK",
+                        "ssrName": "Codeshare 6E OC",
+                        "ssrCategory": null,
+                        "count": 1,
+                        "isConfirmed": true,
+                        "note": null,
+                        "inBundle": false
+                      },
+                      {
+                        "ssrCode": "CSCK",
+                        "ssrName": "CS 6E OC- close",
+                        "ssrCategory": null,
+                        "count": 1,
+                        "isConfirmed": true,
+                        "note": null,
+                        "inBundle": false
+                      },
+                      {
+                        "ssrCode": "XSAT",
+                        "ssrName": "Valid SSR and Checkin allowed",
+                        "ssrCategory": null,
+                        "count": 1,
+                        "isConfirmed": true,
+                        "note": null,
+                        "inBundle": false
+                      }
+                    ],
+                    "seatmapReference": null,
+                    "externalIdentifier": null,
+                    "international": false,
+                    "passengerSegment": null,
+                    "productClass": null
+                  }
+                ],
+                "journeyKey": "NkV_ICAxMn4gfn5JU1R_MTAvMDYvMjAyNCAyMDowNX5ERUx_MTAvMDcvMjAyNCAwNTowNX5_",
+                "journeyDetails": {
+                  "destination": "DEL",
+                  "origin": "IST",
+                  "arrival": "2024-10-07T05:05:00",
+                  "departure": "2024-10-06T20:05:00",
+                  "utcarrival": "2024-10-06T23:35:00Z",
+                  "utcdeparture": "2024-10-06T17:05:00Z",
+                  "identifier": null,
+                  "destinationName": "Indira Gandhi International Airport",
+                  "originName": "Istanbul Grand Airport ",
+                  "originCityName": "Istanbul",
+                  "destinationCityName": "Delhi",
+                  "canBeChanged": false,
+                  "canBeCancelled": false,
+                  "baggageData": {
+                    "handBaggageWeight": 7,
+                    "checkinBaggageWeight": 30,
+                    "checkinLimitPerPiece": 0,
+                    "handBaggageCount": 1,
+                    "checkinBaggageCount": 0
+                  }
+                }
+              }
+            ]
+          },
+          "fees": [
+            {
+              "type": 6,
+              "ssrCode": "CPML",
+              "ssrNumber": 1,
+              "paymentNumber": 0,
+              "isConfirmed": true,
+              "code": "CPML",
+              "detail": null,
+              "passengerFeeKey": "MCEwITY-",
+              "override": false,
+              "flightReference": "20241006 6E  12 ISTDEL",
+              "note": null,
+              "createdDate": "2024-09-25T05:08:41.907Z",
+              "isProtected": false,
+              "serviceCharges": [
+                {
+                  "amount": 0,
+                  "code": "CPML",
+                  "detail": "CPML",
+                  "type": 6,
+                  "collectType": 0,
+                  "currencyCode": "INR",
+                  "foreignCurrencyCode": "INR",
+                  "foreignAmount": 0,
+                  "ticketCode": "CPM"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "errors": null,
+  "metadata": null
+}

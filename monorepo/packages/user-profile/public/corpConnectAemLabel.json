@@ -1,0 +1,52 @@
+{
+  "data": {
+    "accountCorpconnectByPath": {
+      "item": {
+        "title": "Corp Connect Details",
+        "corpConnectSubText": {
+          "html": "\u003Cp\u003EPlease complete \u003Cspan class=\"text-green\"\u003Eyour Corp Connect profile\u003C/span\u003E\u003C/p\u003E\n"
+        },
+        "organisationDetailsLabel": "Organisation Details",
+        "nameOfOrganisationLabel": "Name Of Organisation",
+        "registerAddressLabel": "Registered Address",
+        "cityLabel": "City",
+        "pinCodeLabel": "Pin Code",
+        "countryLabel": "Country",
+        "stateLabel": "",
+        "contactNumberLabel": "Contact Number",
+        "webSiteLabel": "Web Site",
+        "companyDetailsLabel": "Company Details",
+        "numberOfEmployees": "Number Of Employees",
+        "panNumber": "PAN Number",
+        "saveChangesPopup": {
+          "heading": "Save changes to Corp Connect?",
+          "description": {
+            "html": "\u003Cp\u003EDo you want to save changes in details made to the Corp Connect?\u003C/p\u003E\n"
+          },
+          "ctaLabel": "Cancel",
+          "secondaryCtaLabel": "Save Changes"
+        },
+        "accountDetails": {
+          "mrMsLabel": {
+            "mr": "Mr.",
+            "mrs": "Mrs.",
+            "hey": "Hey!"
+          },
+          "points": "points",
+          "profileSubTitle": {
+            "html": "\u003Cp\u003EFill your Date of Birth and More...\u003C/p\u003E\n"
+          },
+          "profileDescription": {
+            "html": "\u003Cp\u003EComplete your profile and Earn 150 points\u003C/p\u003E\n"
+          },
+          "completeLabel": "complete",
+          "stateLabel": "State",
+          "stateGstDescription": "This is required for GST purpose on your tax invoice",
+          "nationalityDescription": "Adding your Nationality helps in booking flights faster ",
+          "gstNumber": "GST Number",
+          "saveChangesLabel": "Save Changes"
+        }
+      }
+    }
+  }
+}

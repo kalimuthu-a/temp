@@ -1,0 +1,9 @@
+{
+  "rules": {
+    "no-restricted-syntax": "off",
+    "operator-linebreak": "off",
+    "no-underscore-dangle": 0,
+    "guard-for-in": "off",
+    "linebreak-style": "off"
+  }
+}

@@ -1,0 +1,11 @@
+.border-secondary {
+  border: rem(1) solid var(--secondary-main);
+}
+
+.border-primary{
+  border: rem(1) solid var(--secondary-deep);
+}
+
+.bg-secondary-light{
+  background-color: var(--secondary-light);
+}

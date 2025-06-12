@@ -1,0 +1,74 @@
+.passport-eligibilty-modal {
+  @include media('>=tablet') {
+    max-width: 700px;
+  }
+
+  &__heading {
+    color: get-color(text-tertiary);
+    font-family: var(--font-family-poppins-regular);
+    font-size: rem(16px);
+    line-height: rem(24px);
+  }
+
+  &__passenger-eligibilty {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: rem(20px) 0;
+
+    &__avtar-description {
+      display: flex;
+
+      &__name {
+        display: flex;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        margin-left: rem(15px);
+      }
+    }
+  }
+
+  &__eligible-chip {
+    background-color: get-color(system-success-light);
+
+    span {
+      color: get-color(accent-dark) !important;
+    }
+  }
+
+  &__alert-info {
+    font-family: var(--font-family-poppins-regular);
+    font-size: rem(14px);
+    font-weight: 400;
+    line-height: rem(20px);
+    text-align: center;
+  }
+
+  &__border-bottom {
+    border-bottom: rem(1px) dotted get-color(text-alice-blue);
+  }
+
+  &--footer {
+    display: flex;
+    gap: rem(16px);
+
+    > div {
+      flex: 1;
+    }
+  }
+}
+
+.skyplus-chip.passport-eligibilty-modal {
+  &__non-eligible-chip {
+    .skyplus-chip-filled-col-secondary-light-size-sm-bg-system-success-txtcol-orange {
+      background: get-color(system-warning-light);
+      color: get-color(system-warning);
+      border: rem(1px) solid get-color(system-warning);
+
+      span {
+        color: get-color(system-warning) !important;
+      }
+    }
+  }
+}

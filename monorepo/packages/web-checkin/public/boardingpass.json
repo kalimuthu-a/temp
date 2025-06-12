@@ -1,0 +1,181 @@
+{
+    "data": {
+        "recordLocator": "RZC2KD",
+        "currencyCode": "INR",
+        "contactPhoneNumber": "91*9716944214",
+        "boardingPasses": [
+            {
+                "isDuplicate": true,
+                "productClass": "",
+                "isNext": false,
+                "passenger": {
+                    "barCode": "M1RAJPUT/HARISH/MR     RZC2KD DELJAI6E 2204 035Y005D0003 100 652606923",
+                    "barCodeBase64": "data:image/png;base64, iVBORw0KGgoAAAANSUhEUgAAA4QAAAOECAYAAAD5Tv87AAAACXBIWXMAAA7EAAAOxAGVKw4bAAAY90lEQVR4nO3XS64kuREAwQxg7n9lSpvRSgK6Ojl60eVmByDI5KfK/zr/9gAAAJDz1wMAAECSIAQAAIgShAAAAFGCEAAAIEoQAgAARAlCAACAKEEIAAAQJQgBAACiBCEAAECUIAQAAIgShAAAAFGCEAAAIEoQAgAARAlCAACAKEEIAAAQJQgBAACiBCEAAECUIAQAAIgShAAAAFGCEAAAIEoQAgAARAlCAACAKEEIAAAQJQgBAACiBCEAAECUIAQAAIgShAAAAFGCEAAAIEoQAgAARAlCAACAKEEIAAAQJQgBAACiBCEAAECUIAQAAIgShAAAAFGCEAAAIEoQAgAARAlCAACAKEEIAAAQJQgBAACiBCEAAECUIAQAAIgShAAAAFGCEAAAIEoQAgAARAlCAACAKEEIAAAQJQgBAACiBCEAAECUIAQAAIgShAAAAFGCEAAAIEoQAgAARAlCAACAKEEIAAAQJQgBAACiBCEAAECUIAQAAIgShAAAAFGCEAAAIEoQAgAARAlCAACAKEEIAAAQJQgBAACiBCEAAECUIAQAAIgShAAAAFGCEAAAIEoQAgAARAlCAACAKEEIAAAQJQgBAACiBCEAAECUIAQAAIgShAAAAFGCEAAAIEoQAgAARAlCAACAKEEIAAAQJQhfmpkHftU559ls+3m+/f1ur7c2v9ucv3fM753j/q4y/l/xgdr9uE0QAgAARAlCAACAKEEIAAAQJQgBAACiBCEAAECUIAQAAIgShAAAAFGCEAAAIEoQAgAARAlCAACAKEEIAAAQJQgBAACiBCEAAECUIAQAAIgShAAAAFGCEAAAIEoQAgAARAlCAACAKEEIAAAQJQiXOec87DEzz2a357f9/NmP72a979TuR83277f9/p7j/9Um4z1YRRACAABECUIAAIAoQQgAABAlCAEAAKIEIQAAQJQgBAAAiBKEAAAAUYIQAAAgShACAABECUIAAIAoQQgAABAlCAEAAKIEIQAAQJQgBAAAiBKEAAAAUYIQAAAgShACAABECUIAAIAoQQgAABAlCL/czDwl55yH71Xb3+331358N/v7zu3vVzt/2433gC8iCAEAAKIEIQAAQJQgBAAAiBKEAAAAUYIQAAAgShACAABECUIAAIAoQQgAABAlCAEAAKIEIQAAQJQgBAAAiBKEAAAAUYIQAAAgShACAABECUIAAIAoQQgAABAlCAEAAKIEIQAAQJQgBAAAiBKE8Ac75zybzczV8W6vd/v8tu/vbbf3Y7vt57lm+31zXoB/iiAEAACIEoQAAABRghAAACBKEAIAAEQJQgAAgChBCAAAECUIAQAAogQhAABAlCAEAACIEoQAAABRghAAACBKEAIAAEQJQgAAgChBCAAAECUIAQAAogQhAABAlCAEAACIEoQAAABRghAAACBKEAJcMjNPyTln9Xi3bd/f29+vtt7bfD/gTyEIAQAAogQhAABAlCAEAACIEoQAAABRghAAACBKEAIAAEQJQgAAgChBCAAAECUIAQAAogQhAABAlCAEAACIEoQAAABRghAAACBKEAIAAEQJQgAAgChBCAAAECUIAQAAogQhAABAlCAEAACIEoRf7pzzwK+amWez7fO7fd+2r/e22+utvX8Tux+31c7fuG+vHP+v+CKCEAAAIEoQAgAARAlCAACAKEEIAAAQJQgBAACiBCEAAECUIAQAAIgShAAAAFGCEAAAIEoQAgAARAlCAACAKEEIAAAQJQgBAACiBCEAAECUIAQAAIgShAAAAFGCEAAAIEoQAgAARAlCAACAKEG4zMw88Ktun5dzztXxavPb7tjfV8xvl7G/fGDG/yv4XwQhAABAlCAEAACIEoQAAABRghAAACBKEAIAAEQJQgAAgChBCAAAECUIAQAAogQhAABAlCAEAACIEoQAAABRghAAACBKEAIAAEQJQgAAgChBCAAAECUIAQAAogQhAABAlCAEAACIEoQAAABRgvClc84DP+X2+ZuZZ7Pa/La/L+a3y/bzN+7HKuYH/E0QAgAARAlCAACAKEEIAAAQJQgBAACiBCEAAECUIAQAAIgShAAAAFGCEAAAIEoQAgAARAlCAACAKEEIAAAQJQgBAACiBCEAAECUIAQAAIgShAAAAFGCEAAAIEoQAgAARAlCAACAKEEIAAAQJQiXmZmn5Jxzdbzt3+/2em/bvh/bvx/fbWLv8/b7O977V8b7/NXcDz4hCAEAAKIEIQAAQJQgBAAAiBKEAAAAUYIQAAAgShACAABECUIAAIAoQQgAABAlCAEAAKIEIQAAQJQgBAAAiBKEAAAAUYIQAAAgShACAABECUIAAIAoQQgAABAlCAEAAKIEIQAAQJQgBAAAiBKEL83M1fHOOVfHM79dxn58tdvfr2b7eb7txN6rid2P8R68Mv4fvGK9fEIQAgAARAlCAACAKEEIAAAQJQgBAACiBCEAAECUIAQAAIgShAAAAFGCEAAAIEoQAgAARAlCAACAKEEIAAAQJQgBAACiBCEAAECUIAQAAIgShAAAAFGCEAAAIEoQAgAARAlCAACAKEEIAAAQJQhfOuc8/L7b329mHn7f9v2oze+22npvs953vM+7HP9fXpnY79ttzt8ughAAACBKEAIAAEQJQgAAgChBCAAAECUIAQAAogQhAABAlCAEAACIEoQAAABRghAAACBKEAIAAEQJQgAAgChBCAAAECUIAQAAogQhAABAlCAEAACIEoQAAABRghAAACBKEAIAAEQJQgAAgChB+NLMXB3vnLN6vJrt3+/2+bvt9vfbvt7t7Mcu238/atyPXbbvh/v2jv3YRRACAABECUIAAIAoQQgAABAlCAEAAKIEIQAAQJQgBAAAiBKEAAAAUYIQAAAgShACAABECUIAAIAoQQgAABAlCAEAAKIEIQAAQJQgBAAAiBKEAAAAUYIQAAAgShACAABECUIAAIAoQQgAABAlCL/czDybnXNWj7f9+213+/vd3t/baudl+33bfl5O7DxbL58Y52+V4zx/NUEIAAAQJQgBAACiBCEAAECUIAQAAIgShAAAAFGCEAAAIEoQAgAARAlCAACAKEEIAAAQJQgBAACiBCEAAECUIAQAAIgShAAAAFGCEAAAIEoQAgAARAlCAACAKEEIAAAQJQgBAACiBCEAAECUIOQj55yr483Ms9n29d6eX03t/LGL8/fdau/99vPMLuP/0CqCEAAAIEoQAgAARAlCAACAKEEIAAAQJQgBAACiBCEAAECUIAQAAIgShAAAAFGCEAAAIEoQAgAARAlCAACAKEEIAAAQJQgBAACiBCEAAECUIAQAAIgShAAAAFGCEAAAIEoQAgAARAlCAACAKEH40jnn4XvNzMPvu/39tt+32/Pbfv5O7P0b7wFfxHnmJx3/n1cRhAAAAFGCEAAAIEoQAgAARAlCAACAKEEIAAAQJQgBAACiBCEAAECUIAQAAIgShAAAAFGCEAAAIEoQAgAARAlCAACAKEEIAAAQJQgBAACiBCEAAECUIAQAAIgShAAAAFGCEAAAIEoQAgAARAnCl2bmKamt95zzlNjfXbbPb/t5uT2/E3sPao77xg+6ff6cFz4hCAEAAKIEIQAAQJQgBAAAiBKEAAAAUYIQAAAgShACAABECUIAAIAoQQgAABAlCAEAAKIEIQAAQJQgBAAAiBKEAAAAUYIQAAAgShACAABECUIAAIAoQQgAABAlCAEAAKIEIQAAQJQgBAAAiBKEL51zro43M1fHuz2/226v97bafty2/X7UbD9/J3Y/tr8v2+9b7bzcdvw/eGX8Hr0y/l+tIggBAACiBCEAAECUIAQAAIgShAAAAFGCEAAAIEoQAgAARAlCAACAKEEIAAAQJQgBAACiBCEAAECUIAQAAIgShAAAAFGCEAAAIEoQAgAARAlCAACAKEEIAAAQJQgBAACiBCEAAECUIAQAAIgShMucc66ONzPPZtvXW5vf7fG2q613+3tw2/b7dtt471epnZftv0fjPVg1HrsIQgAAgChBCAAAECUIAQAAogQhAABAlCAEAACIEoQAAABRghAAACBKEAIAAEQJQgAAgChBCAAAECUIAQAAogQhAABAlCAEAACIEoQAAABRghAAACBKEAIAAEQJQgAAgChBCAAAECUIAQAAogQhHznnXB1vZq6OV5tfTe37Tex+3B7vtu3z22779zve51Um9h5sP3/bfz94RxACAABECUIAAIAoQQgAABAlCAEAAKIEIQAAQJQgBAAAiBKEAAAAUYIQAAAgShACAABECUIAAIAoQQgAABAlCAEAAKIEIQAAQJQgBAAAiBKEAAAAUYIQAAAgShACAABECUIAAIAoQQgAABAlCF+amavjnXOektvr3b4ft+e3Xe08b9/f7fNzXnbZvh8Tu2/bf48m9n/I9+ObCEIAAIAoQQgAABAlCAEAAKIEIQAAQJQgBAAAiBKEAAAAUYIQAAAgShACAABECUIAAIAoQQgAABAlCAEAAKIEIQAAQJQgBAAAiBKEAAAAUYIQAAAgShACAABECUIAAIAoQQgAABAlCAEAAKIE4UvnnKvjzczD79u+H8d5eaW23tp5mfH+fbPae3p7fttZ7zvj940fJAgBAACiBCEAAECUIAQAAIgShAAAAFGCEAAAIEoQAgAARAlCAACAKEEIAAAQJQgBAACiBCEAAECUIAQAAIgShAAAAFGCEAAAIEoQAgAARAlCAACAKEEIAAAQJQgBAACiBCEAAECUIAQAAIgShC/NzFOyfb3nnNXj8c7t/bh9nrfPj3dq++t+vLP9+23/fRvvH/zfCEIAAIAoQQgAABAlCAEAAKIEIQAAQJQgBAAAiBKEAAAAUYIQAAAgShACAABECUIAAIAoQQgAABAlCAEAAKIEIQAAQJQgBAAAiBKEAAAAUYIQAAAgShACAABECUIAAIAoQQgAABAlCAEAAKIE4UvnnKvjzczV8W7P77bb671t+/y28/2+2/b3r8Z7v0vtfmw/f9vnV1P7v7udIAQAAIgShAAAAFGCEAAAIEoQAgAARAlCAACAKEEIAAAQJQgBAACiBCEAAECUIAQAAIgShAAAAFGCEAAAIEoQAgAARAlCAACAKEEIAAAQJQgBAACiBCEAAECUIAQAAIgShAAAAFGCEAAAIEoQvjQzT8nt9Z5zro5Xmx+71M7fuG9fbbz3X6223tp52b7eEzt/2wlCAACAKEEIAAAQJQgBAACiBCEAAECUIAQAAIgShAAAAFGCEAAAIEoQAgAARAlCAACAKEEIAAAQJQgBAACiBCEAAECUIAQAAIgShAAAAFGCEAAAIEoQAgAARAlCAACAKEEIAAAQJQgBAACiBOFL55yr483M6vFuM793tp+/2/Pjne3n5bbaerfPr2b7ezqx+7vdxH5/x/+NVQQhAABAlCAEAACIEoQAAABRghAAACBKEAIAAEQJQgAAgChBCAAAECUIAQAAogQhAABAlCAEAACIEoQAAABRghAAACBKEAIAAEQJQgAAgChBCAAAECUIAQAAogQhAABAlCAEAACIEoQAAABRgnCZc87V8Wbm6ni351dzez+276/57XJ7vbdt3w/7+4757bL9Pb1tYvvrPeUTghAAACBKEAIAAEQJQgAAgChBCAAAECUIAQAAogQhAABAlCAEAACIEoQAAABRghAAACBKEAIAAEQJQgAAgChBCAAAECUIAQAAogQhAABAlCAEAACIEoQAAABRghAAACBKEAIAAEQJQgAAgChBuMzMPJttn1/NOefqeLf3tzY/dhnn+ZWJ3Te/b+8c9+OV4/eIHyQIAQAAogQhAABAlCAEAACIEoQAAABRghAAACBKEAIAAEQJQgAAgChBCAAAECUIAQAAogQhAABAlCAEAACIEoQAAABRghAAACBKEAIAAEQJQgAAgChBCAAA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",
+                    "type": "REGULAR",
+                    "name": {
+                        "first": "Harish",
+                        "middle": null,
+                        "last": "Rajput",
+                        "title": "MR",
+                        "suffix": null
+                    },
+                    "selecteeString": null,
+                    "isoName": {
+                        "first": "HARISH",
+                        "middle": null,
+                        "last": "RAJPUT",
+                        "title": "MR",
+                        "suffix": null
+                    },
+                    "customerNumber": null,
+                    "dateOfBirth": null,
+                    "score": {
+                        "name": null,
+                        "code": null
+                    },
+                    "gender": 1,
+                    "infant": null,
+                    "documents": [
+                        {
+                            "passengerTravelDocumentKey": "ITZFISA-",
+                            "documentTypeCode": "",
+                            "birthCountry": "",
+                            "issuedByCode": "6E",
+                            "name": null,
+                            "nationality": "",
+                            "expirationDate": "9999-12-31T00:00:00Z",
+                            "number": "NONNOMINEE",
+                            "issuedDate": "9999-12-31T00:00:00",
+                            "gender": 1,
+                            "dateOfBirth": null,
+                            "declaredGender": "",
+                            "placeOfBirth": "",
+                            "placeOfIssue": ""
+                        }
+                    ],
+                    "program": null
+                },
+                "userName": "WebAnonSkyplus",
+                "recordLocator": "RZC2KD",
+                "segments": {
+                    "designator": {
+                        "destinationStationName": "Jaipur",
+                        "destination": "JAI",
+                        "originStationName": "Delhi",
+                        "origin": "DEL",
+                        "arrival": "2025-02-04T16:45:00",
+                        "departure": "2025-02-04T15:50:00",
+                        "arrivalTerminal": "2",
+                        "departureTerminal": "2"
+                    },
+                    "transportationName": "IndiGo",
+                    "departureGate": null,
+                    "boardingTime": "2025-02-04T15:05:00",
+                    "type": 0,
+                    "international": false,
+                    "ticketNumber": null,
+                    "infantTicketNumber": null,
+                    "ticketIndicator": null,
+                    "cabinOfService": "Y",
+                    "classOfService": "N",
+                    "externalClassOfService": null,
+                    "fareClassName": "Class N",
+                    "productClassName": "Regular Fares",
+                    "externalRecordLocator": null,
+                    "program": {
+                        "name": null,
+                        "number": "NONNOMINEE",
+                        "levelName": null
+                    },
+                    "hasInfant": false,
+                    "identifier": {
+                        "identifier": "2204",
+                        "carrierCode": "6E",
+                        "opSuffix": null,
+                        "carrierName": null
+                    },
+                    "legs": [
+                        {
+                            "seat": {
+                                "column": "D",
+                                "row": 5,
+                                "designator": "5D"
+                            },
+                            "boarding": {
+                                "boardingSequence": 3,
+                                "boardingZone": 3,
+                                "externalBoardingZone": null
+                            },
+                            "designator": {
+                                "destination": "JAI",
+                                "origin": "DEL",
+                                "arrival": "2025-02-04T16:45:00",
+                                "departure": "2025-02-04T15:50:00"
+                            },
+                            "liftStatus": 1,
+                            "operatedByText": null,
+                            "subjectToGovernmentApproval": false,
+                            "codeShareIndicator": null,
+                            "bppr": null,
+                            "identifier": {
+                                "identifier": "2204",
+                                "carrierCode": "6E",
+                                "opSuffix": null,
+                                "carrierName": null
+                            },
+                            "bags": [],
+                            "ssrs": []
+                        }
+                    ],
+                    "externalIdentifier": null,
+                    "eTicketNumber": null,
+                    "DepartureTime": "2025-02-04T15:50:00"
+                },
+                "showUdaanLogo": false,
+                "receiptNumber": "652606923",
+                "seat": "5D",
+                "ssrs": [],
+                "ssrsToDescribe": [],
+                "boardingSequence": 3,
+                "boardingZone": 3
+            }
+        ],
+        "quickCheckIn": [],
+        "bookingcontacts": [
+            {
+                "MobilePhoneCountryCode": "91",
+                "MobilePhone": "9716944214",
+                "OtherPhoneCountryCode": "91",
+                "OtherPhone": "",
+                "EmergencyPhoneCountryCode": null,
+                "EmergencyPhone": null,
+                "EmergencyContactRelationship": null,
+                "isWhatsAppSubscribed": false,
+                "emailAddress": "harish.x.rajput@goindigo.in",
+                "name": {
+                    "first": "Harish",
+                    "middle": null,
+                    "last": "Rajput",
+                    "title": "MR",
+                    "suffix": null
+                }
+            }
+        ],
+        "bookingAnalytics": {
+            "bookingAnalyticsDetails": {
+                "TripType": "OneWay",
+                "SpecialFare": null,
+                "BookingChannel": "web",
+                "SourcePersona": "anonymous"
+            },
+            "passengerAnalyticsDetails": {
+                "TotalPax": 3,
+                "AdultPax": 3,
+                "ChildPax": 0,
+                "InfantPax": 0,
+                "SeniorPax": 0
+            }
+        }
+    },
+    "metadata": null
+}

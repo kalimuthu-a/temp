@@ -1,0 +1,165 @@
+.skyplus-offcanvas {
+  &__overlay {
+    position: fixed;
+    inset: 0;
+    visibility: visible;
+    opacity: 1;
+    transition: all 0.25s ease-in;
+    background: var(--blur-overlay);
+    z-index: 2000;
+  }
+
+  &__contents {
+    &:focus {
+      outline: 2px solid var(--primary-main);
+      outline-offset: 2px;
+    }
+
+    padding: 0;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 100%;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: var(--secondary-white);
+    transition: all 0.25s ease-in-out;
+    transform: translate(-100%, 0);
+    display: flex;
+    flex-direction: column;
+    z-index: 2000;
+
+    @include media('>=tablet') {
+      width: rem(480px);
+    }
+
+    &--title {
+      font-size: rem(24px);
+    }
+
+    &--header {
+      height: rem(50px);
+      display: flex;
+      align-items: center;
+      background-color: var(--secondary-white);
+      justify-content: flex-start;
+      box-shadow: 0 0 12px 0 #4c5d9e14;
+
+      .icon-close-simple {
+        margin-left: rem(20px);
+        font-family: $font-family-indigo;
+        color: #24409a;
+        cursor: pointer;
+      }
+
+      .icon-accordion-left-simple {
+        margin-left: rem(16px);
+        font-family: $font-family-indigo;
+        color: #24409a;
+        cursor: pointer;
+      }
+    }
+
+    &--body {
+      padding: 0 rem(20px) rem(80px);
+      overflow: auto;
+      background: linear-gradient(
+        180deg,
+        rgb(254 254 254 / 0%) 0%,
+        rgb(255 255 255 / 95.9%) 8.73%,
+        #f7f9fe 17.51%,
+        #ecf7fc 81.97%
+      );
+      flex: 1;
+      overflow-x: hidden;
+    }
+
+    &--footer {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: rem(80px);
+      background-color: var(--secondary-white);
+      border-top-left-radius: rem(16px);
+      border-top-right-radius: rem(16px);
+      bottom: 0;
+      position: absolute;
+      width: 100%;
+    }
+  }
+
+  &.is-hidden {
+    .skyplus-offcanvas {
+      &__overlay {
+        opacity: 0;
+        visibility: hidden;
+      }
+
+      &__contents {
+        transform: translate(0, 0);
+      }
+    }
+  }
+}
+
+.skyplus-offcanvas.mobile-variation1 {
+  @include media('<=tablet') {
+    overflow: hidden;
+    max-height: 100vh;
+
+    .skyplus-offcanvas__overlay {
+      background: none;
+    }
+
+    .skyplus-offcanvas__contents {
+      height: 100vh;
+      display: grid;
+      grid-template-rows: minmax(rem(120px), 1fr) minmax(min-content, 1fr);
+      grid-template-columns: 1fr;
+      background: #1a1a2ee6;
+    }
+
+    .skyplus-offcanvas__contents--header {
+      height: auto;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: transparent;
+
+      &::after {
+        background-color: get-color(white);
+        width: rem(40px);
+        height: rem(40px);
+        border-radius: 50%;
+        margin: 0;
+        font-size: rem(24px);
+        text-align: center;
+        vertical-align: middle;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: auto;
+        margin-bottom: rem(40px);
+      }
+    }
+
+    .skyplus-offcanvas__contents--body {
+      border-top-left-radius: rem(24px);
+      border-top-right-radius: rem(24px);
+      height: auto;
+      background-color: transparent;
+      background-color: get-color(white);
+    }
+  }
+}
+
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgb(0 0 0 / 50%); /* Semi-transparent overlay */
+  z-index: 1000;
+}

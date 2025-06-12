@@ -1,0 +1,96 @@
+@import '../../index';
+
+.booking-progress {
+  margin-bottom: rem(24px);
+}
+
+.trip-summary {
+  font-family: var(--font-family-poppins-regular);
+
+  @include media('>=desktop') {
+    padding: rem(16px);
+    background-color: var(--white);
+    box-shadow: var(--box-shadow-card-soft);
+    border-radius: rem(12px);
+  }
+
+  .trip-summary-header {
+    border-radius: rem(12px);
+    border: 1px solid var(--secondary-deep);
+    background: var(--white);
+    padding: rem(8px) rem(24px);
+
+    @include media('>=desktop') {
+      border: none;
+      padding: 0;
+    }
+
+    .trip-summary-title {
+      display: none;
+      line-height: 1;
+      margin-bottom: 0;
+
+      @include media('>=desktop') {
+        display: block;
+      }
+      
+      &--mob {
+        display: none;
+
+        @include media('>=desktop') {
+          display: none;
+        }
+      }
+    }
+    
+  }
+
+  .trip-summary-body {
+    display: none;
+
+    @include media('>=desktop') {
+      display: block;
+      margin-top: rem(24px);
+    }
+
+    &--iframe {
+      display: block;
+    }
+  }
+
+  .pax-count {
+    padding: rem(12px) rem(16px);
+    border: 1px solid var(--secondary-main);
+    border-radius: rem(12px);
+    background: var(--secondary-light);
+    font-size: rem(12px);
+  }
+
+  .flight-summary {
+    margin: rem(16px) auto;
+  }
+
+  &.trip-summary--iframe {
+    padding: rem(16px);
+    background-color: var(--white);
+    box-shadow: var(--box-shadow-card-soft);
+    border-radius: rem(12px);
+
+    .trip-summary-header {
+      border: none;
+      padding: 0;
+    }
+
+    .trip-summary-title {
+      display: block;
+
+      &--mob {
+        display: none;
+      }
+    }
+
+    .trip-summary-body {
+      margin-top: 1.5rem;
+    }
+  }
+}

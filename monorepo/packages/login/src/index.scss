@@ -1,0 +1,166 @@
+@import './styles/main';
+@import './components/LoginForm/styles';
+@import './components/SignUpForm/styles';
+@import './components/ForgotPassword/styles';
+
+.login-form-alert-validation {
+  color: get-color('white');
+  top: 0 !important;
+  border-radius: rem(4px);
+  width: 100% !important;
+
+  @media screen and (width >= 768px) {
+    width: rem(532px) !important;
+  }
+
+  &-content {
+    border-radius: rem(4px);
+    display: flex;
+
+    &-icon-container {
+      margin-top: rem(4px);
+    }
+  }
+
+  .title {
+    font-size: rem(18px);
+    font-weight: bold;
+  }
+
+  .description {
+    font-size: rem(13px);
+    width: 100%;
+    margin-bottom: rem(6px);
+
+    &-list {
+      padding-left: 0;
+      padding-top: rem(4px);
+      list-style: none;
+    }
+  }
+
+  .ico-moon-information {
+    padding: 0 rem(20px);
+
+    &::before {
+      content: '\e961';
+      font-size: rem(24px);
+      font-family: 'indigo-54', sans-serif;
+    }
+  }
+}
+
+.login-form-V2 {
+  @include media('<tablet') {
+    // comment - to avoid regression on desktop
+    .signup__email-input-field {
+      .design-system-input-field {
+        margin-bottom: rem(8px) !important;
+        padding-bottom: 0;
+      }
+
+      .signup__radio-btn {
+        margin-bottom: rem(8px);
+      }
+    }
+
+    .design-system-input-field input {
+      padding: rem(12px);
+      font-size: rem(12px);
+      line-height: rem(18px);
+    }
+  }
+
+  .design-system-input-field .error-msg {
+    // comment for all input fields
+    color: var(--system-error);
+    font-weight: 400;
+    font-size: rem(10px);
+    line-height: rem(16px);
+    font-family: var(--font-family-poppins-regular);
+    margin: 0;
+    @include media('>=tablet') {
+      font-size: rem(12px);
+      line-height: rem(18px);
+    }
+  }
+
+  .skyplus-otpInput__otp-input {
+    margin: 0;
+  }
+
+  .search-input {
+    display: flex;
+    align-items: center;
+  }
+
+  .modal-as-dropdown .modal-component-overlay .modal-content {
+    border-radius: 0.5rem 0.5rem 0 0;
+
+    @include media('>=tablet') {
+      border-radius: 0.5rem;
+    }
+  }
+
+  .text-black {
+    color: var(--bs-black);
+  }
+
+  .login-phone-dropdown {
+    .selected-country-box-wrapper {
+      padding: rem(12px);
+    }
+
+    .design-system-input-field {
+      input {
+        padding: rem(12px);
+        height: 100%;
+      }
+    }
+  }
+
+  .login-error-box {
+    display: flex;
+    padding: rem(12px) rem(16px);
+    justify-content: center;
+    align-items: flex-start;
+    gap: rem(12px);
+    align-self: stretch;
+    border-radius: rem(8px);
+    border: 1px solid var(--system-error);
+    background: var(--system-error-light);
+
+    /* Effects/Global Navigation */
+    box-shadow: var(--box-shadow-global-navigation);
+    backdrop-filter: blur(8px);
+
+    &-main {
+      display: flex;
+      align-items: flex-start;
+      gap: rem(20px);
+      flex: 1 0 0;
+    }
+  }
+
+  .text-error {
+    color: var(--system-error);
+  }
+
+  .cursor-pointer {
+    cursor: pointer;
+  }
+
+  .icon-edit {
+    color: var(--bs-black);
+  }
+}
+
+.login-form-V2 .signup__email-input-field  .design-system-input-field  .error-msg {
+  position: absolute;
+  top: rem(40px);
+  left: 0;
+}
+
+a[data-href] {
+  cursor: pointer;
+}

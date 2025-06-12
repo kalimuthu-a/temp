@@ -1,0 +1,17 @@
+main {
+  /* background-image: url("./assets/images/Background.png"); */
+  background-repeat: no-repeat;
+  background-size: contain;
+  max-width: unset !important;
+}
+
+#splash {
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  left: 0;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: -1;
+}

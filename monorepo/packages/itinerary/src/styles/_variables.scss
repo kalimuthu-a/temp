@@ -1,0 +1,141 @@
+/* stylelint-disable custom-property-pattern */
+/* stylelint-disable value-keyword-case */
+/* stylelint-disable unit-allowed-list */
+/* stylelint-disable color-no-hex */
+
+$font-family-default: "Poppins", Arial;
+$font-family-secondary: "Open Sans", Arial;
+$font-family-indigo: "indigo";
+$font-family-indigo-icons: "indigo-icons";
+$font-family-bauhuas: "Bauhaus Std Demi";
+$font-family-bauhuas-std: "Bauhaus Std";
+$indigo-font-name: "indigo" !default;
+$indigo-font-family: "indigo" !default;
+$indigo54-font-name: "indigo-54" !default;
+$indigo54-font-family: "indigo-54" !default;
+$indigo-font-path: "./resources/fonts/indigo" !default;
+
+$font-size: 16px;
+$font-height: 1.5;
+$font-weight: normal;
+$font-weight-400: 400;
+$font-weight-500: 500;
+$font-weight-600: 600;
+$font-size-large: 24px;
+$font-size-xlarge: 34px;
+$font-size-medium: 16px;
+$font-size-small: 14px;
+$font-size-xsmall: 12px;
+$font-size-8: 8px;
+$font-size-10: 10px;
+$font-size-12: 12px;
+$font-size-14: 14px;
+$font-size-16: 16px;
+$font-size-18: 18px;
+$font-size-20: 20px;
+$font-size-22: 22px;
+$font-size-24: 24px;
+$font-size-28: 28px;
+$font-size-32: 32px;
+
+// == Color
+
+$gray-2: #222;
+$gray-3: #333;
+$gray-4: #444;
+$gray-5: #555;
+$gray-6: #666;
+$gray-7: #777;
+$gray-8: #888;
+$gray-9: #999;
+$gray-c: #ccc;
+$gray-d: #ddd;
+$gray86: #dbdbdb;
+$light-gray: #f4f4f8;
+$blue-1: #027bff;
+$blue-2: #0067d8;
+$blue-3: #0d6efd;
+$blue-4: #007bff;
+$dark-blue-1: #001b94;
+$dark-blue-2: #273fad;
+$dark-blue-3: #26329f;
+$light-blue-1: #9880ff;
+$skyblue-1: #daf1ff;
+$white: #fff;
+$pale-white-1: #f8f8f4;
+$pale-white-2: #e2e2e2;
+$dark-shadow-1: #0003;
+$dark-shadow-2: #0000001a;
+$dark-shadow-3: #8e8e931f;
+$dark-1: #212529;
+$black: #000;
+$error-1: #ee0303;
+$green-cyan: #15b06d;
+$error-red: #f00;
+$light-green: #5cc899;
+$color-done-border: #dcdee0;
+$green: #21be7a;
+$color-grains-boro: #dedede;
+$color-gains-boro: #dcdee0;
+$color-light-gray: #d3d3d3;
+$color-cyan-blue: #0d6efd;
+$color-card-skeleton-start: #a3b8c2;
+$color-card-skeleton-end: #f0f3f5;
+$color-athens-grey: #d7d8d8;
+$color-light-silver: #e1e1e1;
+$color-very-light-grey: #d3cdcd;
+$resolution-blue-1: #001b84;
+$indian-red-1: #c75656;
+$platinum-1: #e5e5e5;
+$alice-blue-1: #daf1ff;
+$mule-fawn-1: #8c4b32;
+$lime-green-1: #3aaa35;
+$light-sea-green-1: #00b9ae;
+$light-blue-2: #6b4eff;
+$lavendar-1: #efeff4;
+$alert-warning: #cfc423;
+
+// == Padding
+$padding-1: var(--padding1, 10px);
+$padding-8: var(--padding8, 8px);
+$padding-13: var(--padding13, 13px);
+$padding-15: var(--padding15, 15px);
+$padding-16: var(--padding16, 16px);
+$padding-2: var(--padding2, 20px);
+$padding-4: var(--padding4, 40px);
+
+// Normal mode
+$color-foreground: #202020;
+$color-background: get-color("light-yellow");
+$color-link: #2020e0;
+$color-blur: rgb(207 206 207 / 40%);
+
+// Dark mode
+$color-foreground-dark: $color-foreground;
+$color-background-dark: $color-background;
+$color-link-dark: $color-link;
+$color-pink-swan: #b2b2b2;
+
+// ----------------- Media query --------------------
+
+// $screen-xxs: 320px;
+// $screen-xs: 375px;
+// $screen-sm: 768px;
+// $screen-md: 1024px;
+// $screen-lg: 1280px;
+// $screen-xl: 1920px;
+
+$screen-m-xxs: 320px;
+$screen-m-xs: 375px;
+$screen-m-sm: 540px;
+$screen-t-sm: 768px;
+$screen-t-lg: 900px;
+$screen-d-sm: 1024px;
+$screen-d-md: 1280px;
+$screen-d-ml: 1440px;
+$screen-d-xl: 1600px;
+$screen-d-xxl: 1920px;
+$font-size-13: var(--fontSize13, 13px);
+$font-size-9: var(--fontSize9, 9px);
+$font-size-15: var(--fontSize9, 15px);
+$font-size-25: var(--fontSize9, 25px);

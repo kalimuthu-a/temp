@@ -1,0 +1,35 @@
+.skyplus-design-system-country-dropdown-wrapper {
+  width: auto;
+  position: relative;
+  height: auto;
+  justify-content: center;
+  cursor: pointer;
+
+  .selected-country-box-wrapper {
+    border-radius: 8px;
+    border: 1px solid #e2ebf2;
+    background: #fff;
+    justify-content: space-between;
+    padding: 11px;
+    color: #25304b;
+    font-size: 14px;
+    font-weight: 300;
+    max-height: fit-content;
+    width: auto;
+    display: flex;
+    &.disable-country-dropdown {
+      background-color: var(--btn-disabled-background-light);
+      pointer-events: none;
+    }
+  }
+}
+
+
+.Cfflag {
+  width: 20px;
+  height: 15px;
+  box-shadow: 0px 0px 1px 0px #888;
+  background-repeat: no-repeat;
+  background-color: #DBDBDB;
+  background-position: 20px 0;
+}

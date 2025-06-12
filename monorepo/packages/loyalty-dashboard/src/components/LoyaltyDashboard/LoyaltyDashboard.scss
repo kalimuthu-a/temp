@@ -1,0 +1,38 @@
+.loyalty-db {
+  &__wrapper {
+    padding: rem(20px) rem(24px);
+    margin: auto;
+
+    & > h1 {
+      color: var(--text-primary);
+
+      /* Headings/Heading 4 */
+      font-family: var(--font-family-bauhuas-std-medium);
+      font-size: rem(24px);
+      font-style: normal;
+      font-weight: 500;
+      line-height: rem(32px); /* 133.333% */
+      letter-spacing: -0.6px;
+      margin-bottom: rem(24px);
+
+      span {
+        color: var(--primary-main);
+      }
+
+      @include media('>=tablet') {
+        /* Headings/Heading 1 */
+        font-family: var(--font-family-bauhuas-std-medium);
+        font-size: rem(44px);
+        font-style: normal;
+        font-weight: 500;
+        line-height: rem(52px); /* 118.182% */
+        letter-spacing: -0.8px;
+      }
+    }
+
+    @include media('>=tablet') {
+      padding: rem(32px) rem(64px);
+      max-width: rem(1440px);
+    }
+  }
+}

@@ -1,0 +1,57 @@
+export const EVENTS_NAME = {
+  VISA_CLICK_REVIEW: 'visa-click/visa-review',
+  VISA_STATUS: 'visa-status',
+  VISA_BOOKING_DETAILS: 'visa-booking-details',
+  CTA_CLICK: 'cta-click',
+  CTA_CLICK_NO_PRODUCT: 'cta-click-no-product-info',
+  VISA_PASSENGERS_PAGE_LOAD: 'visa-passengers-page-load',
+  VISA_INITIATED: 'visa-initiated',
+  VISA_VIEWED: 'visa-viewed',
+  VISA_SELECTED: 'visa-selected',
+  NO_RESULT_FOUND: 'visa-not-found',
+  VISA_PLAN_PAGE_LOAD: 'visaPlanPageLoad',
+  PAGE_LOAD: 'page-load',
+  UPLOAD_VISA_LOAD: 'upload-visa-pageLoad',
+  VISA_SUCCESS: 'visa-success',
+  VISA_SELECT_PAX: 'visa-select-pax',
+  VISA_SRP_PAGE_LOAD: 'visa-srp-page-load',
+  VISA_VIEW: 'visaViewed',
+  NO_VISA_FOUND: 'noVisaFound',
+  VISA_SELECT: 'visaSelected',
+  VISA_MODIFY_FLOW: 'visaModify',
+  VISA_SUCCESS_DOWNLOAD: 'visa-success-download',
+
+};
+
+export const AA_CONSTANTS = {
+  NO_CODE: 'No Code',
+  NO_STATUS_CODE: 'No Status Code',
+  NO_DISPLAY_MESSAGE: 'No Message Displayed',
+  NO_STATUS_MESSAGE: 'No Status Message',
+  BE_ERROR: 'BE Error',
+  MS_API: 'MS API',
+  PAGE_LOAD: 'Page load',
+  LINK_BUTTON_CLICK: 'Link/ButtonClick',
+  POP_UP: 'Pop up',
+  Next: 'Next',
+  visaClick: 'visaClick',
+  Review_Application: 'Visa Review Application',
+  visaPageLoad: 'visaPageLoad',
+  Upload_Document: 'Upload Document',
+  Visa_Search_Result: 'Visa Search Result',
+  No_Visa: 'No Visa',
+  Visa: 'Visa',
+  INR: 'INR',
+  Visa_Passenger_Details: 'Visa Passenger Details',
+  Traveller_Details: 'Traveller Details',
+  Visa_Upload_Documents: 'Visa Upload Documents',
+  Visa_Modify: 'Visa Modify',
+  Visa_Plan: 'Visa Plan',
+  Visa_Details: 'Visa Details',
+  visaReview: 'visaReview',
+  Visa_Successful: 'Visa Successful',
+};
+
+export const ENCRYPT_VALUE = 256;
+
+export default EVENTS_NAME;

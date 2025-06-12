@@ -1,0 +1,24 @@
+.skyplus-loader {
+  &-overlay {
+    background: rgba(255, 255, 255, 0.7);
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 99999999;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  img {
+    margin: auto;
+    width: rem(228px);
+    height: rem(228px);
+  }
+}
+
+.blur {
+  filter: blur(5px);
+}

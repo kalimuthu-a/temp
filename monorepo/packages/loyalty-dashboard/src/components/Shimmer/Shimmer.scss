@@ -1,0 +1,97 @@
+.ld-shimmer {
+  background-color: var(--white);
+  border-radius: .75rem;
+  box-shadow: 0 0 rem(10px) 0 var(--action-disabled-stroke);
+  padding: 10px;
+  margin: 25px;
+  .alignment {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    @include media(">=tablet") {
+      flex-direction: row;
+      gap: rem(50px);
+    }
+  }
+
+  .user-card {
+    border-radius: rem(10px);
+    margin: rem(10px) rem(10px) rem(10px) 0;
+  }
+
+  .points {
+    border-radius: rem(10px);
+    margin-bottom: rem(10px);
+  }
+
+  .small {
+    width: 30%;
+  }
+
+  .medium {
+    width: 40%;
+  }
+
+  .broad {
+    width: 60%;
+  }
+
+  .animate {
+    animation: shimmer 2s infinite linear;
+    background: linear-gradient(to right, #edf0f706 4%, #edf0f752 25%, #edf0f7b8 36%);
+    background-size: 1000px 100%;
+  }
+
+  @keyframes shimmer {
+    0% {
+      background-position: -1000px 0;
+    }
+
+    100% {
+      background-position: 1000px 0;
+    }
+  }
+
+  .helarge2 {
+    height: 30%;
+    width: 100%;
+
+    &--medium {
+      height: 30%;
+      width: 70%;
+    }
+
+    border-radius: rem(4px);
+
+    &--short {
+      height: 20%;
+      width: 50%;
+    }
+  }
+
+  .points-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+
+    @include media(">=tablet") {
+      flex-direction: row;
+    }
+
+    .sub-point {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-between;
+      width: 100%;
+
+      @include media(">=tablet") {
+        flex-direction: column;
+        gap:rem(50px);
+      }
+    }
+  }
+
+}

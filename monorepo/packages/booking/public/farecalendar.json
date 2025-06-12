@@ -1,0 +1,9 @@
+{
+  "data": null,
+  "errors": {
+    "code": "E001",
+    "type": "Token Issue",
+    "message": "Please generate the token or token expired",
+    "subType": "Bad Request"
+  }
+}

@@ -1,0 +1,31 @@
+.bookAgain--wrapper{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: var(--secondary-light, #eaf8ff);
+  padding: 1rem 1rem 1rem rem(28px);
+  border-radius: rem(45px);
+  margin-bottom: 2rem;
+
+  & h4{
+    color: var(--primary-main);
+  }
+
+  p{
+    font-size: .8rem;
+  }
+}
+
+.bookAgain--link{
+  width: rem(36px);
+  height: rem(36px);
+  border-radius: 50%;
+  background-color: var(--primary-main);
+  position: relative;
+  outline: none;
+  border: none;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}

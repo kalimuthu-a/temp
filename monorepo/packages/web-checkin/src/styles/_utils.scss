@@ -1,0 +1,114 @@
+$font-family-default: var(--font-family-poppins-regular);
+
+.m-r-8 {
+  margin-right: rem(8px);
+}
+
+// Display Block only on mobile and above
+.d-n-m {
+  display: none;
+
+  @include media('>=tablet') {
+    display: block;
+  }
+}
+
+.z-1000 {
+  z-index: 1000;
+}
+
+.cursor-default {
+  cursor: default !important;
+}
+
+.cursor-pointer {
+  cursor: pointer !important;
+}
+
+.fw-500 {
+  font-weight: 500 !important;
+}
+
+.wc_avtar {
+  background: #afe4ff;
+  width: 36px;
+  height: 36px;
+  gap: 4px;
+  border-radius: 18px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+
+.fs-14 {
+  font-size: rem(14px) !important;
+}
+
+.disabled-icon {
+  opacity: 0.5;
+  pointer-events: none;
+}
+
+$colors: (
+  'primary-main': #009,
+  'white': #fff,
+  'secondary-main': #afe4ff,
+  'secondary-light': #eaf8ff,
+  'secondary-medium': #d1efff,
+  'secondary-deep': #e2ebf2,
+  'secondary-bright': #00aee5,
+  'secondary-white': #fff,
+  'accent-main': #7fd287,
+  'accent-light': #f1fbf5,
+  'accent-dark': #209326,
+  'text-primary': #25304b,
+  'text-secondary': #4b5772,
+  'text-tertiary': #7a85a0,
+  'text-disabled': #9ba4b8,
+  'action-active': #25304b,
+  'action-active-stroke': #9cd9ff,
+  'action-active-background': #fff,
+  'action-selected-text': #009,
+  'action-selected-stroke': #9cd9ff,
+  'action-selected-background': #eaf8ff,
+  'action-disabled-text': #9ba4b8,
+  'action-disabled-stroke': #d7e1e9,
+  'action-disabled-background': #fff,
+  'action-focus-text': #009,
+  'btn-active': #fff,
+  'btn-active-background': #009,
+  'btn-disabled': #fff,
+  'btn-disabled-background': #bcc2cf,
+  'btn-disabled-background-light': #ebecee,
+  'btn-link': #009,
+  'sel-con-active-text': #25304b,
+  'sel-con-active-stroke': #009,
+  'sel-con-active-background': #fff,
+  'sel-con-selected-text': #25304b,
+  'sel-con-selected-stroke': #fff,
+  'sel-con-selected-background': #009,
+  'sel-con-disabled-text': #9ba4b8,
+  'sel-con-disabled-stroke': #9ba4b8,
+  'sel-con-disabled-background': #fff,
+  'sel-con-toggle-active': #9ba4b8,
+  'sel-con-toggle-selected': #009,
+  'system-error': #c3272e,
+  'system-error-light': #f4dedf,
+  'system-warning': #a97d0e,
+  'system-warning-light': #fff8e5,
+  'system-warning-bright': #ffbd12,
+  'system-success': #218946,
+  'system-success-light': #f0fff6,
+  'system-information': #348dc4,
+  'system-information-light': #eaf8ff,
+  'other-divider': #7a85a0,
+  'other-border': #9ba4b8,
+  'other-disabled-border': #cdd1db,
+);
+
+@each $color, $value in $colors {
+  .text-#{$color} {
+    color: $value !important;
+  }
+}

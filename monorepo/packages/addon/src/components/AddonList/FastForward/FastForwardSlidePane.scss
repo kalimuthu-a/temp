@@ -1,0 +1,11 @@
+$slider-title-color: #757c8a;
+
+.skyplus-ff-slidepane {
+  &__title1 {
+    color: $slider-title-color;
+  }
+
+  &__description {
+    color: var(--text-secondary);
+  }
+}

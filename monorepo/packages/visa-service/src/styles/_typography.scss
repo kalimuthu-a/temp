@@ -1,0 +1,494 @@
+body {
+	font-family: var(--font-family-poppins-regular);
+}
+
+.fs-24 {
+	font-size: rem(24px);
+}
+
+.fs-14 {
+	font-size: rem(14px);
+	line-height: 1.5;
+}
+
+.fs-44 {
+	font-size: rem(44px);
+}
+
+.fw-b {
+	font-weight: 600 !important;
+}
+
+.bauhaus-heading {
+	color: #25304b;
+	font-family: var(--font-family-bauhuas-std-medium);
+	font-weight: 500;
+
+	span {
+		color: #7fd287;
+	}
+}
+
+.py-4 {
+	padding-top: rem(4px) !important;
+	padding-bottom: rem(4px) !important;
+}
+
+.px-16 {
+	padding-left: rem(16px) !important;
+	padding-right: rem(16px) !important;
+}
+
+@mixin h0 {
+	@include defaultTypoStyles(14,
+		0,
+		20,
+		normal,
+		var(--font-family-poppins-regular));
+
+	@include media('>=tablet') {
+		@include defaultTypoStyles(20,
+			0,
+			32,
+			normal,
+			var(--font-family-poppins-regular));
+	}
+}
+
+@mixin h1 {
+	@include defaultTypoStyles(24,
+		-0.6,
+		32,
+		normal,
+		var(--font-family-bauhuas-std-medium));
+
+	@include media('>=tablet') {
+		@include defaultTypoStyles(44,
+			-0.8,
+			52,
+			normal,
+			var(--font-family-bauhuas-std-medium));
+	}
+}
+
+@mixin h2 {
+	@include defaultTypoStyles(24,
+		0,
+		36,
+		normal,
+		var(--font-family-bauhuas-std-medium));
+
+	@include media('>=tablet') {
+		@include defaultTypoStyles(40,
+			-0.8,
+			48,
+			normal,
+			var(--font-family-bauhuas-std-medium));
+	}
+}
+
+@mixin h3 {
+	@include defaultTypoStyles(20,
+		-0.6,
+		24,
+		normal,
+		var(--font-family-bauhuas-std-medium));
+
+	@include media('>=tablet') {
+		@include defaultTypoStyles(32,
+			-0.8,
+			44,
+			normal,
+			var(--font-family-bauhuas-std-medium));
+	}
+}
+
+@mixin h4 {
+	@include defaultTypoStyles(24,
+		-0.6,
+		32,
+		normal,
+		var(--font-family-bauhuas-std-medium));
+}
+
+@mixin h5 {
+	@include defaultTypoStyles(20,
+		-0.6,
+		24,
+		normal,
+		var(--font-family-bauhuas-std-medium));
+}
+
+@mixin h6 {
+	@include defaultTypoStyles(24,
+		0,
+		36,
+		normal,
+		var(--font-family-poppins-medium));
+}
+
+@mixin h7 {
+	@include defaultTypoStyles(24,
+		0,
+		36,
+		normal,
+		var(--font-family-poppins-semibold));
+}
+
+@mixin sh1 {
+	@include defaultTypoStyles(20,
+		0,
+		32,
+		normal,
+		var(--font-family-poppins-medium));
+
+	@include media('>=tablet') {
+		@include defaultTypoStyles(24,
+			0,
+			36,
+			normal,
+			var(--font-family-poppins-medium));
+	}
+}
+
+@mixin sh2 {
+	@include defaultTypoStyles(20,
+		0,
+		32,
+		normal,
+		var(--font-family-poppins-semibold));
+
+	@include media('>=tablet') {
+		@include defaultTypoStyles(24,
+			0,
+			36,
+			normal,
+			var(--font-family-poppins-semibold));
+	}
+}
+
+@mixin sh3 {
+	@include defaultTypoStyles(16,
+		-0.4,
+		20,
+		normal,
+		var(--font-family-bauhuas-std-medium));
+
+	@include media('>=tablet') {
+		@include defaultTypoStyles(20,
+			0,
+			32,
+			normal,
+			var(--font-family-poppins-medium));
+	}
+}
+
+@mixin sh4 {
+	@include defaultTypoStyles(16,
+		0,
+		24,
+		normal,
+		var(--font-family-poppins-semibold));
+
+	@include media('>=tablet') {
+		@include defaultTypoStyles(20,
+			0,
+			32,
+			normal,
+			var(--font-family-poppins-semibold));
+	}
+}
+
+@mixin sh5 {
+	@include defaultTypoStyles(16,
+		0,
+		24,
+		normal,
+		var(--font-family-poppins-medium));
+
+	@include media('>=tablet') {
+		@include defaultTypoStyles(18,
+			-0.4,
+			24,
+			normal,
+			var(--font-family-bauhuas-std-medium));
+	}
+}
+
+@mixin sh6 {
+	@include defaultTypoStyles(14,
+		0,
+		20,
+		normal,
+		var(--font-family-poppins-semibold));
+}
+
+@mixin sh7 {
+	@include defaultTypoStyles(16,
+		0,
+		24,
+		normal,
+		var(--font-family-poppins-regular));
+}
+
+@mixin btn {
+	@include defaultTypoStyles(14,
+		0,
+		20,
+		normal,
+		var(--font-family-poppins-medium));
+
+	@include media('>=tablet') {
+		@include defaultTypoStyles(16,
+			0,
+			24,
+			normal,
+			var(--font-family-poppins-medium));
+	}
+}
+
+@mixin link {
+	@include defaultTypoStyles(14,
+		0,
+		20,
+		normal,
+		var(--font-family-poppins-medium));
+
+	text-decoration: underline;
+
+	@include media('>=tablet') {
+		@include defaultTypoStyles(16,
+			0,
+			24,
+			normal,
+			var(--font-family-poppins-medium));
+	}
+}
+
+@mixin link-small {
+	@include defaultTypoStyles(12,
+		0,
+		18,
+		normal,
+		var(--font-family-poppins-regular));
+
+	@include media('>=tablet') {
+		@include defaultTypoStyles(14,
+			0,
+			20,
+			normal,
+			var(--font-family-poppins-regular));
+	}
+}
+
+@mixin body-large-medium {
+	@include defaultTypoStyles(14,
+		0,
+		20,
+		normal,
+		var(--font-family-poppins-medium));
+
+	@include media('>=tablet') {
+		@include defaultTypoStyles(16,
+			0,
+			24,
+			normal,
+			var(--font-family-poppins-medium));
+	}
+}
+
+@mixin body-large-regular {
+	@include defaultTypoStyles(14,
+		0,
+		20,
+		normal,
+		var(--font-family-poppins-regular));
+
+	@include media('>=tablet') {
+		@include defaultTypoStyles(16,
+			0,
+			24,
+			normal,
+			var(--font-family-poppins-regular));
+	}
+}
+
+@mixin body-large-light {
+	@include defaultTypoStyles(14,
+		0,
+		20,
+		normal,
+		var(--font-family-poppins-light));
+
+	@include media('>=tablet') {
+		@include defaultTypoStyles(16,
+			0,
+			24,
+			normal,
+			var(--font-family-poppins-light));
+	}
+}
+
+@mixin body-medium-medium {
+	@include defaultTypoStyles(14,
+		0,
+		20,
+		normal,
+		var(--font-family-poppins-medium));
+
+	@include media('>=tablet') {
+		@include defaultTypoStyles(16,
+			0,
+			24,
+			normal,
+			var(--font-family-poppins-medium));
+	}
+}
+
+@mixin body-medium-regular {
+	@include defaultTypoStyles(14,
+		0,
+		20,
+		normal,
+		var(--font-family-poppins-regular));
+
+	@include media('>=tablet') {
+		@include defaultTypoStyles(16,
+			0,
+			24,
+			normal,
+			var(--font-family-poppins-regular));
+	}
+}
+
+@mixin body-medium-light {
+	@include defaultTypoStyles(14,
+		0,
+		20,
+		normal,
+		var(--font-family-poppins-light));
+
+	@include media('>=tablet') {
+		@include defaultTypoStyles(16,
+			0,
+			24,
+			normal,
+			var(--font-family-poppins-light));
+	}
+}
+
+@mixin placeholder-labels {
+	@include defaultTypoStyles(14,
+		0,
+		20,
+		normal,
+		var(--font-family-poppins-light));
+}
+
+@mixin body-small-medium {
+	@include defaultTypoStyles(12,
+		0,
+		18,
+		normal,
+		var(--font-family-poppins-medium));
+
+	@include media('>=tablet') {
+		@include defaultTypoStyles(14,
+			0,
+			20,
+			normal,
+			var(--font-family-poppins-medium));
+	}
+}
+
+@mixin body-small-regular {
+	@include defaultTypoStyles(12,
+		0,
+		18,
+		normal,
+		var(--font-family-poppins-regular));
+
+	@include media('>=tablet') {
+		@include defaultTypoStyles(14,
+			0,
+			20,
+			normal,
+			var(--font-family-poppins-regular));
+	}
+}
+
+@mixin body-small-light {
+	@include defaultTypoStyles(12,
+		0,
+		18,
+		normal,
+		var(--font-family-poppins-light));
+
+	@include media('>=tablet') {
+		@include defaultTypoStyles(14,
+			0,
+			20,
+			normal,
+			var(--font-family-poppins-light));
+	}
+}
+
+@mixin body-extra-small-regular {
+	@include defaultTypoStyles(10,
+		0,
+		16,
+		normal,
+		var(--font-family-poppins-regular));
+}
+
+@mixin tags-small {
+	@include defaultTypoStyles(10,
+		0,
+		16,
+		normal,
+		var(--font-family-poppins-medium));
+
+	@include media('>=tablet') {
+		@include defaultTypoStyles(12,
+			0,
+			18,
+			normal,
+			var(--font-family-poppins-medium));
+	}
+}
+
+@mixin tags-medium {
+	@include defaultTypoStyles(10,
+		0,
+		16,
+		normal,
+		var(--font-family-poppins-medium));
+
+	@include media('>=tablet') {
+		@include defaultTypoStyles(12,
+			0,
+			18,
+			normal,
+			var(--font-family-poppins-medium));
+	}
+}
+
+@mixin price-regular-stroked {
+	@include defaultTypoStyles(12,
+		0,
+		18,
+		normal,
+		var(--font-family-poppins-regular));
+
+	text-decoration: line-through;
+}
+
+@mixin price-medium-stroked {
+	@include defaultTypoStyles(14,
+		0,
+		20,
+		normal,
+		var(--font-family-poppins-regular));
+
+	text-decoration: line-through;
+}

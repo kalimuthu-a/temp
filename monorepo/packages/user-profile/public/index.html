@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en" class="In6e2">
+
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+	<link rel="shortcut icon" href="https://cdn.sstatic.net/Sites/stackoverflow/Img/favicon.ico?v=ec617d715196">
+
+	<title>User Profile</title>
+
+	<link rel="stylesheet" href="https://test-doublehrajput.github.io/design-system/des-system/dependencies.css">
+	<link rel="stylesheet" href="https://test-doublehrajput.github.io/design-system/des-system/main.css">
+
+	<script>
+		window.msdv2 = {}
+
+
+		window._user_profile = {
+			// GET_NOMINEE: "/loyalty/api/v1/nominee",
+			GET_NOMINEE: 'https://api-qa-skyplus.goindigo.in/loyalty/api/v1/nominee',
+			GET_NOMINEE_AUTH_KEY: "705285E5-559C-443C-AEE8-A04B44008EBF",
+			GET_NOMINEE_USER_KEY: "06e2e2fcc53df6043c728edf321f5fa8",
+			AEM_GET_NOMINEE: "/nominee.json",
+		}
+
+		window._env_my_profile = {
+				GET_MY_PROFILE: "https://api-qa-skyplus.goindigo.in/myprofile/v1/profile ",
+				USER_KEY_GET_MY_PROFILE: "06e2e2fcc53df6043c728edf321f5fa8",
+				UPDATE_MY_PROFILE: "https://api-qa-skyplus.goindigo.in/myprofile/v2/update/profile",
+				USER_KEY_UPDATE_MY_PROFILE: "06e2e2fcc53df6043c728edf321f5fa8 ",
+				DELETE_ACCOUNT: "https://app-user-profile-s6web-qa-skyplus6e.goindigo.in/v2/account/delete",
+				USER_KEY_DELETE_ACCOUNT: "06e2e2fcc53df6043c728edf321f5fa8",
+				COUNTRY_LIST: "/countryList.json",
+				USER_KEY_COUNTRY_LIST: "06e2e2fcc53df6043c728edf321f5fa8",
+				AEM_MY_PROFILE_MEMBER: "./member.json",
+				AEM_MY_PROFILE_AGENT: "./agent.json",
+				AEM_MY_PROFILE_SME_ADMIN: "/content/api/s6web/in/en/v1/account-details/corpconnectadmin.json",
+				AEM_MY_PROFILE_SME_USER: "/content/api/s6web/in/en/v1/account-details/corpconnectuser.json",
+				AEM_SETTINGS_MEMBER: "/content/api/s6web/in/en/v1/account-settings/member.json",
+				AEM_SETTINGS_AGENT: "/content/api/s6web/in/en/v1/account-settings/agent.json",
+				AEM_SETTINGS_SME_ADMIN: "/content/api/s6web/in/en/v1/account-settings/corpconnectadmin.json",
+				AEM_SAVED_PASSENGER_MEMBER: "/content/api/s6web/in/en/v1/account-savedpassenger/member.json",
+				AEM_CORP_CONNECT: "/corpConnectAemLabel.json",
+				AEM_GST_AGENT: "/content/api/s6web/in/en/v1/account-gstdetails/agent.json",
+				AEM_GST_SME_ADMIN: "/content/api/s6web/in/en/v1/account-gstdetails/corpconnectadmin.json",
+				AEM_HELP_MEMBER: "/content/api/s6web/in/en/v1/account-needhelp/member.json",
+				AEM_HELP_GUEST: "/content/api/s6web/in/en/v1/retrieve-pnr/need-help-guest.json",
+				CORP_CONNECT: "/corpConnect.json",
+				USER_KEY_CORP_CONNECT: "2945e931b5e99bceed811fd202713432",
+				INDIGO_CASH: "/indigoCash.json",
+				USER_KEY_INDIGO_CASH: "f66f69152df6317d860f2343fc42286e",
+				AEM_INDIGO_CASH: "indigoCashAemLabel.json"
+			}		
+		window._env_my_bookings = {
+			AEM_MY_BOOKINGS: 'http://localhost:8089/myBookingsAemLabel.json',
+			GET_MY_BOOKINGS: 'http://localhost:8089/myBookings.json',
+			USER_KEY_GET_MY_BOOKINGS: '2945e931b5e99bceed811fd202713432',
+		}
+
+		window._env_help_page = {
+			AEM_MY_BOOKINGS: 'http://localhost:8089/myBookingsAemLabel.json',
+			GET_MY_BOOKINGS: 'http://localhost:8089/myBookings.json',
+			USER_KEY_GET_MY_BOOKINGS: '2945e931b5e99bceed811fd202713432',
+		}
+
+		// window.pageType = 'my-bookings';
+		window.pageType = 'my-profile';
+	</script>
+
+	<style>
+		body {
+			font-family: 'Poppins-Regular', sans-serif;
+			background-color: #f7fafa;
+			background-image: url('https://www.goindigo.in/content/dam/s6web/in/en/assets/splash-screen-img.png');
+			background-repeat: no-repeat;
+			background-size: cover;
+		}
+
+		* {
+			margin: 0;
+			padding: 0;
+		}
+
+		header {
+			margin: 60px auto !important;
+		}
+
+		@media screen and (max-width: 768px) {
+			header {
+				width: 40px;
+				width: 95vw;
+
+			}
+		}
+
+		#__mf__user_profile__dev__only {
+			margin: auto;
+			margin-bottom: 100px;
+			max-width: 1152px;
+
+		}
+
+		@media screen and (max-width: 1024px) {
+			#__mf__user_profile__dev__only {
+				max-width: 95vw;
+				margin: auto;
+				padding: 50px 10px;
+				margin-bottom: 500px;
+			}
+		}
+	</style>
+
+
+
+
+</head>
+
+<body>
+	<header class="f-flex justify-content-center align-items-center">
+	</header>
+	<main id="__mf__user_profile__dev__only"></main>
+</body>
+
+</html>

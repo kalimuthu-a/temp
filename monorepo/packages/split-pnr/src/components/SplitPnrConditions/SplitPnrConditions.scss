@@ -1,0 +1,64 @@
+$class: '.split-pnr-conditions';
+
+
+#{$class}-wrapper {
+  background: var(--system-error-light);
+  border-radius: rem(12px);
+
+  #{$class}-error {
+    padding: rem(16px);
+    box-shadow: 0 0 28px 16px #4C5D9E0A;
+    display: flex;
+    align-items: start;
+    column-gap: rem(12px);
+
+    &>i {
+      font-size: rem(20px);
+      color: var(--system-error);
+    }
+
+    &>.err-msg {
+      @include font-styles(14px, 400, 20px, var(--text-secondary));
+    }
+
+    @include media('>=tablet') {
+      padding: rem(24px) rem(16px);
+    }
+  }
+
+  #{$class} {
+    border-radius: inherit;
+    background: var(--white);
+    box-shadow: 0 1px 12px 0 #1C6C9F14;
+    padding: rem(24px);
+
+    &-title {
+      @include font-styles(20px, 500, 32px, var(--text-primary), var(--font-family-bauhuas-std-medium));
+
+      margin: rem(4px) 0 rem(6px);
+
+      @include media('>=tablet') {
+        font-size: rem(24px);
+      }
+    }
+
+    &>ul {
+      display: flex;
+      flex-direction: column;
+      row-gap: rem(12px);
+
+      & >li {
+        display: flex;
+        align-items: start;
+        column-gap: rem(12px);
+  
+        &>i {
+          font-size: rem(10px);
+          padding: rem(5px);
+        }
+  
+        @include font-styles(12px, 400, 20px, var(--text-tertiary));
+      }
+    }
+  }
+}

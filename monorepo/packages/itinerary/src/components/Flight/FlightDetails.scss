@@ -1,0 +1,775 @@
+/* stylelint-disable no-descending-specificity */
+/* stylelint-disable */
+$next-border: #C1EDC1;
+
+.flight-details {
+
+	width: 100%;
+	margin: 0 0 rem(16px) 0;
+	padding: rem(32px) rem(20px) 0;
+
+	@include media('>=tablet') {
+		max-width: 100%;
+		padding: 0;
+		margin: 0;
+	}
+
+	.skyplus-chip--next {
+		border-radius: rem(8px) rem(8px) 0 0;
+		padding: rem(4px) rem(10px) rem(3px) rem(10px);
+	}
+
+	&__wrapper {
+		background-color: get-color('color-gradient-1');
+		padding: rem(10px) rem(20px);
+		border-radius: rem(8px);
+
+		@include media('>=tablet') {
+			padding: rem(16px) rem(24px);
+		}
+
+	}
+
+	&__title-wrapper {
+		display: flex;
+		justify-content: space-between;
+		margin: rem(23px) 0;
+
+		@include media('>=tablet') {
+			margin: rem(16px) 0;
+		}
+	}
+
+	&__time {
+		display: flex;
+		height: rem(36px);
+		padding: rem(8px) rem(16px);
+		gap: rem(10px);
+		justify-content: space-between;
+		background: get-color('indigo-info');
+		border-radius: rem(8px) rem(8px) 0 0;
+
+		&--isNext {
+			border-top-left-radius: 0;
+		}
+	}
+
+	&__heading {
+		font-family: var(--font-family-bauhuas-std-medium);
+		font-size: rem(20px);
+		font-style: normal;
+		font-weight: 500;
+		line-height: rem(24px);
+		letter-spacing: rem(-0.6px);
+		color: get-color('color-text-primary');
+		display: inline-block;
+
+		@include media('>=tablet') {
+			font-size: rem(24px);
+		}
+
+		&.space-top {
+			margin-top: rem(12px);
+
+			@include media('>=tablet') {
+				margin-top: rem(16px);
+			}
+		}
+	}
+
+	&__flight {
+		color: get-color('color-text-primary');
+		font-family: var(--font-family-poppins-medium);
+		font-size: $font-size-small;
+		font-style: normal;
+		font-weight: 600;
+		line-height: rem(20px);
+
+		@include media('>=tablet') {
+			font-size: rem(16px);
+		}
+	}
+
+	.flight-detail__detail-wrapper {
+
+		@include media('>=tablet') {
+			display: flex;
+			justify-content: space-around;
+			gap: rem(12px);
+		}
+
+	}
+
+	.flight-duration {
+		color: get-color('color-text-tertiary');
+		text-align: center;
+		font-family: var(--font-family-poppins-regular);
+		font-size: rem(10px);
+		font-style: normal;
+		font-weight: 500;
+		line-height: rem(16px);
+		margin-bottom: rem(8px);
+		position: relative;
+
+		&::after {
+			content: '';
+			position: absolute;
+			top: rem(19px);
+			right: rem(19px);
+			left: -10px;
+			width: 159%;
+			border-bottom: rem(2px) dotted get-color("border-color-secondary");
+			display: block;
+		}
+	}
+
+	.flight-fullName {
+		color: get-color('color-text-secondary');
+		font-family: var(--font-family-poppins-regular);
+		font-size: rem(10px);
+		font-weight: 500;
+		text-transform: uppercase;
+
+		@include media(">=tablet") {
+			font-size: rem(16px);
+		}
+	}
+
+
+	.flight-stops {
+		color: get-color('dark-sky-blue');
+		;
+		font-family: var(--font-family-poppins-regular);
+		font-size: rem(10px);
+		font-style: normal;
+		font-weight: 500;
+		line-height: normal;
+
+		@include media(">=tablet") {
+			font-size: rem(12px);
+		}
+	}
+
+	.flight-detail__change-aircraft {
+		border-radius: rem(4px);
+		opacity: 0.8;
+		background: get-color('indigo-info');
+		display: flex;
+		padding: rem(12px);
+		justify-content: space-between;
+		align-items: center;
+		margin: rem(12px) 0;
+
+		@include media('>=tablet') {
+			margin: rem(16px) 0;
+		}
+
+		.flight-details__time-label {
+			color: get-color('color-text-secondary');
+			font-family: var(--font-family-poppins-regular);
+			font-size: rem(10px);
+			font-style: normal;
+			font-weight: 400;
+			line-height: rem(16px);
+
+			@include media('>=tablet') {
+				font-size: $font-size-small;
+			}
+		}
+
+		.flight-details__change-label {
+			font-size: rem(10px);
+			color: get-color('color-text-primary');
+			text-align: right;
+			font-family: var(--font-family-poppins-medium);
+			font-style: normal;
+			font-weight: 500;
+			line-height: rem(20px);
+
+			@include media('>=tablet') {
+				font-size: $font-size-small;
+			}
+		}
+	}
+
+	&__content-segment {
+		display: flex;
+		justify-content: space-between;
+
+		.flight-details__middle-content {
+			text-align: center;
+		}
+	}
+
+	.flight-details__flights-result {
+		border-radius: rem(8px);
+		border: 1px solid get-color('light-white');
+
+		&--isNext {
+			border: 2px solid $next-border;
+			border-top-left-radius: 0;
+		}
+	}
+
+	.departure-time,
+	.arrival-time {
+		color: get-color('color-text-secondary');
+		font-family: var(--font-family-poppins-regular);
+		font-size: rem(12px);
+		font-style: normal;
+		font-weight: 500;
+		line-height: rem(18px);
+
+		&.departure {
+			display: flex;
+			align-items: center;
+			font-size: rem(14px);
+
+			@include media('>tablet') {
+				font-size: rem(16px);
+			}
+		}
+
+		@include media('>=tablet') {
+			font-size: $font-size-small;
+			line-height: rem(24px);
+		}
+	}
+
+	.departure-location,
+	.arrival-location {
+		color: get-color('color-text-secondary');
+		font-family: var(--font-family-poppins-regular);
+		font-size: rem(10px);
+		font-style: normal;
+		font-weight: 400;
+		line-height: rem(16px);
+
+		@include media ('>=tablet') {
+			font-size: rem(12px);
+			line-height: rem(18px);
+		}
+	}
+
+	.flight-detail__arrival {
+		@include media ('>=tablet') {
+			text-align: right;
+		}
+
+	}
+
+	.flight-details__right-content {
+		text-align: right;
+	}
+
+	&__time-duration-container {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+
+		.time-duration {
+			color: get-color('color-text-tertiary');
+			text-align: center;
+			font-family: var(--font-family-poppins-regular);
+			font-size: rem(10px);
+			font-style: normal;
+			font-weight: 400;
+			line-height: rem(16px);
+			margin: rem(16px) 0;
+			border-radius: rem(4px);
+			padding: rem(4px) rem(8px);
+			width: rem(185px);
+			border: rem(1.5px) dashed get-color('light-white');
+
+			@include media ('>=tablet') {
+				margin: 0;
+				font-size: rem(12px);
+			}
+		}
+	}
+
+
+	.flight-baggage-container {
+
+		border-radius: rem(8px);
+		background: get-color('border-color-secondary');
+		text-align: center;
+		padding: rem(12px);
+		margin-top: rem(16px);
+
+		.icon-cabin-bag,
+		.icon-checkin-bag {
+			position: relative;
+			color: var(--text-primary);
+
+			&::before {
+				position: absolute;
+				top: rem(-3px);
+				left: rem(-22px);
+				font-size: rem(16px);
+
+				@include media(">=tablet") {
+					top: rem(-2px);
+					margin-right: rem(12px);
+				}
+			}
+		}
+
+		.flight-baggage-info {
+			@include media('>=tablet') {
+				display: flex;
+				gap: rem(32px);
+			}
+		}
+
+		.flight-baggage-codeshare {
+			color: #4B5772;
+			font-family: var(--font-family-poppins-regular);
+			font-size: rem(10px);
+
+			@include media('>=tablet') {
+				font-size: rem(12px);
+				display: flex;
+				justify-content: center;
+			}
+		}
+
+		.flight-baggage-label {
+			color: get-color('color-text-secondary');
+			text-align: center;
+			font-family: var(--font-family-poppins-medium);
+			font-size: rem(12px);
+			font-style: normal;
+			font-weight: 500;
+			line-height: rem(18px);
+
+			@include media(">=tablet") {
+				font-size: $font-size-small;
+				color: get-color('color-text-primary');
+				line-height: rem(20px);
+			}
+		}
+
+		.flight-baggage-cabin__wrapper {
+			display: flex;
+			justify-content: center;
+			gap: rem(28px);
+			padding-top: rem(12px);
+
+			@include media(">=tablet") {
+				gap: rem(24px);
+				padding-top: 0;
+			}
+
+			.cabin-value,
+			.checkin-value {
+				color: get-color('color-text-primary');
+				font-family: var(--font-family-poppins-medium);
+				font-size: rem(12px);
+				margin-right: rem(4px);
+
+				@include media(">=tablet") {
+					font-size: rem(14px);
+				}
+			}
+
+			.cabin,
+			.checkin {
+				color: #4B5772;
+				font-family: var(--font-family-poppins-regular);
+				font-size: rem(10px);
+				font-style: normal;
+				font-weight: 500;
+				line-height: rem(18px);
+
+				@include media(">=tablet") {
+					font-size: rem(12px);
+					font-weight: 500;
+					line-height: rem(20px);
+					margin-left: rem(23px);
+				}
+			}
+		}
+	}
+
+	&__code-container {
+		display: flex;
+		position: relative;
+		justify-content: space-between;
+		margin: rem(20px) 0 rem(24px);
+		padding-bottom: rem(20px);
+		
+		&::after {
+			content: '';
+			position: absolute;
+			width: 100%;
+			bottom: 0;
+			border-bottom: rem(1.5px) dashed get-color('light-white');
+		}
+
+		.flight-code {
+			color: get-color('color-text-tertiary');
+			font-family: var(--font-family-poppins-regular);
+			font-size: rem(12px);
+			font-style: normal;
+			font-weight: 400;
+			line-height: rem(18px);
+			position: relative;
+			padding-left: rem(16px);
+			display: inline-flex;
+			align-items: center;
+			@include media("<tablet") {
+				flex-wrap: wrap;
+			}
+			.icon-flight {
+				padding-right: rem(8px);
+				font-size: rem(16px);
+				position: absolute;
+				top: rem(1px);
+				width: rem(12px);
+				height: rem(12px);
+				left: rem(-4px);
+
+				@include media(">tablet") {
+					top: rem(2px);
+				}
+			}
+
+			span {
+				padding-right: 0px;
+			}
+			& .operatedByText{
+				& span {
+					@include media("<tablet") {
+						display: none;
+					}
+				}
+			}
+			@include media(">=tablet") {
+				color: get-color('color-text-secondary');
+				font-size: rem(14px);
+				font-family: var(--font-family-poppins-regular);
+				font-weight: 500;
+				line-height: rem(20px);
+			}
+
+			.icon-download {
+				&::before {
+					font-size: 16px;
+
+					@include media(">=tablet") {
+						font-size: 20px;
+						margin-right: 12px
+					}
+				}
+			}
+
+			&-img {
+				display: inline-block;
+				width: rem(16px);
+				height: rem(16px);
+				position: relative;
+				margin-left: -20px;
+				margin-right: rem(6px);
+			}
+		}
+
+		.flight-checking {
+			color: get-color('color-text-secondary');
+			text-align: right;
+			font-family: var(--font-family-poppins-regular);
+			font-size: 12px;
+			font-style: normal;
+			font-weight: 400;
+			line-height: 18px;
+
+			@include media(">=tablet") {
+				font-size: 14px;
+				font-weight: 500;
+				line-height: 20px;
+			}
+		}
+	}
+
+	&__container-departure-arrival {
+		position: relative;
+	}
+
+	&__flight-track {
+		position: absolute;
+		display: inline-block;
+		height: 4.9375rem;
+		width: .625rem;
+		top: rem(5px);
+		left: 0;
+
+		@include media('>=tablet') {
+			display: none;
+		}
+
+		.depart-point {
+			position: relative;
+
+			&::before {
+				content: "";
+				width: .625rem;
+				height: .625rem;
+				border: .0625rem solid get-color('light-blue-5');
+				border-radius: 50%;
+				display: block;
+				position: absolute;
+				z-index: 9;
+				background-color: get-color('color-gradient-1');
+			}
+
+			@include media(">=tablet") {
+				display: none;
+			}
+
+		}
+
+		.flight-details__flight-line {
+			&:before {
+				position: absolute;
+				content: "";
+				left: rem(4px);
+				width: rem(1px);
+				height: rem(98px);
+				margin: 0 auto;
+				border: rem(1px) dashed get-color('light-blue-5');
+			}
+		}
+
+		.dest-point {
+			position: relative;
+
+			&::before {
+				content: "";
+				width: .625rem;
+				height: .625rem;
+				border: .0625rem solid get-color('light-blue-5');
+				border-radius: 50%;
+				display: block;
+				position: absolute;
+				z-index: 9;
+				background-color: get-color('color-gradient-1');
+				top: rem(92px);
+			}
+
+			@include media(">=tablet") {
+				display: none;
+			}
+		}
+	}
+
+	.flight-detail__detail-wrapper {
+		padding-left: rem(21px);
+
+		@include media(">=tablet") {
+			padding-left: 0;
+		}
+	}
+
+	&__left-content,
+	&__right-content {
+		width: 30%;
+		word-break: break-word;
+	}
+
+	.flight-detail__departure,
+	.flight-detail__arrival {
+		@include media(">=tablet") {
+			width: 100%;
+			word-break: break-word;
+		}
+
+		.departure-time,
+		.arrival-time {
+			color: get-color('color-text-primary');
+			font-family: var(--font-family-poppins-medium);
+			font-size: 16px;
+			font-style: normal;
+			font-weight: 500;
+		}
+	}
+
+	.flight-departure-code {
+		color: get-color('color-text-success');
+		font-family: var(--font-family-poppins-regular);
+		font-size: rem(20px);
+		font-style: normal;
+		font-weight: 600;
+		line-height: rem(32px);
+
+		@include media(">=tablet") {
+			font-size: rem(24px);
+		}
+	}
+
+	.pnr-container {
+		display: flex;
+		gap: rem(10px);
+
+		@include media(">=tablet") {
+			gap: rem(4px);
+		}
+
+		.pnr-label {
+			color: get-color('color-text-secondary');
+			text-align: right;
+			font-family: $font-family-default;
+			font-size: rem(12px);
+			font-style: normal;
+			font-weight: 400;
+			line-height: rem(18px);
+
+			@include media(">=tablet") {
+				font-size: $font-size-small;
+			}
+		}
+
+		.pnr-number {
+			color: var(--text-primary);
+			font-family: var(--font-family-poppins-medium);
+			font-size: rem(12px);
+			font-style: normal;
+			font-weight: 500;
+			line-height: rem(18px);
+
+			@include media(">=tablet") {
+				font-size: rem(14px);
+			}
+		}
+
+		&.pnr {
+			align-items: center;
+			justify-content: flex-end;
+		}
+
+		.booking-info-container-partner-bookingstatus {
+			.flightLogo {
+				max-width: rem(16px);
+			}
+
+			@include media("<tablet") {
+				margin-bottom: 0;
+				padding-bottom: 0;
+
+				&-bookingreference {
+					min-width: rem(94px);
+				}
+			}
+
+			@include media(">tablet") {
+				margin-right: 0;
+				margin-top: 0;
+			}
+
+			&-pnrstatus-pnr {
+				margin-right: 0;
+
+				.withoutprn {
+					margin-left: 0;
+					color: var(--system-error);
+					width: max-content;
+				}
+			}
+		}
+
+		&-patner-pnr {
+			min-width: rem(44px);
+			margin-right: 0;
+
+			span {
+				color: var(--text-primary);
+				font-family: var(--font-family-poppins-medium);
+			}
+		}
+	}
+
+	&__flight-check-cta {
+		color: get-color('dark-sky-blue');
+		font-family: var(--font-family-poppins-regular);
+		font-size: $font-size-small;
+		font-style: normal;
+		font-weight: 500;
+		line-height: rem(20px);
+		text-decoration-line: underline;
+		text-transform: uppercase;
+		cursor: pointer;
+
+		@include media(">=tablet") {
+			font-size: rem(16px);
+		}
+	}
+
+}
+
+.unmr-notification {
+	align-items: center;
+
+	column-gap: rem(10px);
+	width: fit-content;
+	margin-bottom: rem(15px);
+
+	border-radius: rem(8px);
+	border: 1px solid #A97D0E;
+	background: #FFF8E5;
+	padding: rem(16px);
+	margin: 0 rem(20px) rem(20px) rem(20px);
+
+	@include media(">=tablet") {
+		padding: rem(24px);
+		margin: unset;
+		margin-bottom: rem(16px);
+	}
+
+	&__title {
+		font-weight: bold;
+		display: flex;
+		gap: rem(15px);
+		font-size: rem(20px);
+		line-height: rem(20px);
+		padding-bottom: 17px;
+		color: get-color("gray-5");
+	}
+
+	&__text-container {
+		display: flex;
+		gap: rem(10px) rem(20px);
+		justify-content: space-between;
+		color: get-color("gray-5");
+		font-size: rem(12px);
+		font-style: normal;
+		font-weight: 400;
+		line-height: 18px;
+		font-family: var(--font-family-poppins-regular);
+		flex-direction: column;
+
+		@include media(">=tablet") {
+			flex-direction: row;
+		}
+
+		p {
+			font-size: rem(12px);
+			line-height: rem(18px);
+
+			@include media(">=tablet") {
+				font-size: rem(14px);
+				line-height: rem(20px);
+			}
+		}
+	}
+
+	&__download-btn {
+		border-color: get-color("indigo-primary");
+		color: get-color("indigo-primary");
+		display: flex;
+		align-items: center;
+		gap: rem(8px);
+		font-weight: 700;
+		white-space: nowrap;
+		text-decoration: underline;
+		text-transform: uppercase;
+	}
+}

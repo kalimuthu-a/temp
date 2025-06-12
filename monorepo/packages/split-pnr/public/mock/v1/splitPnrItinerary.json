@@ -1,0 +1,3089 @@
+{
+  "data": {
+    "oldFlightDetail": null,
+    "bookingDetails": {
+      "isShowFillHealthFormLink": false,
+      "bookingKey": "NDQ3MTQ2MjY4IUlaSVJGQSFmYWxzZQ--",
+      "isToShowFareMaskOption": null,
+      "fareMaskOptionValue": null,
+      "pnrType": null,
+      "recordLocator": "IZIRFA",
+      "parentRecordLocator": "",
+      "numericRecordLocator": "171617351101",
+      "bookingStatus": "Confirmed",
+      "paymentStatus": "Complete",
+      "channelType": 6,
+      "currencyCode": "INR",
+      "bookedDate": "2024-11-13T09:43:56.29Z",
+      "createdDate": "2024-11-13T09:43:56.29Z",
+      "expirationDate": "2025-04-01T00:30:00Z",
+      "modifiedDate": "2024-11-13T09:43:56.29Z",
+      "cancelledDate": null,
+      "holdDate": null,
+      "createdByAgent": "16697399",
+      "createdByRoleCode": "",
+      "owningCarrierCode": "6E",
+      "changeAllowed": true,
+      "recordLocators": [],
+      "showAutoRefundPopUp": true,
+      "hasModification": false,
+      "specialFareCode": null,
+      "promoCode": null,
+      "plKey": "WMohJPAFS7XdFQBjMmhI6uxa/yyUDIk8JKrrdow7ZtE=",
+      "paymentMethodCode": "RP",
+      "isOtpRequiredForModification": true,
+      "userRoleName": "Anonymous",
+      "userRoleCode": "WWWA",
+      "transactionId": "JFTWEBAAE241113094242",
+      "paymentMethodDetails": "HDFC Bank",
+      "paymentMethodName": "CARD",
+      "paymentMethod": "Razor Pay",
+      "journeyType": "RoundTrip",
+      "webCheckinWindow": "2",
+      "isCheckinOpen": true,
+      "purposeOfTravel": null,
+      "IsScratchCardUser": true,
+      "isPlanB": false,
+      "planBType": null,
+      "isPlanBSeatChanged": false,
+      "isRedeemTransaction": false,
+      "isLoyaltyActiveUser": true
+    },
+    "navigationMenu": [
+      {
+        "buttonCode": "undochkn",
+        "isDisabled": true,
+        "disbaleReason": null,
+        "NotAvailableForSectors": null,
+        "subMenu": null
+      },
+      {
+        "buttonCode": "googleWallet",
+        "isDisabled": true,
+        "disbaleReason": null,
+        "NotAvailableForSectors": null,
+        "subMenu": null
+      },
+      {
+        "buttonCode": "modify",
+        "isDisabled": false,
+        "disbaleReason": "",
+        "NotAvailableForSectors": null,
+        "subMenu": [
+          {
+            "buttonCode": "CancelBooking",
+            "isDisabled": false,
+            "disbaleReason": null,
+            "key": null,
+            "isBundle": null,
+            "ssrList": null,
+            "NotAvailableForSectors": null,
+            "isOtpRequired": false
+          },
+          {
+            "buttonCode": "CancelFlight",
+            "isDisabled": false,
+            "disbaleReason": null,
+            "key": null,
+            "isBundle": null,
+            "ssrList": null,
+            "NotAvailableForSectors": null,
+            "isOtpRequired": false
+          },
+          {
+            "buttonCode": "ChangeFlight",
+            "isDisabled": false,
+            "disbaleReason": "",
+            "key": null,
+            "isBundle": null,
+            "ssrList": null,
+            "NotAvailableForSectors": null,
+            "isOtpRequired": false
+          },
+          {
+            "buttonCode": "changeaddseat",
+            "isDisabled": false,
+            "disbaleReason": null,
+            "key": null,
+            "isBundle": null,
+            "ssrList": null,
+            "NotAvailableForSectors": null,
+            "isOtpRequired": false
+          },
+          {
+            "buttonCode": "updatecontact",
+            "isDisabled": false,
+            "disbaleReason": null,
+            "key": null,
+            "isBundle": null,
+            "ssrList": null,
+            "NotAvailableForSectors": null,
+            "isOtpRequired": true
+          },
+          {
+            "buttonCode": "addpayment",
+            "isDisabled": true,
+            "disbaleReason": null,
+            "key": null,
+            "isBundle": null,
+            "ssrList": null,
+            "NotAvailableForSectors": null,
+            "isOtpRequired": false
+          },
+          {
+            "buttonCode": "UpdateFFN",
+            "isDisabled": false,
+            "disbaleReason": null,
+            "key": null,
+            "isBundle": null,
+            "ssrList": null,
+            "NotAvailableForSectors": null,
+            "isOtpRequired": false
+          },
+          {
+            "buttonCode": "RetroClaim",
+            "isDisabled": false,
+            "disbaleReason": null,
+            "key": null,
+            "isBundle": null,
+            "ssrList": null,
+            "NotAvailableForSectors": null,
+            "isOtpRequired": false
+          }
+        ]
+      },
+      {
+        "buttonCode": "splitpnr",
+        "isDisabled": false,
+        "disbaleReason": null,
+        "NotAvailableForSectors": null,
+        "subMenu": null
+      },
+      {
+        "buttonCode": "addons",
+        "isDisabled": false,
+        "disbaleReason": "",
+        "NotAvailableForSectors": null,
+        "subMenu": [
+          {
+            "buttonCode": "Meal",
+            "isDisabled": false,
+            "disbaleReason": null,
+            "key": "",
+            "isBundle": "false",
+            "ssrList": "",
+            "NotAvailableForSectors": null,
+            "isOtpRequired": false
+          },
+          {
+            "buttonCode": "addfastforward",
+            "isDisabled": false,
+            "disbaleReason": null,
+            "key": "ffwd",
+            "isBundle": "false",
+            "ssrList": "FFWD",
+            "NotAvailableForSectors": null,
+            "isOtpRequired": false
+          },
+          {
+            "buttonCode": "addlounge",
+            "isDisabled": false,
+            "disbaleReason": "",
+            "key": "DLNG",
+            "isBundle": "false",
+            "ssrList": "DLNG",
+            "NotAvailableForSectors": null,
+            "isOtpRequired": false
+          },
+          {
+            "buttonCode": "addwchr",
+            "isDisabled": false,
+            "disbaleReason": null,
+            "key": "wchr",
+            "isBundle": "false",
+            "ssrList": "WCHR,WCHC",
+            "NotAvailableForSectors": null,
+            "isOtpRequired": false
+          },
+          {
+            "buttonCode": "addprime",
+            "isDisabled": false,
+            "disbaleReason": null,
+            "key": "prim",
+            "isBundle": "true",
+            "ssrList": "prim",
+            "NotAvailableForSectors": null,
+            "isOtpRequired": false
+          },
+          {
+            "buttonCode": "addquickboard",
+            "isDisabled": false,
+            "disbaleReason": null,
+            "key": "quick",
+            "isBundle": "false",
+            "ssrList": "quick",
+            "NotAvailableForSectors": null,
+            "isOtpRequired": false
+          },
+          {
+            "buttonCode": "addseatneat",
+            "isDisabled": false,
+            "disbaleReason": null,
+            "key": "seatneat",
+            "isBundle": "true",
+            "ssrList": "seatneat",
+            "NotAvailableForSectors": null,
+            "isOtpRequired": false
+          },
+          {
+            "buttonCode": "addbrb",
+            "isDisabled": false,
+            "disbaleReason": null,
+            "key": "brb",
+            "isBundle": "false",
+            "ssrList": "BRB",
+            "NotAvailableForSectors": null,
+            "isOtpRequired": false
+          },
+          {
+            "buttonCode": "addsportsequipment",
+            "isDisabled": false,
+            "disbaleReason": null,
+            "key": "speq",
+            "isBundle": "false",
+            "ssrList": "SPEQ",
+            "NotAvailableForSectors": null,
+            "isOtpRequired": false
+          },
+          {
+            "buttonCode": "addta",
+            "isDisabled": true,
+            "disbaleReason": null,
+            "key": "ta",
+            "isBundle": "false",
+            "ssrList": "TA",
+            "NotAvailableForSectors": "DEL-TBS,GYD-*,*-GYD,DPS-*,*-DPS",
+            "isOtpRequired": false
+          },
+          {
+            "buttonCode": "add6ebar",
+            "isDisabled": true,
+            "disbaleReason": null,
+            "key": "6ebar",
+            "isBundle": "false",
+            "ssrList": "BEER,RDWI,VDKA,WHSK,WHWI",
+            "NotAvailableForSectors": null,
+            "isOtpRequired": false
+          },
+          {
+            "buttonCode": "addgoodnightkit",
+            "isDisabled": true,
+            "disbaleReason": null,
+            "key": "goodnightkit",
+            "isBundle": "false",
+            "ssrList": "BLKT,NPLW,EMDK",
+            "NotAvailableForSectors": null,
+            "isOtpRequired": false
+          },
+          {
+            "buttonCode": "adddelayednlostbaggage",
+            "isDisabled": false,
+            "disbaleReason": null,
+            "key": "lbg",
+            "isBundle": "false",
+            "ssrList": "LBG",
+            "NotAvailableForSectors": null,
+            "isOtpRequired": false
+          },
+          {
+            "buttonCode": "addexcessbaggage",
+            "isDisabled": false,
+            "disbaleReason": null,
+            "key": "",
+            "isBundle": "false",
+            "ssrList": "XBPA, XBPB, XBPC, XBPD, XBPE, XBPF, IXBA, IXBB, IXBC, XBPJ",
+            "NotAvailableForSectors": null,
+            "isOtpRequired": false
+          }
+        ]
+      },
+      {
+        "buttonCode": "webchkn",
+        "isDisabled": false,
+        "disbaleReason": null,
+        "NotAvailableForSectors": null,
+        "subMenu": null
+      },
+      {
+        "buttonCode": "emailitr",
+        "isDisabled": false,
+        "disbaleReason": null,
+        "NotAvailableForSectors": null,
+        "subMenu": null
+      },
+      {
+        "buttonCode": "emailbp",
+        "isDisabled": true,
+        "disbaleReason": null,
+        "NotAvailableForSectors": null,
+        "subMenu": null
+      },
+      {
+        "buttonCode": "whatsappbp",
+        "isDisabled": true,
+        "disbaleReason": null,
+        "NotAvailableForSectors": null,
+        "subMenu": null
+      },
+      {
+        "buttonCode": "addbagtag",
+        "isDisabled": true,
+        "disbaleReason": null,
+        "NotAvailableForSectors": null,
+        "subMenu": null
+      },
+      {
+        "buttonCode": "viewbagtag",
+        "isDisabled": true,
+        "disbaleReason": null,
+        "NotAvailableForSectors": null,
+        "subMenu": null
+      },
+      {
+        "buttonCode": "print",
+        "isDisabled": false,
+        "disbaleReason": null,
+        "NotAvailableForSectors": null,
+        "subMenu": null
+      },
+      {
+        "buttonCode": "flightstatus",
+        "isDisabled": false,
+        "disbaleReason": null,
+        "NotAvailableForSectors": null,
+        "subMenu": null
+      },
+      {
+        "buttonCode": "whatsapp",
+        "isDisabled": true,
+        "disbaleReason": null,
+        "NotAvailableForSectors": null,
+        "subMenu": null
+      }
+    ],
+    "checkinNavigationMenu": [
+      {
+        "buttonCode": "undochkn",
+        "isDisabled": true,
+        "disbaleReason": null,
+        "NotAvailableForSectors": null,
+        "subMenu": null
+      },
+      {
+        "buttonCode": "webchkn",
+        "isDisabled": false,
+        "disbaleReason": null,
+        "NotAvailableForSectors": null,
+        "subMenu": null
+      },
+      {
+        "buttonCode": "boardingPass",
+        "isDisabled": true,
+        "disbaleReason": null,
+        "NotAvailableForSectors": null,
+        "subMenu": null
+      },
+      {
+        "buttonCode": "smartcheckin",
+        "isDisabled": true,
+        "disbaleReason": null,
+        "NotAvailableForSectors": null,
+        "subMenu": null
+      }
+    ],
+    "navigationMenu_Mb": {
+      "Saver": [
+        {
+          "buttonCode": "download",
+          "isDisabled": false,
+          "disbaleReason": "",
+          "NotAvailableForSectors": "",
+          "subMenu": null
+        },
+        {
+          "buttonCode": "share",
+          "isDisabled": false,
+          "disbaleReason": "",
+          "NotAvailableForSectors": "",
+          "subMenu": null
+        },
+        {
+          "buttonCode": "wallet",
+          "isDisabled": false,
+          "disbaleReason": "",
+          "NotAvailableForSectors": "",
+          "subMenu": null
+        },
+        {
+          "buttonCode": "emailitr",
+          "isDisabled": false,
+          "disbaleReason": null,
+          "NotAvailableForSectors": null,
+          "subMenu": null
+        }
+      ],
+      "Modify": [
+        {
+          "buttonCode": "splitpnr",
+          "isDisabled": false,
+          "disbaleReason": "",
+          "key": null,
+          "isBundle": null,
+          "ssrList": null,
+          "NotAvailableForSectors": "",
+          "isOtpRequired": false
+        },
+        {
+          "buttonCode": "specialassistant",
+          "isDisabled": false,
+          "disbaleReason": "",
+          "key": null,
+          "isBundle": null,
+          "ssrList": null,
+          "NotAvailableForSectors": "",
+          "isOtpRequired": false
+        },
+        {
+          "buttonCode": "addons",
+          "isDisabled": false,
+          "disbaleReason": "",
+          "key": null,
+          "isBundle": null,
+          "ssrList": null,
+          "NotAvailableForSectors": "",
+          "isOtpRequired": false
+        },
+        {
+          "buttonCode": "googleWallet",
+          "isDisabled": true,
+          "disbaleReason": "",
+          "key": null,
+          "isBundle": null,
+          "ssrList": null,
+          "NotAvailableForSectors": "",
+          "isOtpRequired": false
+        },
+        {
+          "buttonCode": "CancelFlight",
+          "isDisabled": false,
+          "disbaleReason": null,
+          "key": null,
+          "isBundle": null,
+          "ssrList": null,
+          "NotAvailableForSectors": null,
+          "isOtpRequired": false
+        },
+        {
+          "buttonCode": "ChangeFlight",
+          "isDisabled": false,
+          "disbaleReason": "",
+          "key": null,
+          "isBundle": null,
+          "ssrList": null,
+          "NotAvailableForSectors": null,
+          "isOtpRequired": false
+        },
+        {
+          "buttonCode": "changeaddseat",
+          "isDisabled": false,
+          "disbaleReason": null,
+          "key": null,
+          "isBundle": null,
+          "ssrList": null,
+          "NotAvailableForSectors": null,
+          "isOtpRequired": false
+        },
+        {
+          "buttonCode": "updatecontact",
+          "isDisabled": false,
+          "disbaleReason": null,
+          "key": null,
+          "isBundle": null,
+          "ssrList": null,
+          "NotAvailableForSectors": null,
+          "isOtpRequired": false
+        },
+        {
+          "buttonCode": "UpdateFFN",
+          "isDisabled": false,
+          "disbaleReason": null,
+          "key": null,
+          "isBundle": null,
+          "ssrList": null,
+          "NotAvailableForSectors": null,
+          "isOtpRequired": false
+        },
+        {
+          "buttonCode": "RetroClaim",
+          "isDisabled": false,
+          "disbaleReason": null,
+          "key": null,
+          "isBundle": null,
+          "ssrList": null,
+          "NotAvailableForSectors": null,
+          "isOtpRequired": false
+        }
+      ]
+    },
+    "journeysDetail": [
+      {
+        "productClass": "",
+        "journeyKey": "NkV_MjAyNX4gfn5ERUx_MDIvMDEvMjAyNSAwNTo0NX5MS09_MDIvMDEvMjAyNSAwNjo1NX5_",
+        "journeyType": null,
+        "showUdaanLogo": false,
+        "flightType": "NonStop",
+        "stops": 0,
+        "journeydetail": {
+          "destination": "LKO",
+          "origin": "DEL",
+          "arrival": "2025-02-01T06:55:00",
+          "departure": "2025-02-01T05:45:00",
+          "utcarrival": "2025-02-01T01:25:00Z",
+          "utcdeparture": "2025-02-01T00:15:00Z",
+          "identifier": null,
+          "destinationName": "Chaudhary Charan Singh International Airport",
+          "originName": "Indira Gandhi International Airport",
+          "originCityName": "Delhi",
+          "destinationCityName": "Lucknow",
+          "canBeChanged": true,
+          "canBeCancelled": true,
+          "baggageData": {
+            "handBaggageWeight": 7,
+            "checkinBaggageWeight": 15,
+            "checkinLimitPerPiece": 0,
+            "handBaggageCount": 1,
+            "checkinBaggageCount": 0,
+            "codeShareWeightLimitPerPiece": 0
+          }
+        },
+        "segments": [
+          {
+            "segmentDetails": {
+              "destination": "LKO",
+              "origin": "DEL",
+              "arrival": "2025-02-01T06:55:00",
+              "departure": "2025-02-01T05:45:00",
+              "utcarrival": "2025-02-01T01:25:00Z",
+              "utcdeparture": "2025-02-01T00:15:00Z",
+              "identifier": {
+                "identifier": "2025",
+                "carrierCode": "6E",
+                "opSuffix": null
+              },
+              "destinationName": "Chaudhary Charan Singh International Airport",
+              "originName": "Indira Gandhi International Airport",
+              "originCityName": "Delhi",
+              "destinationCityName": "Lucknow"
+            },
+            "segmentKey": "NkV_MjAyNX4gfn5ERUx_MDIvMDEvMjAyNSAwNTo0NX5MS09_MDIvMDEvMjAyNSAwNjo1NX5_",
+            "legs": [
+              {
+                "legKey": "NjM4NzM5ODU1MDAwMDAwMDAwITZFITIwMjUhICFERUwhTEtPITgzMTEwOTQ-",
+                "operationsInfo": null,
+                "legDetails": {
+                  "destination": "LKO",
+                  "origin": "DEL",
+                  "arrival": "2025-02-01T06:55:00",
+                  "departure": "2025-02-01T05:45:00",
+                  "identifier": {
+                    "identifier": null,
+                    "carrierCode": "",
+                    "opSuffix": ""
+                  },
+                  "utcarrival": "2025-02-01T01:25:00Z",
+                  "utcdeparture": "2025-02-01T00:15:00Z",
+                  "adjustedCapacity": 0,
+                  "arrivalTerminal": "3",
+                  "arrivalTimeVariant": 0,
+                  "backMoveDays": 0,
+                  "capacity": 186,
+                  "changeOfDirection": false,
+                  "codeShareIndicator": 0,
+                  "departureTerminal": "2",
+                  "departureTimeVariant": 0,
+                  "equipmentType": "320",
+                  "equipmentTypeSuffix": null,
+                  "eTicket": false,
+                  "irop": false,
+                  "lid": 186,
+                  "marketingCode": null,
+                  "marketingOverride": false,
+                  "onTime": null,
+                  "operatedByText": null,
+                  "operatingCarrier": null,
+                  "operatingFlightNumber": null,
+                  "operatingOpSuffix": null,
+                  "outMoveDays": 0,
+                  "prbcCode": "Y186",
+                  "scheduleServiceType": null,
+                  "sold": 4,
+                  "status": 0,
+                  "subjectToGovtApproval": false,
+                  "originName": "Indira Gandhi International Airport",
+                  "destinationName": "Chaudhary Charan Singh International Airport",
+                  "originCityName": "Delhi",
+                  "destinationCityName": "Lucknow"
+                },
+                "designator": null,
+                "ssrs": null
+              }
+            ],
+            "designator": {
+              "destination": "LKO",
+              "origin": "DEL",
+              "arrival": "2025-02-01T06:55:00",
+              "departure": "2025-02-01T05:45:00"
+            },
+            "operatedByText": null,
+            "isvalidforudaanlogo": false,
+            "isSeatmapViewable": true,
+            "baggageAllowanceWeight": 0,
+            "baggageAllowanceUsed": false,
+            "baggageAllowanceWeightType": 0,
+            "boardingSequence": null,
+            "barcodestring": null,
+            "liftStatus": null,
+            "hasInfant": false,
+            "tickets": [],
+            "bundleCode": null,
+            "isToShowOTB": false,
+            "okToBoardValue": false,
+            "isShowViewHealthFormLink": false,
+            "isShowFillHealthFormLink": false,
+            "isShowBoardingPass": false,
+            "seats": null,
+            "ssrs": null,
+            "seatmapReference": "NkUhMjAyNSEgITYzODczOTg1NTAwMDAwMDAwMCFERUwhTEtP",
+            "externalIdentifier": null,
+            "international": false,
+            "passengerSegment": null,
+            "productClass": "N"
+          }
+        ],
+        "isInboundInternational": false,
+        "flightLable": "DEPARTING"
+      },
+      {
+        "productClass": "",
+        "journeyKey": "NkV_NTA4Mn4gfn5MS09_MDMvMzEvMjAyNSAwNjowMH5ERUx_MDMvMzEvMjAyNSAwNzoxMH5_",
+        "journeyType": null,
+        "showUdaanLogo": false,
+        "flightType": "NonStop",
+        "stops": 0,
+        "journeydetail": {
+          "destination": "DEL",
+          "origin": "LKO",
+          "arrival": "2025-03-31T07:10:00",
+          "departure": "2025-03-31T06:00:00",
+          "utcarrival": "2025-03-31T01:40:00Z",
+          "utcdeparture": "2025-03-31T00:30:00Z",
+          "identifier": null,
+          "destinationName": "Indira Gandhi International Airport",
+          "originName": "Chaudhary Charan Singh International Airport",
+          "originCityName": "Lucknow",
+          "destinationCityName": "Delhi",
+          "canBeChanged": true,
+          "canBeCancelled": true,
+          "baggageData": {
+            "handBaggageWeight": 7,
+            "checkinBaggageWeight": 15,
+            "checkinLimitPerPiece": 0,
+            "handBaggageCount": 1,
+            "checkinBaggageCount": 0,
+            "codeShareWeightLimitPerPiece": 0
+          }
+        },
+        "segments": [
+          {
+            "segmentDetails": {
+              "destination": "DEL",
+              "origin": "LKO",
+              "arrival": "2025-03-31T07:10:00",
+              "departure": "2025-03-31T06:00:00",
+              "utcarrival": "2025-03-31T01:40:00Z",
+              "utcdeparture": "2025-03-31T00:30:00Z",
+              "identifier": {
+                "identifier": "5082",
+                "carrierCode": "6E",
+                "opSuffix": null
+              },
+              "destinationName": "Indira Gandhi International Airport",
+              "originName": "Chaudhary Charan Singh International Airport",
+              "originCityName": "Lucknow",
+              "destinationCityName": "Delhi"
+            },
+            "segmentKey": "NkV_NTA4Mn4gfn5MS09_MDMvMzEvMjAyNSAwNjowMH5ERUx_MDMvMzEvMjAyNSAwNzoxMH5_",
+            "legs": [
+              {
+                "legKey": "NjM4Nzg5OTc2MDAwMDAwMDAwITZFITUwODIhICFMS08hREVMITg1MzY2MzY-",
+                "operationsInfo": null,
+                "legDetails": {
+                  "destination": "DEL",
+                  "origin": "LKO",
+                  "arrival": "2025-03-31T07:10:00",
+                  "departure": "2025-03-31T06:00:00",
+                  "identifier": {
+                    "identifier": null,
+                    "carrierCode": "",
+                    "opSuffix": ""
+                  },
+                  "utcarrival": "2025-03-31T01:40:00Z",
+                  "utcdeparture": "2025-03-31T00:30:00Z",
+                  "adjustedCapacity": 0,
+                  "arrivalTerminal": "3",
+                  "arrivalTimeVariant": 0,
+                  "backMoveDays": 0,
+                  "capacity": 186,
+                  "changeOfDirection": false,
+                  "codeShareIndicator": 0,
+                  "departureTerminal": "3",
+                  "departureTimeVariant": 0,
+                  "equipmentType": "320",
+                  "equipmentTypeSuffix": null,
+                  "eTicket": false,
+                  "irop": false,
+                  "lid": 186,
+                  "marketingCode": null,
+                  "marketingOverride": false,
+                  "onTime": null,
+                  "operatedByText": null,
+                  "operatingCarrier": null,
+                  "operatingFlightNumber": null,
+                  "operatingOpSuffix": null,
+                  "outMoveDays": 0,
+                  "prbcCode": "Y186",
+                  "scheduleServiceType": null,
+                  "sold": 4,
+                  "status": 0,
+                  "subjectToGovtApproval": false,
+                  "originName": "Chaudhary Charan Singh International Airport",
+                  "destinationName": "Indira Gandhi International Airport",
+                  "originCityName": "Lucknow",
+                  "destinationCityName": "Delhi"
+                },
+                "designator": null,
+                "ssrs": null
+              }
+            ],
+            "designator": {
+              "destination": "DEL",
+              "origin": "LKO",
+              "arrival": "2025-03-31T07:10:00",
+              "departure": "2025-03-31T06:00:00"
+            },
+            "operatedByText": null,
+            "isvalidforudaanlogo": false,
+            "isSeatmapViewable": true,
+            "baggageAllowanceWeight": 0,
+            "baggageAllowanceUsed": false,
+            "baggageAllowanceWeightType": 0,
+            "boardingSequence": null,
+            "barcodestring": null,
+            "liftStatus": null,
+            "hasInfant": false,
+            "tickets": [],
+            "bundleCode": null,
+            "isToShowOTB": false,
+            "okToBoardValue": false,
+            "isShowViewHealthFormLink": false,
+            "isShowFillHealthFormLink": false,
+            "isShowBoardingPass": false,
+            "seats": null,
+            "ssrs": null,
+            "seatmapReference": "NkUhNTA4MiEgITYzODc4OTk3NjAwMDAwMDAwMCFMS08hREVM",
+            "externalIdentifier": null,
+            "international": false,
+            "passengerSegment": null,
+            "productClass": "N"
+          }
+        ],
+        "isInboundInternational": false,
+        "flightLable": "RETURNED"
+      }
+    ],
+    "gstInformation": null,
+    "sales": null,
+    "typeOfSale": null,
+    "hold": null,
+    "priceBreakdown": {
+      "balanceDue": 0.0,
+      "pointsBalanceDue": null,
+      "authorizedBalanceDue": 0.0,
+      "totalAmount": 33254.0,
+      "totalDiscount": null,
+      "originalTotal": null,
+      "totalPoints": 0.0,
+      "totalToCollect": 33254.0,
+      "totalPointsToCollect": 0.0,
+      "totalCharged": 33254.0,
+      "totalTax": 8148.0,
+      "seatAmount": 4000.0,
+      "airfareCharges": 16814.0,
+      "airfareChargesInPoints": 0.0,
+      "convenienceFee": 1592.0,
+      "totalRefundAmount": 0.0,
+      "taxAmountList": [
+        {
+          "feeCode": "ASF",
+          "feeName": "DEL-LKO",
+          "feeCodeName": "Aviation Security Fee",
+          "value": 1888.0,
+          "originalValue": 0.0,
+          "discountPer": null,
+          "type": 4,
+          "isHiddenInUI": false
+        },
+        {
+          "feeCode": "PSF",
+          "feeName": "DEL-LKO",
+          "feeCodeName": "Passenger Service Fee",
+          "value": 364.0,
+          "originalValue": 0.0,
+          "discountPer": null,
+          "type": 4,
+          "isHiddenInUI": false
+        },
+        {
+          "feeCode": "UDF",
+          "feeName": "DEL-LKO",
+          "feeCodeName": "User Development fee",
+          "value": 4256.0,
+          "originalValue": 0.0,
+          "discountPer": null,
+          "type": 4,
+          "isHiddenInUI": false
+        },
+        {
+          "feeCode": "07GST",
+          "feeName": "DEL-LKO",
+          "feeCodeName": "GST for Delhi",
+          "value": 465.0,
+          "originalValue": 0.0,
+          "discountPer": null,
+          "type": 5,
+          "isHiddenInUI": false
+        },
+        {
+          "feeCode": "09GST",
+          "feeName": "LKO-DEL",
+          "feeCodeName": "GST for Uttar Pradesh",
+          "value": 375.0,
+          "originalValue": 0.0,
+          "discountPer": null,
+          "type": 5,
+          "isHiddenInUI": false
+        }
+      ],
+      "ssrAmountlist": [],
+      "passengerTotals": null,
+      "passengers": null,
+      "journeyTotals": null,
+      "journeys": null,
+      "addOnTotals": null,
+      "infantFee": 3500.0,
+      "infantCount": 1,
+      "promoCode": null,
+      "promisPoints": [
+        {
+          "name": "Saver fare plus miles",
+          "cat": "fare",
+          "code": "Airfare",
+          "value": "0"
+        },
+        {
+          "name": "Seat selection miles",
+          "cat": "seat",
+          "code": "Seat",
+          "value": "0"
+        },
+        {
+          "name": "Add-ons miles",
+          "cat": "addon",
+          "code": "FFWD",
+          "value": "0"
+        },
+        {
+          "name": "Add-ons miles",
+          "cat": "addon",
+          "code": "Baggage",
+          "value": "0"
+        },
+        {
+          "name": "TOTAL MILES EARNED",
+          "cat": "total",
+          "code": "Total",
+          "value": "0"
+        }
+      ],
+      "adultCount": 14,
+      "refundList": null
+    },
+    "contacts": [
+      {
+        "homePhoneCountryCode": "91",
+        "homePhone": "87****99",
+        "otherPhoneCountryCode": "91",
+        "otherPhone": "",
+        "emergencyPhoneCountryCode": null,
+        "emergencyPhone": null,
+        "emergencyContactRelationship": "Advised of Fare Rule",
+        "isWhatsAppSubscribed": false,
+        "emailAddress": "S****a@GOINDIGO.IN",
+        "name": {
+          "first": "A",
+          "middle": null,
+          "last": "B",
+          "title": "MR",
+          "suffix": null
+        },
+        "address": null,
+        "companyName": null,
+        "cultureCode": null,
+        "customerNumber": null,
+        "sourceOrganization": null
+      }
+    ],
+    "gAContacts": [
+      {
+        "homePhone": "O36g8NLUydVAihQjkEMARQ==",
+        "emailAddress": "ga9am30qdXfJ2eYXNHfO6fUAOdUtwD5bom5T6xPIjPk="
+      }
+    ],
+    "passengers": [
+      {
+        "passengerKey": "MCFBRFQ-",
+        "services": null,
+        "specialServices": null,
+        "upgrades": null,
+        "spoilage": null,
+        "nameChanges": null,
+        "convenience": null,
+        "program": {
+          "code": null,
+          "levelCode": "BASE",
+          "number": null
+        },
+        "infant": {
+          "total": null,
+          "taxes": null,
+          "adjustments": null,
+          "charges": null,
+          "nationality": null,
+          "dateOfBirth": "2024-09-19T00:00:00",
+          "travelDocuments": null,
+          "residentCountry": null,
+          "gender": 1,
+          "name": {
+            "first": "I",
+            "middle": null,
+            "last": "J",
+            "title": "MR",
+            "suffix": null
+          }
+        },
+        "passengerAlternateKey": "NjUxNzQ1NjUy",
+        "ExtraSeatTag": null,
+        "name": {
+          "first": "A",
+          "middle": null,
+          "last": "B",
+          "title": "MR",
+          "suffix": null
+        },
+        "passengerTypeCode": "ADT",
+        "discountCode": null,
+        "bags": [],
+        "info": {
+          "nationality": null,
+          "gender": 1,
+          "dateOfBirth": null
+        },
+        "travelDocuments": null,
+        "eTicketNumber": "",
+        "seatsAndSsrs": {
+          "journeys": [
+            {
+              "designator": {
+                "destination": "LKO",
+                "origin": "DEL",
+                "arrival": "2025-02-01T06:55:00",
+                "departure": "2025-02-01T05:45:00"
+              },
+              "segments": [
+                {
+                  "segmentDetails": {
+                    "destination": "LKO",
+                    "origin": "DEL",
+                    "arrival": "2025-02-01T06:55:00",
+                    "departure": "2025-02-01T05:45:00",
+                    "utcarrival": "2025-02-01T01:25:00Z",
+                    "utcdeparture": "2025-02-01T00:15:00Z",
+                    "identifier": {
+                      "identifier": "2025",
+                      "carrierCode": "6E",
+                      "opSuffix": null
+                    },
+                    "destinationName": "Chaudhary Charan Singh International Airport",
+                    "originName": "Indira Gandhi International Airport",
+                    "originCityName": "Delhi",
+                    "destinationCityName": "Lucknow"
+                  },
+                  "segmentKey": "NkV_MjAyNX4gfn5ERUx_MDIvMDEvMjAyNSAwNTo0NX5MS09_MDIvMDEvMjAyNSAwNjo1NX5_",
+                  "legs": [
+                    {
+                      "legKey": "NjM4NzM5ODU1MDAwMDAwMDAwITZFITIwMjUhICFERUwhTEtPITgzMTEwOTQ-",
+                      "operationsInfo": null,
+                      "legDetails": null,
+                      "designator": {
+                        "destination": "LKO",
+                        "origin": "DEL",
+                        "arrival": "2025-02-01T06:55:00",
+                        "departure": "2025-02-01T05:45:00"
+                      },
+                      "ssrs": null
+                    }
+                  ],
+                  "designator": {
+                    "destination": "LKO",
+                    "origin": "DEL",
+                    "arrival": "2025-02-01T06:55:00",
+                    "departure": "2025-02-01T05:45:00"
+                  },
+                  "operatedByText": null,
+                  "isvalidforudaanlogo": false,
+                  "isSeatmapViewable": true,
+                  "baggageAllowanceWeight": 0,
+                  "baggageAllowanceUsed": null,
+                  "baggageAllowanceWeightType": null,
+                  "boardingSequence": "0",
+                  "barcodestring": "M1B/A                  IZIRFA DELLKO6E 0000 032Y000Y00000 009NjUxNzQ1NjUy",
+                  "liftStatus": "Default",
+                  "hasInfant": true,
+                  "tickets": null,
+                  "bundleCode": null,
+                  "isToShowOTB": false,
+                  "okToBoardValue": false,
+                  "isShowViewHealthFormLink": false,
+                  "isShowFillHealthFormLink": false,
+                  "isShowBoardingPass": false,
+                  "seats": [
+                    {
+                      "unitDesignator": "5F",
+                      "type": "Window",
+                      "changeSelectSeatAllowed": true,
+                      "total": 500.0,
+                      "taxes": 24.0,
+                      "adjustments": null,
+                      "charges": null,
+                      "category": "STANDARD"
+                    }
+                  ],
+                  "ssrs": [],
+                  "seatmapReference": null,
+                  "externalIdentifier": null,
+                  "international": false,
+                  "passengerSegment": null,
+                  "productClass": null
+                }
+              ],
+              "journeyKey": "NkV_MjAyNX4gfn5ERUx_MDIvMDEvMjAyNSAwNTo0NX5MS09_MDIvMDEvMjAyNSAwNjo1NX5_",
+              "journeyDetails": {
+                "destination": "LKO",
+                "origin": "DEL",
+                "arrival": "2025-02-01T06:55:00",
+                "departure": "2025-02-01T05:45:00",
+                "utcarrival": "2025-02-01T01:25:00Z",
+                "utcdeparture": "2025-02-01T00:15:00Z",
+                "identifier": null,
+                "destinationName": "Chaudhary Charan Singh International Airport",
+                "originName": "Indira Gandhi International Airport",
+                "originCityName": "Delhi",
+                "destinationCityName": "Lucknow",
+                "canBeChanged": true,
+                "canBeCancelled": true,
+                "baggageData": {
+                  "handBaggageWeight": 7,
+                  "checkinBaggageWeight": 15,
+                  "checkinLimitPerPiece": 0,
+                  "handBaggageCount": 1,
+                  "checkinBaggageCount": 0,
+                  "codeShareWeightLimitPerPiece": 0
+                }
+              }
+            },
+            {
+              "designator": {
+                "destination": "DEL",
+                "origin": "LKO",
+                "arrival": "2025-03-31T07:10:00",
+                "departure": "2025-03-31T06:00:00"
+              },
+              "segments": [
+                {
+                  "segmentDetails": {
+                    "destination": "DEL",
+                    "origin": "LKO",
+                    "arrival": "2025-03-31T07:10:00",
+                    "departure": "2025-03-31T06:00:00",
+                    "utcarrival": "2025-03-31T01:40:00Z",
+                    "utcdeparture": "2025-03-31T00:30:00Z",
+                    "identifier": {
+                      "identifier": "5082",
+                      "carrierCode": "6E",
+                      "opSuffix": null
+                    },
+                    "destinationName": "Indira Gandhi International Airport",
+                    "originName": "Chaudhary Charan Singh International Airport",
+                    "originCityName": "Lucknow",
+                    "destinationCityName": "Delhi"
+                  },
+                  "segmentKey": "NkV_NTA4Mn4gfn5MS09_MDMvMzEvMjAyNSAwNjowMH5ERUx_MDMvMzEvMjAyNSAwNzoxMH5_",
+                  "legs": [
+                    {
+                      "legKey": "NjM4Nzg5OTc2MDAwMDAwMDAwITZFITUwODIhICFMS08hREVMITg1MzY2MzY-",
+                      "operationsInfo": null,
+                      "legDetails": null,
+                      "designator": {
+                        "destination": "DEL",
+                        "origin": "LKO",
+                        "arrival": "2025-03-31T07:10:00",
+                        "departure": "2025-03-31T06:00:00"
+                      },
+                      "ssrs": null
+                    }
+                  ],
+                  "designator": {
+                    "destination": "DEL",
+                    "origin": "LKO",
+                    "arrival": "2025-03-31T07:10:00",
+                    "departure": "2025-03-31T06:00:00"
+                  },
+                  "operatedByText": null,
+                  "isvalidforudaanlogo": false,
+                  "isSeatmapViewable": true,
+                  "baggageAllowanceWeight": 0,
+                  "baggageAllowanceUsed": null,
+                  "baggageAllowanceWeightType": null,
+                  "boardingSequence": "0",
+                  "barcodestring": "M1B/A                  IZIRFA LKODEL6E 0000 090Y000Y00000 009NjUxNzQ1NjUy",
+                  "liftStatus": "Default",
+                  "hasInfant": true,
+                  "tickets": null,
+                  "bundleCode": null,
+                  "isToShowOTB": false,
+                  "okToBoardValue": false,
+                  "isShowViewHealthFormLink": false,
+                  "isShowFillHealthFormLink": false,
+                  "isShowBoardingPass": false,
+                  "seats": [
+                    {
+                      "unitDesignator": "4C",
+                      "type": "Aisle",
+                      "changeSelectSeatAllowed": true,
+                      "total": 500.0,
+                      "taxes": 24.0,
+                      "adjustments": null,
+                      "charges": null,
+                      "category": "STANDARD"
+                    }
+                  ],
+                  "ssrs": [],
+                  "seatmapReference": null,
+                  "externalIdentifier": null,
+                  "international": false,
+                  "passengerSegment": null,
+                  "productClass": null
+                }
+              ],
+              "journeyKey": "NkV_NTA4Mn4gfn5MS09_MDMvMzEvMjAyNSAwNjowMH5ERUx_MDMvMzEvMjAyNSAwNzoxMH5_",
+              "journeyDetails": {
+                "destination": "DEL",
+                "origin": "LKO",
+                "arrival": "2025-03-31T07:10:00",
+                "departure": "2025-03-31T06:00:00",
+                "utcarrival": "2025-03-31T01:40:00Z",
+                "utcdeparture": "2025-03-31T00:30:00Z",
+                "identifier": null,
+                "destinationName": "Indira Gandhi International Airport",
+                "originName": "Chaudhary Charan Singh International Airport",
+                "originCityName": "Lucknow",
+                "destinationCityName": "Delhi",
+                "canBeChanged": true,
+                "canBeCancelled": true,
+                "baggageData": {
+                  "handBaggageWeight": 7,
+                  "checkinBaggageWeight": 15,
+                  "checkinLimitPerPiece": 0,
+                  "handBaggageCount": 1,
+                  "checkinBaggageCount": 0,
+                  "codeShareWeightLimitPerPiece": 0
+                }
+              }
+            }
+          ]
+        },
+        "fees": [
+          {
+            "type": 9,
+            "ssrCode": null,
+            "ssrNumber": 0,
+            "paymentNumber": 0,
+            "isConfirmed": true,
+            "code": "SEAT",
+            "detail": null,
+            "passengerFeeKey": "MCEyITk-",
+            "override": false,
+            "flightReference": "20250201 6E2025 DELLKO",
+            "note": null,
+            "createdDate": "2024-11-13T09:43:56.29Z",
+            "isProtected": false,
+            "serviceCharges": [
+              {
+                "amount": 24.0,
+                "code": "07GST",
+                "detail": "DEL-LKO",
+                "type": 3,
+                "collectType": 0,
+                "currencyCode": "INR",
+                "foreignCurrencyCode": "INR",
+                "foreignAmount": 24.0,
+                "ticketCode": "GST"
+              },
+              {
+                "amount": 500.0,
+                "code": "SEAT",
+                "detail": "DEL-LKO",
+                "type": 6,
+                "collectType": 0,
+                "currencyCode": "INR",
+                "foreignCurrencyCode": "INR",
+                "foreignAmount": 500.0,
+                "ticketCode": "FEE"
+              }
+            ]
+          },
+          {
+            "type": 9,
+            "ssrCode": null,
+            "ssrNumber": 0,
+            "paymentNumber": 0,
+            "isConfirmed": true,
+            "code": "SEAT",
+            "detail": null,
+            "passengerFeeKey": "MCEzITk-",
+            "override": false,
+            "flightReference": "20250331 6E5082 LKODEL",
+            "note": null,
+            "createdDate": "2024-11-13T09:43:56.29Z",
+            "isProtected": false,
+            "serviceCharges": [
+              {
+                "amount": 24.0,
+                "code": "09GST",
+                "detail": "LKO-DEL",
+                "type": 3,
+                "collectType": 0,
+                "currencyCode": "INR",
+                "foreignCurrencyCode": "INR",
+                "foreignAmount": 24.0,
+                "ticketCode": "GST"
+              },
+              {
+                "amount": 500.0,
+                "code": "SEAT",
+                "detail": "LKO-DEL",
+                "type": 6,
+                "collectType": 0,
+                "currencyCode": "INR",
+                "foreignCurrencyCode": "INR",
+                "foreignAmount": 500.0,
+                "ticketCode": "FEE"
+              }
+            ]
+          },
+          {
+            "type": 4,
+            "ssrCode": null,
+            "ssrNumber": 0,
+            "paymentNumber": 1,
+            "isConfirmed": true,
+            "code": "CCF",
+            "detail": null,
+            "passengerFeeKey": "MCE0ITQ-",
+            "override": false,
+            "flightReference": null,
+            "note": null,
+            "createdDate": "2024-11-13T09:43:56.29Z",
+            "isProtected": false,
+            "serviceCharges": [
+              {
+                "amount": 19.0,
+                "code": "07GST",
+                "detail": "DEL-LKO",
+                "type": 3,
+                "collectType": 0,
+                "currencyCode": "INR",
+                "foreignCurrencyCode": "INR",
+                "foreignAmount": 19.0,
+                "ticketCode": "GST"
+              },
+              {
+                "amount": 398.0,
+                "code": "CCF",
+                "detail": "Convenienc",
+                "type": 6,
+                "collectType": 0,
+                "currencyCode": "INR",
+                "foreignCurrencyCode": "INR",
+                "foreignAmount": 398.0,
+                "ticketCode": "CCF"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "passengerKey": "MSFBRFQ-",
+        "services": null,
+        "specialServices": null,
+        "upgrades": null,
+        "spoilage": null,
+        "nameChanges": null,
+        "convenience": null,
+        "program": {
+          "code": null,
+          "levelCode": "BASE",
+          "number": null
+        },
+        "infant": null,
+        "passengerAlternateKey": "NjUxNzQ1NjUz",
+        "ExtraSeatTag": null,
+        "name": {
+          "first": "C",
+          "middle": null,
+          "last": "D",
+          "title": "MR",
+          "suffix": null
+        },
+        "passengerTypeCode": "ADT",
+        "discountCode": null,
+        "bags": [],
+        "info": {
+          "nationality": null,
+          "gender": 1,
+          "dateOfBirth": null
+        },
+        "travelDocuments": null,
+        "eTicketNumber": "",
+        "seatsAndSsrs": {
+          "journeys": [
+            {
+              "designator": {
+                "destination": "LKO",
+                "origin": "DEL",
+                "arrival": "2025-02-01T06:55:00",
+                "departure": "2025-02-01T05:45:00"
+              },
+              "segments": [
+                {
+                  "segmentDetails": {
+                    "destination": "LKO",
+                    "origin": "DEL",
+                    "arrival": "2025-02-01T06:55:00",
+                    "departure": "2025-02-01T05:45:00",
+                    "utcarrival": "2025-02-01T01:25:00Z",
+                    "utcdeparture": "2025-02-01T00:15:00Z",
+                    "identifier": {
+                      "identifier": "2025",
+                      "carrierCode": "6E",
+                      "opSuffix": null
+                    },
+                    "destinationName": "Chaudhary Charan Singh International Airport",
+                    "originName": "Indira Gandhi International Airport",
+                    "originCityName": "Delhi",
+                    "destinationCityName": "Lucknow"
+                  },
+                  "segmentKey": "NkV_MjAyNX4gfn5ERUx_MDIvMDEvMjAyNSAwNTo0NX5MS09_MDIvMDEvMjAyNSAwNjo1NX5_",
+                  "legs": [
+                    {
+                      "legKey": "NjM4NzM5ODU1MDAwMDAwMDAwITZFITIwMjUhICFERUwhTEtPITgzMTEwOTQ-",
+                      "operationsInfo": null,
+                      "legDetails": null,
+                      "designator": {
+                        "destination": "LKO",
+                        "origin": "DEL",
+                        "arrival": "2025-02-01T06:55:00",
+                        "departure": "2025-02-01T05:45:00"
+                      },
+                      "ssrs": null
+                    }
+                  ],
+                  "designator": {
+                    "destination": "LKO",
+                    "origin": "DEL",
+                    "arrival": "2025-02-01T06:55:00",
+                    "departure": "2025-02-01T05:45:00"
+                  },
+                  "operatedByText": null,
+                  "isvalidforudaanlogo": false,
+                  "isSeatmapViewable": true,
+                  "baggageAllowanceWeight": 0,
+                  "baggageAllowanceUsed": null,
+                  "baggageAllowanceWeightType": null,
+                  "boardingSequence": "0",
+                  "barcodestring": "M1D/C                  IZIRFA DELLKO6E 0000 032Y000Y00000 009NjUxNzQ1NjUz",
+                  "liftStatus": "Default",
+                  "hasInfant": false,
+                  "tickets": null,
+                  "bundleCode": null,
+                  "isToShowOTB": false,
+                  "okToBoardValue": false,
+                  "isShowViewHealthFormLink": false,
+                  "isShowFillHealthFormLink": false,
+                  "isShowBoardingPass": false,
+                  "seats": [
+                    {
+                      "unitDesignator": "5E",
+                      "type": "Middle",
+                      "changeSelectSeatAllowed": true,
+                      "total": 500.0,
+                      "taxes": 24.0,
+                      "adjustments": null,
+                      "charges": null,
+                      "category": "STANDARD"
+                    }
+                  ],
+                  "ssrs": [],
+                  "seatmapReference": null,
+                  "externalIdentifier": null,
+                  "international": false,
+                  "passengerSegment": null,
+                  "productClass": null
+                }
+              ],
+              "journeyKey": "NkV_MjAyNX4gfn5ERUx_MDIvMDEvMjAyNSAwNTo0NX5MS09_MDIvMDEvMjAyNSAwNjo1NX5_",
+              "journeyDetails": {
+                "destination": "LKO",
+                "origin": "DEL",
+                "arrival": "2025-02-01T06:55:00",
+                "departure": "2025-02-01T05:45:00",
+                "utcarrival": "2025-02-01T01:25:00Z",
+                "utcdeparture": "2025-02-01T00:15:00Z",
+                "identifier": null,
+                "destinationName": "Chaudhary Charan Singh International Airport",
+                "originName": "Indira Gandhi International Airport",
+                "originCityName": "Delhi",
+                "destinationCityName": "Lucknow",
+                "canBeChanged": true,
+                "canBeCancelled": true,
+                "baggageData": {
+                  "handBaggageWeight": 7,
+                  "checkinBaggageWeight": 15,
+                  "checkinLimitPerPiece": 0,
+                  "handBaggageCount": 1,
+                  "checkinBaggageCount": 0,
+                  "codeShareWeightLimitPerPiece": 0
+                }
+              }
+            },
+            {
+              "designator": {
+                "destination": "DEL",
+                "origin": "LKO",
+                "arrival": "2025-03-31T07:10:00",
+                "departure": "2025-03-31T06:00:00"
+              },
+              "segments": [
+                {
+                  "segmentDetails": {
+                    "destination": "DEL",
+                    "origin": "LKO",
+                    "arrival": "2025-03-31T07:10:00",
+                    "departure": "2025-03-31T06:00:00",
+                    "utcarrival": "2025-03-31T01:40:00Z",
+                    "utcdeparture": "2025-03-31T00:30:00Z",
+                    "identifier": {
+                      "identifier": "5082",
+                      "carrierCode": "6E",
+                      "opSuffix": null
+                    },
+                    "destinationName": "Indira Gandhi International Airport",
+                    "originName": "Chaudhary Charan Singh International Airport",
+                    "originCityName": "Lucknow",
+                    "destinationCityName": "Delhi"
+                  },
+                  "segmentKey": "NkV_NTA4Mn4gfn5MS09_MDMvMzEvMjAyNSAwNjowMH5ERUx_MDMvMzEvMjAyNSAwNzoxMH5_",
+                  "legs": [
+                    {
+                      "legKey": "NjM4Nzg5OTc2MDAwMDAwMDAwITZFITUwODIhICFMS08hREVMITg1MzY2MzY-",
+                      "operationsInfo": null,
+                      "legDetails": null,
+                      "designator": {
+                        "destination": "DEL",
+                        "origin": "LKO",
+                        "arrival": "2025-03-31T07:10:00",
+                        "departure": "2025-03-31T06:00:00"
+                      },
+                      "ssrs": null
+                    }
+                  ],
+                  "designator": {
+                    "destination": "DEL",
+                    "origin": "LKO",
+                    "arrival": "2025-03-31T07:10:00",
+                    "departure": "2025-03-31T06:00:00"
+                  },
+                  "operatedByText": null,
+                  "isvalidforudaanlogo": false,
+                  "isSeatmapViewable": true,
+                  "baggageAllowanceWeight": 0,
+                  "baggageAllowanceUsed": null,
+                  "baggageAllowanceWeightType": null,
+                  "boardingSequence": "0",
+                  "barcodestring": "M1D/C                  IZIRFA LKODEL6E 0000 090Y000Y00000 009NjUxNzQ1NjUz",
+                  "liftStatus": "Default",
+                  "hasInfant": false,
+                  "tickets": null,
+                  "bundleCode": null,
+                  "isToShowOTB": false,
+                  "okToBoardValue": false,
+                  "isShowViewHealthFormLink": false,
+                  "isShowFillHealthFormLink": false,
+                  "isShowBoardingPass": false,
+                  "seats": [
+                    {
+                      "unitDesignator": "4B",
+                      "type": "Middle",
+                      "changeSelectSeatAllowed": true,
+                      "total": 500.0,
+                      "taxes": 24.0,
+                      "adjustments": null,
+                      "charges": null,
+                      "category": "STANDARD"
+                    }
+                  ],
+                  "ssrs": [],
+                  "seatmapReference": null,
+                  "externalIdentifier": null,
+                  "international": false,
+                  "passengerSegment": null,
+                  "productClass": null
+                }
+              ],
+              "journeyKey": "NkV_NTA4Mn4gfn5MS09_MDMvMzEvMjAyNSAwNjowMH5ERUx_MDMvMzEvMjAyNSAwNzoxMH5_",
+              "journeyDetails": {
+                "destination": "DEL",
+                "origin": "LKO",
+                "arrival": "2025-03-31T07:10:00",
+                "departure": "2025-03-31T06:00:00",
+                "utcarrival": "2025-03-31T01:40:00Z",
+                "utcdeparture": "2025-03-31T00:30:00Z",
+                "identifier": null,
+                "destinationName": "Indira Gandhi International Airport",
+                "originName": "Chaudhary Charan Singh International Airport",
+                "originCityName": "Lucknow",
+                "destinationCityName": "Delhi",
+                "canBeChanged": true,
+                "canBeCancelled": true,
+                "baggageData": {
+                  "handBaggageWeight": 7,
+                  "checkinBaggageWeight": 15,
+                  "checkinLimitPerPiece": 0,
+                  "handBaggageCount": 1,
+                  "checkinBaggageCount": 0,
+                  "codeShareWeightLimitPerPiece": 0
+                }
+              }
+            }
+          ]
+        },
+        "fees": [
+          {
+            "type": 9,
+            "ssrCode": null,
+            "ssrNumber": 0,
+            "paymentNumber": 0,
+            "isConfirmed": true,
+            "code": "SEAT",
+            "detail": null,
+            "passengerFeeKey": "MSEwITk-",
+            "override": false,
+            "flightReference": "20250201 6E2025 DELLKO",
+            "note": null,
+            "createdDate": "2024-11-13T09:43:56.29Z",
+            "isProtected": false,
+            "serviceCharges": [
+              {
+                "amount": 24.0,
+                "code": "07GST",
+                "detail": "DEL-LKO",
+                "type": 3,
+                "collectType": 0,
+                "currencyCode": "INR",
+                "foreignCurrencyCode": "INR",
+                "foreignAmount": 24.0,
+                "ticketCode": "GST"
+              },
+              {
+                "amount": 500.0,
+                "code": "SEAT",
+                "detail": "DEL-LKO",
+                "type": 6,
+                "collectType": 0,
+                "currencyCode": "INR",
+                "foreignCurrencyCode": "INR",
+                "foreignAmount": 500.0,
+                "ticketCode": "FEE"
+              }
+            ]
+          },
+          {
+            "type": 9,
+            "ssrCode": null,
+            "ssrNumber": 0,
+            "paymentNumber": 0,
+            "isConfirmed": true,
+            "code": "SEAT",
+            "detail": null,
+            "passengerFeeKey": "MSExITk-",
+            "override": false,
+            "flightReference": "20250331 6E5082 LKODEL",
+            "note": null,
+            "createdDate": "2024-11-13T09:43:56.29Z",
+            "isProtected": false,
+            "serviceCharges": [
+              {
+                "amount": 24.0,
+                "code": "09GST",
+                "detail": "LKO-DEL",
+                "type": 3,
+                "collectType": 0,
+                "currencyCode": "INR",
+                "foreignCurrencyCode": "INR",
+                "foreignAmount": 24.0,
+                "ticketCode": "GST"
+              },
+              {
+                "amount": 500.0,
+                "code": "SEAT",
+                "detail": "LKO-DEL",
+                "type": 6,
+                "collectType": 0,
+                "currencyCode": "INR",
+                "foreignCurrencyCode": "INR",
+                "foreignAmount": 500.0,
+                "ticketCode": "FEE"
+              }
+            ]
+          },
+          {
+            "type": 4,
+            "ssrCode": null,
+            "ssrNumber": 0,
+            "paymentNumber": 1,
+            "isConfirmed": true,
+            "code": "CCF",
+            "detail": null,
+            "passengerFeeKey": "MSEyITQ-",
+            "override": false,
+            "flightReference": null,
+            "note": null,
+            "createdDate": "2024-11-13T09:43:56.29Z",
+            "isProtected": false,
+            "serviceCharges": [
+              {
+                "amount": 19.0,
+                "code": "07GST",
+                "detail": "DEL-LKO",
+                "type": 3,
+                "collectType": 0,
+                "currencyCode": "INR",
+                "foreignCurrencyCode": "INR",
+                "foreignAmount": 19.0,
+                "ticketCode": "GST"
+              },
+              {
+                "amount": 398.0,
+                "code": "CCF",
+                "detail": "Convenienc",
+                "type": 6,
+                "collectType": 0,
+                "currencyCode": "INR",
+                "foreignCurrencyCode": "INR",
+                "foreignAmount": 398.0,
+                "ticketCode": "CCF"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "passengerKey": "MiFBRFQ-",
+        "services": null,
+        "specialServices": null,
+        "upgrades": null,
+        "spoilage": null,
+        "nameChanges": null,
+        "convenience": null,
+        "program": {
+          "code": null,
+          "levelCode": "BASE",
+          "number": null
+        },
+        "infant": null,
+        "passengerAlternateKey": "NjUxNzQ1NjU0",
+        "ExtraSeatTag": null,
+        "name": {
+          "first": "E",
+          "middle": null,
+          "last": "F",
+          "title": "MR",
+          "suffix": null
+        },
+        "passengerTypeCode": "ADT",
+        "discountCode": "SRCT",
+        "bags": [],
+        "info": {
+          "nationality": null,
+          "gender": 1,
+          "dateOfBirth": "1953-02-12T00:00:00"
+        },
+        "travelDocuments": null,
+        "eTicketNumber": "",
+        "seatsAndSsrs": {
+          "journeys": [
+            {
+              "designator": {
+                "destination": "LKO",
+                "origin": "DEL",
+                "arrival": "2025-02-01T06:55:00",
+                "departure": "2025-02-01T05:45:00"
+              },
+              "segments": [
+                {
+                  "segmentDetails": {
+                    "destination": "LKO",
+                    "origin": "DEL",
+                    "arrival": "2025-02-01T06:55:00",
+                    "departure": "2025-02-01T05:45:00",
+                    "utcarrival": "2025-02-01T01:25:00Z",
+                    "utcdeparture": "2025-02-01T00:15:00Z",
+                    "identifier": {
+                      "identifier": "2025",
+                      "carrierCode": "6E",
+                      "opSuffix": null
+                    },
+                    "destinationName": "Chaudhary Charan Singh International Airport",
+                    "originName": "Indira Gandhi International Airport",
+                    "originCityName": "Delhi",
+                    "destinationCityName": "Lucknow"
+                  },
+                  "segmentKey": "NkV_MjAyNX4gfn5ERUx_MDIvMDEvMjAyNSAwNTo0NX5MS09_MDIvMDEvMjAyNSAwNjo1NX5_",
+                  "legs": [
+                    {
+                      "legKey": "NjM4NzM5ODU1MDAwMDAwMDAwITZFITIwMjUhICFERUwhTEtPITgzMTEwOTQ-",
+                      "operationsInfo": null,
+                      "legDetails": null,
+                      "designator": {
+                        "destination": "LKO",
+                        "origin": "DEL",
+                        "arrival": "2025-02-01T06:55:00",
+                        "departure": "2025-02-01T05:45:00"
+                      },
+                      "ssrs": null
+                    }
+                  ],
+                  "designator": {
+                    "destination": "LKO",
+                    "origin": "DEL",
+                    "arrival": "2025-02-01T06:55:00",
+                    "departure": "2025-02-01T05:45:00"
+                  },
+                  "operatedByText": null,
+                  "isvalidforudaanlogo": false,
+                  "isSeatmapViewable": true,
+                  "baggageAllowanceWeight": 0,
+                  "baggageAllowanceUsed": null,
+                  "baggageAllowanceWeightType": null,
+                  "boardingSequence": "0",
+                  "barcodestring": "M1F/E                  IZIRFA DELLKO6E 0000 032Y000Y00000 009NjUxNzQ1NjU0",
+                  "liftStatus": "Default",
+                  "hasInfant": false,
+                  "tickets": null,
+                  "bundleCode": null,
+                  "isToShowOTB": false,
+                  "okToBoardValue": false,
+                  "isShowViewHealthFormLink": false,
+                  "isShowFillHealthFormLink": false,
+                  "isShowBoardingPass": false,
+                  "seats": [
+                    {
+                      "unitDesignator": "5D",
+                      "type": "Aisle",
+                      "changeSelectSeatAllowed": true,
+                      "total": 500.0,
+                      "taxes": 24.0,
+                      "adjustments": null,
+                      "charges": null,
+                      "category": "STANDARD"
+                    }
+                  ],
+                  "ssrs": [
+                    {
+                      "ssrCode": "SRCT",
+                      "ssrName": "Senior Citizen",
+                      "ssrCategory": null,
+                      "count": 1,
+                      "isConfirmed": true,
+                      "note": null,
+                      "inBundle": false
+                    }
+                  ],
+                  "seatmapReference": null,
+                  "externalIdentifier": null,
+                  "international": false,
+                  "passengerSegment": null,
+                  "productClass": null
+                }
+              ],
+              "journeyKey": "NkV_MjAyNX4gfn5ERUx_MDIvMDEvMjAyNSAwNTo0NX5MS09_MDIvMDEvMjAyNSAwNjo1NX5_",
+              "journeyDetails": {
+                "destination": "LKO",
+                "origin": "DEL",
+                "arrival": "2025-02-01T06:55:00",
+                "departure": "2025-02-01T05:45:00",
+                "utcarrival": "2025-02-01T01:25:00Z",
+                "utcdeparture": "2025-02-01T00:15:00Z",
+                "identifier": null,
+                "destinationName": "Chaudhary Charan Singh International Airport",
+                "originName": "Indira Gandhi International Airport",
+                "originCityName": "Delhi",
+                "destinationCityName": "Lucknow",
+                "canBeChanged": true,
+                "canBeCancelled": true,
+                "baggageData": {
+                  "handBaggageWeight": 7,
+                  "checkinBaggageWeight": 15,
+                  "checkinLimitPerPiece": 0,
+                  "handBaggageCount": 1,
+                  "checkinBaggageCount": 0,
+                  "codeShareWeightLimitPerPiece": 0
+                }
+              }
+            },
+            {
+              "designator": {
+                "destination": "DEL",
+                "origin": "LKO",
+                "arrival": "2025-03-31T07:10:00",
+                "departure": "2025-03-31T06:00:00"
+              },
+              "segments": [
+                {
+                  "segmentDetails": {
+                    "destination": "DEL",
+                    "origin": "LKO",
+                    "arrival": "2025-03-31T07:10:00",
+                    "departure": "2025-03-31T06:00:00",
+                    "utcarrival": "2025-03-31T01:40:00Z",
+                    "utcdeparture": "2025-03-31T00:30:00Z",
+                    "identifier": {
+                      "identifier": "5082",
+                      "carrierCode": "6E",
+                      "opSuffix": null
+                    },
+                    "destinationName": "Indira Gandhi International Airport",
+                    "originName": "Chaudhary Charan Singh International Airport",
+                    "originCityName": "Lucknow",
+                    "destinationCityName": "Delhi"
+                  },
+                  "segmentKey": "NkV_NTA4Mn4gfn5MS09_MDMvMzEvMjAyNSAwNjowMH5ERUx_MDMvMzEvMjAyNSAwNzoxMH5_",
+                  "legs": [
+                    {
+                      "legKey": "NjM4Nzg5OTc2MDAwMDAwMDAwITZFITUwODIhICFMS08hREVMITg1MzY2MzY-",
+                      "operationsInfo": null,
+                      "legDetails": null,
+                      "designator": {
+                        "destination": "DEL",
+                        "origin": "LKO",
+                        "arrival": "2025-03-31T07:10:00",
+                        "departure": "2025-03-31T06:00:00"
+                      },
+                      "ssrs": null
+                    }
+                  ],
+                  "designator": {
+                    "destination": "DEL",
+                    "origin": "LKO",
+                    "arrival": "2025-03-31T07:10:00",
+                    "departure": "2025-03-31T06:00:00"
+                  },
+                  "operatedByText": null,
+                  "isvalidforudaanlogo": false,
+                  "isSeatmapViewable": true,
+                  "baggageAllowanceWeight": 0,
+                  "baggageAllowanceUsed": null,
+                  "baggageAllowanceWeightType": null,
+                  "boardingSequence": "0",
+                  "barcodestring": "M1F/E                  IZIRFA LKODEL6E 0000 090Y000Y00000 009NjUxNzQ1NjU0",
+                  "liftStatus": "Default",
+                  "hasInfant": false,
+                  "tickets": null,
+                  "bundleCode": null,
+                  "isToShowOTB": false,
+                  "okToBoardValue": false,
+                  "isShowViewHealthFormLink": false,
+                  "isShowFillHealthFormLink": false,
+                  "isShowBoardingPass": false,
+                  "seats": [
+                    {
+                      "unitDesignator": "4A",
+                      "type": "Window",
+                      "changeSelectSeatAllowed": true,
+                      "total": 500.0,
+                      "taxes": 24.0,
+                      "adjustments": null,
+                      "charges": null,
+                      "category": "STANDARD"
+                    }
+                  ],
+                  "ssrs": [
+                    {
+                      "ssrCode": "SRCT",
+                      "ssrName": "Senior Citizen",
+                      "ssrCategory": null,
+                      "count": 1,
+                      "isConfirmed": true,
+                      "note": null,
+                      "inBundle": false
+                    }
+                  ],
+                  "seatmapReference": null,
+                  "externalIdentifier": null,
+                  "international": false,
+                  "passengerSegment": null,
+                  "productClass": null
+                }
+              ],
+              "journeyKey": "NkV_NTA4Mn4gfn5MS09_MDMvMzEvMjAyNSAwNjowMH5ERUx_MDMvMzEvMjAyNSAwNzoxMH5_",
+              "journeyDetails": {
+                "destination": "DEL",
+                "origin": "LKO",
+                "arrival": "2025-03-31T07:10:00",
+                "departure": "2025-03-31T06:00:00",
+                "utcarrival": "2025-03-31T01:40:00Z",
+                "utcdeparture": "2025-03-31T00:30:00Z",
+                "identifier": null,
+                "destinationName": "Indira Gandhi International Airport",
+                "originName": "Chaudhary Charan Singh International Airport",
+                "originCityName": "Lucknow",
+                "destinationCityName": "Delhi",
+                "canBeChanged": true,
+                "canBeCancelled": true,
+                "baggageData": {
+                  "handBaggageWeight": 7,
+                  "checkinBaggageWeight": 15,
+                  "checkinLimitPerPiece": 0,
+                  "handBaggageCount": 1,
+                  "checkinBaggageCount": 0,
+                  "codeShareWeightLimitPerPiece": 0
+                }
+              }
+            }
+          ]
+        },
+        "fees": [
+          {
+            "type": 6,
+            "ssrCode": "SRCT",
+            "ssrNumber": 1,
+            "paymentNumber": 0,
+            "isConfirmed": true,
+            "code": "SRCZ",
+            "detail": null,
+            "passengerFeeKey": "MiEwITY-",
+            "override": false,
+            "flightReference": "20250201 6E2025 DELLKO",
+            "note": null,
+            "createdDate": "2024-11-13T09:43:56.29Z",
+            "isProtected": false,
+            "serviceCharges": [
+              {
+                "amount": 0.0,
+                "code": "SRCZ",
+                "detail": "for free",
+                "type": 6,
+                "collectType": 0,
+                "currencyCode": "INR",
+                "foreignCurrencyCode": "INR",
+                "foreignAmount": 0.0,
+                "ticketCode": "SRC"
+              }
+            ]
+          },
+          {
+            "type": 6,
+            "ssrCode": "SRCT",
+            "ssrNumber": 1,
+            "paymentNumber": 0,
+            "isConfirmed": true,
+            "code": "SRCZ",
+            "detail": null,
+            "passengerFeeKey": "MiExITY-",
+            "override": false,
+            "flightReference": "20250331 6E5082 LKODEL",
+            "note": null,
+            "createdDate": "2024-11-13T09:43:56.29Z",
+            "isProtected": false,
+            "serviceCharges": [
+              {
+                "amount": 0.0,
+                "code": "SRCZ",
+                "detail": "for free",
+                "type": 6,
+                "collectType": 0,
+                "currencyCode": "INR",
+                "foreignCurrencyCode": "INR",
+                "foreignAmount": 0.0,
+                "ticketCode": "SRC"
+              }
+            ]
+          },
+          {
+            "type": 9,
+            "ssrCode": null,
+            "ssrNumber": 0,
+            "paymentNumber": 0,
+            "isConfirmed": true,
+            "code": "SEAT",
+            "detail": null,
+            "passengerFeeKey": "MiEyITk-",
+            "override": false,
+            "flightReference": "20250201 6E2025 DELLKO",
+            "note": null,
+            "createdDate": "2024-11-13T09:43:56.29Z",
+            "isProtected": false,
+            "serviceCharges": [
+              {
+                "amount": 24.0,
+                "code": "07GST",
+                "detail": "DEL-LKO",
+                "type": 3,
+                "collectType": 0,
+                "currencyCode": "INR",
+                "foreignCurrencyCode": "INR",
+                "foreignAmount": 24.0,
+                "ticketCode": "GST"
+              },
+              {
+                "amount": 500.0,
+                "code": "SEAT",
+                "detail": "DEL-LKO",
+                "type": 6,
+                "collectType": 0,
+                "currencyCode": "INR",
+                "foreignCurrencyCode": "INR",
+                "foreignAmount": 500.0,
+                "ticketCode": "FEE"
+              }
+            ]
+          },
+          {
+            "type": 9,
+            "ssrCode": null,
+            "ssrNumber": 0,
+            "paymentNumber": 0,
+            "isConfirmed": true,
+            "code": "SEAT",
+            "detail": null,
+            "passengerFeeKey": "MiEzITk-",
+            "override": false,
+            "flightReference": "20250331 6E5082 LKODEL",
+            "note": null,
+            "createdDate": "2024-11-13T09:43:56.29Z",
+            "isProtected": false,
+            "serviceCharges": [
+              {
+                "amount": 24.0,
+                "code": "09GST",
+                "detail": "LKO-DEL",
+                "type": 3,
+                "collectType": 0,
+                "currencyCode": "INR",
+                "foreignCurrencyCode": "INR",
+                "foreignAmount": 24.0,
+                "ticketCode": "GST"
+              },
+              {
+                "amount": 500.0,
+                "code": "SEAT",
+                "detail": "LKO-DEL",
+                "type": 6,
+                "collectType": 0,
+                "currencyCode": "INR",
+                "foreignCurrencyCode": "INR",
+                "foreignAmount": 500.0,
+                "ticketCode": "FEE"
+              }
+            ]
+          },
+          {
+            "type": 4,
+            "ssrCode": null,
+            "ssrNumber": 0,
+            "paymentNumber": 1,
+            "isConfirmed": true,
+            "code": "CCF",
+            "detail": null,
+            "passengerFeeKey": "MiE0ITQ-",
+            "override": false,
+            "flightReference": null,
+            "note": null,
+            "createdDate": "2024-11-13T09:43:56.29Z",
+            "isProtected": false,
+            "serviceCharges": [
+              {
+                "amount": 19.0,
+                "code": "07GST",
+                "detail": "DEL-LKO",
+                "type": 3,
+                "collectType": 0,
+                "currencyCode": "INR",
+                "foreignCurrencyCode": "INR",
+                "foreignAmount": 19.0,
+                "ticketCode": "GST"
+              },
+              {
+                "amount": 398.0,
+                "code": "CCF",
+                "detail": "Convenienc",
+                "type": 6,
+                "collectType": 0,
+                "currencyCode": "INR",
+                "foreignCurrencyCode": "INR",
+                "foreignAmount": 398.0,
+                "ticketCode": "CCF"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "passengerKey": "MyFDSEQ-",
+        "services": null,
+        "specialServices": null,
+        "upgrades": null,
+        "spoilage": null,
+        "nameChanges": null,
+        "convenience": null,
+        "program": {
+          "code": null,
+          "levelCode": "BASE",
+          "number": null
+        },
+        "infant": null,
+        "passengerAlternateKey": "NjUxNzQ1NjU1",
+        "ExtraSeatTag": null,
+        "name": {
+          "first": "G",
+          "middle": null,
+          "last": "H",
+          "title": "MR",
+          "suffix": null
+        },
+        "passengerTypeCode": "CHD",
+        "discountCode": null,
+        "bags": [],
+        "info": {
+          "nationality": null,
+          "gender": 1,
+          "dateOfBirth": "2017-09-19T00:00:00"
+        },
+        "travelDocuments": null,
+        "eTicketNumber": "",
+        "seatsAndSsrs": {
+          "journeys": [
+            {
+              "designator": {
+                "destination": "LKO",
+                "origin": "DEL",
+                "arrival": "2025-02-01T06:55:00",
+                "departure": "2025-02-01T05:45:00"
+              },
+              "segments": [
+                {
+                  "segmentDetails": {
+                    "destination": "LKO",
+                    "origin": "DEL",
+                    "arrival": "2025-02-01T06:55:00",
+                    "departure": "2025-02-01T05:45:00",
+                    "utcarrival": "2025-02-01T01:25:00Z",
+                    "utcdeparture": "2025-02-01T00:15:00Z",
+                    "identifier": {
+                      "identifier": "2025",
+                      "carrierCode": "6E",
+                      "opSuffix": null
+                    },
+                    "destinationName": "Chaudhary Charan Singh International Airport",
+                    "originName": "Indira Gandhi International Airport",
+                    "originCityName": "Delhi",
+                    "destinationCityName": "Lucknow"
+                  },
+                  "segmentKey": "NkV_MjAyNX4gfn5ERUx_MDIvMDEvMjAyNSAwNTo0NX5MS09_MDIvMDEvMjAyNSAwNjo1NX5_",
+                  "legs": [
+                    {
+                      "legKey": "NjM4NzM5ODU1MDAwMDAwMDAwITZFITIwMjUhICFERUwhTEtPITgzMTEwOTQ-",
+                      "operationsInfo": null,
+                      "legDetails": null,
+                      "designator": {
+                        "destination": "LKO",
+                        "origin": "DEL",
+                        "arrival": "2025-02-01T06:55:00",
+                        "departure": "2025-02-01T05:45:00"
+                      },
+                      "ssrs": null
+                    }
+                  ],
+                  "designator": {
+                    "destination": "LKO",
+                    "origin": "DEL",
+                    "arrival": "2025-02-01T06:55:00",
+                    "departure": "2025-02-01T05:45:00"
+                  },
+                  "operatedByText": null,
+                  "isvalidforudaanlogo": false,
+                  "isSeatmapViewable": true,
+                  "baggageAllowanceWeight": 0,
+                  "baggageAllowanceUsed": null,
+                  "baggageAllowanceWeightType": null,
+                  "boardingSequence": "0",
+                  "barcodestring": "M1H/G                  IZIRFA DELLKO6E 0000 032Y000Y00000 009NjUxNzQ1NjU1",
+                  "liftStatus": "Default",
+                  "hasInfant": false,
+                  "tickets": null,
+                  "bundleCode": null,
+                  "isToShowOTB": false,
+                  "okToBoardValue": false,
+                  "isShowViewHealthFormLink": false,
+                  "isShowFillHealthFormLink": false,
+                  "isShowBoardingPass": false,
+                  "seats": [
+                    {
+                      "unitDesignator": "4C",
+                      "type": "Aisle",
+                      "changeSelectSeatAllowed": true,
+                      "total": 500.0,
+                      "taxes": 24.0,
+                      "adjustments": null,
+                      "charges": null,
+                      "category": "STANDARD"
+                    }
+                  ],
+                  "ssrs": [],
+                  "seatmapReference": null,
+                  "externalIdentifier": null,
+                  "international": false,
+                  "passengerSegment": null,
+                  "productClass": null
+                }
+              ],
+              "journeyKey": "NkV_MjAyNX4gfn5ERUx_MDIvMDEvMjAyNSAwNTo0NX5MS09_MDIvMDEvMjAyNSAwNjo1NX5_",
+              "journeyDetails": {
+                "destination": "LKO",
+                "origin": "DEL",
+                "arrival": "2025-02-01T06:55:00",
+                "departure": "2025-02-01T05:45:00",
+                "utcarrival": "2025-02-01T01:25:00Z",
+                "utcdeparture": "2025-02-01T00:15:00Z",
+                "identifier": null,
+                "destinationName": "Chaudhary Charan Singh International Airport",
+                "originName": "Indira Gandhi International Airport",
+                "originCityName": "Delhi",
+                "destinationCityName": "Lucknow",
+                "canBeChanged": true,
+                "canBeCancelled": true,
+                "baggageData": {
+                  "handBaggageWeight": 7,
+                  "checkinBaggageWeight": 15,
+                  "checkinLimitPerPiece": 0,
+                  "handBaggageCount": 1,
+                  "checkinBaggageCount": 0,
+                  "codeShareWeightLimitPerPiece": 0
+                }
+              }
+            },
+            {
+              "designator": {
+                "destination": "DEL",
+                "origin": "LKO",
+                "arrival": "2025-03-31T07:10:00",
+                "departure": "2025-03-31T06:00:00"
+              },
+              "segments": [
+                {
+                  "segmentDetails": {
+                    "destination": "DEL",
+                    "origin": "LKO",
+                    "arrival": "2025-03-31T07:10:00",
+                    "departure": "2025-03-31T06:00:00",
+                    "utcarrival": "2025-03-31T01:40:00Z",
+                    "utcdeparture": "2025-03-31T00:30:00Z",
+                    "identifier": {
+                      "identifier": "5082",
+                      "carrierCode": "6E",
+                      "opSuffix": null
+                    },
+                    "destinationName": "Indira Gandhi International Airport",
+                    "originName": "Chaudhary Charan Singh International Airport",
+                    "originCityName": "Lucknow",
+                    "destinationCityName": "Delhi"
+                  },
+                  "segmentKey": "NkV_NTA4Mn4gfn5MS09_MDMvMzEvMjAyNSAwNjowMH5ERUx_MDMvMzEvMjAyNSAwNzoxMH5_",
+                  "legs": [
+                    {
+                      "legKey": "NjM4Nzg5OTc2MDAwMDAwMDAwITZFITUwODIhICFMS08hREVMITg1MzY2MzY-",
+                      "operationsInfo": null,
+                      "legDetails": null,
+                      "designator": {
+                        "destination": "DEL",
+                        "origin": "LKO",
+                        "arrival": "2025-03-31T07:10:00",
+                        "departure": "2025-03-31T06:00:00"
+                      },
+                      "ssrs": null
+                    }
+                  ],
+                  "designator": {
+                    "destination": "DEL",
+                    "origin": "LKO",
+                    "arrival": "2025-03-31T07:10:00",
+                    "departure": "2025-03-31T06:00:00"
+                  },
+                  "operatedByText": null,
+                  "isvalidforudaanlogo": false,
+                  "isSeatmapViewable": true,
+                  "baggageAllowanceWeight": 0,
+                  "baggageAllowanceUsed": null,
+                  "baggageAllowanceWeightType": null,
+                  "boardingSequence": "0",
+                  "barcodestring": "M1H/G                  IZIRFA LKODEL6E 0000 090Y000Y00000 009NjUxNzQ1NjU1",
+                  "liftStatus": "Default",
+                  "hasInfant": false,
+                  "tickets": null,
+                  "bundleCode": null,
+                  "isToShowOTB": false,
+                  "okToBoardValue": false,
+                  "isShowViewHealthFormLink": false,
+                  "isShowFillHealthFormLink": false,
+                  "isShowBoardingPass": false,
+                  "seats": [
+                    {
+                      "unitDesignator": "5D",
+                      "type": "Aisle",
+                      "changeSelectSeatAllowed": true,
+                      "total": 500.0,
+                      "taxes": 24.0,
+                      "adjustments": null,
+                      "charges": null,
+                      "category": "STANDARD"
+                    }
+                  ],
+                  "ssrs": [],
+                  "seatmapReference": null,
+                  "externalIdentifier": null,
+                  "international": false,
+                  "passengerSegment": null,
+                  "productClass": null
+                }
+              ],
+              "journeyKey": "NkV_NTA4Mn4gfn5MS09_MDMvMzEvMjAyNSAwNjowMH5ERUx_MDMvMzEvMjAyNSAwNzoxMH5_",
+              "journeyDetails": {
+                "destination": "DEL",
+                "origin": "LKO",
+                "arrival": "2025-03-31T07:10:00",
+                "departure": "2025-03-31T06:00:00",
+                "utcarrival": "2025-03-31T01:40:00Z",
+                "utcdeparture": "2025-03-31T00:30:00Z",
+                "identifier": null,
+                "destinationName": "Indira Gandhi International Airport",
+                "originName": "Chaudhary Charan Singh International Airport",
+                "originCityName": "Lucknow",
+                "destinationCityName": "Delhi",
+                "canBeChanged": true,
+                "canBeCancelled": true,
+                "baggageData": {
+                  "handBaggageWeight": 7,
+                  "checkinBaggageWeight": 15,
+                  "checkinLimitPerPiece": 0,
+                  "handBaggageCount": 1,
+                  "checkinBaggageCount": 0,
+                  "codeShareWeightLimitPerPiece": 0
+                }
+              }
+            }
+          ]
+        },
+        "fees": [
+          {
+            "type": 9,
+            "ssrCode": null,
+            "ssrNumber": 0,
+            "paymentNumber": 0,
+            "isConfirmed": true,
+            "code": "SEAT",
+            "detail": null,
+            "passengerFeeKey": "MyEwITk-",
+            "override": false,
+            "flightReference": "20250201 6E2025 DELLKO",
+            "note": null,
+            "createdDate": "2024-11-13T09:43:56.29Z",
+            "isProtected": false,
+            "serviceCharges": [
+              {
+                "amount": 24.0,
+                "code": "07GST",
+                "detail": "DEL-LKO",
+                "type": 3,
+                "collectType": 0,
+                "currencyCode": "INR",
+                "foreignCurrencyCode": "INR",
+                "foreignAmount": 24.0,
+                "ticketCode": "GST"
+              },
+              {
+                "amount": 500.0,
+                "code": "SEAT",
+                "detail": "DEL-LKO",
+                "type": 6,
+                "collectType": 0,
+                "currencyCode": "INR",
+                "foreignCurrencyCode": "INR",
+                "foreignAmount": 500.0,
+                "ticketCode": "FEE"
+              }
+            ]
+          },
+          {
+            "type": 9,
+            "ssrCode": null,
+            "ssrNumber": 0,
+            "paymentNumber": 0,
+            "isConfirmed": true,
+            "code": "SEAT",
+            "detail": null,
+            "passengerFeeKey": "MyExITk-",
+            "override": false,
+            "flightReference": "20250331 6E5082 LKODEL",
+            "note": null,
+            "createdDate": "2024-11-13T09:43:56.29Z",
+            "isProtected": false,
+            "serviceCharges": [
+              {
+                "amount": 24.0,
+                "code": "09GST",
+                "detail": "LKO-DEL",
+                "type": 3,
+                "collectType": 0,
+                "currencyCode": "INR",
+                "foreignCurrencyCode": "INR",
+                "foreignAmount": 24.0,
+                "ticketCode": "GST"
+              },
+              {
+                "amount": 500.0,
+                "code": "SEAT",
+                "detail": "LKO-DEL",
+                "type": 6,
+                "collectType": 0,
+                "currencyCode": "INR",
+                "foreignCurrencyCode": "INR",
+                "foreignAmount": 500.0,
+                "ticketCode": "FEE"
+              }
+            ]
+          },
+          {
+            "type": 4,
+            "ssrCode": null,
+            "ssrNumber": 0,
+            "paymentNumber": 1,
+            "isConfirmed": true,
+            "code": "CCF",
+            "detail": null,
+            "passengerFeeKey": "MyEyITQ-",
+            "override": false,
+            "flightReference": null,
+            "note": null,
+            "createdDate": "2024-11-13T09:43:56.29Z",
+            "isProtected": false,
+            "serviceCharges": [
+              {
+                "amount": 19.0,
+                "code": "07GST",
+                "detail": "DEL-LKO",
+                "type": 3,
+                "collectType": 0,
+                "currencyCode": "INR",
+                "foreignCurrencyCode": "INR",
+                "foreignAmount": 19.0,
+                "ticketCode": "GST"
+              },
+              {
+                "amount": 398.0,
+                "code": "CCF",
+                "detail": "Convenienc",
+                "type": 6,
+                "collectType": 0,
+                "currencyCode": "INR",
+                "foreignCurrencyCode": "INR",
+                "foreignAmount": 398.0,
+                "ticketCode": "CCF"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "indigoRefundCSAmount": {
+      "isAmountRefunded": false,
+      "isEligibleForRefund": false,
+      "notEligibleReasonCode": "BookingIsNull"
+    },
+    "indigoTaxRefund": {
+      "errorInNoShowTaxRefund": "",
+      "fopType": "NonAG",
+      "isRefundProcessed": false,
+      "isToShowTaxRefund": false,
+      "refundAmount": 0.0,
+      "response": false,
+      "taxQueueFlag": false
+    },
+    "success": false,
+    "fsConfig": {
+      "FareConfig": [
+        {
+          "fareType": "SAVER",
+          "productClass": "R",
+          "isMealIncluded": false,
+          "isStandarSeatIncluded": false,
+          "discountOnXLSeat": 50,
+          "dateChangecode": "D01",
+          "cancelCode": "C01",
+          "SSRsIncluded": "",
+          "baggageCounts": {
+            "checkinBaggage": 1,
+            "handBaggage": 1,
+            "doubleSeatAddedBaggage": 1,
+            "tripleSeatAddedBaggage": 1,
+            "PromoAddedBaggage": 0,
+            "doubleSeatAddedBaggag": null,
+            "studentPromoAddedBaggage": null
+          },
+          "baggageWeights": {
+            "handBaggage": 7,
+            "checkinBaggage": 15,
+            "DoubleSeatAddedBaggage": 10,
+            "TripleSeatAddedBaggae": 0,
+            "PromoAddedBaggae": 0,
+            "StudentPromoAddedBaggae": null
+          }
+        },
+        {
+          "fareType": "NEXT",
+          "productClass": "BR",
+          "isMealIncluded": true,
+          "isStandarSeatIncluded": true,
+          "discountOnXLSeat": 50,
+          "dateChangecode": "D01",
+          "cancelCode": "C01",
+          "SSRsIncluded": "SEAT,FFWD,PRBG",
+          "baggageCounts": {
+            "checkinBaggage": 2,
+            "handBaggage": 1,
+            "doubleSeatAddedBaggage": 0,
+            "tripleSeatAddedBaggage": 0,
+            "PromoAddedBaggage": 0,
+            "doubleSeatAddedBaggag": null,
+            "studentPromoAddedBaggage": null
+          },
+          "baggageWeights": {
+            "handBaggage": 12,
+            "checkinBaggage": 30,
+            "DoubleSeatAddedBaggage": 0,
+            "TripleSeatAddedBaggae": 0,
+            "PromoAddedBaggae": 0,
+            "StudentPromoAddedBaggae": null
+          }
+        },
+        {
+          "fareType": "NEXT PLUS",
+          "productClass": "BC",
+          "isMealIncluded": true,
+          "isStandarSeatIncluded": true,
+          "discountOnXLSeat": 50,
+          "dateChangecode": "D01",
+          "cancelCode": "C01",
+          "SSRsIncluded": "SEAT,FFWD,PRBG",
+          "baggageCounts": {
+            "checkinBaggage": 2,
+            "handBaggage": 1,
+            "doubleSeatAddedBaggage": 0,
+            "tripleSeatAddedBaggage": 0,
+            "PromoAddedBaggage": 0,
+            "doubleSeatAddedBaggag": null,
+            "studentPromoAddedBaggage": null
+          },
+          "baggageWeights": {
+            "handBaggage": 12,
+            "checkinBaggage": 40,
+            "DoubleSeatAddedBaggage": 0,
+            "TripleSeatAddedBaggae": 0,
+            "PromoAddedBaggae": 0,
+            "StudentPromoAddedBaggae": null
+          }
+        },
+        {
+          "fareType": "GROUP",
+          "productClass": "G",
+          "isMealIncluded": false,
+          "isStandarSeatIncluded": false,
+          "discountOnXLSeat": 50,
+          "dateChangecode": "D01",
+          "cancelCode": "C01",
+          "SSRsIncluded": "",
+          "baggageCounts": {
+            "checkinBaggage": 1,
+            "handBaggage": 1,
+            "doubleSeatAddedBaggage": 1,
+            "tripleSeatAddedBaggage": 1,
+            "PromoAddedBaggage": 0,
+            "doubleSeatAddedBaggag": null,
+            "studentPromoAddedBaggage": null
+          },
+          "baggageWeights": {
+            "handBaggage": 7,
+            "checkinBaggage": 15,
+            "DoubleSeatAddedBaggage": 10,
+            "TripleSeatAddedBaggae": 0,
+            "PromoAddedBaggae": 0,
+            "StudentPromoAddedBaggae": null
+          }
+        },
+        {
+          "fareType": "Coupon",
+          "productClass": "C",
+          "isMealIncluded": true,
+          "isStandarSeatIncluded": true,
+          "discountOnXLSeat": 50,
+          "dateChangecode": "D01",
+          "cancelCode": "C01",
+          "SSRsIncluded": "SEAT",
+          "baggageCounts": {
+            "checkinBaggage": 1,
+            "handBaggage": 1,
+            "doubleSeatAddedBaggage": 1,
+            "tripleSeatAddedBaggage": 1,
+            "PromoAddedBaggage": 0,
+            "doubleSeatAddedBaggag": null,
+            "studentPromoAddedBaggage": null
+          },
+          "baggageWeights": {
+            "handBaggage": 7,
+            "checkinBaggage": 15,
+            "DoubleSeatAddedBaggage": 10,
+            "TripleSeatAddedBaggae": 0,
+            "PromoAddedBaggae": 0,
+            "StudentPromoAddedBaggae": null
+          }
+        },
+        {
+          "fareType": "Tactical",
+          "productClass": "T",
+          "isMealIncluded": false,
+          "isStandarSeatIncluded": false,
+          "discountOnXLSeat": 50,
+          "dateChangecode": "D01",
+          "cancelCode": "C01",
+          "SSRsIncluded": "",
+          "baggageCounts": {
+            "checkinBaggage": 1,
+            "handBaggage": 1,
+            "doubleSeatAddedBaggage": 1,
+            "tripleSeatAddedBaggage": 1,
+            "PromoAddedBaggage": 0,
+            "doubleSeatAddedBaggag": null,
+            "studentPromoAddedBaggage": null
+          },
+          "baggageWeights": {
+            "handBaggage": 7,
+            "checkinBaggage": 15,
+            "DoubleSeatAddedBaggage": 10,
+            "TripleSeatAddedBaggae": 0,
+            "PromoAddedBaggae": 0,
+            "StudentPromoAddedBaggae": null
+          }
+        },
+        {
+          "fareType": "Corporate",
+          "productClass": "F",
+          "isMealIncluded": true,
+          "isStandarSeatIncluded": true,
+          "discountOnXLSeat": 50,
+          "dateChangecode": "D01",
+          "cancelCode": "C01",
+          "SSRsIncluded": "SEAT",
+          "baggageCounts": {
+            "checkinBaggage": 1,
+            "handBaggage": 1,
+            "doubleSeatAddedBaggage": 1,
+            "tripleSeatAddedBaggage": 1,
+            "PromoAddedBaggage": 0,
+            "doubleSeatAddedBaggag": null,
+            "studentPromoAddedBaggage": null
+          },
+          "baggageWeights": {
+            "handBaggage": 7,
+            "checkinBaggage": 15,
+            "DoubleSeatAddedBaggage": 10,
+            "TripleSeatAddedBaggae": 0,
+            "PromoAddedBaggae": 0,
+            "StudentPromoAddedBaggae": null
+          }
+        },
+        {
+          "fareType": "Saver",
+          "productClass": "S",
+          "isMealIncluded": false,
+          "isStandarSeatIncluded": false,
+          "discountOnXLSeat": 50,
+          "dateChangecode": "D01",
+          "cancelCode": "C01",
+          "SSRsIncluded": "",
+          "baggageCounts": {
+            "checkinBaggage": 1,
+            "handBaggage": 1,
+            "doubleSeatAddedBaggage": 1,
+            "tripleSeatAddedBaggage": 1,
+            "PromoAddedBaggage": 0,
+            "doubleSeatAddedBaggag": null,
+            "studentPromoAddedBaggage": null
+          },
+          "baggageWeights": {
+            "handBaggage": 7,
+            "checkinBaggage": 15,
+            "DoubleSeatAddedBaggage": 10,
+            "TripleSeatAddedBaggae": 0,
+            "PromoAddedBaggae": 0,
+            "StudentPromoAddedBaggae": null
+          }
+        },
+        {
+          "fareType": "Lite",
+          "productClass": "B",
+          "isMealIncluded": false,
+          "isStandarSeatIncluded": false,
+          "discountOnXLSeat": 50,
+          "dateChangecode": "D01",
+          "cancelCode": "C01",
+          "SSRsIncluded": "",
+          "baggageCounts": {
+            "checkinBaggage": 1,
+            "handBaggage": 1,
+            "doubleSeatAddedBaggage": 1,
+            "tripleSeatAddedBaggage": 1,
+            "PromoAddedBaggage": 0,
+            "doubleSeatAddedBaggag": null,
+            "studentPromoAddedBaggage": null
+          },
+          "baggageWeights": {
+            "handBaggage": 5,
+            "checkinBaggage": 0,
+            "DoubleSeatAddedBaggage": 10,
+            "TripleSeatAddedBaggae": 0,
+            "PromoAddedBaggae": 0,
+            "StudentPromoAddedBaggae": null
+          }
+        },
+        {
+          "fareType": "Saver",
+          "productClass": "N",
+          "isMealIncluded": false,
+          "isStandarSeatIncluded": false,
+          "discountOnXLSeat": 50,
+          "dateChangecode": "D01",
+          "cancelCode": "C01",
+          "SSRsIncluded": "",
+          "baggageCounts": {
+            "checkinBaggage": 1,
+            "handBaggage": 1,
+            "doubleSeatAddedBaggage": 1,
+            "tripleSeatAddedBaggage": 1,
+            "PromoAddedBaggage": 0,
+            "doubleSeatAddedBaggag": null,
+            "studentPromoAddedBaggage": null
+          },
+          "baggageWeights": {
+            "handBaggage": 7,
+            "checkinBaggage": 15,
+            "DoubleSeatAddedBaggage": 10,
+            "TripleSeatAddedBaggae": 0,
+            "PromoAddedBaggae": 0,
+            "StudentPromoAddedBaggae": null
+          }
+        },
+        {
+          "fareType": "Saver",
+          "productClass": "A",
+          "isMealIncluded": false,
+          "isStandarSeatIncluded": false,
+          "discountOnXLSeat": 50,
+          "dateChangecode": "D01",
+          "cancelCode": "C01",
+          "SSRsIncluded": "",
+          "baggageCounts": {
+            "checkinBaggage": 1,
+            "handBaggage": 1,
+            "doubleSeatAddedBaggage": 1,
+            "tripleSeatAddedBaggage": 1,
+            "PromoAddedBaggage": 0,
+            "doubleSeatAddedBaggag": null,
+            "studentPromoAddedBaggage": null
+          },
+          "baggageWeights": {
+            "handBaggage": 7,
+            "checkinBaggage": 15,
+            "DoubleSeatAddedBaggage": 10,
+            "TripleSeatAddedBaggae": 0,
+            "PromoAddedBaggae": 0,
+            "StudentPromoAddedBaggae": null
+          }
+        },
+        {
+          "fareType": "CAPF",
+          "productClass": "G2",
+          "isMealIncluded": false,
+          "isStandarSeatIncluded": false,
+          "discountOnXLSeat": 50,
+          "dateChangecode": "D01",
+          "cancelCode": "C01",
+          "SSRsIncluded": "",
+          "baggageCounts": {
+            "checkinBaggage": 1,
+            "handBaggage": 1,
+            "doubleSeatAddedBaggage": 1,
+            "tripleSeatAddedBaggage": 1,
+            "PromoAddedBaggage": 0,
+            "doubleSeatAddedBaggag": null,
+            "studentPromoAddedBaggage": null
+          },
+          "baggageWeights": {
+            "handBaggage": 7,
+            "checkinBaggage": 15,
+            "DoubleSeatAddedBaggage": 10,
+            "TripleSeatAddedBaggae": 0,
+            "PromoAddedBaggae": 0,
+            "StudentPromoAddedBaggae": null
+          }
+        },
+        {
+          "fareType": "Super 6E",
+          "productClass": "O",
+          "isMealIncluded": true,
+          "isStandarSeatIncluded": true,
+          "discountOnXLSeat": 50,
+          "dateChangecode": "D01",
+          "cancelCode": "C01",
+          "SSRsIncluded": "SEAT,FFWD,PRBG",
+          "baggageCounts": {
+            "checkinBaggage": 1,
+            "handBaggage": 1,
+            "doubleSeatAddedBaggage": 1,
+            "tripleSeatAddedBaggage": 1,
+            "PromoAddedBaggage": 0,
+            "doubleSeatAddedBaggag": null,
+            "studentPromoAddedBaggage": null
+          },
+          "baggageWeights": {
+            "handBaggage": 7,
+            "checkinBaggage": 25,
+            "DoubleSeatAddedBaggage": 10,
+            "TripleSeatAddedBaggae": 0,
+            "PromoAddedBaggae": 0,
+            "StudentPromoAddedBaggae": null
+          }
+        },
+        {
+          "fareType": "Corp Connect",
+          "productClass": "M",
+          "isMealIncluded": false,
+          "isStandarSeatIncluded": true,
+          "discountOnXLSeat": 50,
+          "dateChangecode": "D01",
+          "cancelCode": "C01",
+          "SSRsIncluded": "SEAT",
+          "baggageCounts": {
+            "checkinBaggage": 1,
+            "handBaggage": 1,
+            "doubleSeatAddedBaggage": 1,
+            "tripleSeatAddedBaggage": 1,
+            "PromoAddedBaggage": 0,
+            "doubleSeatAddedBaggag": null,
+            "studentPromoAddedBaggage": null
+          },
+          "baggageWeights": {
+            "handBaggage": 7,
+            "checkinBaggage": 15,
+            "DoubleSeatAddedBaggage": 10,
+            "TripleSeatAddedBaggae": 0,
+            "PromoAddedBaggae": 0,
+            "StudentPromoAddedBaggae": null
+          }
+        },
+        {
+          "fareType": "Flexi",
+          "productClass": "J",
+          "isMealIncluded": true,
+          "isStandarSeatIncluded": true,
+          "discountOnXLSeat": 50,
+          "dateChangecode": "D01",
+          "cancelCode": "C01",
+          "SSRsIncluded": "SEAT",
+          "baggageCounts": {
+            "checkinBaggage": 1,
+            "handBaggage": 1,
+            "doubleSeatAddedBaggage": 1,
+            "tripleSeatAddedBaggage": 1,
+            "PromoAddedBaggage": 0,
+            "doubleSeatAddedBaggag": null,
+            "studentPromoAddedBaggage": null
+          },
+          "baggageWeights": {
+            "handBaggage": 7,
+            "checkinBaggage": 15,
+            "DoubleSeatAddedBaggage": 10,
+            "TripleSeatAddedBaggae": 0,
+            "PromoAddedBaggae": 0,
+            "StudentPromoAddedBaggae": null
+          }
+        }
+      ]
+    },
+    "ssrCategories": [
+      {
+        "category": "baggage",
+        "ssrList": "XBPA, XBPB, XBPC, XBPD, XBPE, XBPF, IXBA, IXBB, IXBC, XBPJ",
+        "applicableForAllPax": false,
+        "SsrApplicability": "J",
+        "limit": 1,
+        "openSlider": true,
+        "destinationList": "J",
+        "FreeMealProductClass": null,
+        "AvailabilityOfMealsTillHours": 0,
+        "sourceList": "J",
+        "selectionCriteria": null
+      },
+      {
+        "category": "ABFH",
+        "ssrList": "ABFH",
+        "applicableForAllPax": false,
+        "SsrApplicability": "J",
+        "limit": 1,
+        "openSlider": false,
+        "destinationList": "J",
+        "FreeMealProductClass": null,
+        "AvailabilityOfMealsTillHours": 0,
+        "sourceList": "J",
+        "selectionCriteria": null
+      },
+      {
+        "category": "LBG",
+        "ssrList": "LBG,BRB",
+        "applicableForAllPax": true,
+        "SsrApplicability": "P",
+        "limit": 1,
+        "openSlider": true,
+        "destinationList": "J",
+        "FreeMealProductClass": null,
+        "AvailabilityOfMealsTillHours": 0,
+        "sourceList": "J",
+        "selectionCriteria": null
+      },
+      {
+        "category": "Meal",
+        "ssrList": "SCSW, SAMS, APWR, MMPA, BCCS, CNWT, CCWT, CTAT, CLAT, VGML, VBIR, UPMA, TCSW, SACH, PTSW, POHA, NVML, DACH, CTSW, CJSW, SEAT, AGSW, CHFR, CHCH, MASP, SMAL,CHSS, PITA, VGTR, CHPS, DKPL, NVTR, LVWR, VSUB, CHCT, SAUP, COMI, ZCHK, MUYO, DBNV, JNML, GFNV, GFVG, CHVG, LCNV, FSML, CHNV, PITI, VSUI, VGTI, CHCI, CHPI, CHSI, NVTI, TCSI,CPML, CKKU, CHFS, CNKR, BHPS, BRBR, BRWH, BRMG, GATO, SFVR, SFVM, SFVS, SFNR, SFNM, SFNS, DBVG, VGVG, NLVM , VGAN, NLVG, LCVG, VLML, VGLC, XMVS, XMVM, XMNS, XMNM, AOAT, SAVA, CHCR, CHVM, CHNM, SAKD, VPAV, CHNS, CHBR, CCDS, MCCF, ONMV, ONMR, GCVG, GCVE, DPVG, DPNV, MPSW, IPSD, MGBB, ALSM, CCSW, ERMP, PMGR, CGBB , CHTS, HFVP, HFVG, JFVM, JFNM,JFNS, RPSW, KCHR, CKUL, WBOL, CBAO, KCSW, PKUL, CBIR, CCUT, VCUT, VBAO, CKSW, CSAM, DKUL, CHSC, VGPR",
+        "applicableForAllPax": false,
+        "SsrApplicability": "S",
+        "limit": 1,
+        "openSlider": true,
+        "destinationList": "S",
+        "FreeMealProductClass": null,
+        "AvailabilityOfMealsTillHours": 0,
+        "sourceList": "L",
+        "selectionCriteria": null
+      },
+      {
+        "category": "FFWD",
+        "ssrList": "FFWD",
+        "applicableForAllPax": true,
+        "SsrApplicability": "J",
+        "limit": 1,
+        "openSlider": false,
+        "destinationList": "J",
+        "FreeMealProductClass": null,
+        "AvailabilityOfMealsTillHours": 0,
+        "sourceList": "J",
+        "selectionCriteria": null
+      }
+    ],
+    "creditShellInfo": null,
+    "lowFareData": {
+      "CityName": "LKO",
+      "Amount": "1273"
+    },
+    "payments": [
+      {
+        "paymentKey": "NTY2MjI1Mzk4ITEhUlAhNDQ3MTQ2MjY4",
+        "code": "RP",
+        "approvalDate": "2024-11-13T09:43:56.303Z",
+        "transactionID": "JFTWEBAAE241113094242",
+        "collectedAmount": 33254.0,
+        "collectedCurrencyCode": "INR",
+        "pointOfSale": {
+          "agentCode": "WebAnonSkyplus",
+          "domainCode": "WW2",
+          "locationCode": "WWW",
+          "organizationCode": "6E"
+        }
+      }
+    ],
+    "loyaltyDiscount": [
+      {
+        "discountType": "Seat",
+        "ssrCode": "Seat",
+        "discountPer": 10.0
+      },
+      {
+        "discountType": "Baggage",
+        "ssrCode": "Baggage",
+        "discountPer": 10.0
+      },
+      {
+        "discountType": "SSR",
+        "ssrCode": "FFWD",
+        "discountPer": 10.0
+      }
+    ]
+  },
+  "errors": null,
+  "metadata": null
+}

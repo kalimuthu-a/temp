@@ -1,0 +1,28 @@
+@import '../../index';
+
+.seat-selection--chip {
+  div[class*="size-xs"] {
+    display: inline-block;
+    padding: rem(2px) rem(8px);
+    letter-spacing: 0;
+    text-align: center;
+    white-space: nowrap;
+    border-radius: rem(12px);
+    min-width: rem(36px);
+    min-height: rem(20px);
+
+    @include font-styles(10px,500,16px);
+
+    @include media('>=desktop') {
+      padding: rem(3px) rem(8px);
+      font-size: rem(12px);
+      line-height: rem(18px);
+      min-width: rem(40px);
+      min-height: rem(24px);
+    }
+  }
+
+  &.hidden {
+    visibility: hidden;
+  }
+}

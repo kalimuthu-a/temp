@@ -1,0 +1,66 @@
+{
+  "data": {
+    "seatMainByPath": {
+      "item": {
+        "availableLabel": "Available",
+        "chooseSeatHeading": "Choose seat",
+        "nextLabel": "Next",
+        "nextCtaPath": "/content/skyplus6e/in/en/book/itinerary.html",
+        "checkinPath": "/content/skyplus6e/in/en/checkin/view.html",
+        "recommendedSeats": null,
+        "noSeatSelectionMessage": "Seat selection is not available for this flight",
+        "totalCostLabel": "Total Cost for {} seats",
+        "savingsLabel": "You are saving {}",
+        "addCTALabel": "Add",
+        "femaleFriendlyTag": "Female-friendly",
+        "seatTypesHeading": "Seat types",
+        "seatSelectionMandatoryNote": "Seat selection is mandatory to proceed with Stretch booking.",
+        "seatTypes": {
+          "allSeat": "All seat",
+          "free": "Free",
+          "premium": "Premium",
+          "standard": "Standard",
+          "xl": "XL"
+        },
+        "seatOptions": {
+          "assigned": "Assigned",
+          "female": "Female",
+          "nonReclining": "Non-reclining",
+          "occupied": "Occupied"
+        },
+        "seatsLeftLabel": "seat left",
+        "preferredSeatSelectionNoteLabel": "Note:",
+        "preferredSeatSelectionDescription": "You can ‘Skip’ preferred seat selection and complete your booking. IndiGo will auto-assign a seat prior to your travel.",
+        "seatPreBookingDiscountInfo": {
+          "html": "<p>Pre-book seat and enjoy&nbsp;<span class=\"text-green\">{discountPercentage}% off as a valued member!</span></p>\n"
+        },
+        "loyaltySignupBanner": {
+          "heading": "6E Loyalty is free to join!",
+          "description": {
+            "html": "<p>Join now for unbeatable discounts! Get a minimum 10% off Seats, Excess Baggage, and Fast Forward.</p>\n"
+          },
+          "image": {
+            "_publishUrl": "https://aem-s6web-qa-skyplus6e.goindigo.in/content/dam/s6web/in/en/assets/loyalty/flight-window-loyalty.jpeg"
+          },
+          "ctaLabel": "Login/Sign Up to earn {numberOfMiles} Points",
+          "ctaPath": null,
+          "secondaryCtaLabel": "Join now to earn {numberOfMiles} Points",
+          "secondaryCtaPath": null
+        },
+        "loyaltySignUpBannerMobile": {
+          "heading": "6E Loyalty is free to join!",
+          "description": {
+            "html": "<p>Join now for unbeatable discounts!</p>\n"
+          },
+          "image": {
+            "_publishUrl": "https://aem-s6web-qa-skyplus6e.goindigo.in/content/dam/s6web/in/en/assets/add-ons/meals/AGSW-Meal.jpg"
+          },
+          "ctaLabel": "Login/Sign Up",
+          "ctaPath": null,
+          "secondaryCtaLabel": "Enroll",
+          "secondaryCtaPath": null
+        }
+      }
+    }
+  }
+}

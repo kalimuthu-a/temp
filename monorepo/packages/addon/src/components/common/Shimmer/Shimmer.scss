@@ -1,0 +1,97 @@
+@keyframes shimmer {
+  0% {
+    background-position: rem(-1000px) 0;
+  }
+
+  100% {
+    background-position: rem(1000px) 0;
+  }
+}
+
+.addon-shimmer {
+  width: 100%;
+  background-color: var(--white);
+  border-radius: 0.5rem;
+
+  .addon-shimmer-wrapper {
+    padding: 1rem;
+    box-shadow: var(--box-shadow-card-soft);
+    border-radius: 0.75rem;
+  }
+
+  .shimmer-row {
+    display: grid;
+    grid-template-rows: 1fr;
+    gap: rem(10px);
+  }
+
+  .shimmer-cell {
+    animation: shimmer 2s infinite linear;
+    background: linear-gradient(
+      to right,
+      rgb(237 240 247 / 2.35%) 4%,
+      rgb(237 240 247 / 32.2%) 25%,
+      rgb(237 240 247 / 72.2%) 36%
+    );
+    background-size: rem(1000px) 100%;
+    border-radius: rem(4px);
+
+    &.addon-reco {
+      display: flex;
+      justify-content: center;
+      align-items: flex-end;
+
+      div {
+        width: 90%;
+        height: 45%;
+        box-shadow: 0 0 rem(16px) 0 #00000014;
+        margin-bottom: rem(12px);
+        border-radius: rem(8px);
+      }
+    }
+  }
+
+  .ht-4 {
+    height: rem(4px);
+  }
+
+  .ht-6 {
+    height: rem(6px);
+  }
+
+  .ht-12 {
+    height: rem(12px);
+  }
+
+  .ht-16 {
+    height: rem(16px);
+  }
+
+  .ht-36 {
+    height: rem(36px);
+  }
+
+  .ht-200 {
+    height: rem(200px);
+  }
+
+  .row-1 {
+    grid-template-columns: 1fr;
+  }
+
+  .row-1-1-1-1 {
+    grid-template-columns: repeat(4, 1fr);
+  }
+
+  .row-1-1 {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .row-2-0-1 {
+    grid-template-columns: 2fr 1fr 1fr;
+  }
+
+  .row-3-1 {
+    grid-template-columns: 3fr 1fr;
+  }
+}

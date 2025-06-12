@@ -1,0 +1,108 @@
+.wc-journey-info-panel {
+  @include card-border();
+  box-shadow: 0px 0px 12px 0px #4c5d9e14;
+
+  overflow: hidden;
+
+  &-heading {
+    background-color: var(--secondary-medium);
+    padding: rem(8px);
+    display: flex;
+
+    &-item {
+      flex: 1;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      display: flex;
+      gap: rem(20px);
+      font-family: var(--font-family-poppins-medium);
+
+      span {
+        border-top: 1px dotted black;
+        height: 1px;
+        width: 40px;
+        display: inline-block;
+      }
+
+      &:not(:nth-last-child(1)) {
+        border-right: 1px solid get-color(sel-con-disabled-stroke);
+      }
+    }
+  }
+
+  &-body {
+    display: flex;
+    padding: rem(12px);
+    background-color: get-color(white);
+    flex-direction: column;
+
+    .pnr {
+      font-family: var(--font-family-poppins-regular);
+      color: get-color(text-secondary);
+
+      &-info {
+        font-family: var(--font-family-poppins-medium);
+        color: get-color(text-primary);
+      }
+    }
+
+    .top {
+      padding-bottom: rem(16px);
+    }
+
+    .addon-continer {
+      padding-top: rem(16px);
+      background-image: radial-gradient(
+        circle closest-side,
+        var(--secondary-main) calc(100% - 0.5px),
+        #0000 100%
+      );
+      background-repeat: repeat-x;
+      background-size: 4px 2px;
+    }
+
+    .sky-icons {
+      &::before {
+        font-size: rem(24px);
+      }
+    }
+
+    .date-info,
+    .pax-info {
+      font-family: var(--font-family-poppins-regular);
+      font-size: rem(14px);
+      color: get-color(text-secondary);
+    }
+  }
+}
+.undo-wc-journey-info-panel{
+  .addon-continer{
+    background-image:none
+  }
+  .wc-journey-info-panel-body{
+    flex-direction: unset;
+      justify-content: space-between;
+    .sky-icons::before{
+      font-size: rem(16px);
+      color: var(--system-success);
+      margin-right: rem(2px);
+    }
+    .skyplus-chip [class*=txtcol-system-success] span{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .skyplus-chip [class*=bg-system-success]{ 
+        background: var(--system-success-light) !important;
+        border: 1px solid var(--system-success-light) !important;
+    }
+  }
+  .addon-continer{
+    padding-top: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}

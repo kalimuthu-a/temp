@@ -1,0 +1,107 @@
+@import '../../index';
+
+.checkin-popup{
+  color: var(--text-secondary);
+  font-family: var(--font-family-poppins-regular);
+
+  &__label{
+    display: flex;
+    justify-content: center;
+    font-size: rem(12px);
+    font-weight: 400;
+    line-height: rem(18px);
+
+    @include media('>=tablet') {
+      font-size: rem(14px);
+    }
+  }
+
+  &__title{
+    color: var(--text-primary);
+    display: flex;
+    justify-content: center;
+    font-family: var(--font-family-bauhuas-std-medium);
+    font-size: rem(16px);
+    font-weight: 500;
+    line-height: rem(20px);
+    letter-spacing: - rem(0.4px);
+    margin-top: rem(8px);
+    padding-bottom: rem(16px);
+
+    @include media('>=tablet') {
+      font-size: rem(24px);
+    }
+  }
+
+  & .passengers-list{
+    margin-top: 0;
+    margin-bottom: rem(16px);
+
+    & .swiper-slide{
+      height: unset;
+      & .passenger{
+        height: 100%;
+      }
+    }
+  }
+
+  &__note{
+    padding: rem(12px);
+    border-radius: rem(8px);
+    background: var(--secondary-medium);
+    color: var(--text-tertiary);
+    font-size: rem(12px);
+    font-weight: 400;
+    line-height: rem(20px);
+
+    & >p {
+      & span{
+        display: block;
+        color: var(--text-primary);
+      }
+      &:not(:last-child){
+        margin-bottom: rem(12px);
+      }
+    }
+    
+    
+
+    @include media('>=tablet') {
+      font-size: rem(14px);
+    }
+  }
+
+  &__button{
+    display: flex;
+    gap: rem(12px);
+    margin-top: rem(8px);
+
+    @include media('>=tablet') {
+      margin-top: 0;
+    }
+
+    & .skyplus-button{
+      flex: 1;
+
+      & button{
+        width: 100%;
+        padding: rem(8px);
+        font-size: rem(14px);
+        font-weight: 500;
+        line-height: rem(20px);
+        font-family: var(--font-family-poppins-medium);
+
+        @include media('>=tablet') {
+          font-size: rem(16px);
+          line-height: rem(24px);
+          padding: rem(8px) rem(32px);
+        }
+      }
+    }
+  }
+
+  & .passengers-list .passenger-selected{
+    background: var(--white);
+    border: rem(1px) solid var(--passenger-box-border-c);
+  }
+}

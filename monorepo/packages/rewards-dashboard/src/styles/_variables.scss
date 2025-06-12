@@ -1,0 +1,158 @@
+// == Font
+
+$font-family-default: "Open Sans", arial;
+$font-family-secondary: "Open Sans", arial;
+$font-size: 16px;
+$font-height: 1.5;
+$font-weight: normal;
+$font-weight-400: 400;
+$font-weight-600: 600;
+$font-size-large: 24px;
+$font-size-xlarge: 34px;
+$font-size-medium: 16px;
+$font-size-small: 14px;
+$font-size-xsmall: 12px;
+$font-size-8: 8px;
+$font-size-10: 10px;
+$font-size-14: 14px;
+$font-size-16: 16px;
+$font-size-18: 18px;
+$font-size-20: 20px;
+$font-size-22: 22px;
+$font-size-28: 28px;
+$font-size-32: 32px;
+
+
+
+// == Color
+
+$gray-2: #222;
+$gray-5: #555;
+$gray-6: #666;
+$gray-7: #777;
+$gray-9: #999;
+$gray-c: #ccc;
+$gray86: #dbdbdb;
+$blue-1: #027bff;
+$dark-blue-1: #001b94;
+$dark-blue-2: #273fad;
+$dark-blue-3: #26329f;
+$light-blue-1: #9880ff;
+$skyblue-1: #daf1ff;
+$white: #fff;
+$pale-white-1: #f8f8f4;
+$pale-white-2: #e2e2e2;
+$dark-shadow-1: #0003;
+$dark-shadow-2: #0000001a;
+$dark-shadow-3: #8e8e931f;
+$dark-1: #212529;
+$black: #000;
+$error-1: #c75656;
+$green-cyan: #15b06d;
+$error-red: #f00;
+$light-green: #5cc899;
+
+// == Padding
+$padding-1: var(--padding1, 10px);
+$padding-12: var(--padding12, 12px);
+$padding-13: var(--padding13, 13px);
+$padding-15: var(--padding15, 15px);
+$padding-16: var(--padding16, 16px);
+$padding-2: var(--padding2, 20px);
+$padding-4: var(--padding4, 40px);
+
+// Normal mode
+$color-foreground: #202020;
+$color-background: get-color("light-yellow");
+$color-link: #2020e0;
+
+// Dark mode
+$color-foreground-dark: $color-foreground;
+$color-background-dark: $color-background;
+$color-link-dark: $color-link;
+
+// ----------------- Media query --------------------
+
+// $screen-xxs: 320px;
+// $screen-xs: 375px;
+// $screen-sm: 768px;
+// $screen-md: 1024px;
+// $screen-lg: 1280px;
+// $screen-xl: 1920px;
+
+$screen-m-xxs: 320px;
+$screen-m-xs: 375px;
+$screen-m-sm: 540px;
+$screen-t-sm: 768px;
+$screen-t-lg: 900px;
+$screen-d-sm: 1024px;
+$screen-d-md: 1280px;
+$screen-d-ml: 1440px;
+$screen-d-xl: 1600px;
+$screen-d-xxl: 1920px;
+
+$font-family-default: "Poppins", Arial;
+$font-family-secondary: "Open Sans", Arial;
+$font-family-indigo: "indigo";
+$font-family-indigo-icons: "indigo-icons";
+$font-family-bauhuas: "Bauhaus Std Demi";
+$font-family-bauhuas-std: "Bauhaus Std";
+
+$font-size: 16px;
+$font-height: 1.5;
+$font-weight: normal;
+$font-weight-400: 400;
+$font-weight-600: 600;
+$font-size-large: var(--fontSizeLarge, 24px);
+$font-size-xlarge: var(--fontSizeXLarge, 48px);
+$font-size-medium: var(--fontSizeMedium, 16px);
+$font-size-small: var(--fontSizeSmall, 14px);
+$font-size-xsmall: var(--fontSizeXSmall, 12px);
+$font-size-13: var(--fontSize13, 13px);
+$font-size-9: var(--fontSize9, 9px);
+$font-size-15: var(--fontSize9, 15px);
+$font-size-25: var(--fontSize9, 25px);
+
+// == Color
+
+$gray-2: #222;
+$gray-5: #555;
+$gray-6: #666;
+$gray-7: #777;
+$gray-9: #999;
+$gray-c: #ccc;
+$light-gray: #f4f4f8;
+$blue-1: #027bff;
+$blue-2: #0067d8;
+$dark-blue-1: #001b94;
+$dark-blue-2: #273fad;
+$dark-blue-3: #26329f;
+$light-blue-1: #9880ff;
+$skyblue-1: #daf1ff;
+$white: #fff;
+$pale-white-1: #f8f8f4;
+$pale-white-2: #e2e2e2;
+$dark-shadow-1: #0003;
+$dark-shadow-2: #0000001a;
+$dark-shadow-3: #8e8e931f;
+$dark-1: #212529;
+$black: #000;
+$error-1: #c75656;
+
+// == Padding
+$padding-1: var(--padding1, 10px);
+$padding-13: var(--padding13, 13px);
+$padding-15: var(--padding15, 15px);
+$padding-16: var(--padding16, 16px);
+$padding-2: var(--padding2, 20px);
+$padding-4: var(--padding4, 40px);
+
+// Normal mode
+$color-foreground: #202020;
+$color-background: get-color("light-yellow");
+$color-link: #2020e0;
+
+// Dark mode
+$color-foreground-dark: $color-foreground;
+$color-background-dark: $color-background;
+$color-link-dark: $color-link;

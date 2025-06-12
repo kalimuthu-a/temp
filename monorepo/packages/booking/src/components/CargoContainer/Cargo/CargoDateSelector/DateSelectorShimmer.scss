@@ -1,0 +1,74 @@
+@keyframes shimmer {
+  0% {
+    background-position: -1000px 0;
+  }
+
+  100% {
+    background-position: 1000px 0;
+  }
+}
+
+.date-selection-shimmer {
+  width: rem(720px);
+  background-color: var(--white);
+  padding: 1rem;
+  box-shadow: var(--box-shadow-card-soft);
+  border-radius: 0.75rem;
+
+  .shimmer-row {
+    display: grid;
+    grid-template-rows: 1fr;
+    height: rem(12px);
+    margin: rem(8px) 0;
+    gap: rem(16px);
+  }
+
+  .shimmer-cell {
+    animation: shimmer 2s infinite linear;
+    background: linear-gradient(to right, #eff1f3 4%, #e2e2e2 25%, #eff1f3 36%);
+    background-size: 1000px 100%;
+  }
+
+  .row-1-3-3-7-3-3-1 {
+    grid-template-columns: 1fr 3fr 3fr 7fr 3fr 3fr 1fr;
+  }
+
+  &.layout-1 {
+    width: rem(360px);
+
+    .shimmer-row {
+      gap: rem(8px);
+    }
+    .row-twin-calendar {
+      grid-template-columns: repeat(7, 1fr);
+      height: rem(10px);
+
+      &--dates {
+        grid-template-columns: repeat(7, 1fr);
+        height: rem(40px);
+
+        .shimmer-cell {
+          border-radius: rem(4px);
+        }
+      }
+    }
+  }
+
+  &.layout-2 {
+    width: rem(720px);
+
+    .row-twin-calendar {
+      grid-template-columns: repeat(15, 1fr);
+      height: rem(10px);
+
+      &--dates {
+        grid-template-columns: repeat(15, 1fr);
+        height: rem(24px);
+
+        .shimmer-cell {
+          border-radius: rem(4px);
+        }
+      }
+    }
+  }
+}

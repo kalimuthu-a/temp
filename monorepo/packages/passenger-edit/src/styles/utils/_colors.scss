@@ -1,0 +1,131 @@
+// primary
+$primary-main: #000099;
+$white: #fff;
+
+// secondary
+$secondary-main: #afe4ff;
+$secondary-main-dark: #c4e7f8;
+$secondary-light: #eaf8ff;
+$secondary-medium: #d1efff;
+$secondary-deep: #e2ebf2;
+$secondary-bright: #00aee5;
+$secondary-white: #ffffff;
+
+// accent
+$accent-main: #7fd287;
+$accent-light: #f1fbf5;
+$accent-dark: #209326;
+
+// text
+$text-primary: #25304b;
+$text-secondary: #4b5772;
+$text-tertiary: #7a85a0;
+$text-tertiary-dark: #757c8a;
+$text-disabled: #9ba4b8;
+
+// action
+$action-active: #25304b;
+$action-active-stroke: #9cd9ff;
+$action-active-background: #ffffff;
+$action-selected-text: #000099;
+$action-selected-stroke: #9cd9ff;
+$action-selected-background: #eaf8ff;
+$action-disabled-text: #9ba4b8;
+$action-disabled-stroke: #d7e1e9;
+$action-disabled-background: #ffffff;
+$action-focus-text: #000099;
+
+// button
+$btn-active: #ffffff;
+$btn-active-background: #000099;
+$btn-disabled: #ffffff;
+$btn-disabled-background: #bcc2cf;
+$btn-disabled-background-light: #ebecee;
+$btn-link: #000099;
+
+// selection controls
+$sel-con-active-text: #25304b;
+$sel-con-active-stroke: #000099;
+$sel-con-active-background: #ffffff;
+$sel-con-selected-text: #25304b;
+$sel-con-selected-stroke: #ffffff;
+$sel-con-selected-background: #000099;
+$sel-con-disabled-text: #9ba4b8;
+$sel-con-disabled-stroke: #9ba4b8;
+$sel-con-disabled-background: #ffffff;
+$sel-con-toggle-active: #9ba4b8;
+$sel-con-toggle-selected: #000099;
+
+// system
+$system-error: #c3272e;
+$system-error-light: #f4dedf;
+$system-warning: #a97d0e;
+$system-warning-light: #fff8e5;
+$system-warning-bright: #ffbd12;
+$system-success: #218946;
+$system-success-light: #f0fff6;
+$system-information: #348dc4;
+$system-information-light: #eaf8ff;
+
+// other
+$other-divider: #7a85a0;
+$other-border: #9ba4b8;
+$other-disabled-border: #cdd1db;
+$other-overlay-gradient: linear-gradient(
+  224deg,
+  rgba(21, 32, 95, 0.8) 6.84%,
+  rgba(36, 64, 154, 0.8) 73.19%
+);
+$other-background-blur: rgba(255, 255, 255, 0.64);
+$other-radio-hover: #edf0f7;
+$other-sticky: rgba(237, 240, 247, 0.72);
+$other-two-tone-icon-dark: #000099;
+$other-two-tone-icon-light: #9ca5d7;
+$other-transparent-white---medium: rgba(255, 255, 255, 0.56);
+$other-transparent-white---light: rgba(255, 255, 255, 0.2);
+$other-side-sheet-background: linear-gradient(
+  180deg,
+  #fefefe 0%,
+  rgba(255, 255, 255, 0.96) 8.73%,
+  #f7f9fe 17.51%,
+  #ecf7fc 81.97%
+);
+$other-side-sheet-background-dark: linear-gradient(
+  180deg,
+  rgba(254, 254, 254, 0) 0%,
+  rgba(255, 255, 255, 0.96) 8.73%,
+  #f7f9fe 17.51%,
+  #ecf7fc 81.97%
+);
+
+// gradients
+$gradient-primary: linear-gradient(180deg, #009 0%, #00005c 100%);
+$gradient-secondary: linear-gradient(180deg, #eaf8ff -58.33%, #afe4ff 156.94%);
+$gradient-accent: linear-gradient(180deg, #e0fed7 0%, #c1edc1 100%);
+$gradient-story-stroke: linear-gradient(180deg, #009 0%, #00aee5 100%);
+$gradient-card: linear-gradient(234deg, #c4e7f8 13.04%, #aadaf2 82.32%);
+
+// elevation
+// blur
+$blur-overlay: linear-gradient(
+  224deg,
+  rgba(21, 32, 95, 0.8) 6.84%,
+  rgba(36, 64, 154, 0.8) 73.19%
+);
+$blur-background: rgba(255, 255, 255, 0.64);
+$blur-card-light: rgba(255, 255, 255, 0.45);
+$blur-card-dark: linear-gradient(
+  178deg,
+  rgba(121, 157, 165, 0.69) -68.53%,
+  rgba(33, 25, 17, 0.69) 98.21%
+);
+
+// Drop Shadow
+$box-shadow-card-soft: 0px 0px 12px 0px rgba(76, 93, 158, 0.08);
+$box-shadow-fold-hard: 0px 0px 32px 2px rgba(76, 93, 158, 0.12);
+$box-shadow-card-light: 0px 1px 12px 0 rgba(28, 108, 159, 0.08);
+
+// Effect
+$box-shadow-bottom-sticky: 0px -12px 24px 0px rgba(76, 93, 158, 0.08);
+$box-shadow-global-navigation: 0px 4px 28px 0px rgba(76, 93, 158, 0.04);
+$box-shadow-cards: 0px 0px 28px 16px rgba(76, 93, 158, 0.04);

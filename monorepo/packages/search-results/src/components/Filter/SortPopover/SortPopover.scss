@@ -1,0 +1,39 @@
+.search-results-sort {
+  &-popover {
+    .popover__content {
+      @include card-border();
+
+      padding: rem(16) 0;
+      width: rem(165px);
+      right: rem(0);
+      background-color: get-color(white);
+      border-radius: rem(16);
+      position: absolute;
+      z-index: 2;
+      margin-top: rem(16);
+    }
+
+    &-content {
+      &--list {
+        &__item {
+          font-size: rem(14px);
+          padding: rem(12) rem(16);
+          line-height: rem(20px);
+          cursor: pointer;
+          font-family: var(--font-family-poppins-regular);
+          color: get-color(text-primary);
+
+          &:hover {
+            background-color: get-color(secondary-light);
+            color: get-color(primary-main);
+          }
+        }
+
+        &__item.active {
+          background-color: get-color(secondary-light);
+          color: get-color(primary-main);
+        }
+      }
+    }
+  }
+}

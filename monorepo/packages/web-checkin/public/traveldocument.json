@@ -1,0 +1,115 @@
+{
+  "data": {
+    "passengers": [
+      {
+        "passengerKey": "MCFBRFQ-",
+        "name": {
+          "first": "Harish",
+          "middle": null,
+          "last": "Rajput",
+          "title": "MR",
+          "suffix": null
+        },
+        "passengerTypeCode": "ADT",
+        "discountCode": null,
+        "infant": null,
+        "info": {
+          "nationality": "CA",
+          "gender": 1,
+          "dateOfBirth": "1999-11-11T00:00:00"
+        },
+        "travelDocuments": [
+          {
+            "passengerTravelDocumentKey": "T0FGRiE2RSEg",
+            "documentTypeCode": "OAFF",
+            "birthCountry": null,
+            "issuedByCode": "6E",
+            "name": null,
+            "nationality": null,
+            "expirationDate": null,
+            "number": "NONNOMINEE",
+            "issuedDate": null,
+            "gender": "1",
+            "dateTime": null
+          },
+          {
+            "passengerTravelDocumentKey": "UCFDQSEg",
+            "documentTypeCode": "P",
+            "birthCountry": "CA",
+            "issuedByCode": "CA",
+            "name": {
+              "first": "HARISH",
+              "middle": null,
+              "last": "RAJPUT",
+              "title": "MR",
+              "suffix": null
+            },
+            "nationality": "CA",
+            "expirationDate": "2025-11-11T00:00:00Z",
+            "number": "11111111",
+            "issuedDate": "1999-11-11T00:00:00Z",
+            "gender": "1",
+            "dateTime": null
+          }
+        ],
+        "isAPPSLocation": true,
+        "destinationCityName": "Dubai"
+      },
+      {
+        "passengerKey": "MSFBRFQ-",
+        "name": {
+          "first": "Girish",
+          "middle": null,
+          "last": "Rajput",
+          "title": "MR",
+          "suffix": null
+        },
+        "passengerTypeCode": "ADT",
+        "discountCode": null,
+        "infant": null,
+        "info": {
+          "nationality": "US",
+          "gender": 2,
+          "dateOfBirth": "1990-09-22T00:00:00"
+        },
+        "travelDocuments": [
+          {
+            "passengerTravelDocumentKey": "T0FGRiE2RSEg",
+            "documentTypeCode": "OAFF",
+            "birthCountry": null,
+            "issuedByCode": "6E",
+            "name": null,
+            "nationality": null,
+            "expirationDate": null,
+            "number": "NONNOMINEE",
+            "issuedDate": null,
+            "gender": "2",
+            "dateTime": null
+          },
+          {
+            "passengerTravelDocumentKey": "UCFDQSEg",
+            "documentTypeCode": "P",
+            "birthCountry": "US",
+            "issuedByCode": "CA",
+            "name": {
+              "first": "S",
+              "middle": null,
+              "last": "RAJPUT",
+              "title": "MS",
+              "suffix": null
+            },
+            "nationality": "US",
+            "expirationDate": "2027-11-11T00:00:00Z",
+            "number": "P4366918",
+            "issuedDate": "2000-02-22T00:00:00Z",
+            "gender": "2",
+            "dateTime": null
+          }
+        ],
+        "isAPPSLocation": true,
+        "destinationCityName": "Dubai"
+      }
+    ]
+  },
+  "errors": null
+}

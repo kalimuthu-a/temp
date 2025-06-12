@@ -1,0 +1,82 @@
+.recent-search-item {
+  display: flex;
+  padding: 16px 16px 16px 28px;
+  border-radius: rem(54px);
+  align-items: center;
+  justify-content: space-between;
+  cursor: pointer;
+  background: #ffffffb8;
+  box-shadow: 0 50px 0 -24px #4c5d9e0a;
+
+  &__left {
+    .body-large-medium {
+      color: get-color(primary-main);
+      font-family: var(--font-family-poppins-medium);
+    }
+
+    .body-small-medium {
+      font-family: var(--font-family-poppins-medium);
+    }
+
+    .trip-details {
+      display: flex;
+      font-weight: 400;
+      justify-content: space-between;
+      align-items: center;
+      gap: rem(8px);
+
+      .body-small-regular {
+        font-size: rem(12px);
+
+        @include media('>=desktop') {
+          font-size: rem(14px);
+        }
+
+        color: get-color(text-secondary);
+      }
+
+      .row {
+        content: '';
+        border: 1px solid get-color(text-secondary);
+        height: rem(12px);
+        display: inline-block;
+      }
+    }
+  }
+
+  &__right {
+    width: rem(36px);
+    height: rem(36px);
+    background-color: get-color(primary-main);
+    border-radius: 20px;
+    position: relative;
+
+    svg {
+      position: absolute;
+      top: rem(10px);
+      left: rem(10px);
+      width: rem(16px);
+      height: rem(16px);
+    }
+  }
+}
+
+.swiper {
+  &-pagination-bullet {
+    width: 8px;
+    height: 8px;
+    text-align: center;
+    line-height: 20px;
+    font-size: 12px;
+    color: #000;
+    opacity: 1;
+    background: rgb(0 0 0 / 20%);
+
+    &-active {
+      color: get-color(white);
+      background: get-color(primary-main);
+      width: 32px;
+      border-radius: 16px;
+    }
+  }
+}

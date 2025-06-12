@@ -1,0 +1,24 @@
+@import '../../index';
+
+.seat-type-header {
+    font-size: rem(20px);
+    line-height: rem(24px);
+    margin: rem(24px) 0 rem(8px);
+    font-family: var(--font-family-bauhuas-std-medium);
+    font-weight: 500;
+    color: var(--text-primary);
+
+    @include media('>=desktop') {
+        font-size: rem(24px);
+        line-height: rem(32px);
+        margin: rem(32px) 0 rem(16px);
+    }
+}
+.free-meal-highlighter {
+    width: rem(54px);
+    border-radius: rem(4px);
+    height: 100%;
+    background-color: #7FD2871A;
+    border: rem(2px) dashed var(--accent-main);
+    position: absolute;
+}

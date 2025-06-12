@@ -1,0 +1,80 @@
+{
+  "data": {
+    "bookingWidgetMainByPath": {
+      "item": {
+        "bookFlightLabel": "Book a Flight",
+        "whereToLabel": "Where To?",
+        "bookStayPath": "/content/skyplus6e/in/en/book/flight-select.html",
+        "bookStayLabel": "Book a Stay",
+        "bookStayOpenInNewTab": false,
+        "journeyType": [
+          {
+            "journeyTypeCode": "MultiCity",
+            "journeyTypeLabel": "Multi City"
+          },
+          {
+            "journeyTypeCode": "OneWay",
+            "journeyTypeLabel": "One Way"
+          },
+          {
+            "journeyTypeCode": "RoundTrip",
+            "journeyTypeLabel": "Round Trip"
+          }
+        ],
+        "defaultCurrencyCode": "INR",
+        "currencyLabel": "Currency",
+        "fromSectionLabel": "From",
+        "flyingFromLabel": "Flying From?",
+        "searchByAppLabel": "Search place/ airport",
+        "searchByLabel": "Search by place/ airport",
+        "toSectionLabel": "To",
+        "goingToLabel": "Going to?",
+        "departureSectionLabel": "Departure",
+        "dateLabel": "Date",
+        "departureDateLabel": "Departure",
+        "returnSectionLabel": "Return",
+        "saveMoreLabel": "Save More",
+        "arrivalDateLabel": "Add Return",
+        "paxAndSpecialFareLabel": "Travellers + Special Fares",
+        "defaultPassengerLabel": "1 Passenger",
+        "defaultPaxType": "Adult",
+        "travellingReasonLabel": "I am travelling for",
+        "payModeLabel": "Pay with",
+        "travellingReasonAppLabel": "What are you travelling for?",
+        "payModeAppLabel": "Pay with",
+        "travellingReasons": [
+          {
+            "key": "lesiure",
+            "value": "Lesiure"
+          },
+          {
+            "key": "medical",
+            "value": "Medical"
+          },
+          {
+            "key": "work",
+            "value": "Work"
+          }
+        ],
+        "paymentModes": [
+          {
+            "key": "cash",
+            "value": "Cash"
+          },
+          {
+            "key": "points",
+            "value": "Points"
+          }
+        ],
+        "promoCodeLabel": "Add promo code",
+        "searchCtaLabel": "Search",
+        "modifyCtaLabel": "Modify",
+        "searchCtaPath": "https://git.corp.adobe.com/pages/con27851/skyplus-mf/search-results",
+        "searchInNewTab": true,
+        "showRecentSearch": true,
+        "recentSearchLabel": "Recent Searches",
+        "recentSearchCount": "2"
+      }
+    }
+  }
+}

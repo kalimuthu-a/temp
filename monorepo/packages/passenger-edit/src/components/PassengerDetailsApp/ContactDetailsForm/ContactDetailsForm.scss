@@ -1,0 +1,50 @@
+@import '../../../styles/main';
+
+.contact-form-input-wrapper {
+  .design-system-input-field input {
+    font-family: var(--font-family-poppins-regular);
+    color: var(--text-primary);
+    font-size: rem(12px);
+    line-height: rem(18px);
+  }
+
+  .alt-contact-wrapper {
+    .add-contact-button {
+      color: get-color(primary-main);
+      font-family: var(--font-family-poppins-medium);
+      outline: none;
+      border: none;
+      display: flex;
+      flex-direction: row;
+      justify-content: flex-end;
+
+      .plus-sysmbol {
+        padding-right: rem(10px);
+        cursor: pointer;
+      }
+
+      .link-variation {
+        text-decoration: underline;
+        margin: 0 !important;
+        cursor: pointer;
+        font-size: rem(16px);
+      }
+    }
+  }
+
+  .icon-search::before {
+    position: relative;
+    top: rem(2px);
+  }
+}
+
+.alt-contact-wrapper
+  .design-system-modal-component-wrapper
+  .modal-component-overlay {
+  background: rgb(21 32 95);
+  background: linear-gradient(
+    90deg,
+    rgb(21 32 95 / 80%) 0%,
+    rgb(36 64 154 / 80%) 100%
+  );
+}

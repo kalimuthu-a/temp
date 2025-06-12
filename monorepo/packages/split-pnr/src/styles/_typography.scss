@@ -1,0 +1,27 @@
+.split_pnr {
+  &--title {
+    font-family: var(--font-family-bauhuas-std-medium);
+    font-size: rem(20px);
+    font-weight: 500;
+    line-height: rem(24px);
+    color: var(--text-primary);
+
+    @include media('>=tablet') {
+      font-size: rem(32px);
+      line-height: rem(44px);
+    }
+  }
+
+  &--text {
+    font-family: var(--font-family-poppins-regular);
+    font-size: rem(12px);
+    font-weight: 400;
+    line-height: rem(18px);
+    color: #4C5157;
+
+    @include media('>=tablet') {
+      font-size: rem(14px);
+      line-height: rem(20px);
+    }
+  }
+}

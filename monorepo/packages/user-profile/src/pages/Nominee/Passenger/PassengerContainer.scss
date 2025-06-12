@@ -1,0 +1,242 @@
+.user-profile {
+  .skyplus-accordion__header-left {
+    min-width: rem(4px) !important;
+  }
+  &__nominee {
+    &__passenger-container {
+      display: flex;
+      flex-direction: column;
+      margin-top: rem(12px);
+
+      .skyplus-accordion__header {
+        .status {
+          margin-left: rem(8px) !important;
+        }
+      }
+
+      @include media('>=tablet') {
+        margin-top: rem(28px);
+        gap: rem(4px);
+      }
+
+      .skyplus-accordion__header {
+        display: flex;
+        position: relative;
+
+        .skyplus-accordion__icon {
+          display: none;
+        }
+
+        .status {
+          background-color: var(--system-warning-light);
+          color: var(--system-warning);
+          font-size: rem(10px);
+          letter-spacing: 0;
+          line-height: 1rem;
+          padding: rem(2px) rem(8px);
+          border-radius: rem(16px);
+          height: min-content;
+          margin-left: rem(4px);
+          font-family: var(--font-family-poppins-medium);
+
+          @include media('>=tablet') {
+            font-size: rem(12px);
+          }
+
+          &.complete {
+            background-color: transparent;
+          }
+        }
+
+        .icon-close-circle,
+        .icon-accordion-down-simple {
+          position: absolute;
+          right: rem(16px);
+          top: rem(16px);
+          font-size: rem(20px);
+
+          @include media('>=tablet') {
+            top: rem(32px);
+          }
+        }
+      }
+
+      .skyplus-accordion__header-name {
+        word-break: break-all;
+      }
+
+      .skyplus-accordion__header.skyplus-accordion__header--active {
+        .icon {
+          &::after {
+            content: '\e969';
+          }
+        }
+      }
+
+      &__item {
+        .genderinput {
+          display: flex;
+          gap: rem(32px);
+          margin-bottom: rem(4px);
+
+          @include media('>=tablet') {
+            margin-bottom: rem(12px);
+            gap: rem(42px);
+          }
+
+          .label {
+            font-family: var(--font-family-poppins-regular);
+            font-size: rem(12px);
+            color: get-color(text-secondary);
+
+            @include media('>=tablet') {
+              font-size: rem(14px);
+            }
+          }
+        }
+
+        .nameinfo {
+          color: get-color(text-secondary);
+          font-family: var(--font-family-poppins-regular);
+          font-size: rem(12px);
+          font-weight: 400;
+          line-height: rem(18px);
+
+          @include media('>=tablet') {
+            font-size: rem(14px);
+            line-height: rem(20px);
+          }
+        }
+
+        .dobinput {
+
+          .date-error {
+            border-color: var(--bs-form-invalid-border-color);
+          }
+
+          &__hint {
+            display: inline-block;
+            color: get-color(text-tertiary);
+            font-family: var(--font-family-poppins-light);
+            line-height: 1.5;
+            font-size: rem(10px);
+            margin-top: rem(4px);
+
+            @include media('>=tablet') {
+              font-size: rem(12px);
+            }
+          }
+
+          &__invalid {
+            font-family: var(--font-family-poppins-light);
+            line-height: 1.5;
+            font-size: rem(10px);
+            margin-top: rem(4px);
+            color: var(--bs-form-invalid-border-color);
+
+            @include media('>=tablet') {
+              font-size: rem(12px);
+            }
+          }
+
+          input {
+            font-size: rem(12px);
+            font-weight: 300;
+            line-height: rem(18px);
+            text-align: left;
+            font-family: var(--font-family-poppins-light);
+
+            @include media('>=tablet') {
+              font-size: rem(14px);
+              font-weight: 300;
+              line-height: rem(20px);
+              color: var(--text-dark-blue);
+
+              &::placeholder {
+                color: var(--text-tertiary);
+              }
+            }
+
+            &:disabled {
+              color: var(--text-disabled);
+            }
+          }
+        }
+
+        .nameinput {
+          margin-top: rem(8px);
+          display: flex;
+          gap: 0;
+          flex-direction: column;
+
+          @include media('>=tablet') {
+            flex-direction: row;
+            gap: rem(16px);
+            margin-top: rem(16px);
+          }
+
+          .design-system-input-field {
+            flex: 1;
+
+            input {
+              font-size: rem(12px);
+              font-weight: 300;
+              line-height: rem(18px);
+              text-align: left;
+              font-family: var(--font-family-poppins-light);
+              color: var(--text-dark-blue);
+
+              @include media('>=tablet') {
+                font-size: (14px);
+                font-weight: 300;
+                line-height: (20px);
+
+                &::placeholder {
+                  color: var(--text-tertiary);
+                }
+              }
+
+              &:disabled {
+                color: var(--text-disabled);
+              }
+            }
+          }
+        }
+
+        &.disabled {
+          .dobinput {
+            input {
+              background-color: var(--btn-disabled-background-light);
+            }
+          }
+
+          .genderinput {
+            .custom-radio {
+              border-color: var(--btn-disabled-background);
+
+              &::after {
+                background: var(--btn-disabled-background);
+              }
+            }
+
+            .label {
+              color: get-color(text-disabled);
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+.skyplus-accordion.has-success {
+  .skyplus-accordion__header-left {
+    background-color: var(--accent-dark) !important;
+  }
+}
+
+.skyplus-accordion.has-error {
+  .skyplus-accordion__header-left {
+    background-color: get-color(system-error) !important;
+  }
+}

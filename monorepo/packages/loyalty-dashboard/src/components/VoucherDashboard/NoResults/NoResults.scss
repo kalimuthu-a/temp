@@ -1,0 +1,32 @@
+@import '../../../index.scss';
+
+.noresults-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  flex-flow: column;
+
+  .noresults-icon {
+  }
+
+  .noresults-title {
+    font-family: var(--font-family-bauhuas-std-medium);
+    font-size: rem(18px);
+    font-weight: 500;
+    line-height: rem(20px);
+    text-align: center;
+    color: #4b5772;
+    margin: rem(12px) 0 rem(8px);
+  }
+
+  .noresults-description {
+    font-family: var(--font-family-poppins-regular);
+    font-size: rem(12px);
+    font-weight: 400;
+    line-height: rem(18px);
+    text-align: center;
+    color: #7a85a0;
+    padding: 0 rem(40px);
+  }
+}

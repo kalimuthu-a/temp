@@ -1,0 +1,813 @@
+{
+  "data": {
+    "checkinHomeByPath": {
+      "item": {
+        "headingTitle": "Check-in",
+        "selectPassengersForWebCheckin": {
+          "html": "<p>Select passengers for <span class=\"text-green\">web check-in</span></p>\n"
+        },
+        "selectPassengersForUndoWebCheckin": {
+          "html": "<p>Select passengers for <span class=\"text-green\">Undo Web Check-in</span></p>\n"
+        },
+        "webCheckinDoneTitle": {
+          "html": "<p>Web Check-in is <span class=\"text-green\">Done</span></p>\n"
+        },
+        "loaderImagePath": {
+          "_publishUrl": "https://s6web-uat.goindigo.in/content/dam/s6web/in/en/assets/payments-page-icon.gif"
+        },
+        "domesticCheckinCloserTime": "60",
+        "internationalCheckinCloserTime": "75",
+        "flightStatus": {
+          "onTime": "On Time",
+          "onTimeBoarding": "On time, Boarding at Gate No. 18 B - closes in 45 mins",
+          "cancelled": "Flight Cancelled",
+          "delayed": "Delayed by 30mins ",
+          "refundComplete": "Refund is completed",
+          "refundInProcess": "Refund will be processed in 5-7 business days.",
+          "noShow": "No Show",
+          "flown": "Flown"
+        },
+        "pnrLabel": "PNR",
+        "pnrStatus": {
+          "confirmed": "Confirmed",
+          "pending": "Pending"
+        },
+        "flightType": {
+          "nonstop": "Non Stop",
+          "connecting": "Connection",
+          "via": "Through"
+        },
+        "paxLabel": "Pax",
+        "hourLabel": "h",
+        "minuteLabel": "m",
+        "checkinClosesLabel": "Checkin Closes",
+        "selectAllPassengers": "Select passengers for check-in",
+        "passengerCheckInStatus": [
+          {
+            "key": "check-inScheduled",
+            "title": "Check-in Scheduled",
+            "description": {
+              "html": "<p>Boarding Pass with your selected seat will be generated.</p>\n"
+            }
+          },
+          {
+            "key": "Check-inPending",
+            "title": "Check in Pending",
+            "description": {
+              "html": null
+            }
+          },
+          {
+            "key": "autoCheck-inScheduled",
+            "title": "Auto check-in Scheduled",
+            "description": {
+              "html": "<p>Boarding Pass will be generated 4hrs before the flight departure and shared on registered e mail. You can opt to <a href=\"/content/skyplus6e/in/en/checkin/add-on-seat-selection-checkin.html/#seat\" target=\"_blank\">Select Seat</a></p>\n"
+            }
+          },
+          {
+            "key": "boardingPassGenerated",
+            "title": "Boarding pass generated",
+            "description": {
+              "html": null
+            }
+          },
+          {
+            "key": "checkin-inScheduled-withseat",
+            "title": "Check-in Scheduled",
+            "description": {
+              "html": "<p>Boarding Pass will be generated 4hrs before the flight departure and shared on registered e mail."
+            }
+          }
+        ],
+        "kgLabel": "Kg Extra",
+        "passengerLabel": "Passenger",
+        "mealType": {
+          "veg": "Veg",
+          "nonVeg": "Non Veg"
+        },
+        "wheelChairPassengerDescription": {
+          "html": "<p>Checkin will be done at the airport counter for wheelchair user</p>\n"
+        },
+        "webCheckInLabel": "Web Check-in",
+        "webCheckInStatus": {
+          "done": "Done",
+          "closed": "Closed"
+        },
+        "webCheckInStatusMessage": [
+          {
+            "key": "windowOpen",
+            "title": "Web Check-in",
+            "description": {
+              "html": "<p>Web check-in window for your flight is now open</p>\n"
+            }
+          },
+          {
+            "key": "undoCheckin",
+            "title": "Web Check-in",
+            "description": {
+              "html": "<p>For any flight modification proceed with <a href=\"/book/undo-checkin.html\" target=\"_blank\">Undo check-in</a></p>\n"
+            }
+          },
+          {
+            "key": "checkInClosed",
+            "title": "Web Check-in :",
+            "description": {
+              "html": "<p>Directly check-in at the airport</p>\n"
+            }
+          },
+          {
+            "key": "checkinIncomplete",
+            "title": "Web Check-in incomplete",
+            "description": {
+              "html": "<p>1 passenger remaining for check-in. For any flight modification proceed with Undo checkin</p>\n"
+            }
+          },
+          {
+            "key": "unaccompaniedMinor",
+            "title": "Web Check-in",
+            "description": {
+              "html": "<p>Checkin will be done at the airport counter for unaccompanied minor.</p>\n"
+            }
+          },
+          {
+            "key": "checkinScheduledForPax",
+            "title": "Check-in scheduled for {passenger} pax",
+            "description": {
+              "html": "<p>Boarding Pass will be generated 4hrs before the flight departure and shared on registered e-mail ID.</p>\n"
+            }
+          },
+          {
+            "key": "scheduleCheckin",
+            "title": "Web Check-in",
+            "description": {
+              "html": "<p>Starts on {checkinStartDate} but you can schedule check-in for this journey</p>\n"
+            }
+          }
+        ],
+        "checkinCtaTitle": "Check - in",
+        "checkinCtaLink": "/content/skyplus6e/in/en/checkin/add-on-seat-selection-checkin.html#addon",
+        "addonList": [
+          {
+            "categoryBundleCode": "6EBar",
+            "title": "One for the skies",
+            "ssrList": [
+              {
+                "ssrCode": "BEER",
+                "name": null
+              },
+              {
+                "ssrCode": "RDWI",
+                "name": null
+              },
+              {
+                "ssrCode": "VDKA",
+                "name": null
+              },
+              {
+                "ssrCode": "WHSK",
+                "name": null
+              },
+              {
+                "ssrCode": "WHWI",
+                "name": null
+              }
+            ]
+          },
+          {
+            "categoryBundleCode": "ABHF",
+            "title": "Add additional bags",
+            "ssrList": []
+          },
+          {
+            "categoryBundleCode": "baggage",
+            "title": "Baggage",
+            "ssrList": [
+              {
+                "ssrCode": "XBPE",
+                "name": "3 Kg"
+              },
+              {
+                "ssrCode": "XBPA",
+                "name": "5 Kg"
+              },
+              {
+                "ssrCode": "XBPB",
+                "name": "10 Kg"
+              },
+              {
+                "ssrCode": "XBPC",
+                "name": "15 Kg"
+              },
+              {
+                "ssrCode": "XBPJ",
+                "name": "20 Kg"
+              },
+              {
+                "ssrCode": "XBPD",
+                "name": "30 Kg"
+              },
+              {
+                "ssrCode": "IXBA",
+                "name": "8 Kg"
+              },
+              {
+                "ssrCode": "IXBB",
+                "name": "15 Kg"
+              },
+              {
+                "ssrCode": "IXBC",
+                "name": "30 Kg"
+              },
+              {
+                "ssrCode": "XBPK",
+                "name": "23 Kg"
+              },
+              {
+                "ssrCode": "XBPH",
+                "name": "10 Kg"
+              },
+              {
+                "ssrCode": "XBPF",
+                "name": "20 Kg"
+              },
+              {
+                "ssrCode": "XBPI",
+                "name": "30 Kg"
+              },
+              {
+                "ssrCode": "XBPG",
+                "name": "25 Kg"
+              }
+            ]
+          },
+          {
+            "categoryBundleCode": "BRB",
+            "title": "Delayed and lost baggage protection",
+            "ssrList": []
+          },
+          {
+            "categoryBundleCode": "FFWD",
+            "title": "Fast Forward",
+            "ssrList": []
+          },
+          {
+            "categoryBundleCode": "Goodnight",
+            "title": "Blanket, Pillow & Eye shade",
+            "ssrList": [
+              {
+                "ssrCode": "EMDK",
+                "name": "Eye mask and dental kit"
+              },
+              {
+                "ssrCode": "BLKT",
+                "name": "Blanket"
+              },
+              {
+                "ssrCode": "NPLW",
+                "name": "Neck pillow"
+              }
+            ]
+          },
+          {
+            "categoryBundleCode": "IFNR",
+            "title": "Zero Cancellation",
+            "ssrList": []
+          },
+          {
+            "categoryBundleCode": "Lounge",
+            "title": "Lounge",
+            "ssrList": []
+          },
+          {
+            "categoryBundleCode": "Meal",
+            "title": "6E Eats",
+            "ssrList": [
+              {
+                "ssrCode": "TCSW",
+                "ssrName": null,
+                "preference": "Bestseller"
+              },
+              {
+                "ssrCode": "CJSW",
+                "ssrName": null,
+                "preference": "Non Veg"
+              },
+              {
+                "ssrCode": "VCSW",
+                "ssrName": null,
+                "preference": "Veg"
+              },
+              {
+                "ssrCode": "NUSW",
+                "ssrName": null,
+                "preference": "Non Veg"
+              },
+              {
+                "ssrCode": "AGSW",
+                "ssrName": null,
+                "preference": "Veg"
+              },
+              {
+                "ssrCode": "JNML",
+                "ssrName": null,
+                "preference": "Veg"
+              },
+              {
+                "ssrCode": "UPMA",
+                "ssrName": null,
+                "preference": "Veg"
+              },
+              {
+                "ssrCode": "DBVG",
+                "ssrName": null,
+                "preference": "Veg"
+              },
+              {
+                "ssrCode": "LCVG",
+                "ssrName": null,
+                "preference": "Veg"
+              },
+              {
+                "ssrCode": "VLML",
+                "ssrName": null,
+                "preference": "Veg"
+              },
+              {
+                "ssrCode": "VGAN",
+                "ssrName": null,
+                "preference": "Veg"
+              },
+              {
+                "ssrCode": "CHVM",
+                "ssrName": null,
+                "preference": "Veg"
+              },
+              {
+                "ssrCode": "GFNV",
+                "ssrName": null,
+                "preference": "Non Veg"
+              },
+              {
+                "ssrCode": "DBNV",
+                "ssrName": null,
+                "preference": "Non Veg"
+              },
+              {
+                "ssrCode": "CHNM",
+                "ssrName": null,
+                "preference": "Non Veg"
+              },
+              {
+                "ssrCode": "CPML",
+                "ssrName": null,
+                "preference": "Veg"
+              },
+              {
+                "ssrCode": "HMVJ",
+                "ssrName": null,
+                "preference": "Veg"
+              },
+              {
+                "ssrCode": "ECNG",
+                "ssrName": null,
+                "preference": "Non Veg"
+              },
+              {
+                "ssrCode": "HOVG",
+                "ssrName": null,
+                "preference": "Veg"
+              },
+              {
+                "ssrCode": "HMNI",
+                "ssrName": null,
+                "preference": "Non Veg"
+              },
+              {
+                "ssrCode": "HMVI",
+                "ssrName": null,
+                "preference": "Veg"
+              },
+              {
+                "ssrCode": "HVGJ",
+                "ssrName": null,
+                "preference": "Veg"
+              },
+              {
+                "ssrCode": "VSUI",
+                "ssrName": null,
+                "preference": "Veg"
+              },
+              {
+                "ssrCode": "VGTI",
+                "ssrName": null,
+                "preference": "Veg"
+              },
+              {
+                "ssrCode": "CHSI",
+                "ssrName": null,
+                "preference": "Non Veg"
+              },
+              {
+                "ssrCode": "NVTI",
+                "ssrName": null,
+                "preference": "Non Veg"
+              },
+              {
+                "ssrCode": "TCSI",
+                "ssrName": null,
+                "preference": "Veg"
+              },
+              {
+                "ssrCode": "CHCI",
+                "ssrName": null,
+                "preference": "Non Veg"
+              },
+              {
+                "ssrCode": "CHTS",
+                "ssrName": null,
+                "preference": "Veg"
+              },
+              {
+                "ssrCode": "CHSC",
+                "ssrName": null,
+                "preference": "Non Veg"
+              },
+              {
+                "ssrCode": "APWR",
+                "ssrName": null,
+                "preference": "Non Veg"
+              },
+              {
+                "ssrCode": "TBNI",
+                "ssrName": null,
+                "preference": "Non Veg"
+              },
+              {
+                "ssrCode": "NBNI",
+                "ssrName": null,
+                "preference": "Non Veg"
+              },
+              {
+                "ssrCode": "GYNI",
+                "ssrName": null,
+                "preference": "Non Veg"
+              },
+              {
+                "ssrCode": "VGPI",
+                "ssrName": null,
+                "preference": null
+              },
+              {
+                "ssrCode": "CHTI",
+                "ssrName": null,
+                "preference": "Non Veg"
+              },
+              {
+                "ssrCode": "PTSW",
+                "ssrName": null,
+                "preference": "Veg"
+              },
+              {
+                "ssrCode": "DACH",
+                "ssrName": null,
+                "preference": "Veg"
+              },
+              {
+                "ssrCode": "VGSI",
+                "ssrName": null,
+                "preference": "Veg"
+              },
+              {
+                "ssrCode": "NVSI",
+                "ssrName": null,
+                "preference": "Non Veg"
+              },
+              {
+                "ssrCode": "VGMI",
+                "ssrName": null,
+                "preference": "Veg"
+              },
+              {
+                "ssrCode": "NVMI",
+                "ssrName": null,
+                "preference": "Non Veg"
+              },
+              {
+                "ssrCode": "VGLI",
+                "ssrName": null,
+                "preference": "Veg"
+              },
+              {
+                "ssrCode": "NVLI",
+                "ssrName": null,
+                "preference": "Non Veg"
+              },
+              {
+                "ssrCode": "VGNI",
+                "ssrName": null,
+                "preference": "Veg"
+              },
+              {
+                "ssrCode": "NVNI",
+                "ssrName": null,
+                "preference": "Non Veg"
+              },
+              {
+                "ssrCode": "VGRI",
+                "ssrName": null,
+                "preference": "Veg"
+              },
+              {
+                "ssrCode": "NVRI",
+                "ssrName": null,
+                "preference": "Non Veg"
+              },
+              {
+                "ssrCode": "SNBG",
+                "ssrName": null,
+                "preference": "Veg"
+              },
+              {
+                "ssrCode": "CHBR",
+                "ssrName": null,
+                "preference": "Non Veg"
+              },
+              {
+                "ssrCode": "FRCK",
+                "ssrName": null,
+                "preference": "Veg"
+              },
+              {
+                "ssrCode": "VGML",
+                "ssrName": null,
+                "preference": "Veg"
+              },
+              {
+                "ssrCode": "VJML",
+                "ssrName": null,
+                "preference": "Veg"
+              }
+            ]
+          },
+          {
+            "categoryBundleCode": "MLST",
+            "title": "6E Seat And  Eat",
+            "ssrList": []
+          },
+          {
+            "categoryBundleCode": "PRBG",
+            "title": "6E QuickBoard",
+            "ssrList": []
+          },
+          {
+            "categoryBundleCode": "PRIM",
+            "title": "6E Prime",
+            "ssrList": []
+          },
+          {
+            "categoryBundleCode": "PROT",
+            "title": "Travel assistance",
+            "ssrList": []
+          },
+          {
+            "categoryBundleCode": "SPEQ",
+            "title": "Add sports equipment",
+            "ssrList": []
+          }
+        ],
+        "smartWebCheckInHeading": {
+          "html": "<p>Heading for Schedule c<span class=\"text-green\">heck-in</span></p>\n"
+        },
+        "mealLabel": "Meal",
+        "checkinNotAvailablePopup": {
+          "heading": "Details submitted succesfully",
+          "description": {
+            "html": "<p>We will attempt to complete your checkin on 1st Nov 2023. Boarding pass will be shared with you over email and whats app.</p>\n"
+          },
+          "ctaLabel": "OK",
+          "ctaPath": "#"
+        },
+        "undoWebCheckinPopUp": {
+          "heading": "To proceed with undo web check-in, you’ll need to redo web check-in later for all selected passengers to continue your journey.",
+          "description": {
+            "html": "<p>Undo <span class=\"text-green\">Web Check-in</span></p>\n"
+          },
+          "ctaLabel": "Cancel",
+          "secondaryCtaLabel": "Continue"
+        },
+        "undoWebCheckinSuccessMsg": {
+          "html": "<p>Undo web check-in successful</p>\n"
+        },
+        "undoWebCheckinFailureMsg": {
+          "html": "<p>Undo web check-in failed</p>\n"
+        },
+        "backToItineraryText": "Back To Itinerary",
+        "backToItineraryUrl": "/content/skyplus6e/in/en/book/itinerary.html",
+        "webCheckinDoneHeading": {
+          "html": "<p>Web Check-in is Done</p>\n"
+        },
+        "codeShare": [
+          {
+            "equipmentType": "320",
+            "carrierCode": "TK",
+            "equipmentTypeLabel": "A320",
+            "carrierCodeIcon": {
+              "_publishUrl": "https://s6web-uat.goindigo.in/content/dam/s6common/in/en/assets/codeshare/images/TurkishAirlinesLogo.png"
+            },
+            "carrierCodePopupIcon": {
+              "_publishUrl": "https://s6web-uat.goindigo.in/content/dam/s6common/in/en/assets/codeshare/images/TurkishAirlinesLogo.png"
+            },
+            "operatedByAirlinesLabel": "Operated by Indigo Airlines"
+          },
+          {
+            "equipmentType": "77W",
+            "carrierCode": "6E",
+            "equipmentTypeLabel": "B777",
+            "carrierCodeIcon": {
+              "_publishUrl": "https://s6web-uat.goindigo.in/content/dam/s6common/in/en/assets/codeshare/images/icFlightStroke%20(1).svg"
+            },
+            "carrierCodePopupIcon": {
+              "_publishUrl": "https://s6web-uat.goindigo.in/content/dam/s6common/in/en/assets/codeshare/images/LOGO-dotted.png"
+            },
+            "operatedByAirlinesLabel": "Operated by Indigo Airlines"
+          },
+          {
+            "equipmentType": "32B",
+            "carrierCode": "BA",
+            "equipmentTypeLabel": "32B",
+            "carrierCodeIcon": {
+              "_publishUrl": "https://s6web-uat.goindigo.in/content/dam/s6common/in/en/assets/codeshare/images/icFlightStroke%20(1).svg"
+            },
+            "carrierCodePopupIcon": {
+              "_publishUrl": "https://s6web-uat.goindigo.in/content/dam/s6common/in/en/assets/codeshare/images/BA_Spd_Col_Logo.jpg"
+            },
+            "operatedByAirlinesLabel": "Operated By"
+          },
+          {
+            "equipmentType": "ATR",
+            "carrierCode": "TK",
+            "equipmentTypeLabel": "ATR",
+            "carrierCodeIcon": {
+              "_publishUrl": "https://s6web-uat.goindigo.in/content/dam/s6common/in/en/assets/codeshare/images/TurkishAirlinesLogo.png"
+            },
+            "carrierCodePopupIcon": {
+              "_publishUrl": "https://s6web-uat.goindigo.in/content/dam/s6common/in/en/assets/codeshare/images/TurkishAirlinesLogo.png"
+            },
+            "operatedByAirlinesLabel": "Operated by Indigo Airlines"
+          },
+          {
+            "equipmentType": "32B",
+            "carrierCode": "QF",
+            "equipmentTypeLabel": "32B",
+            "carrierCodeIcon": {
+              "_publishUrl": "https://s6web-uat.goindigo.in/content/dam/s6common/in/en/assets/codeshare/images/icFlightStroke%20(1).svg"
+            },
+            "carrierCodePopupIcon": {
+              "_publishUrl": "https://s6web-uat.goindigo.in/content/dam/s6common/in/en/assets/codeshare/images/QANTAS_Masterbrand_Vertical_RGB_190816.jpg"
+            },
+            "operatedByAirlinesLabel": "Operated by Qantas Airline"
+          },
+          {
+            "equipmentType": "ATR",
+            "carrierCode": "6E",
+            "equipmentTypeLabel": "ATR",
+            "carrierCodeIcon": {
+              "_publishUrl": "https://s6web-uat.goindigo.in/content/dam/s6common/in/en/assets/codeshare/images/icATR%20(1).svg"
+            },
+            "carrierCodePopupIcon": {
+              "_publishUrl": "https://s6web-uat.goindigo.in/content/dam/s6common/in/en/assets/codeshare/images/LOGO-dotted.png"
+            },
+            "operatedByAirlinesLabel": "Operated by Indigo Airlines"
+          },
+          {
+            "equipmentType": "320",
+            "carrierCode": "6E",
+            "equipmentTypeLabel": "A320",
+            "carrierCodeIcon": {
+              "_publishUrl": "https://s6web-uat.goindigo.in/content/dam/s6common/in/en/assets/codeshare/images/icFlightStroke%20(1).svg"
+            },
+            "carrierCodePopupIcon": {
+              "_publishUrl": "https://s6web-uat.goindigo.in/content/dam/s6common/in/en/assets/codeshare/images/LOGO-dotted.png"
+            },
+            "operatedByAirlinesLabel": "Operated by Indigo Airlines"
+          },
+          {
+            "equipmentType": "32B",
+            "carrierCode": "CX",
+            "equipmentTypeLabel": "32B",
+            "carrierCodeIcon": {
+              "_publishUrl": "https://s6web-uat.goindigo.in/content/dam/s6common/in/en/assets/codeshare/images/Cathay_Pacific_LOGO@3x.png"
+            },
+            "carrierCodePopupIcon": {
+              "_publishUrl": "https://s6web-uat.goindigo.in/content/dam/s6common/in/en/assets/codeshare/images/Cathay_pacific2.jpg"
+            },
+            "operatedByAirlinesLabel": "Operated by Cathay Pacific"
+          },
+          {
+            "equipmentType": "32B",
+            "carrierCode": "TK",
+            "equipmentTypeLabel": "32B",
+            "carrierCodeIcon": {
+              "_publishUrl": "https://s6web-uat.goindigo.in/content/dam/s6common/in/en/assets/codeshare/images/TurkishAirlinesLogo.png"
+            },
+            "carrierCodePopupIcon": {
+              "_publishUrl": "https://s6web-uat.goindigo.in/content/dam/s6common/in/en/assets/codeshare/images/TurkishAirlinesLogo.png"
+            },
+            "operatedByAirlinesLabel": "Operated by Indigo Airlines"
+          },
+          {
+            "equipmentType": "321",
+            "carrierCode": "TK",
+            "equipmentTypeLabel": "A321",
+            "carrierCodeIcon": {
+              "_publishUrl": "https://s6web-uat.goindigo.in/content/dam/s6common/in/en/assets/codeshare/images/TurkishAirlinesLogo.png"
+            },
+            "carrierCodePopupIcon": {
+              "_publishUrl": "https://s6web-uat.goindigo.in/content/dam/s6common/in/en/assets/codeshare/images/TurkishAirlinesLogo.png"
+            },
+            "operatedByAirlinesLabel": "Operated by Turkish Airlines"
+          },
+          {
+            "equipmentType": "77W",
+            "carrierCode": "TK",
+            "equipmentTypeLabel": "B777",
+            "carrierCodeIcon": {
+              "_publishUrl": "https://s6web-uat.goindigo.in/content/dam/s6common/in/en/assets/codeshare/images/icFlightStroke%20(1).svg"
+            },
+            "carrierCodePopupIcon": {
+              "_publishUrl": "https://s6web-uat.goindigo.in/content/dam/s6common/in/en/assets/codeshare/images/TurkishAirlinesLogo.png"
+            },
+            "operatedByAirlinesLabel": "Operated by Indigo Airlines"
+          },
+          {
+            "equipmentType": "32W",
+            "carrierCode": "6E",
+            "equipmentTypeLabel": "32W",
+            "carrierCodeIcon": {
+              "_publishUrl": "https://s6web-uat.goindigo.in/content/dam/s6common/in/en/assets/codeshare/images/icFlightStroke%20(1).svg"
+            },
+            "carrierCodePopupIcon": {
+              "_publishUrl": "https://s6web-uat.goindigo.in/content/dam/s6common/in/en/assets/codeshare/images/LOGO-dotted.png"
+            },
+            "operatedByAirlinesLabel": "Operated by Indigo Airlines"
+          },
+          {
+            "equipmentType": "321",
+            "carrierCode": "6E",
+            "equipmentTypeLabel": "A321",
+            "carrierCodeIcon": {
+              "_publishUrl": "https://s6web-uat.goindigo.in/content/dam/s6common/in/en/assets/codeshare/images/icFlightStroke%20(1).svg"
+            },
+            "carrierCodePopupIcon": {
+              "_publishUrl": "https://s6web-uat.goindigo.in/content/dam/s6common/in/en/assets/codeshare/images/LOGO-dotted.png"
+            },
+            "operatedByAirlinesLabel": "Operated by Indigo Airlines"
+          },
+          {
+            "equipmentType": "32B",
+            "carrierCode": "6E",
+            "equipmentTypeLabel": "32B",
+            "carrierCodeIcon": {
+              "_publishUrl": "https://s6web-uat.goindigo.in/content/dam/s6common/in/en/assets/codeshare/images/icFlightStroke%20(1).svg"
+            },
+            "carrierCodePopupIcon": {
+              "_publishUrl": "https://s6web-uat.goindigo.in/content/dam/s6common/in/en/assets/codeshare/images/LOGO-dotted.png"
+            },
+            "operatedByAirlinesLabel": "Operated by Indigo Airlines"
+          },
+          {
+            "equipmentType": "32B",
+            "carrierCode": "MH",
+            "equipmentTypeLabel": "32B",
+            "carrierCodeIcon": {
+              "_publishUrl": "https://s6web-uat.goindigo.in/content/dam/s6common/in/en/assets/codeshare/images/MAB-Logo_digital_square.jpg"
+            },
+            "carrierCodePopupIcon": {
+              "_publishUrl": "https://s6web-uat.goindigo.in/content/dam/s6common/in/en/assets/codeshare/images/MAB-Logo_digital_square.jpg"
+            },
+            "operatedByAirlinesLabel": "Operated "
+          },
+          {
+            "equipmentType": "738",
+            "carrierCode": "6E",
+            "equipmentTypeLabel": "B738",
+            "carrierCodeIcon": {
+              "_publishUrl": "https://s6web-uat.goindigo.in/content/dam/s6common/in/en/assets/codeshare/images/LOGO-dotted.png"
+            },
+            "carrierCodePopupIcon": {
+              "_publishUrl": "https://s6web-uat.goindigo.in/content/dam/s6common/in/en/assets/codeshare/images/LOGO-dotted.png"
+            },
+            "operatedByAirlinesLabel": "Operated by Indigo Airlines"
+          }
+        ],
+        "viewBoardingPassCtaTitle": "View Boarding Pass",
+        "viewBoardingPassLink": "/content/skyplus6e/in/en/checkin/print.html",
+        "undoCheckInCtaTitle": "Undo web check-in",
+        "undoCheckInCtaLink": "/content/skyplus6e/in/en/book/undo-checkin.html",
+        "smartWebCheckInCtaTitle": "Schedule check-in",
+        "smartWebCheckInCtaLink": "/content/skyplus6e/in/en/web-check-in.html",
+        "webCheckInInternationalLink": null
+      }
+    }
+  }
+}

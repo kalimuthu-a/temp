@@ -1,0 +1,5 @@
+[ccu]
+client_secret = X2KuF6AtzdHyRv8qDLgfL1Gxe7fUdSWGH8/S0rUaWFc=
+host = akab-szkbepinhkjlov7q-x7phtqnce7aqowdp.luna.akamaiapis.net
+access_token = akab-xlsp6tnv4kq2nktr-22f3mlnqh2oz5ph5
+client_token = akab-tfpfdgogztq7m2z2-o4oqnryhvotd43n5

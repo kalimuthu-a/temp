@@ -1,0 +1,966 @@
+{
+  "data": {
+    "bookingKey": null,
+    "recordLocator": null,
+    "currencyCode": "INR",
+    "systemCode": null,
+    "groupName": null,
+    "locators": {
+      "numericRecordLocator": null,
+      "parentRecordLocator": null,
+      "parentId": 0,
+      "recordLocators": []
+    },
+    "info": {
+      "status": 0,
+      "paidStatus": 0,
+      "priceStatus": 2,
+      "profileStatus": 0,
+      "bookingType": null,
+      "channelType": 0,
+      "bookedDate": "2024-03-18T11:15:33.9055937Z",
+      "createdDate": null,
+      "expirationDate": null,
+      "modifiedDate": null,
+      "modifiedAgentId": 0,
+      "createdAgentId": 0,
+      "owningCarrierCode": null,
+      "changeAllowed": true,
+      "nationality": null,
+      "residentCountry": null,
+      "gender": 0,
+      "dateOfBirth": null,
+      "familyNumber": null
+    },
+    "sales": {
+      "created": {
+        "agentCode": "WebAnonSkyplus",
+        "domainCode": "WW2",
+        "locationCode": "WWW",
+        "organizationCode": "6E"
+      },
+      "source": {
+        "isoCountryCode": null,
+        "sourceSystemCode": null,
+        "agentCode": "WebAnonSkyplus",
+        "domainCode": "WW2",
+        "locationCode": "WWW",
+        "organizationCode": "6E"
+      },
+      "modified": null
+    },
+    "typeOfSale": {
+      "residentCountry": null,
+      "promotionCode": "",
+      "fareTypes": null
+    },
+    "hold": null,
+    "breakdown": {
+      "balanceDue": 4882.0,
+      "pointsBalanceDue": 0.0,
+      "authorizedBalanceDue": 4882.0,
+      "totalAmount": 4882.0,
+      "totalPoints": 0.0,
+      "totalToCollect": 4882.0,
+      "totalPointsToCollect": 0.0,
+      "totalCharged": 4882.0,
+      "passengerTotals": {
+        "services": null,
+        "specialServices": null,
+        "seats": null,
+        "upgrades": null,
+        "spoilage": null,
+        "nameChanges": null,
+        "convenience": null,
+        "infant": null
+      },
+      "passengers": {
+        "MCFBRFQ-": {
+          "passengerKey": "MCFBRFQ-",
+          "services": null,
+          "specialServices": null,
+          "seats": null,
+          "upgrades": null,
+          "spoilage": null,
+          "nameChanges": null,
+          "convenience": null,
+          "infant": null,
+          "passengerAlternateKey": null,
+          "customerNumber": null,
+          "fees": null,
+          "name": null,
+          "passengerTypeCode": null,
+          "discountCode": null,
+          "bags": null,
+          "program": null,
+          "info": null,
+          "travelDocuments": null,
+          "addresses": null,
+          "weightCategory": 0,
+          "activityDate": null,
+          "baggageAllowanceUsed": false,
+          "baggageAllowanceWeight": 0,
+          "baggageAllowanceWeightType": 0,
+          "boardingSequence": null,
+          "createdDate": null,
+          "liftStatus": 0,
+          "modifiedDate": null,
+          "overBookIndicator": 0,
+          "priorityDate": null,
+          "timeChanged": false,
+          "verifiedTravelDocs": null,
+          "sourcePointOfSale": null,
+          "pointOfSale": null,
+          "ssrs": null,
+          "tickets": null,
+          "scores": null,
+          "boardingPassDetail": null,
+          "hasInfant": false,
+          "seatPreferences": null,
+          "bundleCode": null,
+          "verifiedTravelDocuments": null
+        }
+      },
+      "journeyTotals": {
+        "totalAmount": 4180.0,
+        "totalPoints": 0.0,
+        "totalTax": 702.0,
+        "totalDiscount": 0.0
+      },
+      "journeys": {},
+      "addOnTotals": {
+        "car": null,
+        "hotel": null,
+        "activities": null
+      }
+    },
+    "receivedBy": null,
+    "contacts": {},
+    "passengers": {
+      "MCFBRFQ-": {
+        "passengerKey": "MCFBRFQ-",
+        "services": null,
+        "specialServices": null,
+        "seats": null,
+        "upgrades": null,
+        "spoilage": null,
+        "nameChanges": null,
+        "convenience": null,
+        "infant": null,
+        "passengerAlternateKey": null,
+        "customerNumber": null,
+        "fees": [],
+        "name": null,
+        "passengerTypeCode": "ADT",
+        "discountCode": null,
+        "bags": [],
+        "program": null,
+        "info": {
+          "status": 0,
+          "paidStatus": 0,
+          "priceStatus": 0,
+          "profileStatus": 0,
+          "bookingType": null,
+          "channelType": 0,
+          "bookedDate": null,
+          "createdDate": null,
+          "expirationDate": null,
+          "modifiedDate": null,
+          "modifiedAgentId": 0,
+          "createdAgentId": 0,
+          "owningCarrierCode": null,
+          "changeAllowed": false,
+          "nationality": null,
+          "residentCountry": null,
+          "gender": 1,
+          "dateOfBirth": null,
+          "familyNumber": null
+        },
+        "travelDocuments": [],
+        "addresses": [],
+        "weightCategory": 1,
+        "activityDate": null,
+        "baggageAllowanceUsed": false,
+        "baggageAllowanceWeight": 0,
+        "baggageAllowanceWeightType": 0,
+        "boardingSequence": null,
+        "createdDate": null,
+        "liftStatus": 0,
+        "modifiedDate": null,
+        "overBookIndicator": 0,
+        "priorityDate": null,
+        "timeChanged": false,
+        "verifiedTravelDocs": null,
+        "sourcePointOfSale": null,
+        "pointOfSale": null,
+        "ssrs": null,
+        "tickets": null,
+        "scores": null,
+        "boardingPassDetail": null,
+        "hasInfant": false,
+        "seatPreferences": null,
+        "bundleCode": null,
+        "verifiedTravelDocuments": null
+      }
+    },
+    "journeys": [
+      {
+        "flightType": 1,
+        "stops": 0,
+        "designator": {
+          "destination": "BOM",
+          "origin": "DEL",
+          "arrival": "2024-03-19T05:45:00",
+          "departure": "2024-03-19T03:40:00"
+        },
+        "move": null,
+        "segments": [
+          {
+            "isStandby": false,
+            "isConfirming": true,
+            "isConfirmingExternal": false,
+            "isBlocked": false,
+            "isHosted": true,
+            "isChangeOfGauge": false,
+            "designator": {
+              "destination": "BOM",
+              "origin": "DEL",
+              "arrival": "2024-03-19T05:45:00",
+              "departure": "2024-03-19T03:40:00"
+            },
+            "isSeatmapViewable": true,
+            "fares": [
+              {
+                "isGoverning": true,
+                "downgradeAvailable": false,
+                "carrierCode": "6E",
+                "fareKey": "MH5RfiB_NkV_UTBJUH4xMDU2fn4wfjIzfn5Y",
+                "classOfService": "Q",
+                "classType": null,
+                "fareApplicationType": 0,
+                "fareClassOfService": "Q",
+                "fareBasisCode": "Q0IP",
+                "fareSequence": 23,
+                "inboundOutBound": 0,
+                "fareStatus": 0,
+                "isAllotmentMarketFare": false,
+                "originalClassOfService": "Q",
+                "ruleNumber": "1056",
+                "productClass": "R",
+                "ruleTariff": null,
+                "travelClassCode": "Y",
+                "crossReferenceClassOfService": null,
+                "passengerFares": [
+                  {
+                    "serviceCharges": [
+                      {
+                        "amount": 4180.0,
+                        "code": null,
+                        "detail": null,
+                        "type": 0,
+                        "collectType": 0,
+                        "currencyCode": "INR",
+                        "foreignCurrencyCode": "INR",
+                        "foreignAmount": 4180.0,
+                        "ticketCode": null
+                      },
+                      {
+                        "amount": 50.0,
+                        "code": "PHF",
+                        "detail": "DEL-BOM",
+                        "type": 4,
+                        "collectType": 0,
+                        "currencyCode": "INR",
+                        "foreignCurrencyCode": "INR",
+                        "foreignAmount": 50.0,
+                        "ticketCode": "PHF"
+                      },
+                      {
+                        "amount": 50.0,
+                        "code": "RCF",
+                        "detail": "DEL-BOM",
+                        "type": 4,
+                        "collectType": 0,
+                        "currencyCode": "INR",
+                        "foreignCurrencyCode": "INR",
+                        "foreignAmount": 50.0,
+                        "ticketCode": "RCF"
+                      },
+                      {
+                        "amount": 236.0,
+                        "code": "ASF",
+                        "detail": "DEL-BOM",
+                        "type": 4,
+                        "collectType": 0,
+                        "currencyCode": "INR",
+                        "foreignCurrencyCode": "INR",
+                        "foreignAmount": 236.0,
+                        "ticketCode": "ASF"
+                      },
+                      {
+                        "amount": 91.0,
+                        "code": "PSF",
+                        "detail": "DEL-BOM",
+                        "type": 4,
+                        "collectType": 0,
+                        "currencyCode": "INR",
+                        "foreignCurrencyCode": "INR",
+                        "foreignAmount": 91.0,
+                        "ticketCode": "PSF"
+                      },
+                      {
+                        "amount": 61.0,
+                        "code": "UDF",
+                        "detail": "DEL-BOM",
+                        "type": 4,
+                        "collectType": 0,
+                        "currencyCode": "INR",
+                        "foreignCurrencyCode": "INR",
+                        "foreignAmount": 61.0,
+                        "ticketCode": "UDF"
+                      },
+                      {
+                        "amount": 214.0,
+                        "code": "07GST",
+                        "detail": "DEL-BOM",
+                        "type": 5,
+                        "collectType": 0,
+                        "currencyCode": "INR",
+                        "foreignCurrencyCode": "INR",
+                        "foreignAmount": 214.0,
+                        "ticketCode": "GST"
+                      }
+                    ],
+                    "discountCode": null,
+                    "fareDiscountCode": null,
+                    "passengerType": "ADT"
+                  }
+                ],
+                "fareLink": 0
+              }
+            ],
+            "segmentKey": "NkV_Mjc2Nn4gfn5ERUx_MDMvMTkvMjAyNCAwMzo0MH5CT01_MDMvMTkvMjAyNCAwNTo0NX5_",
+            "identifier": {
+              "identifier": "2766",
+              "carrierCode": "6E",
+              "opSuffix": null
+            },
+            "passengerSegment": {
+              "PaxSegDetails": null
+            },
+            "channelType": 6,
+            "cabinOfService": "Y",
+            "externalIdentifier": null,
+            "priorityCode": null,
+            "changeReasonCode": 0,
+            "segmentType": 0,
+            "salesDate": null,
+            "international": false,
+            "flightReference": "20240319 6E2766 DELBOM",
+            "legs": [
+              {
+                "legKey": "NjM4NDY0MTY0MDAwMDAwMDAwITZFITI3NjYhICFERUwhQk9NITgwNTI3NzA-",
+                "operationsInfo": {
+                  "arrivalGate": {
+                    "estimatedGate": null,
+                    "actualGate": null
+                  },
+                  "estimatedArrivalTime": null,
+                  "departureGate": {
+                    "estimatedGate": null,
+                    "actualGate": null
+                  },
+                  "actualOffBlockTime": null,
+                  "actualOnBlockTime": null,
+                  "actualTouchDownTime": null,
+                  "airborneTime": null,
+                  "arrivalNote": null,
+                  "arrivalStatus": 0,
+                  "baggageClaim": null,
+                  "departureNote": null,
+                  "departureStatus": 0,
+                  "departureTimes": {
+                    "scheduled": "2024-03-19T03:40:00",
+                    "estimated": null
+                  },
+                  "standardArrivalTime": "2024-03-19T05:45:00",
+                  "tailNumber": null
+                },
+                "designator": {
+                  "destination": "BOM",
+                  "origin": "DEL",
+                  "arrival": "2024-03-19T05:45:00",
+                  "departure": "2024-03-19T03:40:00"
+                },
+                "legInfo": {
+                  "departureTimeUtc": "2024-03-18T22:10:00Z",
+                  "arrivalTimeUtc": "2024-03-19T00:15:00Z",
+                  "adjustedCapacity": 0,
+                  "arrivalTerminal": "2",
+                  "arrivalTimeVariant": 330,
+                  "backMoveDays": 0,
+                  "capacity": 0,
+                  "changeOfDirection": false,
+                  "codeShareIndicator": 0,
+                  "departureTerminal": "2",
+                  "departureTimeVariant": 330,
+                  "equipmentType": "321",
+                  "equipmentTypeSuffix": "323",
+                  "eTicket": true,
+                  "irop": false,
+                  "lid": 0,
+                  "marketingCode": null,
+                  "marketingOverride": false,
+                  "onTime": null,
+                  "operatedByText": null,
+                  "operatingCarrier": null,
+                  "operatingFlightNumber": null,
+                  "operatingOpSuffix": null,
+                  "outMoveDays": 0,
+                  "arrivalTime": "2024-03-19T05:45:00",
+                  "departureTime": "2024-03-19T03:40:00",
+                  "prbcCode": "Y232",
+                  "scheduleServiceType": "J",
+                  "sold": 0,
+                  "status": 0,
+                  "subjectToGovtApproval": false
+                },
+                "nests": [
+                  {
+                    "adjustedCapacity": 232,
+                    "classNest": 1,
+                    "lid": 232,
+                    "travelClassCode": "Y",
+                    "nestType": 1,
+                    "legClasses": [
+                      {
+                        "classNest": 1,
+                        "classAllotted": 0,
+                        "classType": null,
+                        "classAuthorizedUnits": 232,
+                        "classOfService": "G",
+                        "classRank": 26,
+                        "classSold": 0,
+                        "cnxSold": 0,
+                        "latestAdvancedReservation": 0,
+                        "status": 1,
+                        "thruSold": 0
+                      },
+                      {
+                        "classNest": 1,
+                        "classAllotted": 0,
+                        "classType": null,
+                        "classAuthorizedUnits": 232,
+                        "classOfService": "Y",
+                        "classRank": 23,
+                        "classSold": 0,
+                        "cnxSold": 0,
+                        "latestAdvancedReservation": 0,
+                        "status": 1,
+                        "thruSold": 0
+                      },
+                      {
+                        "classNest": 1,
+                        "classAllotted": 0,
+                        "classType": null,
+                        "classAuthorizedUnits": 232,
+                        "classOfService": "W",
+                        "classRank": 22,
+                        "classSold": 0,
+                        "cnxSold": 0,
+                        "latestAdvancedReservation": 0,
+                        "status": 1,
+                        "thruSold": 0
+                      },
+                      {
+                        "classNest": 1,
+                        "classAllotted": 0,
+                        "classType": null,
+                        "classAuthorizedUnits": 232,
+                        "classOfService": "F",
+                        "classRank": 21,
+                        "classSold": 0,
+                        "cnxSold": 0,
+                        "latestAdvancedReservation": 0,
+                        "status": 1,
+                        "thruSold": 0
+                      },
+                      {
+                        "classNest": 1,
+                        "classAllotted": 0,
+                        "classType": null,
+                        "classAuthorizedUnits": 232,
+                        "classOfService": "A",
+                        "classRank": 20,
+                        "classSold": 0,
+                        "cnxSold": 0,
+                        "latestAdvancedReservation": 0,
+                        "status": 1,
+                        "thruSold": 0
+                      },
+                      {
+                        "classNest": 1,
+                        "classAllotted": 0,
+                        "classType": null,
+                        "classAuthorizedUnits": 232,
+                        "classOfService": "B",
+                        "classRank": 19,
+                        "classSold": 0,
+                        "cnxSold": 0,
+                        "latestAdvancedReservation": 0,
+                        "status": 1,
+                        "thruSold": 0
+                      },
+                      {
+                        "classNest": 1,
+                        "classAllotted": 0,
+                        "classType": null,
+                        "classAuthorizedUnits": 232,
+                        "classOfService": "C",
+                        "classRank": 18,
+                        "classSold": 0,
+                        "cnxSold": 0,
+                        "latestAdvancedReservation": 0,
+                        "status": 1,
+                        "thruSold": 0
+                      },
+                      {
+                        "classNest": 1,
+                        "classAllotted": 0,
+                        "classType": null,
+                        "classAuthorizedUnits": 232,
+                        "classOfService": "D",
+                        "classRank": 17,
+                        "classSold": 0,
+                        "cnxSold": 0,
+                        "latestAdvancedReservation": 0,
+                        "status": 1,
+                        "thruSold": 0
+                      },
+                      {
+                        "classNest": 1,
+                        "classAllotted": 0,
+                        "classType": null,
+                        "classAuthorizedUnits": 232,
+                        "classOfService": "E",
+                        "classRank": 16,
+                        "classSold": 0,
+                        "cnxSold": 0,
+                        "latestAdvancedReservation": 0,
+                        "status": 1,
+                        "thruSold": 0
+                      },
+                      {
+                        "classNest": 1,
+                        "classAllotted": 0,
+                        "classType": null,
+                        "classAuthorizedUnits": 232,
+                        "classOfService": "H",
+                        "classRank": 15,
+                        "classSold": 0,
+                        "cnxSold": 0,
+                        "latestAdvancedReservation": 0,
+                        "status": 1,
+                        "thruSold": 0
+                      },
+                      {
+                        "classNest": 1,
+                        "classAllotted": 0,
+                        "classType": null,
+                        "classAuthorizedUnits": 232,
+                        "classOfService": "K",
+                        "classRank": 14,
+                        "classSold": 0,
+                        "cnxSold": 0,
+                        "latestAdvancedReservation": 0,
+                        "status": 1,
+                        "thruSold": 0
+                      },
+                      {
+                        "classNest": 1,
+                        "classAllotted": 0,
+                        "classType": null,
+                        "classAuthorizedUnits": 232,
+                        "classOfService": "U",
+                        "classRank": 13,
+                        "classSold": 0,
+                        "cnxSold": 0,
+                        "latestAdvancedReservation": 0,
+                        "status": 1,
+                        "thruSold": 0
+                      },
+                      {
+                        "classNest": 1,
+                        "classAllotted": 0,
+                        "classType": null,
+                        "classAuthorizedUnits": 232,
+                        "classOfService": "V",
+                        "classRank": 12,
+                        "classSold": 0,
+                        "cnxSold": 0,
+                        "latestAdvancedReservation": 0,
+                        "status": 1,
+                        "thruSold": 0
+                      },
+                      {
+                        "classNest": 1,
+                        "classAllotted": 0,
+                        "classType": null,
+                        "classAuthorizedUnits": 232,
+                        "classOfService": "M",
+                        "classRank": 11,
+                        "classSold": 0,
+                        "cnxSold": 0,
+                        "latestAdvancedReservation": 0,
+                        "status": 1,
+                        "thruSold": 0
+                      },
+                      {
+                        "classNest": 1,
+                        "classAllotted": 0,
+                        "classType": null,
+                        "classAuthorizedUnits": 232,
+                        "classOfService": "N",
+                        "classRank": 10,
+                        "classSold": 0,
+                        "cnxSold": 0,
+                        "latestAdvancedReservation": 0,
+                        "status": 1,
+                        "thruSold": 0
+                      },
+                      {
+                        "classNest": 1,
+                        "classAllotted": 0,
+                        "classType": null,
+                        "classAuthorizedUnits": 220,
+                        "classOfService": "O",
+                        "classRank": 9,
+                        "classSold": 0,
+                        "cnxSold": 0,
+                        "latestAdvancedReservation": 0,
+                        "status": 1,
+                        "thruSold": 0
+                      },
+                      {
+                        "classNest": 1,
+                        "classAllotted": 0,
+                        "classType": null,
+                        "classAuthorizedUnits": 209,
+                        "classOfService": "T",
+                        "classRank": 8,
+                        "classSold": 0,
+                        "cnxSold": 0,
+                        "latestAdvancedReservation": 0,
+                        "status": 1,
+                        "thruSold": 0
+                      },
+                      {
+                        "classNest": 1,
+                        "classAllotted": 0,
+                        "classType": null,
+                        "classAuthorizedUnits": 197,
+                        "classOfService": "J",
+                        "classRank": 7,
+                        "classSold": 0,
+                        "cnxSold": 0,
+                        "latestAdvancedReservation": 0,
+                        "status": 1,
+                        "thruSold": 0
+                      },
+                      {
+                        "classNest": 1,
+                        "classAllotted": 0,
+                        "classType": null,
+                        "classAuthorizedUnits": 186,
+                        "classOfService": "L",
+                        "classRank": 6,
+                        "classSold": 0,
+                        "cnxSold": 0,
+                        "latestAdvancedReservation": 0,
+                        "status": 1,
+                        "thruSold": 0
+                      },
+                      {
+                        "classNest": 1,
+                        "classAllotted": 0,
+                        "classType": null,
+                        "classAuthorizedUnits": 174,
+                        "classOfService": "P",
+                        "classRank": 5,
+                        "classSold": 0,
+                        "cnxSold": 0,
+                        "latestAdvancedReservation": 0,
+                        "status": 1,
+                        "thruSold": 0
+                      },
+                      {
+                        "classNest": 1,
+                        "classAllotted": 0,
+                        "classType": null,
+                        "classAuthorizedUnits": 162,
+                        "classOfService": "Q",
+                        "classRank": 4,
+                        "classSold": 9,
+                        "cnxSold": 0,
+                        "latestAdvancedReservation": 0,
+                        "status": 1,
+                        "thruSold": 0
+                      },
+                      {
+                        "classNest": 1,
+                        "classAllotted": 0,
+                        "classType": null,
+                        "classAuthorizedUnits": 151,
+                        "classOfService": "R",
+                        "classRank": 3,
+                        "classSold": 126,
+                        "cnxSold": 0,
+                        "latestAdvancedReservation": 0,
+                        "status": 1,
+                        "thruSold": 0
+                      },
+                      {
+                        "classNest": 1,
+                        "classAllotted": 0,
+                        "classType": null,
+                        "classAuthorizedUnits": 153,
+                        "classOfService": "S",
+                        "classRank": 1,
+                        "classSold": 21,
+                        "cnxSold": 0,
+                        "latestAdvancedReservation": 0,
+                        "status": 1,
+                        "thruSold": 0
+                      },
+                      {
+                        "classNest": 1,
+                        "classAllotted": 0,
+                        "classType": "B",
+                        "classAuthorizedUnits": 0,
+                        "classOfService": "I",
+                        "classRank": 25,
+                        "classSold": 0,
+                        "cnxSold": 0,
+                        "latestAdvancedReservation": 0,
+                        "status": 1,
+                        "thruSold": 0
+                      },
+                      {
+                        "classNest": 1,
+                        "classAllotted": 0,
+                        "classType": "X",
+                        "classAuthorizedUnits": 0,
+                        "classOfService": "X",
+                        "classRank": 24,
+                        "classSold": 0,
+                        "cnxSold": 0,
+                        "latestAdvancedReservation": 0,
+                        "status": 1,
+                        "thruSold": 0
+                      },
+                      {
+                        "classNest": 1,
+                        "classAllotted": 0,
+                        "classType": "X",
+                        "classAuthorizedUnits": 0,
+                        "classOfService": "Z",
+                        "classRank": 2,
+                        "classSold": 0,
+                        "cnxSold": 0,
+                        "latestAdvancedReservation": 0,
+                        "status": 1,
+                        "thruSold": 0
+                      }
+                    ]
+                  }
+                ],
+                "ssrs": [
+                  {
+                    "available": 1,
+                    "ssrNestCode": "ABVD",
+                    "lid": 1,
+                    "sold": 0,
+                    "unitSold": 0
+                  },
+                  {
+                    "available": 10,
+                    "ssrNestCode": "BEER",
+                    "lid": 10,
+                    "sold": 0,
+                    "unitSold": 0
+                  },
+                  {
+                    "available": 8,
+                    "ssrNestCode": "BLKT",
+                    "lid": 8,
+                    "sold": 0,
+                    "unitSold": 0
+                  },
+                  {
+                    "available": 10,
+                    "ssrNestCode": "BLND",
+                    "lid": 10,
+                    "sold": 0,
+                    "unitSold": 0
+                  },
+                  {
+                    "available": 4,
+                    "ssrNestCode": "DEAF",
+                    "lid": 4,
+                    "sold": 0,
+                    "unitSold": 0
+                  },
+                  {
+                    "available": 15,
+                    "ssrNestCode": "DFNS",
+                    "lid": 25,
+                    "sold": 10,
+                    "unitSold": 10
+                  },
+                  {
+                    "available": 0,
+                    "ssrNestCode": "DOCT",
+                    "lid": 0,
+                    "sold": 0,
+                    "unitSold": 0
+                  },
+                  {
+                    "available": 8,
+                    "ssrNestCode": "EMDK",
+                    "lid": 8,
+                    "sold": 0,
+                    "unitSold": 0
+                  },
+                  {
+                    "available": 29,
+                    "ssrNestCode": "FFWD",
+                    "lid": 30,
+                    "sold": 1,
+                    "unitSold": 1
+                  },
+                  {
+                    "available": 11,
+                    "ssrNestCode": "INFT",
+                    "lid": 12,
+                    "sold": 1,
+                    "unitSold": 1
+                  },
+                  {
+                    "available": 1,
+                    "ssrNestCode": "JWBL",
+                    "lid": 1,
+                    "sold": 0,
+                    "unitSold": 0
+                  },
+                  {
+                    "available": 1,
+                    "ssrNestCode": "JWDB",
+                    "lid": 1,
+                    "sold": 0,
+                    "unitSold": 0
+                  },
+                  {
+                    "available": 76,
+                    "ssrNestCode": "MLGR",
+                    "lid": 85,
+                    "sold": 9,
+                    "unitSold": 9
+                  },
+                  {
+                    "available": 40,
+                    "ssrNestCode": "MNCH",
+                    "lid": 40,
+                    "sold": 0,
+                    "unitSold": 0
+                  },
+                  {
+                    "available": 8,
+                    "ssrNestCode": "NTKT",
+                    "lid": 8,
+                    "sold": 0,
+                    "unitSold": 0
+                  },
+                  {
+                    "available": 50,
+                    "ssrNestCode": "RTES",
+                    "lid": 50,
+                    "sold": 0,
+                    "unitSold": 0
+                  },
+                  {
+                    "available": 1,
+                    "ssrNestCode": "STCR",
+                    "lid": 1,
+                    "sold": 0,
+                    "unitSold": 0
+                  },
+                  {
+                    "available": 204,
+                    "ssrNestCode": "UMNR",
+                    "lid": 204,
+                    "sold": 0,
+                    "unitSold": 0
+                  },
+                  {
+                    "available": 10,
+                    "ssrNestCode": "VDKA",
+                    "lid": 10,
+                    "sold": 0,
+                    "unitSold": 0
+                  },
+                  {
+                    "available": 1,
+                    "ssrNestCode": "WCHC",
+                    "lid": 5,
+                    "sold": 4,
+                    "unitSold": 4
+                  },
+                  {
+                    "available": 5,
+                    "ssrNestCode": "WCHR",
+                    "lid": 5,
+                    "sold": 0,
+                    "unitSold": 0
+                  },
+                  {
+                    "available": 10,
+                    "ssrNestCode": "WHSK",
+                    "lid": 10,
+                    "sold": 0,
+                    "unitSold": 0
+                  },
+                  {
+                    "available": 10,
+                    "ssrNestCode": "WINE",
+                    "lid": 10,
+                    "sold": 0,
+                    "unitSold": 0
+                  },
+                  {
+                    "available": 20,
+                    "ssrNestCode": "XBRC",
+                    "lid": 20,
+                    "sold": 0,
+                    "unitSold": 0
+                  }
+                ],
+                "seatmapReference": "NkUhMjc2NiEgITYzODQ2NDE2NDAwMDAwMDAwMCFERUwhQk9N",
+                "flightReference": "20240319 6E2766 DELBOM"
+              }
+            ]
+          }
+        ],
+        "journeyKey": "NkV_Mjc2Nn4gfn5ERUx_MDMvMTkvMjAyNCAwMzo0MH5CT01_MDMvMTkvMjAyNCAwNTo0NX5_",
+        "notForGeneralUser": false,
+        "JourneySource": null
+      }
+    ],
+    "comments": [],
+    "queues": [],
+    "history": [],
+    "payments": [],
+    "addOns": {}
+  },
+  "ManualSellSSRPushed": null,
+  "errors": null
+}

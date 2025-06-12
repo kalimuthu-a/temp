@@ -1,0 +1,18 @@
+$border-gray: #dedede;
+$border-blue: #027bff;
+$background-gray: #efeff4cb;
+
+@mixin input-common {
+  border: none;
+  border-bottom: rem(1px) solid $border-gray;
+  padding: rem(10px) rem(5px) rem(8px);
+  font-size: rem(18px);
+
+  &:focus {
+    border-bottom: rem(1px) solid $border-blue;
+  }
+
+  &:hover {
+    background-color: $background-gray;
+  }
+}

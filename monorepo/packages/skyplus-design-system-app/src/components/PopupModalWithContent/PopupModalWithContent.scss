@@ -1,0 +1,69 @@
+.popup-modal-global {
+	top: 0;
+	left: 0;
+	z-index: 999999;
+	width: 100vw;
+	height: 100vh;
+	position: fixed;
+	overflow: auto;
+	background: transparent;
+
+	&__header {
+		display: flex;
+		column-gap: rem(16px);
+		&__title {
+			font-size: rem(16px);
+			font-weight: 700;
+		}
+
+	  justify-content: space-between;
+
+	}
+
+	&__bg-overlay {
+		width: 100vw;
+		height: 100vh;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		background: linear-gradient(224deg, rgba(21, 32, 95, 0.8) 6.84%, rgba(36, 64, 154, 0.8) 73.19%);
+	}
+
+	&__content {
+		position: unset !important;
+		transform: unset !important;
+		padding: rem(30px);
+		background-color:#fff;
+		height: auto;
+		width: 90%;
+		background-color:#fff;
+		border-radius: 8px;
+		box-shadow: 0 0 10px -4px gray;
+		@include media(">=tablet") {
+			width: 60%;
+		}
+	}
+
+	&__close-overlay-button {
+		padding: 0;
+		background: transparent;
+		margin: 0;
+		line-height: normal;
+		border: none;
+	}
+	.visibility-hidden {
+		visibility: hidden;
+	}
+}
+.no-scroll {
+	overflow: auto;
+}
+
+.no-scroll-on-popup {
+	overflow: hidden;
+}
+.upsell-default {
+	.popup-modal-with-content__content {
+		width: rem(550px);
+	}
+}

@@ -1,0 +1,53 @@
+.fare-details {
+  &__fee {
+    margin-top: rem(12px);
+
+    &__head {
+      padding-bottom: rem(8px);
+      margin-bottom: rem(4px);
+
+      .left {
+        font-family: var(--font-family-poppins-semibold);
+      }
+
+      &__view-detail {
+        font-family: var(--font-family-poppins-regular);
+        color: var(--text-primary-main);
+        font-size: rem(12px);
+        display: flex;
+        text-decoration: none;
+        align-items: center;
+
+        &::after {
+          content: '\e971';
+          color: var(--text-primary-main);
+          font-family: $font-family-indigo;
+          margin-left: rem(2px);
+          font-size: rem(16px);
+        }
+      }
+
+      &.withBorder {
+        margin-bottom: rem(-2px);
+        border-bottom: 1px dotted var(--action-disabled-stroke);
+      }
+    }
+
+    &__content {
+      margin-bottom: rem(24px);
+
+      &__row {
+        margin-bottom: rem(4px);
+
+        div {
+          color: var(--text-secondary);
+        }
+      }
+
+      &.duration {
+        border-top: 1px dotted var(--action-disabled-stroke);
+        padding-top: rem(4px);
+      }
+    }
+  }
+}

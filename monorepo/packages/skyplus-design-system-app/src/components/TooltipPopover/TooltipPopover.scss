@@ -1,0 +1,97 @@
+.arrow-shadow::before{
+  content: '';
+  position: absolute;
+  border-left: rem(22px) solid transparent;
+  border-right: rem(22px) solid transparent;
+  border-top: rem(22px) solid rgb(0 0 0 / 10%);
+  top: 100%;
+  left: 68%;
+  filter: blur(4px);
+  z-index: 0;
+}
+
+.tooltip-message-container {
+  position: absolute;
+  width: rem(600px);
+  background: white;
+  padding: rem(12px);
+  border-radius: rem(8px);
+  border: rem(0.2px) solid var(--secondary-light);
+  margin: rem(14px) 0 rem(20px);
+  z-index: 9999;
+
+  .tooltip-header{
+    display: flex;
+  }
+
+  @include media('>=tablet') {
+    margin: rem(-2px) 0 rem(30px);
+  }
+
+  > * {
+    margin: 0;
+    padding: 0;
+    font-family: var(--font-family-poppins-regular);
+    line-height: rem(20px);
+    font-weight: 400;
+    font-size: rem(12px);
+
+    @include media('>=tablet') {
+      font-size: rem(14px);
+    }
+  }
+
+  > h4 {
+    color: var(--text-primary);
+    margin-bottom: rem(8px);
+
+    @include media('>=tablet') {
+      margin-bottom: rem(10px);
+    }
+  }
+
+  p {
+    color: var(--text-secondary);
+  }
+
+  &.top .tooltip-arrow {
+    position: absolute;
+    bottom: 100%;
+    left: 50%;
+    border-left: rem(15px) solid transparent;
+    border-right: rem(15px) solid transparent;
+    border-top: rem(15px) solid #fff;
+    transform: rotate(180deg);
+  }
+
+
+  &.bottom .tooltip-arrow {
+    position: absolute;
+    top: 100%;
+    left: 74%;
+    transform: translateX(-50%) rotate(180deg);
+    border-left: rem(15px) solid transparent;
+    border-right: rem(15px) solid transparent;
+    border-bottom: rem(15px) solid #fff ;
+  }
+
+  &.left .tooltip-arrow {
+    position: absolute;
+    top: 50%;
+    left: 100%;
+    transform: translateY(-50%);
+    border-top: rem(6px) solid transparent;
+    border-bottom: rem(6px) solid transparent;
+    border-left: rem(6px) solid var(--text-alice-blue);
+  }
+
+  &.right .tooltip-arrow {
+    position: absolute;
+    top: 50%;
+    right: 100%;
+    transform: translateY(-50%);
+    border-top: rem(6px) solid transparent;
+    border-bottom: rem(6px) solid transparent;
+    border-right: rem(6px) solid var(--text-alice-blue);
+  }
+}

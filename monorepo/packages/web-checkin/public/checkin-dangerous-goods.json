@@ -1,0 +1,75 @@
+{
+  "data": {
+    "checkinDangerousGoodsByPath": {
+      "item": {
+        "restrictedGoodsTitle": {
+          "html": "<p>Dangerous goods and <span class=\"text-green\">Restricted Articles</span></p>\n"
+        },
+        "restrictedGoodsDescription": {
+          "html": "<p>If you have any dangerous goods or restricted articles please declare them, carrying these objects may be an offence &amp; may result in prosecution</p>"
+        },
+        "loaderImagePath": {
+          "_publishUrl": "https://aem-s6web-qa-skyplus6e.goindigo.in/content/dam/s6web/in/en/assets/payments-page-icon.gif"
+        },
+        "restrictedItemList": [
+          {
+            "title": "Radioactive Material",
+            "icon": "icon-radioactive"
+          },
+          {
+            "title": "Explosives Items",
+            "icon": "icon-bomb"
+          },
+          {
+            "title": "Dangerous Weapons",
+            "icon": "icon-dangerous-goods"
+          },
+          {
+            "title": "Corrosive Substances",
+            "icon": "icon-corresive"
+          },
+          {
+            "title": "Peroxides & Oxidisers",
+            "icon": "icon-Peroxides-and-oxidisers"
+          },
+          {
+            "title": "Dangerous Goods",
+            "icon": "icon-dangerous-goods"
+          },
+          {
+            "title": "Flammable Liquids",
+            "icon": "icon-flammable"
+          },
+          {
+            "title": "Flammable Solids",
+            "icon": "icon-solid-flammable"
+          },
+          {
+            "title": "Any type of Gases",
+            "icon": "icon-gases"
+          },
+          {
+            "title": "Toxic Substances",
+            "icon": "icon-toxic"
+          },
+          {
+            "title": "Charger/ Batteries",
+            "icon": "icon-Charger-batteries"
+          }
+        ],
+        "noticeTitle": "Important Notice for passengers:",
+        "noticeDescription": {
+          "html": "<p>1. Only travel with baggage that belongs to you<br>\n2. Do not accept baggage from other people<br>\n3. Do not leave your bag un attended</p>\n"
+        },
+        "termsAndConditions": [
+          {
+            "title": "I have read and understood about Dangerous Goods & Restricted Articles",
+            "validationMessage": null
+          }
+        ],
+        "agreeAndContinueCTA": "Agree and Continue",
+        "agreeAndContinueCTALink": "/content/skyplus6e/in/en/checkin/print.html"
+      }
+    }
+  }
+}

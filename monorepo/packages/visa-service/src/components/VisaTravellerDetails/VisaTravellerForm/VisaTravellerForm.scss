@@ -1,0 +1,302 @@
+.visa_traveller_details {
+  gap: rem(24px);
+  padding: rem(20px) rem(24px);
+  width: 100%;
+
+  .visa-personel-details {
+    gap: rem(16px);
+    display: inline-grid;
+    width: 100%;
+
+    .personel-details {
+      font-weight: 600;
+      font-size: rem(16px);
+      line-height: rem(24px);
+      font-family: var(--font-family-poppins-regular);
+      color: var(--text-primary);
+    }
+
+    .skyplus-checkbox-container {
+      padding: rem(18px) 0 rem(18px) rem(8px);
+
+      @include media('>=tablet') {
+        padding: rem(18px) 0 rem(18px) rem(18px);
+      }
+
+      label {
+        &::before {
+          border: rem(1.5px) solid var(--primary-main);
+          height: rem(16px);
+          width: rem(16px);
+          border-radius: rem(5px);
+          margin-right: 0;
+        }
+
+        &::after {
+          top: rem(8px);
+          left: rem(3px);
+        }
+      }
+    }
+
+    .visa-chk-wrapper {
+      display: flex;
+      width: 100%;
+      border: rem(1px) solid var(--secondary-main);
+      border-radius: rem(5px);
+
+      .visa-chk-content {
+        font-weight: 400;
+        font-size: rem(10px);
+        line-height: rem(14px);
+        font-family: var(--font-family-poppins-regular);
+        color: var(--text-secondary);
+        margin: rem(12px) 0 0 rem(6px);
+      }
+
+      @include media('>=tablet') {
+        .visa-chk-content {
+          font-weight: 400;
+          font-size: rem(12px);
+          line-height: rem(14px);
+          font-family: var(--font-family-poppins-regular);
+          color: var(--text-secondary);
+          margin: rem(19px) 0 0 rem(10px);
+        }
+      }
+    }
+
+    .visa-chk-primary-enabled {
+      background-color: var(--secondary-light);
+    }
+
+    .visa-chk-primary-disabled {
+      background-color: var(--btn-disabled-background-light);
+      border: 1px solid var(--action-disabled-stroke);
+
+      .skyplus-checkbox-container {
+        .styled-checkbox {
+          pointer-events: none;
+          cursor: not-allowed;
+        }
+
+        label {
+          pointer-events: none;
+          cursor: not-allowed;
+
+          &::before {
+            border: rem(1.5px) solid var(--action-disabled-stroke);
+            background-color: var(--btn-disabled-background-light);
+          }
+        }
+      }
+    }
+  }
+
+  .visa-field-container {
+    display: flex;
+    flex-direction: column;
+    gap: rem(16px);
+    box-sizing: border-box;
+
+    & input {
+      border: rem(1px) solid var(--text-alice-blue);
+    }
+
+    @include media('>=tablet') {
+      display: grid;
+      grid-template-columns: 1fr;
+    }
+
+    .passport-heading {
+      grid-column: span 2;
+      font-family: var(--font-family-poppins-regular);
+      font-weight: 600;
+      font-size: rem(16px);
+      line-height: rem(20px);
+      color: var(--text-primary);
+      margin-top: rem(16px);
+    }
+  }
+
+  .input-with-icon {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+  }
+
+  .disable-visa-calender{
+    pointer-events: none;
+    cursor: not-allowed;
+  }
+
+  .input-with-icon input {
+    width: 100%;
+    padding-right: rem(30px);
+  }
+
+  .visa-calendar-icon-container {
+    position: absolute;
+    right: rem(10px);
+    top: rem(20px);
+    transform: translateY(-50%);
+    cursor: pointer;
+
+    .icon-calender {
+      color: var(--primary-main);
+    }
+  }
+
+  .visa-calendar-icon-container span {
+    font-size: rem(16px);
+  }
+
+  .visa-calendar-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(
+      224.24deg,
+      rgb(21 32 95 / 100%) 6.84%,
+      rgb(36 64 154 / 100%) 73.19%
+    );
+    z-index: 9997;
+  }
+
+  .visa-dob-calendar-container,
+  .visa-pass-calendar-container {
+    top: auto;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    z-index: 999999999;
+    background-color: transparent;
+    margin-bottom: 0 !important;
+  }
+
+  .visa-calendar-close-icon {
+    position: absolute;
+    top: rem(-60px);
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 10000;
+    cursor: pointer;
+    font-size: rem(20px);
+    color: var(--primary-main);
+    background-color: var(--secondary-white);
+    width: rem(40px);
+    height: rem(40px);
+    border-radius: rem(20px);
+    gap: rem(4px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .rdrDateRangePickerWrapper,
+  .rdrMonth {
+    width: 100%;
+  }
+
+  .rdrCalendarWrapper {
+    border-radius: unset !important;
+  }
+
+  .custom-bottom {
+    .selected-country-box-wrapper {
+      padding: rem(10px);
+    }
+
+    .d-flex {
+      position: relative;
+
+      .popover__content {
+        position: absolute;
+        z-index: 999;
+        background: var(--secondary-white);
+        left: auto;
+        width: 100%;
+
+        .country-menu-item {
+          padding: rem(8px) rem(16px);
+          display: flex;
+          justify-content: space-between;
+          cursor: pointer;
+          align-items: center;
+
+          .fs-14 {
+            display: flex;
+            gap: rem(16px);
+            align-items: center;
+          }
+
+          .fw-500 {
+            font-size: rem(18px);
+          }
+        }
+
+        .skyplus-dropdown-list--container {
+          height: 50vh;
+          overflow: auto;
+        }
+      }
+    }
+
+    margin: unset !important;
+
+    .skyplus-design-system-country-dropdown-wrapper {
+      margin: unset !important;
+    }
+  }
+
+  .custom-bottom-review {
+    margin: unset !important;
+
+    .skyplus-design-system-country-dropdown-wrapper {
+      margin: unset !important;
+    }
+
+    .nationality-dropdown-desktop {
+      pointer-events: none !important;
+      cursor: not-allowed;
+
+      .selected-country-box-wrapper {
+        background-color: var(--btn-disabled-background-light) !important;
+      }
+    }
+
+    input {
+      pointer-events: none !important;
+      cursor: not-allowed;
+      background-color: var(--btn-disabled-background-light) !important;
+    }
+  }
+}
+
+@include media('>=tablet') {
+  .visa_traveller_details {
+    .visa-field-container {
+      grid-template-columns: repeat(2, 1fr);
+
+      & input {
+        border: 1px solid var(--text-alice-blue);
+      }
+    }
+
+    .visa-calendar-close-icon,
+    .visa-calendar-overlay {
+      display: none;
+    }
+
+    .visa-dob-calendar-container,
+    .visa-pass-calendar-container {
+      position: absolute;
+      width: auto;
+      z-index: 999;
+      top: rem(42px);
+    }
+  }
+}

@@ -1,0 +1,210 @@
+.tier {
+  display: flex;
+  padding: rem(20px) rem(40px);
+  align-items: flex-start;
+  gap: rem(24px);
+  align-self: stretch;
+  border-radius: rem(8px);
+  background: var(--secondary-main);
+  flex-direction: column;
+  white-space: nowrap;
+  overflow: hidden;
+  align-items: center;
+
+  @include media('>=tablet') {
+    align-items: center;
+    padding: rem(40px) rem(60px);
+  }
+
+
+
+  &__current {
+    display: flex;
+    width: rem(223px);
+    flex-direction: column;
+    align-items: center;
+    gap: rem(20px);
+
+    @include media('>=tablet') {
+      width: auto;
+      gap: 0px;
+    }
+
+    .heading {
+      display: flex;
+      height: rem(100px);
+      padding: rem(20px);
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: rem(10px);
+      align-self: stretch;
+      border-radius: rem(8px);
+      background: var(--white);
+
+      @include media('>=tablet') {
+        width: rem(382px);
+        height: rem(115px);
+        margin: 0 auto;
+        margin-bottom: rem(15px);
+      }
+
+      &--main-heading {
+        color: var(--text-primary);
+        text-align: center;
+        font-size: rem(20px);
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        font-family: var(--font-family-bauhuas-std-medium);
+
+        @include media('>=tablet') {
+          font-size: rem(36px);
+          font-style: normal;
+          font-weight: 500;
+          line-height: normal;
+        }
+
+        span {
+          color: var(--text-green);
+          font-family: var(--font-family-bauhuas-std-medium);
+          font-size: rem(20px);
+          font-style: normal;
+          font-weight: 500;
+          line-height: normal;
+
+          @include media('>=tablet') {
+            font-size: rem(36px);
+            font-style: normal;
+            font-weight: 500;
+            line-height: normal;
+          }
+        }
+      }
+
+      &--sub-heading {
+        color: var(--text-secondary);
+        text-align: center;
+        font-family: var(--font-family-poppins-medium);
+        font-size: rem(12px);
+        font-style: normal;
+        font-weight: 500;
+        line-height: rem(18px);
+        white-space: pre-wrap;
+
+        @include media('>=tablet') {
+          font-size: rem(16px);
+          font-style: normal;
+          font-weight: 500;
+          line-height: rem(18px)
+        }
+
+        /* 150% */
+        span {
+          color: var(--text-secondary);
+          font-size: rem(12px);
+          font-style: normal;
+          font-weight: 400;
+          line-height: rem(18px);
+          font-family: var(--font-family-poppins-regular);
+
+          @include media('>=tablet') {
+            font-size: rem(16px);
+            font-style: normal;
+            font-weight: 500;
+            line-height: rem(18px)
+          }
+        }
+      }
+    }
+
+    .tier-line {
+      list-style: none;
+
+      li {
+        display: inline-block;
+        white-space: nowrap;
+        margin: rem(10px);
+        padding: rem(5px);
+        width: rem(223px);
+
+        @include media("<phone") {
+          width: rem(185px);
+        }
+
+        @include media(">=phone") {
+          width: rem(223px);
+        }
+
+        @include media(">=tablet") {
+          width: rem(500px);
+        }
+
+        @include media('>=desktop') {
+          width: rem(800px);
+        }
+
+        @include media('>=desktop-lg') {
+          width: rem(965px);
+        }
+
+      }
+    }
+
+    &--active {
+      height: rem(8px);
+      align-self: stretch;
+      border-radius: rem(200px);
+      background: var(--primary-main);
+    }
+
+    &--bottom-heading {
+      color: #222;
+      text-align: center;
+      text-transform: uppercase;
+      font-family: var(--font-family-poppins-medium);
+      ;
+      font-size: rem(20px);
+      font-style: normal;
+      font-weight: 500;
+      line-height: normal;
+
+    }
+
+  }
+
+  &__next {
+    height: rem(8px);
+    border-radius: rem(200px);
+    width: rem(20px);
+
+  }
+
+  &__pre {
+    display: flex;
+    width: rem(20px);
+    flex-direction: column;
+    align-items: flex-start;
+    gap: rem(20px);
+    height: rem(8px);
+    border-radius: rem(200px);
+
+  }
+
+  .gold {
+    background: #A97D0E;
+  }
+
+  .base {
+    background: var(--primary-main);
+  }
+
+  .silver {
+    background: var(--text-tertiary)
+  }
+
+}
+
+.hideTierLine {
+  visibility: hidden !important;
+}

@@ -1,0 +1,79 @@
+.view-visaserive {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 100%;
+  margin: 0 auto;
+
+  @include media(">=desktop") {
+    margin-top: rem(32px);
+    flex-direction: column;
+  }
+
+  /* stylelint-disable no-descending-specificity */
+  .back-btn {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: row;
+    font-size: rem(14px);
+    line-height: rem(20px);
+    font-family: var(--font-family-poppins-regular);
+    color: var(--primary-main);
+    margin-bottom: rem(32px);
+    position: relative;
+
+    @include media(">=desktop") {
+      width: 100%;
+    }
+
+    a {
+      display: flex;
+      align-items: center;
+      margin-left: rem(24px);
+      position: relative;
+      text-decoration: underline;
+      cursor: pointer;
+      color: var(--text-primary-main);
+
+      .icon-accordion-left-simple {
+        position: absolute;
+        display: inline-block;
+        left: - rem(30px);
+      }
+    }
+
+    &-btn {
+      background-color: transparent;
+      color: var(--primary-main);
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+      width: auto;
+      border: none;
+      cursor: pointer;
+      border-bottom: 1px solid var(--primary-main);
+      margin-left: rem(4px);
+      padding: 0;
+
+      .icon-accordion-left-simple {
+        position: absolute;
+        left: - rem(24px);
+      }
+    }
+
+  }
+
+  .skyplus-button {
+    button {
+      outline: none;
+    }
+  }
+}
+
+.booking-widget-header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex: 1;
+}

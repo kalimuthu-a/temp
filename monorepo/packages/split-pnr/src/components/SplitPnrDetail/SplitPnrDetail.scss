@@ -1,0 +1,23 @@
+.detail_itinerary_link {
+  &--container {
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  &--btn {
+    margin-top: -1rem;
+    margin-bottom: -0.5rem;
+
+    &>span {
+      font-size: rem(14px);
+      font-weight: 400;
+      line-height: rem(20px);
+
+      @include media('>=tablet') {
+        font-size: rem(16px);
+        font-weight: 500;
+        line-height: rem(24px);
+      }
+    }
+  }
+}

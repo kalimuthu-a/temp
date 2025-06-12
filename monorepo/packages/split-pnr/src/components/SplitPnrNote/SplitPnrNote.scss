@@ -1,0 +1,15 @@
+.split-pnr-note {
+  padding: rem(20px);
+  border-radius: rem(8px);
+  background: var(--secondary-medium);
+
+  &>h5 {
+    @include font-styles(16px, 600, 24px, var(--text-primary));
+
+    margin-bottom: rem(12px);
+  }
+
+  &>p {
+    @include font-styles(14px, 400, 20px, var(--text-tertiary));
+  }
+}

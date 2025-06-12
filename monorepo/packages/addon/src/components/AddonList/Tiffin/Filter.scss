@@ -1,0 +1,46 @@
+$--test-21: #a8d9f1;
+
+.skyplus-addon-filter {
+  overflow: auto;
+
+  &__btn {
+    display: flex;
+    margin-top: rem(24px);
+
+    &_wrapper {
+      padding-right: rem(12px);
+    }
+  }
+
+  &::-webkit-scrollbar {
+    height: rem(5px);
+    background-image: linear-gradient(
+      to bottom,
+      var(--secondary-white) 50%,
+      $--test-21 50%,
+      var(--secondary-white) 51%
+    );
+  }
+
+  &::-webkit-scrollbar-thumb {
+    background: $--test-21;
+    border-radius: rem(5px);
+  }
+
+  &__search {
+    margin-top: rem(16px);
+    display: flex;
+    align-items: center;
+    border-radius: rem(24px);
+    border: rem(1px) solid var(--secondary-deep);
+    background: var(--secondary-white);
+    padding-left: rem(12px);
+
+    input {
+      border-radius: inherit;
+      width: 100%;
+      display: flex;
+      padding: rem(12px);
+    }
+  }
+}

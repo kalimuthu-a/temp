@@ -1,0 +1,125 @@
+{
+  "data": {
+    "loginmainByPath": {
+      "item": {
+        "variation": null,
+        "bannerImage": {
+          "_publishUrl": "https://aem-s6web-preprod-skyplus6e.goindigo.in/content/dam/s6web/in/en/assets/login/Login_web.png"
+        },
+        "bannerMessage": {
+          "html": "<p>Where would you</p>\n<p>like to IndiGo today?</p>\n"
+        },
+        "loginLabel": null,
+        "signUpLabel": null,
+        "loginBannerImage": null,
+        "welcomeBannerText": {
+          "html": null
+        },
+        "loginTitle": {
+          "html": "<p><span class=\"text-green\">Partner</span> Login</p>\n"
+        },
+        "defaultCountryCode": null,
+        "userIdPlaceholder": "Enter User ID",
+        "sendOtpLabel": "Send OTP",
+        "signInWithApple": null,
+        "mobileValidationText": null,
+        "mobileNotRegisteredText": null,
+        "mobileNotRegisteredNote": {
+          "html": null
+        },
+        "orLabel": null,
+        "continueAsGuestText": {
+          "html": "<p><u><a href=\"https://6eagentportal.goindigo.in/agency-registration\">Register Agency</a> | <a href=\"https://book.goindigo.in/Agency/RegisterCorporateRequest\">Register Corporate</a></u></p>\n"
+        },
+        "privacyDescription": {
+          "html": null
+        },
+        "enterOtpLabel": null,
+        "otpSentNote": null,
+        "incorrectOtpText": null,
+        "submitOtpLabel": null,
+        "otpNotRecievedText": null,
+        "otpExpiryNote": null,
+        "resendOtpLabel": {
+          "html": null
+        },
+        "otpResentLabel": null,
+        "loginWithPasswordLabel": {
+          "html": null
+        },
+        "welcomeMessage": null,
+        "addDetailsNote": null,
+        "enterMailIdLabel": null,
+        "genderIdentity": null,
+        "firstNameLabel": null,
+        "lastNameLabel": null,
+        "dateOfBirthLabel": null,
+        "enterDobLabel": null,
+        "dobInvalidLabel": null,
+        "dobAgeRangeErrorLabel": null,
+        "registerationDescription": [],
+        "createPassword": null,
+        "enterPasswordLabel": "Enter Password",
+        "passwordPlaceholder": "Password",
+        "incorrectPasswordLabel": "*Password entered is incorrect.",
+        "incorrectPasswordNote": "Password entered is incorrect.Please try again. (Chances left: {left}/{total})",
+        "incorrectPasswordLimitNote": {
+          "html": "<p>You have entered wrong password 3 times. Please try after sometime or <b>Login with OTP</b></p>\n"
+        },
+        "forgotPasswordLabel": {
+          "html": "<p><a href=\"#\">Forgot password?</a></p>\n"
+        },
+        "forgotPasswordTitle": "Forgot password?",
+        "loginWithOtpLabel": {
+          "html": "<p><a href=\"#\">Login with OTP</a></p>\n"
+        },
+        "forgotPasswordNote": null,
+        "newPasswordTitle": null,
+        "newPasswordNote": "You will be logged out and asked to login again.",
+        "userDetailsLabel": "User Details: {name} | {mobile}",
+        "oldPasswordPlaceholder": "Enter Old Password",
+        "newPasswordPlaceholder": "Enter New Password",
+        "confirmPasswordPlaceholder": "Confirm New Password",
+        "continueCtaLabel": "Login",
+        "enterNewPasswordLabel": "Please Enter New Password",
+        "enterConfirmPasswordLabel": "Please Enter Confirm Password",
+        "enterValidPasswordLabel": "Please Enter Valid Password",
+        "passwordsDontMatchLabel": "The Passwords Entered Don't Match",
+        "passwordResetSection": {
+          "description": {
+            "html": "<p>Password <span class=\"text-green\">Reset</span></p>\n"
+          },
+          "note": "Your password has been updated successfully.",
+          "image": {
+            "_publishUrl": "https://aem-s6web-preprod-skyplus6e.goindigo.in/content/dam/s6app/in/en/assets/smart-web-checkin.jpg"
+          }
+        },
+        "passwordEligibility": [
+          {
+            "key": "6char",
+            "value": "Have at least 6 characters"
+          },
+          {
+            "key": "uppercase",
+            "value": "Have at least one UPPERCASE letter"
+          },
+          {
+            "key": "numeric",
+            "value": "Have one Numeric character"
+          },
+          {
+            "key": "previous",
+            "value": "Not match any of your previous five passwords"
+          }
+        ],
+        "passwordEligibilityTitle": "Your Password Must",
+        "setPasswordLabel": "Set Password",
+        "completeProfileText": "Please complete your profile details for a better.",
+        "secureAccountLabel": "Secure Your Account",
+        "secureAccountNote": "You have not set Password for your account",
+        "securePasswordLabel": "Set Password",
+        "secureLaterLabel": "I will do it Later"
+      }
+    }
+  }
+}

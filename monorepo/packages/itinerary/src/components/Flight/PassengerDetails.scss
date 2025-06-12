@@ -1,0 +1,492 @@
+/* stylelint-disable no-descending-specificity */
+/* stylelint-disable */
+.passenger-details {
+  border: 1px solid get-color('light-white');
+  background-color: get-color('white');
+  padding: rem(12px);
+  margin: rem(12px) 0;
+  border-radius: rem(12px);
+  width: 100%;
+  @include media('>=tablet') {
+    margin: rem(12px) 0 rem(16px) 0;
+  }
+  .acordion-header{
+    cursor: pointer;
+    margin-left: -22px;    
+    &.icon-accordion-down-simple,&.icon-accordion-up-simple{
+      &::before{
+        color: get-color('color-text-primary');        
+        position: relative;
+        font-size: rem(20px);
+        left: 100%;
+        @include media('>=tablet') {
+          font-size: rem(24px);
+        }
+      }
+      &.active{
+        &::before{
+          transform: rotate(180deg);
+        }
+      }
+    }
+  }
+  .collapsed{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    position: relative;
+    .icon-seat-single,.icon-cabin-bag{
+      &::before{
+        color: get-color('black');
+      }
+    }
+    .moreItems {
+      position: absolute;
+      padding: rem(13px) rem(32px);
+      background-color: var(--secondary-light);
+      right: 0;   
+      color: get-color('color-text-tertiary');
+      font-family: var(--font-family-poppins-regular);
+      font-size: rem(12px);
+      font-weight: 400;
+      @include media('>=tablet'){
+        padding: rem(13px) rem(37px);
+      }
+      &::before{
+        content:"|";
+        width: rem(1px);
+        height: rem(1px);
+        position: absolute;
+        top: rem(13px);
+        left: rem(9px);
+        @include media('>=tablet'){
+          left: rem(20px);
+        }
+      }
+    }
+  }
+  .expanded {
+    flex-direction: column;
+    align-items: baseline;
+    background: none;
+    gap: rem(10px);
+    .icon-seat-single,.icon-cabin-bag{
+      &::before{
+        color: get-color('color-text-success');
+      }
+    }
+    .moreItems {
+      display: none;
+    }
+  }
+  &__button-container {
+    display: flex;
+    gap: rem(16px);
+    margin: rem(12px) 0;
+    @include media('>=tablet') {
+      margin: rem(16px) 0;
+    }
+  }
+  &__button {
+    display: flex;
+    flex-direction: row;
+    width: rem(186px);
+    padding: rem(16px);
+    justify-content: center;
+    align-items: center;
+    gap: rem(10px);
+    border-radius: rem(8px);
+    border: rem(1px) solid get-color('indigo-info');
+    background:  get-color('color-gradient-1');
+    box-shadow: 0px 0px rem(12px) 0px rgba(76, 93, 158, 0.08);
+    cursor: pointer;
+    color: get-color('black');
+    font-family: var(--font-family-poppins-medium);
+    font-size: rem(14px);
+    font-weight: 500;
+    line-height: rem(20px);
+    .icon-flight{
+      .path4,.path3,.path2,.path1{
+        &::before{
+          font-size: 16px;
+          @include media(">tablet"){
+            font-size: 20px;
+          }
+        }
+      }
+    }
+    &.active{
+      background: get-color('light-blue-6');
+      color: get-color('dark-sky-blue');
+      .icon-flight{
+        .path1{
+          &::before{
+              color: transparent;
+          }
+        }
+      }
+    }
+  }
+  &__top-section {
+    display: flex;
+    align-items: center;
+    gap: rem(16px);
+    width: 100%;
+    position: relative;
+    &__sm-name {
+      background-color: var(--secondary-main);
+      height: rem(36px);
+      width: rem(36px);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 100%;
+      color: get-color('indigo-primary');
+      @include media('>=tablet') {
+        height: rem(44px);
+        width: rem(44px);
+      }
+    }
+    &__full-name {
+      color: get-color('color-text-primary');
+      font-family: var(--font-family-poppins-regular);
+      font-weight: 400;
+      width: 100%;
+      position: relative;
+      @include media('>=tablet') {
+        font-size: rem(16px);
+        line-height: rem(24px);
+      }
+    }
+    &__p-info {
+      display: flex;
+      gap: rem(12px);
+      span {
+        &:last-child{
+          &::after{
+            display: none;
+          }
+      }
+      }
+      &__age-group,
+      &__gender-info,
+      &__age-info,
+      &__seat-info {
+        font-size: rem(12px);
+        font-style: normal;
+        font-weight: 400;
+        line-height: rem(18px);
+        font-family: var(--font-family-poppins-regular);
+        color: get-color('color-text-tertiary');
+        position: relative;
+        @include media('>=tablet') {
+          font-size: rem(14px);
+        }
+      }
+      &__age-group,
+      &__gender-info,
+      &__age-info {
+        &::after {
+          content: '';
+          background: get-color('color-text-tertiary');
+          position: absolute;
+          bottom: rem(5px);
+          right: rem(-6px);
+          height: rem(8px);
+          width: rem(1px);
+        }
+      }
+    }
+    &-container {
+      width: calc(100% - 36px);
+      position: relative;
+      .sector-chip {
+        font-family: var(--font-family-poppins-regular);
+        width: auto;
+        display: inline-flex;
+        align-items: center;
+        justify-content: space-between;
+        font-size: rem(12px);
+        font-weight: 600;
+        padding: 4px 8px;
+        border-radius: 12.5px;
+        white-space: nowrap;
+        line-height: rem(16px);
+        position: relative;
+        margin-top: rem(8px);
+        margin-right: rem(12px);
+        .icon-check, 
+        .icon-style-common {
+          font-size: rem(20px);
+          margin-right: rem(4px);
+        }
+        &-checked-in {
+          color: #ef9500;
+          background-color: #fef6e9;
+    
+          .icomoon-checkedIn {
+            font-size: 13px;
+            font-weight: 700;
+            padding-right: 2px;
+    
+            &::after {
+              content: "\e9cd";
+              padding-right: rem(4px);
+            }
+          }
+        }
+    
+        &-no-show {
+          color: #ed3a3a;
+          background-color: #fdebec;
+    
+          .icomoon-noshow {
+            font-size: 13px;
+            font-weight: 700;
+            padding-right: 2px;
+    
+            &::after {
+              content: "\e9d1";
+              padding-right: rem(4px);
+            }
+          }
+        }
+        &-flown {
+          color: #15b06d;
+          background-color: #e7f8f1;
+    
+          .icomoon-flight {
+            font-size: 13px;
+            font-weight: 700;
+            padding-right: 2px;
+    
+            &::after {
+              content: '\e9ce';
+              padding-right: rem(4px);
+            }
+          }
+    
+        }
+        .icon-flight {
+          .path1,  .path2,  .path3,  .path4 {
+            &::before {
+              color: #15b06d;
+            }
+          }
+          .path1::before {
+            color: transparent;
+          }
+        }
+      }
+      .health-form{
+        display: flex;
+        margin-top: rem(8px);
+        margin-right: rem(12px);
+        &-download-boarding-pass, 
+        &-view,
+        &-fill{
+          color: var(--text-primary-main);
+          font-family: var(--font-family-poppins-regular);
+          font-size: 14px;
+          font-style: normal;
+          font-weight: 500;
+          line-height: 1.25rem;
+          text-decoration-line: underline;
+          border: none;
+          background-color: transparent;
+          padding: 0;
+          cursor: pointer;
+          &:hover{
+            text-decoration: none;
+          }
+        }			
+      }
+    }
+    &-pax-e-ticket {
+      display: inline-flex;
+      align-items: flex-start;
+      justify-content: flex-start;
+      font-family: var(--font-family-poppins-regular);
+      font-size: rem(12px);
+      line-height: rem(18px);
+      color: var(--text-tertiary);
+      margin-top: rem(4px);
+      @include media('>=tablet') {
+        font-size: rem(14px);
+        line-height: rem(20px);
+      }
+    }
+  }
+  &__bottom-section {
+    display: flex;
+    align-items: center;
+    max-height: rem(48px);
+    background-color: var(--secondary-light);
+    padding: rem(16px) rem(12px) rem(12px);
+    margin-top: rem(16px);
+    border-radius: rem(8px);
+    font-size: rem(12px);
+    font-style: normal;
+    font-weight: 400;
+    font-family: var(--font-family-poppins-regular);
+    &__seat-info,
+    &__food-info,
+    &__luggage-info,
+    &__priority-info,&__checkin-info,
+    &__fast-forward-info,
+    &__cancel-info,&__icon-common{
+      display: flex;
+      gap: rem(8px);
+      margin-right:(24px);
+      justify-content: center;
+      align-items: center;
+    }
+    .icon-seat-single,
+    .icon-veg,
+    .icon-cabin-ba, 
+    .icon-checkin-bag {
+      &::before{
+        font-size: rem(20px);
+      }
+    }
+    &__seat-info,&__food-info,&__luggage-info,&__icon-common
+    &__priority-info,&__checkin-info,
+    &__fast-forward-info,
+    &__cancel-info {
+      font-family: var(--font-family-poppins-regular);
+      font-size: rem(12px);
+      line-height: rem(18px);
+      font-style: normal;
+      font-weight: 400;
+      color: var(--text-primary);
+      .icon {
+        font-size: rem(20px);
+        color: get-color("black");
+      }
+    }
+    &__icon-common {
+      font-family: var(--font-family-poppins-regular);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-transform: capitalize;
+      font-weight: 400;
+      font-size: rem(12px);
+      line-height: rem(18px);
+      gap: rem(8px);
+      color: var(--text-primary);
+      .icon {
+        color: get-color("black");
+        font-size: rem(20px);
+      }
+      .triple-seat,
+      .double-seat {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        span {
+          margin-left: rem(6px);
+          text-transform: initial;
+        }
+      }
+    }
+    &__showmore {
+      font-family: var(--font-family-poppins-regular);
+      font-size: rem(12px);
+      line-height: rem(20px);
+      color: var(--text-tertiary);
+      padding-right: rem(16px);
+      background-color: var(--secondary-light);
+      position: absolute;
+      right: 0;
+    }
+    .passenger-barcode {
+      display: none;
+    }
+
+    &.expanded {
+      position: relative;
+      max-height: unset;
+
+      .passenger-barcode {
+        display: flex;
+      }
+
+      @include media('>=tablet') {
+        .passenger-barcode {
+          display: none;
+        }
+      }
+      
+      &::before{
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        border-bottom: rem(2px) dotted get-color("light-white"); 
+        display: block;
+      }
+      .food-info, .showmore {
+        display: none;
+      }
+      .icon-checkin-bag, 
+      .common-style, 
+      .seat-info, 
+      .luggage-info,.icon-6e-eats,.icon-Wheelchair,.icon-cancellation-fee,.icon-baggage-tag,.icon-lifestyle-assistance,.icon-cancellation-assistance
+      ,.icon-sports-equipment,.icon-night,.icon-mini-bar,.icon-night,.icon-free-fast-forward {
+        color: get-color("dark-grey-3");
+        .icon {
+          color: get-color('color-text-success');
+          font-size: rem(20px);
+        }
+        &::before{
+          color: get-color('color-text-success');
+        }
+      }
+      .common-style {
+        .triple-seat,
+        .double-seat {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          span {
+            margin-left: rem(8px);
+            text-transform: initial;
+          }
+        }
+      }
+    }
+  }
+  &-title {
+    font-size: rem(14px);
+    padding-top: rem(16px);
+    @include media('>=tablet') {
+      font-size: rem(16px);
+      padding-top: rem(24px);
+    }
+    &.cancel-flight {
+      padding-top: rem(0px);
+      @include media('>=tablet') {
+        padding-top: rem(32px);
+      }
+    }
+  }
+  &-middle-section{
+    display: flex;    
+    align-items: center;
+    justify-content: flex-start;
+  }
+  &.cancel-flight {
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+  &.cancelled {
+      &:last-child {
+        @include media('>=tablet') {
+        margin-bottom: rem(32px);
+      }
+    }
+  }
+}

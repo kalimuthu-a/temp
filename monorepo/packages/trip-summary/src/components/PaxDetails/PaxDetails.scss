@@ -1,0 +1,57 @@
+@import '../../index';
+$font-family-regular: var(--font-family-poppins-regular);
+
+.pax-details {
+  &-accordion {
+    border-radius: 8px;
+    border: 1px solid var(--bs-secondary-border-subtle);
+    background: var(--white);
+  }
+
+  &__head {
+    cursor: pointer;
+
+    &__label {
+      font-size: rem(12px);
+      font-weight: bold;
+    }
+  }
+
+  &__body {
+    font-size: rem(12px);
+    height: 0;
+    transition: all 0.25s;
+    overflow: hidden;
+
+    .pax-ssr-row {
+      display: grid;
+      grid-template-columns: 1fr 3.5fr;
+    }
+  }
+
+  &__name {
+    font-weight: bold;
+  }
+
+    &__name__container {
+      display: flex;
+      flex-direction: column;
+  
+      .infant {
+        font-family: $font-family-regular;
+        font-size: rem(12px);
+        font-weight: 400;
+        line-height: rem(18px);
+
+        .icon-link {
+          width: rem(14px);
+          height: rem(14px);
+          margin-right: rem(2px);
+        }
+      }
+    }
+
+    &--fromslider {
+      margin-bottom: rem(24px);
+    }
+}

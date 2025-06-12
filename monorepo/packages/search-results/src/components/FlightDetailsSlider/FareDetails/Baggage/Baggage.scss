@@ -1,0 +1,23 @@
+.fare-details__baggage__content {
+  &__row {
+    margin-bottom: rem(16px);
+
+    .title {
+      margin-bottom: rem(8px);
+      font-size: rem(14px);
+    }
+
+    .description {
+      max-width: rem(180px);
+      color: var(--text-tertiary);
+      p {
+        font-size: rem(12px);
+      }
+    }
+
+    &--image {
+      width: rem(95px);
+      height: rem(95px);
+    }
+  }
+}

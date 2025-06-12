@@ -1,0 +1,60 @@
+.moreInformation--listItem{
+  padding: rem(16px) rem(24px);
+  border-radius: rem(8px);
+  background-color: white;
+  box-shadow: 0 0 rem(12px) 0 rgb(76 93 158 / 8%);;
+
+  .rf--accordion{
+    &__header{
+      display: flex;
+      text-align: left;
+      justify-content: space-between;
+      padding: rem(16px) 0;
+      cursor: pointer;
+
+      p{
+        font-size: .9rem;
+      }
+
+      div{
+        display: flex;
+        gap: rem(16px);
+        align-items: center;
+        
+        i{
+          display: block;
+          width: rem(25px);
+          height: rem(25px);
+
+          &::before{
+            font-size: 1.5rem;
+          }
+        }
+      }
+    }
+
+    &__body{
+      height: 0;
+      border-top: rem(1px) dashed $light-blue-bg;
+      pointer-events: none;
+      overflow: auto;
+
+      &.show{
+        padding: rem(15px);
+        pointer-events: auto;
+        height: auto;
+      }
+
+      p{
+        font-size: .75rem;
+      }
+    }
+
+        &:last-child {
+          &__body {
+            border-top: none;
+          }
+        }
+  }
+    
+}

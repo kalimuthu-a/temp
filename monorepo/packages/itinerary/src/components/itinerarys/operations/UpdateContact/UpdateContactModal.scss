@@ -1,0 +1,269 @@
+.update-contact-form {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: flex-start;
+  font-family: var(--font-family-poppins-regular);
+  .emg-checkbox {
+    gap: rem(24px);
+    @include media('>=tablet') {
+      gap: 32px;
+    }
+  }
+  .content {
+
+    @include media('>=tablet') {
+      height: calc(100% - 107px);
+      margin-bottom: rem(16px);
+    }
+
+    .update-details-form {
+      overflow-y: auto;
+      height: rem(288px);
+      width: rem(360px);
+      margin-bottom: rem(16px);
+
+      .input-field-list {
+        width: rem(350px);
+      }
+
+      @include media('>=tablet') {
+      overflow-y: auto;
+      max-height: calc(100% - 65px);
+      width: rem(446px);
+      margin-bottom: rem(0px);
+      
+      .input-field-list {
+        width: rem(425px);
+      }
+    }
+    }
+
+    .title {
+      line-height: rem(44px);
+      margin-bottom: rem(24px);
+      font-family: var(--font-family-bauhuas-std-medium);
+      @include media('>=tablet') {
+        font-size: rem(32px);
+        letter-spacing: -rem(8px);
+      }
+    }
+    .email {
+      margin: rem(16px) 0;
+      margin-bottom: 16px !important;
+      input {
+        font-size: rem(12px);
+        line-height: rem(20px);
+        @include media('>=tablet') {
+          font-size: rem(14px);
+        }
+      }
+      .error-msg {
+        margin-left: 0;
+        font-size: rem(10px);
+        @include media('>=tablet') {
+          font-size: rem(12px);
+        }
+      }
+    }
+    .design-system-phone-component {
+      & > div {
+        gap: rem(12px) !important;
+        padding-bottom: rem(4px);
+        .nationality-dropdown-desktop {
+          .popover__content {
+            display: none;
+            left: unset;
+            z-index: 999;
+            @include media('>=tablet') {
+              display: block;
+            }
+
+            .skyplus-dropdown-popover {
+              display: flex;
+              flex-direction: column;
+              max-height: rem(240px);
+              background-color: var(--white);
+            }
+          }
+          .skyplus-dropdown-list--container {
+            top: -9px;
+          }
+        }
+
+        .country-phone-code {
+          font-size: rem(12px);
+          line-height: rem(20px);
+          @include media('>=tablet') {
+            font-size: rem(14px);
+          }
+        }
+        .mob-num,
+        .alt-num,
+        .emg-num {
+          input {
+            font-size: rem(12px);
+            line-height: rem(16px);
+            @include media('>=tablet') {
+              font-size: rem(14px);
+            }
+          }
+        }
+      }
+    }
+
+    .emg-checkbox {
+      label {
+        font-size: rem(12px);
+      }
+    }
+    .rel-title {
+      font-size: rem(14px);
+      font-weight: 300;
+      color: var(--text-tertiary);
+      line-height: rem(20px);
+      margin: rem(0px) 0 rem(0px) 0;
+    }
+  }
+  .footer {
+    background-color: transparent;
+    border-top:none;
+    .contact-cta {
+      button {
+        width: 100%;
+        padding: rem(10px) rem(32px);
+        font-weight: 500;
+        border-radius: rem(22px);
+        margin: 0;
+        margin-bottom: rem(8px);
+        @include media('>=tablet') {
+          font-size: rem(16px);
+          padding: rem(16px) 0;
+          border-radius: rem(28px);
+        }
+      }
+      &-disabled {
+        button {
+          background-color: var(--btn-disabled-background);
+          pointer-events: none;
+        } 
+      }
+    }
+
+    .note {
+      line-height: rem(18px);
+      font-size: rem(10px);
+      color: var(--text-primary);
+      @include media('>=tablet') {
+        font-size: rem(12px);
+      }
+      span {
+        font-weight: bold;
+      }
+      p {
+        font-weight: 400;
+        b {
+          font-weight: 500;
+        }
+      }
+    }
+  }
+  .radio-box-group-error-msg{
+    font-size: rem(12px);
+    color: var(--system-error);
+    font-kerning: auto;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: 1rem;
+    font-family: var(--font-family-poppins-regular);
+  }
+
+}
+
+.update-contact-modal {
+  opacity: 1 !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: -20px;
+  height: calc(100% - 42px);
+  top: 42px;
+  @include media('>=tablet') {
+    top: 0;
+    height: 100%
+  }
+  background: linear-gradient(
+    224.24deg,
+    rgba(21, 32, 95, 0.8) 6.84%,
+    rgba(36, 64, 154, 0.8) 73.19%
+  ) !important;
+  backdrop-filter: blur(2px);
+  &__content {
+    border: none !important;
+    padding: 0 !important;
+    height: 100%;
+
+    .modal-component-overlay {
+      background: rgba(40, 30, 168, 0.5490196078) !important;
+      justify-content: center !important;
+      .modal-component-cross-icon {
+        cursor: pointer;
+      }
+    }
+    .nationality-dropdown-desktop {
+      opacity: 1 !important;
+      .selected-country-box-wrapper {
+        padding: rem(10px) rem(8px);
+      }
+    }
+  }
+  & > .modal-component-overlay {
+    background-color: var(--white) !important;
+    padding: rem(20px);
+    position: absolute;
+    bottom: 0px;
+    border-radius: 0;
+    height: 100% !important;
+    @include media('<tablet') {
+      background: linear-gradient(to top,#ECF7FC 0,#F7F9FE 60%, #FEFEFE 100%) !important;
+    }
+    @include media('>=tablet') {
+      width: rem(493px) !important;
+      border-radius: rem(12px) !important;
+      padding: rem(24px);
+      align-items: unset;
+      flex-direction: column;
+      position:unset;
+      bottom:unset;
+      max-height: rem(535px);
+    }
+    .modal-component-cross-icon {
+      top: -20%;
+      width: auto;
+      @include media('>=tablet') {
+        text-align: right;
+        position: static !important;
+        top: unset;
+        width: 100%;
+      }
+      .icon-close-solid.cross-icon {
+        cursor: pointer;
+        font-size: rem(40px);
+        color: var(--white);
+        @include media('>=tablet') {
+          font-size: rem(20px);
+          color: unset;
+          &::before {
+            content: '\e949';
+          }
+        }
+      }
+    }
+    .modal-content {
+      @include media('<tablet') {
+        background-color: transparent;
+        width: 100%;
+      }
+    }
+  }
+}

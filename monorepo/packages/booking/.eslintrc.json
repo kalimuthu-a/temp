@@ -1,0 +1,13 @@
+{
+  "rules": {
+    "no-restricted-syntax": "off",
+    "operator-linebreak": "off",
+    "indent": "off",
+    "func-names": "off"
+  },
+  "globals": {
+    "_env_booking": "readonly",
+    "locale": "readonly",
+    "window": "readonly"
+  }
+}

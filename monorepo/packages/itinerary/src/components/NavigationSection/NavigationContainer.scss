@@ -1,0 +1,159 @@
+/* stylelint-disable no-descending-specificity */
+/* stylelint-disable */
+.navigation-cta {
+    &__container {
+        width: calc(100% - 40px);
+        margin: rem(24px) rem(20px);
+        @include  media('>tablet') {
+            width: 100%;
+            margin: rem(32px) 0;
+            padding:0;
+        }
+        &.quick-action {
+            margin-top: 0;
+            @include  media('>tablet') {
+                margin-top: 0
+            }
+            .save-share {
+                margin-top: 0;
+                gap: rem(10px) rem(9px);
+                padding: 0;
+                @include  media('>tablet') {
+                    gap: rem(10px) rem(9px);
+                }
+                .tab-cta {
+                    width: rem(72px);
+                    height: 100%;
+                    padding: rem(16px) rem(8px) rem(8px);
+                    min-height: 100%;
+                    @include  media('>tablet') {
+                        width: rem(86px);
+                        height: rem(84px);
+                    }
+                }
+            }
+            p {
+                color: var(--text-primary);
+                font-family: var(--font-family-bauhuas-std-medium);
+                font-size: 24px;
+                font-style: normal;
+                font-weight: 500;
+                line-height: rem(32px);
+                letter-spacing: -0.6px;
+                margin-bottom: rem(16px);
+                .green, 
+                .text-green {
+                    color: var(--accent-dark);
+                }
+                
+            }
+        }
+    }
+
+    .skyplus-tabs {
+        width: 100%;
+        padding: rem(4px);
+        border-radius: rem(24px);
+        border: rem(1px) solid var(--light-white);
+        box-shadow: 0 0 rem(12px) 0 get-color("dark-grey-4");
+        background: var(--white);
+        display: flex;
+
+        .skyplus-tabs-elem {
+            text-align: center;
+            width: rem(377px);
+            padding: rem(8px) rem(16px);
+            @include body-medium-medium;
+            line-height: rem(24px);
+            border-radius: rem(24px);
+            border: rem(1px) solid var(--indigo-info);
+            box-shadow: 0px 0px rem(12px) 0px get-color("dark-grey-4");
+            cursor: pointer;
+
+            &:not(.skyplus-tabs-isActive) {
+                color: var(--color-text-tertiary);
+                background: var(--white);
+            }
+        }
+        .skyplus-tabs-isActive {
+            background-color: get-color("indigo-primary");
+            color: var(--white);
+        }
+    }
+
+    &-container {
+        &-save {
+            gap: rem(16);
+        }
+    }
+
+    .tab-card-wrapper {
+        display: flex;
+    }
+
+    .tab-cta {
+        cursor: pointer;
+        padding: rem(16px) rem(8px) rem(12px) rem(8px);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: rem(96px);
+        color: var(--color-text-secondary);
+        text-decoration: none;
+        background: var(--white);
+        box-shadow: 0 0 rem(12px) 0 rgba(76, 93, 158, 0.08);
+        border-radius: rem(8px);
+        min-height:rem(96px);
+        &.disableCashPoint{ 
+            pointer-events: none;
+            opacity: 0.5;
+            background-color: #d3d3d3;
+        }
+        
+        @include  media('>tablet'){
+            width: rem(107px);
+            min-height: rem(104px);
+        }
+        &-label {
+            width: rem(76px);
+            overflow-wrap: break-word;
+            padding-top: rem(8px);
+            @include link-small ;
+            line-height: rem(20px);
+            text-align: center;
+            color : get-color("dark-grey-3");
+            @include  media('>tablet'){
+                padding-top: rem(12px);
+            }
+        }
+
+        &-icon {
+            &::before {
+                font-size: rem(20px);
+                color: get-color("dark-grey-3");
+                @include  media('>tablet') {
+                    font-size: rem(23px);
+                }
+            }
+        }
+    }
+
+    .navigation-cta__content-wrapper {
+        width: 100%;
+        margin: 0 auto;    
+        display: flex;
+        flex-wrap: wrap;
+        gap: rem(12px) rem(16px);
+        padding: rem(12px) rem(4px);
+        align-items: center;
+        justify-content:flex-start;
+        @include  media('>tablet'){
+            gap: rem(16px) rem(24px);
+            max-width: rem(768px);
+            margin: rem(16px) 0 0;
+            padding: 0; 
+            width: 100%;
+        }
+    }
+}

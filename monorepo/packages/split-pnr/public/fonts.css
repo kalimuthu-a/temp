@@ -1,0 +1,48 @@
+@font-face {
+  font-family: 'Poppins-SemiBold';
+  font-style: normal;
+  font-weight: normal;
+  src: url('./resources/fonts/Poppins/Poppins-SemiBold.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Poppins-Medium';
+  font-style: normal;
+  font-weight: normal;
+  src: url('./resources//fonts/Poppins/Poppins-Medium.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Poppins-Regular';
+  font-style: normal;
+  font-weight: normal;
+  src: url('./resources//fonts/Poppins/Poppins-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Poppins-Light';
+  font-style: normal;
+  font-weight: normal;
+  src: url('./resources//fonts/Poppins/Poppins-Light.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'BauhausStd-Medium';
+  font-style: normal;
+  font-weight: normal;
+  src: url('./resources//fonts/BauhausStd/BauhausStd-Medium.ttf')
+    format('truetype');
+}
+
+@font-face {
+  font-family: 'indigo-icons';
+  src: url('./resources//icons/indigo-icons.eot?r65s0x');
+  src: url('./resources//icons/indigo-icons.eot?r65s0x#iefix')
+      format('embedded-opentype'),
+    url('./resources//icons/indigo-icons.ttf?r65s0x') format('truetype'),
+    url('./resources//icons/indigo-icons.woff?r65s0x') format('woff'),
+    url('./resources//icons/indigo-icons.svg?r65s0x#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}

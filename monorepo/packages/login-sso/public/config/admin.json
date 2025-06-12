@@ -1,0 +1,127 @@
+{
+  "data": {
+    "loginmainByPath": {
+      "item": {
+        "variation": "mobile-variation",
+        "bannerImage": {
+          "_publishUrl": "https://aem-s6web-preprod-skyplus6e.goindigo.in/content/dam/s6web/in/en/assets/login/Login_web.png"
+        },
+        "bannerMessage": {
+          "html": "\u003Cp\u003EWhere would you\u003C/p\u003E\n\u003Cp\u003Elike to IndiGo today?\u003C/p\u003E\n"
+        },
+        "loginLabel": "login",
+        "signUpLabel": "Sign Up",
+        "loginBannerImage": {
+          "_publishUrl": "https://aem-s6web-preprod-skyplus6e.goindigo.in/content/dam/s6web/in/en/assets/login/Login_web.png"
+        },
+        "welcomeBannerText": {
+          "html": "\u003Cp\u003EHi there,\u003C/p\u003E\n\u003Cp\u003EWelcome back!\u003C/p\u003E\n"
+        },
+        "loginTitle": {
+          "html": "\u003Cp\u003E\u003Cspan class=\"text-green\"\u003ESME Admin\u003C/span\u003E login\u003C/p\u003E\n"
+        },
+        "defaultCountryCode": null,
+        "userIdPlaceholder": "Enter User ID",
+        "sendOtpLabel": "Send OTP",
+        "signInWithApple": "Sign In with Apple",
+        "mobileValidationText": null,
+        "mobileNotRegisteredText": null,
+        "mobileNotRegisteredNote": {
+          "html": null
+        },
+        "orLabel": "or",
+        "continueAsGuestText": {
+          "html": "\u003Cp\u003Enot yet registered ? \u003Ca href=\"/content/indigo/sme/en/register.html\"\u003ESIGN UP\u003C/a\u003E\u003C/p\u003E\n"
+        },
+        "privacyDescription": {
+          "html": "\u003Cp\u003Eor&nbsp;\u003Cu\u003E\u003Ca href=\"/content/skyplus6e/in/en/home/corp-user.html\"\u003ESME User login\u003C/a\u003E\u003C/u\u003E\u003C/p\u003E\n"
+        },
+        "enterOtpLabel": "Enter OTP",
+        "otpSentNote": "We have sent you an OTP via SMS on {mobileNumber}",
+        "incorrectOtpText": "*OTP entered is incorrect! Try again",
+        "submitOtpLabel": "Confirm OTP",
+        "otpNotRecievedText": "Didn’t receive OTP ?",
+        "otpExpiryNote": "OTP will expire in the next {time} min",
+        "resendOtpLabel": {
+          "html": "\u003Cp\u003E\u003Ca href=\"#\"\u003EResend\u003C/a\u003E\u003C/p\u003E\n"
+        },
+        "otpResentLabel": "OTP resent",
+        "loginWithPasswordLabel": {
+          "html": null
+        },
+        "welcomeMessage": "Hi there, Welcome!",
+        "addDetailsNote": "Add details for an improved experience.",
+        "enterMailIdLabel": "Enter Email Id",
+        "genderIdentity": null,
+        "firstNameLabel": "First Name",
+        "lastNameLabel": "Last Name",
+        "dateOfBirthLabel": "Date of Birth",
+        "enterDobLabel": "Please enter the date of birth(Cannot be Blank)",
+        "dobInvalidLabel": "Please enter valid date of birth",
+        "dobAgeRangeErrorLabel": "Date of Birth Must be between 18 and 100 years of age",
+        "registerationDescription": [],
+        "createPassword": "Create Password",
+        "enterPasswordLabel": "Enter Password",
+        "passwordPlaceholder": "Password",
+        "incorrectPasswordLabel": "*Password entered is incorrect.",
+        "incorrectPasswordNote": "Password entered is incorrect.Please try again. (Chances left: {left}/{total})",
+        "incorrectPasswordLimitNote": {
+          "html": "\u003Cp\u003EYou have entered wrong password 3 times. Please try after sometime or \u003Cb\u003ELogin with OTP\u003C/b\u003E\u003C/p\u003E\n"
+        },
+        "forgotPasswordLabel": {
+          "html": "\u003Cp\u003E\u003Ca href=\"#\"\u003EForgot password?\u003C/a\u003E\u003C/p\u003E\n"
+        },
+        "forgotPasswordTitle": "Forgot password?",
+        "loginWithOtpLabel": {
+          "html": "\u003Cp\u003E\u003Ca href=\"#\"\u003ELogin with OTP\u003C/a\u003E\u003C/p\u003E\n"
+        },
+        "forgotPasswordNote": "You will receive an OTP if account exists",
+        "newPasswordTitle": "New Password",
+        "newPasswordNote": "You will be logged out and asked to login again.",
+        "userDetailsLabel": "User Details: {name} | {mobile}",
+        "oldPasswordPlaceholder": "Enter Old Password",
+        "newPasswordPlaceholder": "Enter New Password",
+        "confirmPasswordPlaceholder": "Confirm New Password",
+        "continueCtaLabel": "login",
+        "enterNewPasswordLabel": "Please Enter New Password",
+        "enterConfirmPasswordLabel": "Please Enter Confirm Password",
+        "enterValidPasswordLabel": "Please Enter Valid Password",
+        "passwordsDontMatchLabel": "The Passwords Entered Don't Match",
+        "passwordResetSection": {
+          "description": {
+            "html": "\u003Cp\u003EPassword \u003Cspan class=\"text-green\"\u003EReset\u003C/span\u003E\u003C/p\u003E\n"
+          },
+          "note": "Your password has been updated successfully.",
+          "image": {
+            "_publishUrl": "https://aem-s6web-preprod-skyplus6e.goindigo.in/content/dam/s6app/in/en/assets/smart-web-checkin.jpg"
+          }
+        },
+        "passwordEligibility": [
+          {
+            "key": "6char",
+            "value": "Have at least 6 characters"
+          },
+          {
+            "key": "uppercase",
+            "value": "Have at least one UPPERCASE letter"
+          },
+          {
+            "key": "numeric",
+            "value": "Have one Numeric character"
+          },
+          {
+            "key": "previous",
+            "value": "Not match any of your previous five passwords"
+          }
+        ],
+        "passwordEligibilityTitle": "Your Password Must",
+        "setPasswordLabel": "Set Password",
+        "completeProfileText": "Please complete your profile details for a better.",
+        "secureAccountLabel": "Secure Your Account",
+        "secureAccountNote": "You have not set Password for your account",
+        "securePasswordLabel": "Set Password",
+        "secureLaterLabel": "I will do it Later"
+      }
+    }
+  }
+}

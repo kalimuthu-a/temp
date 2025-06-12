@@ -1,0 +1,17 @@
+.flighticon {
+	&::after {
+		content: "\e95c" !important;
+	}
+}
+
+.hotelicon {
+	&::after {
+		content: "\e90b" !important;
+	}
+}
+
+.closeicon {
+	&::after {
+		content: "\e911" !important;
+	}
+}

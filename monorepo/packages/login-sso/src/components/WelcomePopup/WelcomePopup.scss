@@ -1,0 +1,30 @@
+.popup-modal-global__content.Loyality_dashboard_welcome_popup {
+  border-radius: none;
+  width: 100%;
+  height: 100%;
+  color: var(--white);
+  background-color: var(--btn-disabled-background);
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  .popup-modal-global__header__title {
+    visibility: hidden;
+  }
+
+  .sub-heading {
+    font-family: var(--font-family-bauhuas-std-medium);
+    font-size: rem(24px);
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+
+  @include media('>=tablet') {
+    border-radius: rem(12px);
+    width: rem(396px);
+    height: rem(528px);
+    color: var(--text-dark-charcoal);
+    background-color: var(--white);
+    background-image: none !important; //comment !important Necessary due to putting dynamic image background inline in jsx
+  }
+}

@@ -1,0 +1,111 @@
+.passenger_select--tile {
+  background: var(--white);
+  padding: rem(12px);
+  border: 1px solid var(--secondary-deep);
+  border-radius: rem(8px);
+  transition: all 0.3s ease-in-out;
+  display: flex;
+  align-items: flex-start;
+  column-gap: rem(12px);
+
+  @include media('>=tablet') {
+    column-gap: rem(16px);
+    padding: rem(16px);
+  }
+  
+  &.passenger_selected {
+    background: var(--secondary-light);
+    border: 1px solid var(--secondary-main);
+    box-shadow: var(--box-shadow-card-soft);
+  }
+
+  & > .passenger_select {
+    &--passenger-chars {
+      width: rem(32px);
+      height: rem(32px);
+      background: var(--secondary-main);
+      border-radius: 50%;
+      text-transform: uppercase;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  
+      @include font-styles(14px, 400, 20px, var(--text-primary));
+  
+      @include media('>=tablet') {
+        width: rem(40px);
+        height: rem(40px);
+        font-size: rem(16px);
+        line-height: rem(24px);
+      }
+    }
+  
+    &--passenger-details {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      row-gap: rem(2px);
+
+      @include media('>=tablet') {
+        row-gap: rem(4px);
+      }
+
+      & > .passenger-name {
+        @include font-styles(14px, 400, 20px, var(--text-primary));
+    
+        @include media('>=tablet') {
+          font-size: rem(16px);
+          line-height: rem(24px);
+        }
+      }
+
+      & > .passenger-info, & > .passenger-info--infant {
+        @include font-styles(12px, 400, 18px, var(--text-tertiary));
+
+        @include media('>=tablet') {
+          font-size: rem(14px);
+          line-height: rem(20px);
+        }
+      }
+
+      & > .passenger-info--infant {
+        > i {
+          font-size: rem(16px);
+        }
+
+        display: flex;
+        align-items: center;
+        column-gap: rem(4px);
+      }
+
+      & > .passenger-info--child-note {
+        margin-top: rem(16px);
+        background: var(--secondary-light);
+        padding: rem(8px) rem(12px);
+        border-radius: rem(8px);
+        display: flex;
+        align-items: flex-start;
+        column-gap: rem(8px);
+
+        @include font-styles(10px, 400, 16px, var(--text-secondary));
+
+        & > i {
+          font-size: rem(16px);
+        }
+
+        @include media('>=tablet') {
+          padding: rem(12px);
+          font-size: rem(14px);
+          line-height: rem(20px);
+        }
+      }
+    }
+    
+
+    &--checkbox-wrapper {
+      &:has(input:not([disabled])) {
+        cursor: pointer;
+      }
+    }
+  }
+}

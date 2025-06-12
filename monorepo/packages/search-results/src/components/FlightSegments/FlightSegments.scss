@@ -1,0 +1,18 @@
+.flight-journey-tab-container.srp {
+  overflow: overlay;
+  .flight-journey-tab-container__leg {
+    line-height: rem(20px);
+
+    span:first-child:after {
+      width: rem(48px);
+    }
+  }
+}
+
+.flight-journey-tab-wrapper {
+  overflow: auto;
+}
+
+.flight-journey-tab-container__outer {
+  min-width: auto;
+}

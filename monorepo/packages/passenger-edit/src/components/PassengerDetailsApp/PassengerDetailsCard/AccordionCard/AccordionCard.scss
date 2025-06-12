@@ -1,0 +1,51 @@
+@import '../../../../styles/utils/utils';
+
+.accordion {
+  &-wrapper {
+    box-shadow: var(--box-shadow-card-soft);
+
+    &--active-light {
+      background-color: var(--bg-active-light);
+    }
+  }
+
+  &-title {
+    overflow-wrap: anywhere;
+  }
+
+  &-header {
+    cursor: pointer;
+  }
+
+  &__line {
+    min-height: 100%;
+    border-radius: rem(4);
+    width: rem(4);
+
+    &--active-dark {
+      background-color: var(--bg-active-dark);
+    }
+
+    &--active-secondary-main {
+      background-color: var(--bg-secondary-main);
+    }
+
+    &--active-green {
+      background-color: var(--bg-active-green);
+    }
+  }
+
+  &__label {
+    color: var(--text-label);
+    background-color: var(--bg-label);
+  }
+
+  &__seat {
+    background-color: var(--bg-active-light);
+    text-align: left;
+  }
+}
+
+.error-border {
+    background-color: var(--system-error) !important;
+}

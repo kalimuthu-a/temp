@@ -1,0 +1,142 @@
+.visa-upload-popup {
+  .popup-modal-global__bg-overlay {
+    .popup-modal-global__content {
+      padding: rem(24px) !important;
+
+      @include media('>=tablet') {
+        max-width: rem(1000px);
+        min-width: rem(381px);
+      }
+
+      .popup-modal-global__header {
+        .popup-modal-global__header__title {
+          font-family: var(--font-family-bauhuas-std);
+          font-weight: 500;
+          font-size: rem(24px);
+          line-height: rem(32px);
+          letter-spacing: rem(-0.8px);
+          vertical-align: middle;
+
+          @include media('>=tablet') {
+            font-family: var(--font-family-bauhuas-std);
+            font-weight: 500;
+            font-size: rem(32px);
+            line-height: rem(44px);
+            letter-spacing: rem(-0.8px);
+            vertical-align: middle;
+
+          }
+        }
+
+        .popup-modal-global__close-overlay-button {        
+          right: 0;
+          top: auto;
+          left: 10%;
+
+          @include media('>=tablet') {
+            top: 0.625rem;
+            left: 1.5rem;
+          }
+
+        }
+      }
+    }
+
+    .modalpopup-container {
+      .visa-booking-card-body-list {
+        display: block;
+        margin-bottom: rem(24px);
+        font-family: var(--font-family-poppins-regular);
+        font-weight: 300;
+        font-size: rem(14px);
+        line-height: rem(16px);
+        letter-spacing: rem(0px);
+        text-align: left;
+
+        @include media('>=tablet') {
+          font-family: var(--font-family-poppins-regular);
+          font-weight: 400;
+          font-size: rem(16px);
+          line-height: rem(24px);
+          letter-spacing: rem(0px);
+          vertical-align: middle;
+
+        }
+      }
+
+      .modalpopup-container-box {
+        display: flex;
+        flex-direction: column;
+        height: auto;
+
+        @include media('>=tablet') {
+          flex-direction: row;
+        }
+
+        img {
+          width: rem(287);
+          height: rem(370);
+          border-radius: rem(12px);
+          border-width: rem(1px);
+
+          @include media('>=tablet') {
+            width: rem(212px);
+            height: rem(273px);
+            border-radius: rem(12px);
+            border-width: rem(1px);
+
+          }
+        }
+
+        .pointlist {
+          font-family: var(--font-family-poppins-regular);
+          font-weight: 300;
+          font-size: rem(14px);
+          line-height: rem(16px);
+          letter-spacing: rem(0px);
+          vertical-align: middle;
+
+          @include media('>=tablet') {
+            font-family: var(--font-family-poppins-regular);
+            font-weight: 400;
+            font-size: rem(14px);
+            line-height: rem(24px);
+            letter-spacing: rem(0px);
+            vertical-align: middle;
+
+          }
+        }
+      }
+    }
+
+    .visa-srp-wrapper__info-popup {
+      max-width: none;
+
+      .skyplus-button {
+        margin-top: rem(24px);
+
+        button {
+          font-family: var(--font-family-poppins-regular);
+          font-weight: 500;
+          font-size: rem(14px);
+          line-height: rem(20px);
+          letter-spacing: rem(0px);
+          text-align: center;
+          vertical-align: middle;
+          border-radius: rem(22px);
+
+          @include media('>=tablet') {
+            font-family: var(--font-family-poppins-regular);
+            font-weight: 500;
+            font-size: rem(16px);
+            line-height: rem(24px);
+            letter-spacing: rem(0px);
+            text-align: center;
+            vertical-align: middle;
+            border-radius: rem(28px);
+          }
+        }
+      }
+    }
+  }
+}

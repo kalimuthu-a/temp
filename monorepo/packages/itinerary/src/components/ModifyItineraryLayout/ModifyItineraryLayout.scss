@@ -1,0 +1,457 @@
+.modify-layout-itinerary {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  font-family: var(--font-family-poppins-regular);
+  display: flex;
+  flex-direction: column;
+  margin: 0 rem(20px);
+  background: get-color("color-light-grey");
+  box-shadow: 0 -12px 24px 0 get-color("dark-grey-4");
+  backdrop-filter: blur(12px);
+  padding: rem(16px) rem(24px) rem(20px);
+  z-index: 99;
+  align-items: flex-start;
+  justify-content: space-between;
+  &.footer-closed{
+    display: none;
+  }
+
+  .line {
+    width: 40px;
+    height: 4px;
+    background: get-color("color-light-grey1");
+    margin: 0 auto;
+  }
+
+  .left-container {
+    margin-top: rem(12px);
+    width: 100%;
+  }
+
+  @include media('>=tablet') {
+    flex-direction: row;
+    justify-content: flex-end;
+    padding: rem(16px) rem(64px) rem(24px);
+    align-items: center;
+    .left-container {
+      margin-right: 5%;
+      margin-top: 0;
+      width: auto;
+    }
+
+    .title {
+      font-size: $font-size-14;
+    }
+
+    .line {
+      display: none;
+    }
+  }
+
+  .price {
+    font-family: var(--font-family-bauhuas-std-medium);
+    font-size: rem(24px);
+    font-weight: 500;
+    line-height: rem(32px);
+    color: var(--text-primary);
+  }
+
+  .skyplus-text {
+    color: var(--text-tertiary);
+    font-size: rem(12px);
+    font-weight: 400;
+    line-height: rem(18px);
+  }
+
+  .button-group {
+    display: flex;
+    justify-content: end;
+    width: 100%;
+    margin-top: rem(12px);
+    @include media('>=tablet') {
+      width: unset;
+      margin-top: unset;
+    }
+    button {
+      padding: rem(12px) rem(32px);
+      line-height: rem(18px);
+      border-radius: rem(22px);
+      @include media('>=tablet') {
+        padding: rem(15px) rem(32px);
+        line-height: rem(24px);
+        border-radius: rem(28px);
+      }
+    }
+
+    .skyplus-button:first-child {
+      margin-right: rem(17px);
+    }
+  }
+  .modification-success-toast {
+    @include media('>=tablet') {
+      align-items: center;
+      padding: rem(11px) rem(16px);
+      min-width: rem(335px);
+      .notifi-variation-container {
+        align-items: center;
+        line-height: rem(18px);
+        &-wrapper {
+          padding-top: 0;
+        }
+      }
+      .notifi-variation-col {
+        .content .desc {
+          text-align: left;
+          line-height: 18px;
+          padding-top: 0;
+        }
+      }
+    }
+  }
+}
+
+.table-container {
+  margin: 0 auto;
+  border-radius: rem(8px);
+  max-width: rem(600px);
+  position: relative;
+}
+
+.content-container {
+  margin: rem(16px) 0;
+  overflow: hidden;
+
+}
+
+.content-row {
+  display: flex;
+  padding: rem(6px) rem(16px);
+  justify-content: space-between;
+  align-items: flex-start;
+  flex: 1;
+}
+
+.content-cell {
+  color: get-color("color-text-secondary");
+  font-size: rem(14px);
+  font-weight: 400;
+  font-style: normal;
+  line-height: rem(20px);
+}
+
+.active-row {
+  background: var(--secondary-light);
+  color: var(--text-primary);
+  font-family: var(--font-family-poppins-regular);
+  line-height: rem(24px);
+  font-size: rem(16px);
+  font-weight:600;
+
+  .content-cell {
+    color: var(--text-primary);
+    font-size: rem(14px);
+    font-weight: 600;
+    font-style: normal;
+    line-height: rem(20px);
+  }
+}
+
+.active-row::after {
+  position: absolute;
+  left: 0;
+  bottom: -1px;
+  width: 100%;
+  height: rem(1px);
+}
+
+.btn-change-flight,
+.btn-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.btn-container {
+  align-self: stretch;
+  justify-content: flex-start;
+  gap: rem(16px);
+  font-family: var(--font-family-bauhuas-std-medium);
+  background: var(--gradient-secondary);  
+  padding: rem(10px);
+  border-radius: rem(8px);
+  font-size: rem(18px);
+
+  @include media('>tablet') {
+    padding: rem(10px) rem(20px);
+  }
+}
+
+.btn-content {
+  display: flex;
+  flex: 1;
+  letter-spacing: -0.4px;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+
+  .booking-tag {
+    width: 50%;
+    font-size: rem(12px);
+    line-height: rem(20px);
+
+    @include media('>tablet') {
+      font-size: rem(16px);
+      line-height: rem(24px);
+    }
+  }
+}
+
+.btn-content,
+.change-flight-btn-label {
+  position: relative;
+  line-height: rem(24px);
+}
+
+.btn-txt-offer {
+  color: var(--accent-dark);
+  font-style: normal;
+  line-height: rem(20px);
+  letter-spacing: -0.4px;
+  font-size: rem(16px);
+  font-weight: 500;
+}
+
+.btn-change-flight {
+  border: none;
+  border-radius: rem(20px);
+  background-color: var(--white);
+  color: var(--indigo-primary);
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  padding: rem(6px) rem(12px);
+  gap: rem(8px);
+  font-size: rem(12px);
+
+  @include media('>tablet') {
+    font-size: rem(16px);
+  }
+}
+
+.close-icon {
+  width: rem(16px);
+  height: rem(16px);
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+
+.change-flight-btn-label {
+  font-family: var(--font-family-poppins-regular);
+  position: relative;
+  line-height: rem(24px);
+  font-weight: 500;
+  color: var(--primary-main);
+}
+
+.note-container {
+  align-self: stretch;
+  justify-content: flex-start;
+  gap: rem(10px);
+  font-family: var(--font-family-poppins-regular);
+  background: var(--gradient-secondary);
+  padding: rem(10px) rem(20px);
+  border-radius: rem(8px);
+  font-size: $font-size-14;
+  font-style: normal;
+  line-height: rem(20px);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.note-heading {
+  color: var(--text-primary);
+  font-weight: 500;
+}
+
+.note-description {
+  color: var(--text-tertiary);
+  font-weight: 400;
+}
+
+.cancel-booking-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+
+  @include media('>tablet') {   
+    align-items: flex-start;
+  }
+  .cancel-booking-title {
+    font-family: var(--font-family-bauhuas-std-medium);
+    color: var(--text-primary);
+    font-size: rem(16px);
+    font-weight: 500;   
+    line-height: rem(20px);
+    letter-spacing: -0.6px;
+    padding: 0;  
+    width: 100%;
+    text-align: center;
+    margin-bottom: rem(12px);
+    @include media('>tablet') {
+      font-size: rem(24px);
+      line-height: rem(32px); 
+      font-weight: 400;  
+      margin-bottom: rem(24px);
+      text-align: left;
+    }
+  }
+}
+
+.cancel-booking-title {
+  width: rem(422px);
+  color: get-color("color-text-grey1");
+  font-family: var(--font-family-bauhuas-std-medium);
+  font-size: rem(12px);
+  font-style: normal;  
+  font-weight: 400;
+  line-height: rem(18px);
+  letter-spacing: -0.6px;  
+  padding-bottom: rem(8px);
+  text-align: left;  
+
+  @include media('>tablet') {      
+    font-size: rem(24px);
+    font-weight: 500;   
+    line-height: rem(32px);
+    font-family: var(--font-family-poppins-regular);
+    padding: rem(0) rem(0px) rem(16px);
+  }  
+}
+
+.skyplus-offcanvas.modify-itineray-slider {
+  .skyplus-offcanvas__contents {
+    background-color: unset !important;
+    margin-bottom: 0;
+    align-items: flex-end;
+    @include media('>tablet') {
+      align-items: unset;
+      background-color: var(--secondary-white) !important;
+    }
+    &--body {
+      margin-bottom: 0;
+      @include media('<tablet') {   
+        padding-top: rem(24px);  
+        padding-bottom: rem(24px);
+        border-radius: rem(12px) rem(12px) 0 0;
+        position: relative;
+      }
+    }
+    &--header{
+      @include media('<tablet') {   
+        margin-bottom: rem(24px);
+        display: inline-block;
+        text-align: center;
+        position: relative;
+      }
+    }
+  }
+  
+}
+.modify-reset-confirmation-popup {
+  z-index: 8888;
+  .modal-component-overlay {
+    max-width: unset;
+    background: linear-gradient(
+    224.24deg,
+    rgb(21 32 95 / 80%) 6.84%,
+    rgb(36 64 154 / 80%) 73.19%
+  ) !important;
+    .modify-reset-confirmation-content {
+      width: 100%;
+      padding: 0;
+      height: auto;
+      border-radius: rem(8px);
+      width: rem(320px);
+      height: auto !important;
+      padding: rem(24px) rem(24px) rem(32px) rem(24px) !important;
+      @include media('>=tablet') {
+        border-radius: rem(12px);
+        width: rem(450px);
+      }
+      &-main {
+        &-buttongrp {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          gap: rem(16px);
+          margin-top: rem(24px);
+          .skyplus-button {
+            width: 50%;
+            button {
+              line-height: rem(20px);
+              line-height: 18px;
+              border-radius: rem(18px);
+              padding: rem(9px) rem(32px);
+              @include media('>=tablet') {
+                border-radius: rem(22px);
+                line-height: rem(24px);
+                padding: rem(9px) rem(32px);
+              }
+            }
+          }
+        }
+        .sub-title {
+          font-size: rem(14px);
+          font-weight: 600;
+          font-family: var(--font-family-poppins-regular);
+          line-height: rem(20px);
+          color: var(--text-primary);
+          border-bottom: 1px dotted get-color("color-light-grey1");
+          padding-bottom: rem(8px);
+          @include media('>=tablet') {
+            line-height: rem(24px);
+            font-size: rem(16px);
+          }
+        }
+      }
+      
+    }
+    @include media('<tablet') {
+      .modal-component-cross-icon {
+        top: unset;
+        bottom: 40%;
+        .cross-icon {
+          &::before {
+            font-size: rem(40px);
+          }
+        }
+      }
+    }
+    
+  }
+}
+
+.iti-modify-layout-note {
+  margin-top: rem(24px);
+  &-heading {
+    font-family: var(--font-family-poppins-regular);
+    color: var(--text-dark-blue);
+    font-size: 12px;
+    line-height: 20px;
+    padding-bottom: rem(4px);
+  }
+
+  &-refund-desc {
+    font-size: 12px;
+    line-height: 18px;
+    font-weight: 400;
+    color: var(--text-tertiary);
+    font-family: var(--font-family-poppins-regular);
+    padding-bottom: rem(8px);
+  }
+}

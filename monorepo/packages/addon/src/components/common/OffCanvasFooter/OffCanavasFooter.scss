@@ -1,0 +1,68 @@
+.skyplus-slider {
+  &__footer-container {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: rem(16px) rem(20px) rem(24px) rem(20px);
+    border-radius: rem(12px) rem(12px) rem(0px) rem(0px);
+  }
+
+  &__footer-content-container {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    align-self: stretch;
+  }
+
+  &__footer-details-container {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__footer-title {
+    color: var(--text-primary);
+    font-family: var(--font-family-poppins-semibold);
+
+    &--green {
+      color: var(--accent-main);
+    }
+
+    @include media('>=tablet') {
+      text-align: left;
+    }
+  }
+
+  &__footer-sub-title {
+    color: var(--text-tertiary);
+    text-align: left !important;
+
+    &--line-through {
+      text-decoration: line-through;
+    }
+
+    @include media('>=tablet') {
+      text-align: left;
+    }
+  }
+
+  &__button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    button {
+      @include media('<tablet') {
+        padding: rem(8px) rem(24px) !important;
+      }
+    }
+    &-wrapper {
+      display: flex;
+      align-items: center;
+    }
+  }
+
+  &__button-icon {
+    padding-right: rem(6px);
+  }
+}

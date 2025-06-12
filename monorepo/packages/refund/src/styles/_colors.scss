@@ -1,0 +1,21 @@
+:root {
+  --modal-head-shadow-color: #4c5d9e14;
+  --modal-head-shadow: 0 0 12px 0 var(--modal-head-shadow-color);
+}
+
+$text-primary: var(--text-primary);
+$primary-text: var(--text-primary);
+$secondary-text: var(--text-secondary);
+$tertiary-text: var(--text-tertiary);
+$success-color: var(--system-success);
+$error-color: var(--system-error);
+$success-light: var(--system-success-light);
+$error-light: var(--system-error-light);
+$white: var(--secondary-white);
+$light-bg: var(--secondary-light);
+$disabled-bg: var(--text-disabled);
+$shadow: rgb(76 93 158 / 8%);
+$light-blue-bg: var(--secondary-deep);
+$warning-light: var(--system-warning-light);
+$warning-color: var(--system-warning);
+$gray-light: var(--btn-disabled-background-light);

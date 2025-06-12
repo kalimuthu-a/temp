@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en" class="In6e2">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>login-sso</title>
+    <script src="./config/env-config.js"></script>
+    <script>
+      window._env_login_sso.LOGIN_AEM_DATA = './config/member.json';
+      window._env_login_sso.LOGIN_ADMIN_DATA = './config/admin.json';
+      window._env_login_sso.LOGIN_PARTNER_DATA = './config/agent.json';
+      window._env_login_sso.LOGIN_USER_DATA = './config/user.json';
+      window.disableLoyalty = true;
+    </script>
+    <script>
+      //appropriate erro code on local
+      const genericdata = async () => {
+        try {
+          const response = await fetch('./config/generic.json');
+          if (!response.ok) {
+            throw new Error('Failed to fetch data');
+          }
+          const value = await response.json();
+          localStorage.setItem(
+            'generic_data_container_app',
+            JSON.stringify(value),
+          );
+        } catch (error) {
+          console.error('Error fetching or storing data:', error);
+        }
+      };
+      genericdata();
+    </script>
+
+    <link
+      rel="stylesheet"
+      href="https://app-design-system-s6web-dev-skyplus6e.goindigo.in/des-system/css/main.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://aem-s6web-dev-skyplus6e.goindigo.in/etc.clientlibs/skyplus6ev2/clientlibs/clientlib-site.e2ee632e3e4033b970832a4d2a360db5.css"
+    />
+    <!-- main.css is from design system. Make sure design system has latest build and main.scss has the updated code -->
+    <!-- In Indigo AEM repo, under ui.frontend
+		  1) npm run devProd
+		  2) npm run storybook
+		  Use the below css url's -->
+    <link
+      rel="stylesheet"
+      href="http://localhost:6006/clientlib-site/site.css"
+    />
+    <link
+      rel="stylesheet"
+      href="http://localhost:6006/clientlib-dependencies/dependencies.css"
+    />
+    <link rel="stylesheet" href="./main.css" />
+
+    <script>
+      const tokenObj = {
+        token: '',
+        createdAtMilliSeconds: 1714476624672,
+        expiresInMilliSeconds: 900000,
+        validTillMilliSeconds: 1714477524672,
+      };
+      document.cookie = `auth_token=${JSON.stringify(tokenObj)}`;
+    </script>
+  </head>
+
+  <body>
+    <div id="__login__microapp__dev__only"></div>
+  </body>
+</html>

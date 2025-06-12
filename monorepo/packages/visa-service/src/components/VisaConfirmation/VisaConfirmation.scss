@@ -1,0 +1,37 @@
+.visa-confirmation {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+  width: 100%;
+  position: relative;
+  min-width: rem(375px - 40px);
+
+  @include media('>tablet') {
+    width: 100%;
+  }
+
+  &-visa-details {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    width: 100%;
+    flex-direction: column;
+  }
+}
+
+.download-container {
+  background: var(--white);
+  min-height: rem(104px);
+  width: rem(108px);
+  line-height: 2.5;
+  margin-top: rem(24px);
+  margin-bottom: rem(24px);
+  cursor: pointer;
+  border-radius: rem(4px);
+  box-shadow: var(--box-shadow-card-soft);
+
+  &.disable-button {
+    cursor: not-allowed;
+  }
+}

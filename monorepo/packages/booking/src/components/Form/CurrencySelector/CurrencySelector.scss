@@ -1,0 +1,86 @@
+.currency-dropdown-desktop,
+.nationality-dropdown--desktop {
+  position: relative;
+
+  .bw-popover__content {
+    top: rem(-10px);
+
+    @include media('>=desktop') {
+      top: rem(48px) !important;
+      min-width: rem(318px);
+    }
+  }
+
+  transition: all 0.1s ease;
+
+  &::before {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    content: '';
+    line-height: rem(24px);
+    font-size: rem(14px);
+    text-align: left;
+    padding: rem(6px) rem(12px);
+    border: var(--border-secondary);
+    cursor: pointer;
+    font-family: var(--font-family-poppins-medium);
+    border-radius: rem(12px);
+    transition: all 0.1s ease;
+    background-color: get-color(white);
+  }
+
+  &.focused {
+    transition: all 0.1s ease;
+
+    &::before {
+      scale: 1.05;
+      outline: 1px solid get-color(secondary-main);
+    }
+
+    .search-widget-form-top__currency,
+    .search-widget-form-top__nationality {
+      border: none;
+    }
+  }
+}
+
+.travelling-reason-dropdown, .pay-mode-dropdown {
+  position: relative;
+
+  .bw-popover__content {
+    top: rem(40px);
+  }
+
+  transition: all 0.1s ease;
+
+  &::before {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    content: '';
+    line-height: rem(24px);
+    font-size: rem(14px);
+    text-align: left;
+    padding: rem(6px) rem(12px);
+    border: var(--border-secondary);
+    border: rem(1px) solid get-color(text-alice-blue);
+    cursor: pointer;
+    font-family: var(--font-family-poppins-medium);
+    border-radius: rem(12px);
+    transition: all 0.1s ease;
+    visibility: hidden;
+    background-color: get-color(white);
+    left: 0;
+  }
+
+  &.focused {
+    transition: all 1s ease;
+    border-color: transparent !important;
+
+    &::before {
+      visibility: visible;
+      height: rem(48px);
+    }
+  }
+}

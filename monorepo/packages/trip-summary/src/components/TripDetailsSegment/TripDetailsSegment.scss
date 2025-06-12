@@ -1,0 +1,95 @@
+@import '../../index';
+$font-family-bold: var(--font-family-poppins-semibold);
+$font-family-regular: var(--font-family-poppins-regular);
+
+.trip-details-segment {
+  .segment-table {
+    margin: rem(16px) 0;
+    border-radius: rem(8px);
+    border: 1px solid var(--bs-light-border-subtle);
+    overflow: hidden;
+    background-color: var(--white);
+
+    &__head,
+    &__body,
+    &__footer {
+      padding: rem(12px);
+    }
+
+    &__head {
+      background-color: var(--secondary-light);
+    }
+
+    &__body {
+      padding-bottom: 0;
+
+      .origin,
+      .destination {
+        text-transform: uppercase;
+        font-size: rem(12px);
+
+        .code {
+          color: var(--accent-dark);
+          font-size: rem(24px);
+          font-weight: bold;
+        }
+      }
+
+      .duration-stop {
+        font-size: rem(12px);
+        font-family: $font-family-regular;
+
+        span {
+          font-weight: normal !important;
+        }
+
+        .stop-info {
+          color: var(--primary-main);
+        }
+      }
+
+      .flight-checkin {
+        font-size: rem(14px);
+
+        i {
+          padding-right: 5px;
+          font-weight: 400;
+        }
+
+        &__icon {
+          width: rem(15px);
+          height: rem(15px);
+          margin-bottom: rem(-2px);
+          margin-right: rem(2px);
+        }
+      }
+    }
+
+    &__footer {
+      padding-top: 0;
+      gap: rem(6px);
+
+      .btn-link {
+        font-family: $font-family-bold;
+        margin-right: rem(8px);
+        align-items: center;
+        display: flex;
+
+        span {
+          color: var(--primary-main);
+          font-weight: 600;
+        }
+
+        .icon-accordion-down-simple,
+        .icon-accordion-up-simple {
+          font-size: rem(16px);
+          padding-bottom: 2px;
+        }
+      }
+
+      .no-underline {
+        text-decoration: none !important;
+      }
+    }
+  }
+}

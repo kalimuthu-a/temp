@@ -1,0 +1,43 @@
+.srp-modal {
+  width: 100%;
+  display: block;
+  top: 0;
+
+  .sm {
+    width: 90%;
+
+    @include media('>=tablet') {
+      width: 35%;
+    }
+  }
+
+  .lg {
+    width: 75%;
+  }
+
+  .xl {
+    @include media('>=tablet') {
+      width: 90%;
+    }
+  }
+
+  .popup {
+    padding: rem(12px);
+    margin: rem(20px);
+    overflow: hidden;
+    @include media('>=tablet') {
+      padding: rem(24px);
+      margin: auto;
+      padding-bottom: rem(32px);
+    }
+  }
+
+  .no-data-found {
+    margin: auto;
+    margin-top: rem(50px);
+
+    @include media('>=tablet') {
+      margin-top: rem(100px);
+    }
+  }
+}

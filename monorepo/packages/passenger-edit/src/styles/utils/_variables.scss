@@ -1,0 +1,44 @@
+/* stylelint-disable custom-property-pattern */
+/* stylelint-disable value-keyword-case */
+/* stylelint-disable unit-allowed-list */
+/* stylelint-disable color-no-hex */
+
+$font-family-default: $font-family-poppins-regular;
+
+// Breakpoints for the site - Above 768 it is desktop view
+$screen-sm: 360;
+$screen-md: 768;
+$screen-lg: 1024; // currently not in use
+
+$max-width: 1280;
+$min-width: 320;
+
+// Gutter spaces
+$gutter-sm: 16;
+$gutter-md: 20;
+
+// Spacing variables
+$bet-comp-mb: 24; 
+$bet-comp-dt: 32;
+$bet-sub-comp-mb: 16;
+$bet-sub-comp-dt: 24;
+$within-comp-mb: 12;
+$within-comp-dt: 16;
+$head-with-bd-copy-mb: 12;
+$head-with-bd-copy-dt: 16;
+$rtl-bet-comp-mb: 12;
+$rtl-bet-comp-dt: 16;
+
+// border radius components
+$radius-sm-mb: 8;
+$radius-sm-dt: 12;
+$radius-md-mb: 12;
+$radius-md-dt: 16;
+$radius-lg-mb: 16;
+$radius-lg-dt: 24;
+$radius-xl-mb: 24;
+$radius-xl-dt: 32;
+
+// border radius folds
+$radius-xxl-mb: 16;
+$radius-xxl-dt: 32;

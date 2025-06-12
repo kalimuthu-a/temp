@@ -1,0 +1,26 @@
+.help-page {
+  .my-bookings__card {
+    box-shadow: unset !important;
+    margin: 0 !important;
+  }
+
+  .bg-add-refund{
+    opacity: 0.6 !important;
+  }
+}
+
+#help-page {
+  .pe-right-side-v2 {
+    .static-anchors-wrapper {
+      margin-top: rem(8px);
+
+      @include media('>=tablet') {
+        margin-top: rem(48px);
+      }
+    }
+  }
+
+  @include media('>=tablet') {
+    margin-top: rem(24px);
+  }
+}

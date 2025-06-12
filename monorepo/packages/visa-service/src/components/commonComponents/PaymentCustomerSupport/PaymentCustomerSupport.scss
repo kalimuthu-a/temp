@@ -1,0 +1,105 @@
+.paymentCustomer {
+  width: 100%;
+
+  .gst-contact-info {
+    .card.box-shadow-card-soft {
+      height: rem(100px);
+      border-radius: rem(8px);
+      border: rem(1px) solid var(--secondary-deep);
+      margin-top: rem(24px);
+
+      @include media('>=tablet') {
+        margin-bottom: rem(16px);
+        width: 100%;
+        height: rem(108px);
+        box-shadow: none;
+        border: rem(1px) solid var(--secondary-deep);
+        border-radius: rem(8px);
+        margin-top: rem(24px);
+      }
+    }
+
+    .title-container {
+      @include media('>tablet') {
+        padding: rem(12px) rem(16px) rem(8px);
+      }
+    }
+
+    .contact-label {
+      font-family: var(--font-family-poppins-regular);
+      font-size: rem(12px);
+      color: var(--text-secondary);
+      font-weight: 400;
+      line-height: rem(18px);
+
+      @include media('>tablet') {
+        font-family: var(--font-family-poppins-regular);
+        font-weight: 400;
+        font-size: rem(12px);
+        line-height: rem(18px);
+        color: var(--text-secondary);
+      }
+    }
+  }
+
+  .card {
+    font-family: var(--font-family-poppins-regular);
+    margin-bottom: rem(0);
+
+    @include media('>=tablet') {
+      margin-bottom: rem(16px);
+    }
+
+    .title-container {
+      border-radius: rem(8px) rem(8px) rem(0px) rem(0px);
+      background-color: var(--text-alice-blue);
+      padding: rem(8px) rem(12px);
+
+      @include media('>=tablet') {
+        padding: rem(12px) rem(16px) rem(8px);
+      }
+    }
+
+    .title {
+      color: var(--text-primary);
+      font-size: rem(14px);
+      font-weight: 600;
+      font-family: var(--font-family-poppins-regular);
+      line-height: rem(20px);
+      vertical-align: middle;
+
+      @include media('>=tablet') {
+          line-height: rem(24px);
+          font-family: var(--font-family-poppins-regular);
+          font-weight: 600;
+          font-size: rem(16px);
+          vertical-align: middle;
+          color: var(--text-primary);
+      }
+    }
+
+    .subtitle {
+      color: var(--text-secondary);
+      font-size: rem(12px);
+      font-weight: 400;
+      line-height: rem(18px);
+    }
+
+    .content {
+      font-family: var(--font-family-poppins-regular);
+      font-weight: 400;
+      font-size: rem(12px);
+      line-height: rem(18px);
+      padding: rem(12px);
+
+    }
+    
+    .content-value {
+      font-family: var(--font-family-poppins-regular);
+      font-weight: 400;
+      font-size: rem(12px);
+      line-height: rem(18px);
+      color: var(--text-primary);
+    }
+  }
+}

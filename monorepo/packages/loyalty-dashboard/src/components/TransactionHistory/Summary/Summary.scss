@@ -1,0 +1,107 @@
+.summary {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: rem(12px);
+  align-self: stretch;
+
+  @include media('>=tablet') {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    align-self: stretch;
+  }
+  &__heading{
+    display: none;
+    @include media('>=tablet') {
+    color: $gray-d-new;
+    font-family: var(--font-family-bauhuas-std-medium);
+    font-size: rem(32px);
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    display: block;
+    }
+  }
+
+  &__details {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: rem(4px);
+
+    @include media('>=tablet') {
+      display: flex;
+      width: rem(611px);
+      flex-direction: column;
+      align-items: flex-start;
+    }
+
+    &--item {
+      display: flex;
+      align-items: flex-start;
+      gap: rem(12px);
+
+      span {
+        color: var(--text-secondary);
+        font-size: rem(14px);
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        font-family:var(--font-family-poppins-medium);
+        @include media('>=tablet') {
+          font-size: rem(16px);
+        }
+      }
+    }
+
+  }
+
+  &__download {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: rem(8px);
+    align-self: stretch; 
+    width: 100%;
+    @include media('>=tablet') {
+      align-self: auto;
+      width: rem(233px);
+    }
+    div {
+      width: 100%;
+    }
+    button {
+      display: flex;
+      padding: rem(6px) rem(12px);
+      justify-content: center;
+      align-items: center;
+      gap: rem(8px);
+      align-self: stretch;
+      border-radius: rem(18px);
+      background: var(--primary-main);
+      border: none;
+      color: var(--white);
+      text-align: center;
+      font-size: rem(14px);
+      font-style: normal;
+      font-weight: 500;
+      line-height: rem(20px);
+      font-family: var(--font-family-poppins-medium);
+      cursor: pointer;
+      width: 100%;
+      @include media('>=tablet') {
+        font-weight: 500;
+        font-size: rem(16px);
+        line-height: rem(24px);
+        padding: rem(6px) rem(20px);
+      }
+    }
+    button[disabled] {
+      background: var(--btn-disabled-background);
+  }
+    
+  }
+}

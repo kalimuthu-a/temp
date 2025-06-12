@@ -1,0 +1,15 @@
+.srp-flight-carousel-container__item {
+  position: relative;
+  background-color: #fff;
+  overflow: hidden;
+
+  &::before {
+    content: '';
+    background-image: url('../../assets/images/cloud.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.2;
+    inset: 0;
+    position: absolute;
+  }
+}

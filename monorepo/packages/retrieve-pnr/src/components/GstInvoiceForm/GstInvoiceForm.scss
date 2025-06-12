@@ -1,0 +1,85 @@
+@import '../../styles/main';
+
+.gst_invoice_wrapper {
+  background-color: var(--secondary-white);
+  border-radius: rem(12px);
+  font-family: var(--font-family-bauhuas-std-medium);
+  font-weight: 300;
+  border: 1px solid var(--secondary-deep);
+  margin-bottom: rem(48px);
+}
+
+.gst_tab__wrapper input:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+.gst_tab__wrapper {
+  box-shadow: 0 0 rem(28px) rem(16px) rgb(76 93 158 / 4%);
+  padding-bottom: rem(24px);
+
+  .tab-container {
+    ul {
+      margin: 0 0 rem(24px);
+      padding: rem(0px);
+      border-radius: rem(12px) rem(12px) 0 0;
+      border-bottom: rem(1px) solid var(--secondary-deep);
+      gap: 0;
+
+      li {
+        flex-basis: 50%;
+
+        .tab-container__btn {
+          button {
+            width: 100%;
+            height: rem(40px);
+            border: none !important;
+            border-radius: unset !important;
+
+            &:focus {
+              outline: none;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+.gst_d-block {
+  margin: 0 rem(24px);
+  display: flex !important;
+  justify-content: flex-end;
+
+  .skyplus-button {
+    width: 30%;
+  }
+}
+
+.pnr_gst_inputs {
+  display: flex;
+  gap: rem(16px);
+  margin: rem(24px) rem(24px) 0;
+
+  &>div {
+    width: 50%;
+  }
+}
+
+.gst_header_wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: rem(8px);
+  align-self: stretch;
+  margin: 2rem 0;
+
+  .gst_generate_invoice {
+    color: var(--text-tertiary);
+    font-size: rem(14px);
+    font-style: normal;
+    font-weight: 400;
+    line-height: rem(20px);
+    text-transform: uppercase;
+  }
+}

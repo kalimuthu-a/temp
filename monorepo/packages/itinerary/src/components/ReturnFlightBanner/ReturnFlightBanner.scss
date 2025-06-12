@@ -1,0 +1,205 @@
+.return-flight-banner {
+  display: flex;
+	width: calc(100% - 40px);
+	padding: rem(12px);
+	flex-direction: column;
+	align-items: flex-start;
+	gap: rem(8px);
+	border-radius: rem(12px);
+	background: var(--secondary-white);
+	position: relative;
+	margin: rem(24px) rem(20px) rem(0px);
+	font-family: var(--font-family-poppins-regular);
+	box-shadow: 0px 0px 12px 0px rgba(76, 93, 158, 0.08);
+	border: 1px solid get-color('light-white');
+	@include media('>=tablet') {
+		width: 100%;
+		margin: rem(24px) rem(0px) rem(0px);
+		padding: rem(16px);
+	}
+
+	&__title-block{
+		display: inline-block;
+		width: auto;
+		margin: 0 auto;
+		position: relative;
+
+		.title {
+			color: get-color("color-text-grey1");
+			text-align: center;
+			font-size: rem(14px);
+			font-style: normal;
+			font-weight: 400;
+			line-height: rem(20px);
+			text-transform: uppercase;
+			font-family: var(--font-family-poppins-regular);
+			margin-bottom: rem(8px);
+			@include media('>=tablet') {
+				font-size: rem(20px);
+				line-height: rem(32px);
+			}
+		}
+
+		.sub-title {
+			color: var(--text-primary);
+			text-align: center;
+			font-family: var(--font-family-bauhuas-std-medium);
+			font-size: rem(20px);
+			font-style: normal;
+			font-weight: 500;
+			line-height: rem(24px);
+			letter-spacing: -0.6px;
+
+			@include media('>=tablet') {
+				font-size: rem(24px);
+				line-height: rem(32px);
+				margin-bottom: 8px;
+			}			
+
+			.green {
+				color: var(--accent-dark);
+				font-size: rem(20px);
+				font-style: normal;
+				font-weight: 500;
+				line-height: rem(24px);
+				letter-spacing: -0.6px;
+				font-family: var(--font-family-bauhuas-std-medium);
+			}
+		}
+	}
+
+	&__card {
+		display: inline-block;
+		width: 100%;
+		position: relative;
+
+		&__main-container {
+			display: flex;
+			align-items: flex-start;
+			justify-content: space-between;
+			flex-direction: column;
+			position: absolute;
+			color: var(--secondary-white);
+			left: rem(20px);
+			bottom: rem(20px);
+			padding: rem(10px);
+			min-width: rem(181px);
+			width: 53%;
+			min-height: rem(146px);
+			height: auto;
+			border-radius: rem(12px);
+			background: linear-gradient(180deg, rgb(121 157 165 / 69%) -53.93%, rgb(33 25 17 / 69%) 100%);
+			backdrop-filter: blur(8px);			
+
+			.title {	
+				bottom: rem(20px);
+				color: var(--secondary-white);
+				font-family: var(--font-family-bauhuas-std-medium);
+				font-size: rem(20px);
+				font-style: normal;
+				font-weight: 500;
+				line-height: rem(24px);
+				letter-spacing: -0.6px;
+			}
+		}
+
+		&__img-container {
+			display: inline-block;
+			width: 100%;
+			position: relative;
+			height: rem(318px);
+
+			img {
+				display: block;
+				width: 100%;
+				height: 100%;
+				border-radius: rem(8px);
+			}
+		}
+
+		&__content {
+			display: flex;
+			align-items: flex-start;
+			justify-content: space-between;
+			flex-direction: row;
+			width: 100%;
+		}
+
+		&__subtitle {
+			color: var(--secondary-white);	
+			font-family: var(--font-family-poppins-regular);
+			font-size: rem(12px);
+			font-style: normal;
+			font-weight: 300;
+			line-height: rem(18px);
+			width: rem(106px);			
+			@include media('>=tablet') {
+				width: 100%;
+			}
+
+			.price {
+				font-weight: 600;
+				font-size: rem(14px);
+				color: var(--secondary-white) !important;
+			}
+		}
+
+		&__title {
+			color: var(--secondary-white);
+			font-family: var(--font-family-bauhuas-std-medium);
+			font-size: rem(20px);
+			font-style: normal;
+			font-weight: 500;
+			line-height: rem(20px); 
+			letter-spacing: -0.6px;
+			width: rem(157px);
+			flex-shrink: 0;
+		}
+		&__description {
+			width: 100%;
+    	margin-right: rem(20px);
+		}
+	}
+
+	&__redirect {
+		display: flex;
+    align-items: flex-end;
+    height: 100%;
+    justify-content: flex-end;
+	}
+
+	&__link {
+			width: rem(40px);
+			height: rem(40px);
+			display: inline-block;
+			border-radius: 50%;
+			background-color: var(--secondary-white);
+			color: var(--text-secondary);
+			position: relative;
+
+			span .icon-arrow-top-right-simple {
+				color: var(--text-secondary) !important;
+			}
+
+			&__wrapper{
+				display: inline-block;
+				position: absolute;
+				left: rem(12px);
+				top: rem(10px);
+				width: rem(16px);
+				height: rem(16px);
+
+				.sky-icons {
+					font-size: rem(24px);
+					width: rem(16px);
+					height: rem(16px);
+
+					&.icon-arrow-top-right {
+						&::before {
+							color: get-color("indigo-primary");
+						}
+					}
+				}
+			}
+	}
+}

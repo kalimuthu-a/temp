@@ -1,0 +1,27 @@
+body {
+  font-family: var(--font-family-poppins-regular);
+}
+
+.fare-summary-app,
+.fare-summary-details-modal {
+  h4,
+  h6 {
+    color: var(--text-primary);
+    text-transform: capitalize;
+  }
+
+  h4 {
+    font-family: var(--font-family-bauhuas-std-medium);
+    font-kerning: auto;
+    font-size: 1.5rem;
+    font-weight: normal;
+    line-height: 2rem;
+    letter-spacing: -0.0375rem;
+    margin-bottom: rem(12px);
+  }
+
+  h6 {
+    font-family: var(--font-family-poppins-semibold);
+    font-size: 1rem;
+  }
+}

@@ -1,0 +1,3186 @@
+{
+  "data": {
+    "bookingDetails": {
+      "recordLocator": null,
+      "bookingStatus": "Default",
+      "bookedDate": "2024-03-21T13:18:05.4345934Z",
+      "utcBookedDate": "2024-03-21T13:18:05.4345934Z",
+      "currencyCode": "INR"
+    },
+    "Passengers": [
+      {
+        "passengerKey": "MCFBRFQ-",
+        "extraSeatTag": null,
+        "travelDocumentToTake": null,
+        "name": {
+          "first": "PaxOneFN",
+          "middle": null,
+          "last": "PaxOneLN",
+          "title": "MR",
+          "suffix": null
+        },
+        "passengerTypeCode": "ADT",
+        "discountCode": null,
+        "info": {
+          "nationality": null,
+          "gender": 1,
+          "dateOfBirth": null
+        },
+        "travelDocuments": [],
+        "infant": null
+      },
+      {
+        "passengerKey": "MSFBRFQ-",
+        "extraSeatTag": null,
+        "travelDocumentToTake": null,
+        "name": {
+          "first": "PaxTwoFN",
+          "middle": null,
+          "last": "PaxTwoLN",
+          "title": "MR",
+          "suffix": null
+        },
+        "passengerTypeCode": "ADT",
+        "discountCode": null,
+        "info": {
+          "nationality": null,
+          "gender": 1,
+          "dateOfBirth": null
+        },
+        "travelDocuments": [],
+        "infant": null
+      }
+    ],
+    "ssr": [
+      {
+        "journeyKey": "NkV_NjA2NX4gfn5ERUx_MDMvMjIvMjAyNCAwOTo0NX5IWUR_MDMvMjIvMjAyNCAxMTo1NX5_XjZFfiAzNDl_IH5_SFlEfjAzLzIyLzIwMjQgMTg6MTV_Q09LfjAzLzIyLzIwMjQgMTk6NTB_fg--",
+        "journeydetail": {
+          "destination": "COK",
+          "origin": "DEL",
+          "arrival": "2024-03-22T19:50:00",
+          "departure": "2024-03-22T09:45:00",
+          "identifier": null
+        },
+        "journeySSRs": [
+          {
+            "category": "baggage",
+            "limit": 1,
+            "openslider": true,
+            "isMandatory": false,
+            "mandatoryreason": "",
+            "ssrs": [
+              {
+                "group": "International",
+                "currencycode": "INR",
+                "ssrCode": "IXBA",
+                "ssrType": 0,
+                "category": null,
+                "available": null,
+                "name": "INTL Connection Baggage 8 Kg",
+                "limitPerPassenger": 1,
+                "feeCode": "IXBA",
+                "applicableForAllPax": false,
+                "SsrApplicability": "J",
+                "price": 800.0,
+                "passengersSSRKey": [
+                  {
+                    "passengerKey": "MCFBRFQ-",
+                    "ssrKey": "MSFNQ0ZCUkZRLSFJWEJBISFDT0shNkUhNjM4NDY2NjI0MDAwMDAwMDAwIURFTCE2MDY1ISA-",
+                    "takenssrkey": "",
+                    "takencount": 0
+                  },
+                  {
+                    "passengerKey": "MSFBRFQ-",
+                    "ssrKey": "MSFNU0ZCUkZRLSFJWEJBISFDT0shNkUhNjM4NDY2NjI0MDAwMDAwMDAwIURFTCE2MDY1ISA-",
+                    "takenssrkey": "",
+                    "takencount": 0
+                  }
+                ]
+              },
+              {
+                "group": "Domestic",
+                "currencycode": "INR",
+                "ssrCode": "XBPE",
+                "ssrType": 0,
+                "category": null,
+                "available": null,
+                "name": "Prepaid Excess Baggage 3 Kg",
+                "limitPerPassenger": 1,
+                "feeCode": "XBPE",
+                "applicableForAllPax": false,
+                "SsrApplicability": "J",
+                "price": 1350.0,
+                "passengersSSRKey": [
+                  {
+                    "passengerKey": "MCFBRFQ-",
+                    "ssrKey": "MSFNQ0ZCUkZRLSFYQlBFISFDT0shNkUhNjM4NDY2NjI0MDAwMDAwMDAwIURFTCE2MDY1ISA-",
+                    "takenssrkey": "",
+                    "takencount": 0
+                  },
+                  {
+                    "passengerKey": "MSFBRFQ-",
+                    "ssrKey": "MSFNU0ZCUkZRLSFYQlBFISFDT0shNkUhNjM4NDY2NjI0MDAwMDAwMDAwIURFTCE2MDY1ISA-",
+                    "takenssrkey": "",
+                    "takencount": 0
+                  }
+                ]
+              },
+              {
+                "group": "International",
+                "currencycode": "INR",
+                "ssrCode": "IXBB",
+                "ssrType": 0,
+                "category": null,
+                "available": null,
+                "name": "INTL Connection Baggage 15 Kg",
+                "limitPerPassenger": 1,
+                "feeCode": "IXBB",
+                "applicableForAllPax": false,
+                "SsrApplicability": "J",
+                "price": 1500.0,
+                "passengersSSRKey": [
+                  {
+                    "passengerKey": "MCFBRFQ-",
+                    "ssrKey": "MSFNQ0ZCUkZRLSFJWEJCISFDT0shNkUhNjM4NDY2NjI0MDAwMDAwMDAwIURFTCE2MDY1ISA-",
+                    "takenssrkey": "",
+                    "takencount": 0
+                  },
+                  {
+                    "passengerKey": "MSFBRFQ-",
+                    "ssrKey": "MSFNU0ZCUkZRLSFJWEJCISFDT0shNkUhNjM4NDY2NjI0MDAwMDAwMDAwIURFTCE2MDY1ISA-",
+                    "takenssrkey": "",
+                    "takencount": 0
+                  }
+                ]
+              },
+              {
+                "group": "Domestic",
+                "currencycode": "INR",
+                "ssrCode": "XBPA",
+                "ssrType": 0,
+                "category": null,
+                "available": null,
+                "name": "Prepaid Excess Baggage 5 kg",
+                "limitPerPassenger": 1,
+                "feeCode": "XBPA",
+                "applicableForAllPax": false,
+                "SsrApplicability": "J",
+                "price": 2250.0,
+                "passengersSSRKey": [
+                  {
+                    "passengerKey": "MCFBRFQ-",
+                    "ssrKey": "MSFNQ0ZCUkZRLSFYQlBBISFDT0shNkUhNjM4NDY2NjI0MDAwMDAwMDAwIURFTCE2MDY1ISA-",
+                    "takenssrkey": "",
+                    "takencount": 0
+                  },
+                  {
+                    "passengerKey": "MSFBRFQ-",
+                    "ssrKey": "MSFNU0ZCUkZRLSFYQlBBISFDT0shNkUhNjM4NDY2NjI0MDAwMDAwMDAwIURFTCE2MDY1ISA-",
+                    "takenssrkey": "",
+                    "takencount": 0
+                  }
+                ]
+              },
+              {
+                "group": "International",
+                "currencycode": "INR",
+                "ssrCode": "IXBC",
+                "ssrType": 0,
+                "category": null,
+                "available": null,
+                "name": "INTL Connection Baggage 30 Kg",
+                "limitPerPassenger": 1,
+                "feeCode": "IXBC",
+                "applicableForAllPax": false,
+                "SsrApplicability": "J",
+                "price": 3000.0,
+                "passengersSSRKey": [
+                  {
+                    "passengerKey": "MCFBRFQ-",
+                    "ssrKey": "MSFNQ0ZCUkZRLSFJWEJDISFDT0shNkUhNjM4NDY2NjI0MDAwMDAwMDAwIURFTCE2MDY1ISA-",
+                    "takenssrkey": "",
+                    "takencount": 0
+                  },
+                  {
+                    "passengerKey": "MSFBRFQ-",
+                    "ssrKey": "MSFNU0ZCUkZRLSFJWEJDISFDT0shNkUhNjM4NDY2NjI0MDAwMDAwMDAwIURFTCE2MDY1ISA-",
+                    "takenssrkey": "",
+                    "takencount": 0
+                  }
+                ]
+              },
+              {
+                "group": "Domestic",
+                "currencycode": "INR",
+                "ssrCode": "XBPB",
+                "ssrType": 0,
+                "category": null,
+                "available": null,
+                "name": "Prepaid Excess Baggage 10 kg",
+                "limitPerPassenger": 1,
+                "feeCode": "XBPB",
+                "applicableForAllPax": false,
+                "SsrApplicability": "J",
+                "price": 4500.0,
+                "passengersSSRKey": [
+                  {
+                    "passengerKey": "MCFBRFQ-",
+                    "ssrKey": "MSFNQ0ZCUkZRLSFYQlBCISFDT0shNkUhNjM4NDY2NjI0MDAwMDAwMDAwIURFTCE2MDY1ISA-",
+                    "takenssrkey": "",
+                    "takencount": 0
+                  },
+                  {
+                    "passengerKey": "MSFBRFQ-",
+                    "ssrKey": "MSFNU0ZCUkZRLSFYQlBCISFDT0shNkUhNjM4NDY2NjI0MDAwMDAwMDAwIURFTCE2MDY1ISA-",
+                    "takenssrkey": "",
+                    "takencount": 0
+                  }
+                ]
+              },
+              {
+                "group": "Domestic",
+                "currencycode": "INR",
+                "ssrCode": "XBPC",
+                "ssrType": 0,
+                "category": null,
+                "available": null,
+                "name": "Prepaid Excess Baggage 15 Kg",
+                "limitPerPassenger": 1,
+                "feeCode": "XBPC",
+                "applicableForAllPax": false,
+                "SsrApplicability": "J",
+                "price": 6750.0,
+                "passengersSSRKey": [
+                  {
+                    "passengerKey": "MCFBRFQ-",
+                    "ssrKey": "MSFNQ0ZCUkZRLSFYQlBDISFDT0shNkUhNjM4NDY2NjI0MDAwMDAwMDAwIURFTCE2MDY1ISA-",
+                    "takenssrkey": "",
+                    "takencount": 0
+                  },
+                  {
+                    "passengerKey": "MSFBRFQ-",
+                    "ssrKey": "MSFNU0ZCUkZRLSFYQlBDISFDT0shNkUhNjM4NDY2NjI0MDAwMDAwMDAwIURFTCE2MDY1ISA-",
+                    "takenssrkey": "",
+                    "takencount": 0
+                  }
+                ]
+              },
+              {
+                "group": "Domestic",
+                "currencycode": "INR",
+                "ssrCode": "XBPJ",
+                "ssrType": 0,
+                "category": null,
+                "available": null,
+                "name": "Prepaid Excess Baggage 20 Kg",
+                "limitPerPassenger": 1,
+                "feeCode": "XBPJ",
+                "applicableForAllPax": false,
+                "SsrApplicability": "J",
+                "price": 9000.0,
+                "passengersSSRKey": [
+                  {
+                    "passengerKey": "MCFBRFQ-",
+                    "ssrKey": "MSFNQ0ZCUkZRLSFYQlBKISFDT0shNkUhNjM4NDY2NjI0MDAwMDAwMDAwIURFTCE2MDY1ISA-",
+                    "takenssrkey": "",
+                    "takencount": 0
+                  },
+                  {
+                    "passengerKey": "MSFBRFQ-",
+                    "ssrKey": "MSFNU0ZCUkZRLSFYQlBKISFDT0shNkUhNjM4NDY2NjI0MDAwMDAwMDAwIURFTCE2MDY1ISA-",
+                    "takenssrkey": "",
+                    "takencount": 0
+                  }
+                ]
+              },
+              {
+                "group": "Domestic",
+                "currencycode": "INR",
+                "ssrCode": "XBPD",
+                "ssrType": 0,
+                "category": null,
+                "available": null,
+                "name": "Prepaid Excess Baggage 30 Kg",
+                "limitPerPassenger": 1,
+                "feeCode": "XBPD",
+                "applicableForAllPax": false,
+                "SsrApplicability": "J",
+                "price": 13500.0,
+                "passengersSSRKey": [
+                  {
+                    "passengerKey": "MCFBRFQ-",
+                    "ssrKey": "MSFNQ0ZCUkZRLSFYQlBEISFDT0shNkUhNjM4NDY2NjI0MDAwMDAwMDAwIURFTCE2MDY1ISA-",
+                    "takenssrkey": "",
+                    "takencount": 0
+                  },
+                  {
+                    "passengerKey": "MSFBRFQ-",
+                    "ssrKey": "MSFNU0ZCUkZRLSFYQlBEISFDT0shNkUhNjM4NDY2NjI0MDAwMDAwMDAwIURFTCE2MDY1ISA-",
+                    "takenssrkey": "",
+                    "takencount": 0
+                  }
+                ]
+              }
+            ],
+            "takenssr": []
+          },
+          {
+            "category": "ABHF",
+            "limit": 1,
+            "openslider": false,
+            "isMandatory": false,
+            "mandatoryreason": "",
+            "ssrs": [
+              {
+                "group": "NA",
+                "currencycode": "INR",
+                "ssrCode": "ABHF",
+                "ssrType": 0,
+                "category": null,
+                "available": null,
+                "name": "Additional bag piece",
+                "limitPerPassenger": 2,
+                "feeCode": "ABPF",
+                "applicableForAllPax": false,
+                "SsrApplicability": "J",
+                "price": 900.0,
+                "passengersSSRKey": [
+                  {
+                    "passengerKey": "MCFBRFQ-",
+                    "ssrKey": "MSFNQ0ZCUkZRLSFBQkhGISFDT0shNkUhNjM4NDY2NjI0MDAwMDAwMDAwIURFTCE2MDY1ISA-",
+                    "takenssrkey": "",
+                    "takencount": 0
+                  },
+                  {
+                    "passengerKey": "MSFBRFQ-",
+                    "ssrKey": "MSFNU0ZCUkZRLSFBQkhGISFDT0shNkUhNjM4NDY2NjI0MDAwMDAwMDAwIURFTCE2MDY1ISA-",
+                    "takenssrkey": "",
+                    "takencount": 0
+                  }
+                ]
+              }
+            ],
+            "takenssr": []
+          },
+          {
+            "category": "BRB",
+            "limit": 1,
+            "openslider": true,
+            "isMandatory": false,
+            "mandatoryreason": "",
+            "ssrs": [
+              {
+                "group": "NA",
+                "currencycode": "INR",
+                "ssrCode": "LBG",
+                "ssrType": 0,
+                "category": null,
+                "available": null,
+                "name": "Delayed and Lost Baggage Protection Service",
+                "limitPerPassenger": 1,
+                "feeCode": "LBG",
+                "applicableForAllPax": true,
+                "SsrApplicability": "P",
+                "price": 95.0,
+                "passengersSSRKey": [
+                  {
+                    "passengerKey": "MCFBRFQ-",
+                    "ssrKey": "MCFNQ0ZCUkZRLSFMQkchIUhZRCE2RSE2Mzg0NjY2MjQwMDAwMDAwMDAhREVMITYwNjUhIA--",
+                    "takenssrkey": "",
+                    "takencount": 0
+                  },
+                  {
+                    "passengerKey": "MSFBRFQ-",
+                    "ssrKey": "MCFNU0ZCUkZRLSFMQkchIUhZRCE2RSE2Mzg0NjY2MjQwMDAwMDAwMDAhREVMITYwNjUhIA--",
+                    "takenssrkey": "",
+                    "takencount": 0
+                  }
+                ]
+              }
+            ],
+            "takenssr": []
+          },
+          {
+            "category": "FFWD",
+            "limit": 1,
+            "openslider": false,
+            "isMandatory": false,
+            "mandatoryreason": "",
+            "ssrs": [
+              {
+                "group": "NA",
+                "currencycode": "INR",
+                "ssrCode": "FFWD",
+                "ssrType": 0,
+                "category": null,
+                "available": null,
+                "name": "Fast forward",
+                "limitPerPassenger": 1,
+                "feeCode": "FFWD",
+                "applicableForAllPax": true,
+                "SsrApplicability": "J",
+                "price": 450.0,
+                "passengersSSRKey": [
+                  {
+                    "passengerKey": "MCFBRFQ-",
+                    "ssrKey": "MCFNQ0ZCUkZRLSFGRldEISFIWUQhNkUhNjM4NDY2NjI0MDAwMDAwMDAwIURFTCE2MDY1ISA-",
+                    "takenssrkey": "",
+                    "takencount": 0
+                  },
+                  {
+                    "passengerKey": "MSFBRFQ-",
+                    "ssrKey": "MCFNU0ZCUkZRLSFGRldEISFIWUQhNkUhNjM4NDY2NjI0MDAwMDAwMDAwIURFTCE2MDY1ISA-",
+                    "takenssrkey": "",
+                    "takencount": 0
+                  }
+                ]
+              }
+            ],
+            "takenssr": []
+          },
+          {
+            "category": "PRBG",
+            "limit": 1,
+            "openslider": false,
+            "isMandatory": false,
+            "mandatoryreason": "",
+            "ssrs": [],
+            "takenssr": []
+          },
+          {
+            "category": "PROT",
+            "limit": 1,
+            "openslider": false,
+            "isMandatory": false,
+            "mandatoryreason": "",
+            "ssrs": [
+              {
+                "group": "NA",
+                "currencycode": "INR",
+                "ssrCode": "PROT",
+                "ssrType": 0,
+                "category": null,
+                "available": null,
+                "name": "Travel Assistance",
+                "limitPerPassenger": 1,
+                "feeCode": "PROT",
+                "applicableForAllPax": true,
+                "SsrApplicability": "P",
+                "price": 159.0,
+                "passengersSSRKey": [
+                  {
+                    "passengerKey": "MCFBRFQ-",
+                    "ssrKey": "MSFNQ0ZCUkZRLSFQUk9UISFDT0shNkUhNjM4NDY2NjI0MDAwMDAwMDAwIURFTCE2MDY1ISA-",
+                    "takenssrkey": "",
+                    "takencount": 0
+                  },
+                  {
+                    "passengerKey": "MSFBRFQ-",
+                    "ssrKey": "MSFNU0ZCUkZRLSFQUk9UISFDT0shNkUhNjM4NDY2NjI0MDAwMDAwMDAwIURFTCE2MDY1ISA-",
+                    "takenssrkey": "",
+                    "takencount": 0
+                  }
+                ]
+              }
+            ],
+            "takenssr": []
+          },
+          {
+            "category": "IFNR",
+            "limit": 1,
+            "openslider": false,
+            "isMandatory": false,
+            "mandatoryreason": "",
+            "ssrs": [],
+            "takenssr": []
+          },
+          {
+            "category": "SPEQ",
+            "limit": 3,
+            "openslider": false,
+            "isMandatory": false,
+            "mandatoryreason": "",
+            "ssrs": [
+              {
+                "group": "NA",
+                "currencycode": "INR",
+                "ssrCode": "SPEQ",
+                "ssrType": 0,
+                "category": null,
+                "available": null,
+                "name": "Sports Equipments",
+                "limitPerPassenger": 3,
+                "feeCode": "SPEQ",
+                "applicableForAllPax": false,
+                "SsrApplicability": "J",
+                "price": 1500.0,
+                "passengersSSRKey": [
+                  {
+                    "passengerKey": "MCFBRFQ-",
+                    "ssrKey": "MSFNQ0ZCUkZRLSFTUEVRISFDT0shNkUhNjM4NDY2NjI0MDAwMDAwMDAwIURFTCE2MDY1ISA-",
+                    "takenssrkey": "",
+                    "takencount": 0
+                  },
+                  {
+                    "passengerKey": "MSFBRFQ-",
+                    "ssrKey": "MSFNU0ZCUkZRLSFTUEVRISFDT0shNkUhNjM4NDY2NjI0MDAwMDAwMDAwIURFTCE2MDY1ISA-",
+                    "takenssrkey": "",
+                    "takencount": 0
+                  }
+                ]
+              }
+            ],
+            "takenssr": []
+          },
+          {
+            "category": "WCHR",
+            "limit": 1,
+            "openslider": true,
+            "isMandatory": false,
+            "mandatoryreason": "",
+            "ssrs": [
+              {
+                "group": "NA",
+                "currencycode": "INR",
+                "ssrCode": "WCHR",
+                "ssrType": 0,
+                "category": null,
+                "available": null,
+                "name": "WheelChair - Ramp",
+                "limitPerPassenger": 1,
+                "feeCode": null,
+                "applicableForAllPax": false,
+                "SsrApplicability": "J",
+                "price": 0.0,
+                "passengersSSRKey": [
+                  {
+                    "passengerKey": "MCFBRFQ-",
+                    "ssrKey": "MSFNQ0ZCUkZRLSFXQ0hSISFDT0shNkUhNjM4NDY2NjI0MDAwMDAwMDAwIURFTCE2MDY1ISA-",
+                    "takenssrkey": "",
+                    "takencount": 0
+                  },
+                  {
+                    "passengerKey": "MSFBRFQ-",
+                    "ssrKey": "MSFNU0ZCUkZRLSFXQ0hSISFDT0shNkUhNjM4NDY2NjI0MDAwMDAwMDAwIURFTCE2MDY1ISA-",
+                    "takenssrkey": "",
+                    "takencount": 0
+                  }
+                ]
+              },
+              {
+                "group": "NA",
+                "currencycode": "INR",
+                "ssrCode": "WCHC",
+                "ssrType": 0,
+                "category": null,
+                "available": null,
+                "name": "WheelChair - Cabin",
+                "limitPerPassenger": 1,
+                "feeCode": null,
+                "applicableForAllPax": false,
+                "SsrApplicability": "J",
+                "price": 0.0,
+                "passengersSSRKey": [
+                  {
+                    "passengerKey": "MCFBRFQ-",
+                    "ssrKey": "MSFNQ0ZCUkZRLSFXQ0hDISFDT0shNkUhNjM4NDY2NjI0MDAwMDAwMDAwIURFTCE2MDY1ISA-",
+                    "takenssrkey": "",
+                    "takencount": 0
+                  },
+                  {
+                    "passengerKey": "MSFBRFQ-",
+                    "ssrKey": "MSFNU0ZCUkZRLSFXQ0hDISFDT0shNkUhNjM4NDY2NjI0MDAwMDAwMDAwIURFTCE2MDY1ISA-",
+                    "takenssrkey": "",
+                    "takencount": 0
+                  }
+                ]
+              }
+            ],
+            "takenssr": []
+          },
+          {
+            "category": "FTIM",
+            "limit": 1,
+            "openslider": true,
+            "isMandatory": false,
+            "mandatoryreason": "",
+            "ssrs": [
+              {
+                "group": "NA",
+                "currencycode": "INR",
+                "ssrCode": "FTIM",
+                "ssrType": 0,
+                "category": null,
+                "available": null,
+                "name": "First Time Traveller Identification",
+                "limitPerPassenger": 1,
+                "feeCode": null,
+                "applicableForAllPax": false,
+                "SsrApplicability": "J",
+                "price": 0.0,
+                "passengersSSRKey": [
+                  {
+                    "passengerKey": "MCFBRFQ-",
+                    "ssrKey": "MSFNQ0ZCUkZRLSFGVElNISFDT0shNkUhNjM4NDY2NjI0MDAwMDAwMDAwIURFTCE2MDY1ISA-",
+                    "takenssrkey": "",
+                    "takencount": 0
+                  },
+                  {
+                    "passengerKey": "MSFBRFQ-",
+                    "ssrKey": "MSFNU0ZCUkZRLSFGVElNISFDT0shNkUhNjM4NDY2NjI0MDAwMDAwMDAwIURFTCE2MDY1ISA-",
+                    "takenssrkey": "",
+                    "takencount": 0
+                  }
+                ]
+              }
+            ],
+            "takenssr": []
+          }
+        ],
+        "segments": [
+          {
+            "segmentDetails": {
+              "destination": "HYD",
+              "origin": "DEL",
+              "arrival": "2024-03-22T11:55:00",
+              "departure": "2024-03-22T09:45:00",
+              "identifier": {
+                "identifier": "6065",
+                "carrierCode": "6E",
+                "opSuffix": null
+              }
+            },
+            "journeyType": "Domestic",
+            "segmentKey": "NkV_NjA2NX4gfn5ERUx_MDMvMjIvMjAyNCAwOTo0NX5IWUR_MDMvMjIvMjAyNCAxMTo1NX5_",
+            "segmentSSRs": [
+              {
+                "category": "Meal",
+                "limit": 2,
+                "openslider": true,
+                "isMandatory": false,
+                "ssrs": [
+                  {
+                    "group": "NA",
+                    "currencycode": "INR",
+                    "ssrCode": "CJSW",
+                    "ssrType": 0,
+                    "category": null,
+                    "available": null,
+                    "name": "Chicken Junglee Sandwich + beverage",
+                    "limitPerPassenger": 1,
+                    "feeCode": "NVGF",
+                    "applicableForAllPax": false,
+                    "SsrApplicability": "S",
+                    "price": 500.0,
+                    "passengersSSRKey": [
+                      {
+                        "passengerKey": "MCFBRFQ-",
+                        "ssrKey": "MiFNQ0ZCUkZRLSFDSlNXISFIWUQhNkUhNjM4NDY2NjI0MDAwMDAwMDAwIURFTCE2MDY1ISA-",
+                        "takenssrkey": "",
+                        "takencount": 0
+                      },
+                      {
+                        "passengerKey": "MSFBRFQ-",
+                        "ssrKey": "MiFNU0ZCUkZRLSFDSlNXISFIWUQhNkUhNjM4NDY2NjI0MDAwMDAwMDAwIURFTCE2MDY1ISA-",
+                        "takenssrkey": "",
+                        "takencount": 0
+                      }
+                    ]
+                  }
+                ],
+                "takenssr": [],
+                "mandatoryreason": ""
+              },
+              {
+                "category": "Lounge",
+                "limit": 1,
+                "openslider": false,
+                "isMandatory": false,
+                "ssrs": [],
+                "takenssr": [],
+                "mandatoryreason": ""
+              },
+              {
+                "category": "6EBar",
+                "limit": 1,
+                "openslider": false,
+                "isMandatory": false,
+                "ssrs": [],
+                "takenssr": [],
+                "mandatoryreason": ""
+              },
+              {
+                "category": "Goodnight",
+                "limit": 1,
+                "openslider": true,
+                "isMandatory": false,
+                "ssrs": [],
+                "takenssr": [],
+                "mandatoryreason": ""
+              }
+            ],
+            "legs": [
+              {
+                "legKey": "NjM4NDY2OTc1MDAwMDAwMDAwITZFITYwNjUhICFERUwhSFlEITc3MTIyOTc-",
+                "legDetails": {
+                  "destination": "HYD",
+                  "origin": "DEL",
+                  "arrival": "2024-03-22T11:55:00",
+                  "departure": "2024-03-22T09:45:00",
+                  "identifier": null
+                }
+              }
+            ]
+          },
+          {
+            "segmentDetails": {
+              "destination": "COK",
+              "origin": "HYD",
+              "arrival": "2024-03-22T19:50:00",
+              "departure": "2024-03-22T18:15:00",
+              "identifier": {
+                "identifier": "349",
+                "carrierCode": "6E",
+                "opSuffix": null
+              }
+            },
+            "journeyType": "Domestic",
+            "segmentKey": "NkV_IDM0OX4gfn5IWUR_MDMvMjIvMjAyNCAxODoxNX5DT0t_MDMvMjIvMjAyNCAxOTo1MH5_",
+            "segmentSSRs": [
+              {
+                "category": "Meal",
+                "limit": 2,
+                "openslider": true,
+                "isMandatory": false,
+                "ssrs": [
+                  {
+                    "group": "NA",
+                    "currencycode": "INR",
+                    "ssrCode": "AGSW",
+                    "ssrType": 0,
+                    "category": null,
+                    "available": null,
+                    "name": "#IndiaByIndiGo regional favourite (veg) + beverage",
+                    "limitPerPassenger": 1,
+                    "feeCode": "AGSW",
+                    "applicableForAllPax": false,
+                    "SsrApplicability": "S",
+                    "price": 400.0,
+                    "passengersSSRKey": [
+                      {
+                        "passengerKey": "MCFBRFQ-",
+                        "ssrKey": "MiFNQ0ZCUkZRLSFBR1NXISFDT0shNkUhNjM4NDY2NjI0MDAwMDAwMDAwIUhZRCEzNDkhIA--",
+                        "takenssrkey": "",
+                        "takencount": 0
+                      },
+                      {
+                        "passengerKey": "MSFBRFQ-",
+                        "ssrKey": "MiFNU0ZCUkZRLSFBR1NXISFDT0shNkUhNjM4NDY2NjI0MDAwMDAwMDAwIUhZRCEzNDkhIA--",
+                        "takenssrkey": "",
+                        "takencount": 0
+                      }
+                    ]
+                  },
+                  {
+                    "group": "NA",
+                    "currencycode": "INR",
+                    "ssrCode": "CJSW",
+                    "ssrType": 0,
+                    "category": null,
+                    "available": null,
+                    "name": "Chicken Junglee Sandwich + beverage",
+                    "limitPerPassenger": 1,
+                    "feeCode": "NVGF",
+                    "applicableForAllPax": false,
+                    "SsrApplicability": "S",
+                    "price": 500.0,
+                    "passengersSSRKey": [
+                      {
+                        "passengerKey": "MCFBRFQ-",
+                        "ssrKey": "MiFNQ0ZCUkZRLSFDSlNXISFDT0shNkUhNjM4NDY2NjI0MDAwMDAwMDAwIUhZRCEzNDkhIA--",
+                        "takenssrkey": "",
+                        "takencount": 0
+                      },
+                      {
+                        "passengerKey": "MSFBRFQ-",
+                        "ssrKey": "MiFNU0ZCUkZRLSFDSlNXISFDT0shNkUhNjM4NDY2NjI0MDAwMDAwMDAwIUhZRCEzNDkhIA--",
+                        "takenssrkey": "",
+                        "takencount": 0
+                      }
+                    ]
+                  },
+                  {
+                    "group": "NA",
+                    "currencycode": "INR",
+                    "ssrCode": "DBVG",
+                    "ssrType": 0,
+                    "category": null,
+                    "available": null,
+                    "name": "Diabetic veg Special + beverage",
+                    "limitPerPassenger": 1,
+                    "feeCode": "DBVG",
+                    "applicableForAllPax": false,
+                    "SsrApplicability": "S",
+                    "price": 400.0,
+                    "passengersSSRKey": [
+                      {
+                        "passengerKey": "MCFBRFQ-",
+                        "ssrKey": "MiFNQ0ZCUkZRLSFEQlZHISFDT0shNkUhNjM4NDY2NjI0MDAwMDAwMDAwIUhZRCEzNDkhIA--",
+                        "takenssrkey": "",
+                        "takencount": 0
+                      },
+                      {
+                        "passengerKey": "MSFBRFQ-",
+                        "ssrKey": "MiFNU0ZCUkZRLSFEQlZHISFDT0shNkUhNjM4NDY2NjI0MDAwMDAwMDAwIUhZRCEzNDkhIA--",
+                        "takenssrkey": "",
+                        "takencount": 0
+                      }
+                    ]
+                  },
+                  {
+                    "group": "NA",
+                    "currencycode": "INR",
+                    "ssrCode": "JNML",
+                    "ssrType": 0,
+                    "category": null,
+                    "available": null,
+                    "name": "Jain Special + beverage",
+                    "limitPerPassenger": 1,
+                    "feeCode": "JNML",
+                    "applicableForAllPax": false,
+                    "SsrApplicability": "S",
+                    "price": 400.0,
+                    "passengersSSRKey": [
+                      {
+                        "passengerKey": "MCFBRFQ-",
+                        "ssrKey": "MiFNQ0ZCUkZRLSFKTk1MISFDT0shNkUhNjM4NDY2NjI0MDAwMDAwMDAwIUhZRCEzNDkhIA--",
+                        "takenssrkey": "",
+                        "takencount": 0
+                      },
+                      {
+                        "passengerKey": "MSFBRFQ-",
+                        "ssrKey": "MiFNU0ZCUkZRLSFKTk1MISFDT0shNkUhNjM4NDY2NjI0MDAwMDAwMDAwIUhZRCEzNDkhIA--",
+                        "takenssrkey": "",
+                        "takencount": 0
+                      }
+                    ]
+                  },
+                  {
+                    "group": "NA",
+                    "currencycode": "INR",
+                    "ssrCode": "LCVG",
+                    "ssrType": 0,
+                    "category": null,
+                    "available": null,
+                    "name": "Low calorie veg Special + beverage",
+                    "limitPerPassenger": 1,
+                    "feeCode": "LCVG",
+                    "applicableForAllPax": false,
+                    "SsrApplicability": "S",
+                    "price": 400.0,
+                    "passengersSSRKey": [
+                      {
+                        "passengerKey": "MCFBRFQ-",
+                        "ssrKey": "MiFNQ0ZCUkZRLSFMQ1ZHISFDT0shNkUhNjM4NDY2NjI0MDAwMDAwMDAwIUhZRCEzNDkhIA--",
+                        "takenssrkey": "",
+                        "takencount": 0
+                      },
+                      {
+                        "passengerKey": "MSFBRFQ-",
+                        "ssrKey": "MiFNU0ZCUkZRLSFMQ1ZHISFDT0shNkUhNjM4NDY2NjI0MDAwMDAwMDAwIUhZRCEzNDkhIA--",
+                        "takenssrkey": "",
+                        "takencount": 0
+                      }
+                    ]
+                  },
+                  {
+                    "group": "NA",
+                    "currencycode": "INR",
+                    "ssrCode": "NUSW",
+                    "ssrType": 0,
+                    "category": null,
+                    "available": null,
+                    "name": "6E Eats choice of the day (non-veg) + beverage",
+                    "limitPerPassenger": 1,
+                    "feeCode": "NUSW",
+                    "applicableForAllPax": false,
+                    "SsrApplicability": "S",
+                    "price": 500.0,
+                    "passengersSSRKey": [
+                      {
+                        "passengerKey": "MCFBRFQ-",
+                        "ssrKey": "MiFNQ0ZCUkZRLSFOVVNXISFDT0shNkUhNjM4NDY2NjI0MDAwMDAwMDAwIUhZRCEzNDkhIA--",
+                        "takenssrkey": "",
+                        "takencount": 0
+                      },
+                      {
+                        "passengerKey": "MSFBRFQ-",
+                        "ssrKey": "MiFNU0ZCUkZRLSFOVVNXISFDT0shNkUhNjM4NDY2NjI0MDAwMDAwMDAwIUhZRCEzNDkhIA--",
+                        "takenssrkey": "",
+                        "takencount": 0
+                      }
+                    ]
+                  },
+                  {
+                    "group": "NA",
+                    "currencycode": "INR",
+                    "ssrCode": "VCSW",
+                    "ssrType": 0,
+                    "category": null,
+                    "available": null,
+                    "name": "6E Eats choice of the day (veg) + beverage",
+                    "limitPerPassenger": 1,
+                    "feeCode": "VCSW",
+                    "applicableForAllPax": false,
+                    "SsrApplicability": "S",
+                    "price": 400.0,
+                    "passengersSSRKey": [
+                      {
+                        "passengerKey": "MCFBRFQ-",
+                        "ssrKey": "MiFNQ0ZCUkZRLSFWQ1NXISFDT0shNkUhNjM4NDY2NjI0MDAwMDAwMDAwIUhZRCEzNDkhIA--",
+                        "takenssrkey": "",
+                        "takencount": 0
+                      },
+                      {
+                        "passengerKey": "MSFBRFQ-",
+                        "ssrKey": "MiFNU0ZCUkZRLSFWQ1NXISFDT0shNkUhNjM4NDY2NjI0MDAwMDAwMDAwIUhZRCEzNDkhIA--",
+                        "takenssrkey": "",
+                        "takencount": 0
+                      }
+                    ]
+                  },
+                  {
+                    "group": "NA",
+                    "currencycode": "INR",
+                    "ssrCode": "VGAN",
+                    "ssrType": 0,
+                    "category": null,
+                    "available": null,
+                    "name": "Vegan Special + beverage",
+                    "limitPerPassenger": 1,
+                    "feeCode": "VGAN",
+                    "applicableForAllPax": false,
+                    "SsrApplicability": "S",
+                    "price": 400.0,
+                    "passengersSSRKey": [
+                      {
+                        "passengerKey": "MCFBRFQ-",
+                        "ssrKey": "MiFNQ0ZCUkZRLSFWR0FOISFDT0shNkUhNjM4NDY2NjI0MDAwMDAwMDAwIUhZRCEzNDkhIA--",
+                        "takenssrkey": "",
+                        "takencount": 0
+                      },
+                      {
+                        "passengerKey": "MSFBRFQ-",
+                        "ssrKey": "MiFNU0ZCUkZRLSFWR0FOISFDT0shNkUhNjM4NDY2NjI0MDAwMDAwMDAwIUhZRCEzNDkhIA--",
+                        "takenssrkey": "",
+                        "takencount": 0
+                      }
+                    ]
+                  }
+                ],
+                "takenssr": [],
+                "mandatoryreason": ""
+              },
+              {
+                "category": "Lounge",
+                "limit": 1,
+                "openslider": false,
+                "isMandatory": false,
+                "ssrs": [],
+                "takenssr": [],
+                "mandatoryreason": ""
+              },
+              {
+                "category": "6EBar",
+                "limit": 1,
+                "openslider": false,
+                "isMandatory": false,
+                "ssrs": [],
+                "takenssr": [],
+                "mandatoryreason": ""
+              },
+              {
+                "category": "Goodnight",
+                "limit": 1,
+                "openslider": true,
+                "isMandatory": false,
+                "ssrs": [],
+                "takenssr": [],
+                "mandatoryreason": ""
+              }
+            ],
+            "legs": [
+              {
+                "legKey": "NjM4NDY3MjgxMDAwMDAwMDAwITZFITM0OSEgIUhZRCFDT0shNzI5MzAzOA--",
+                "legDetails": {
+                  "destination": "COK",
+                  "origin": "HYD",
+                  "arrival": "2024-03-22T19:50:00",
+                  "departure": "2024-03-22T18:15:00",
+                  "identifier": null
+                }
+              }
+            ]
+          }
+        ],
+        "productClass": "R",
+        "fareType": "SAVER",
+        "currencyCode": "INR",
+        "specialFareCode": null
+      },
+      {
+        "journeyKey": "NkV_NjkwNH4gfn5DT0t_MDMvMjMvMjAyNCAyMjoyMH5NQUF_MDMvMjMvMjAyNCAyMzoyMH5_XjZFfjIzNjh_IH5_TUFBfjAzLzI0LzIwMjQgMDI6MzB_REVMfjAzLzI0LzIwMjQgMDU6MjB_fg--",
+        "journeydetail": {
+          "destination": "DEL",
+          "origin": "COK",
+          "arrival": "2024-03-24T05:20:00",
+          "departure": "2024-03-23T22:20:00",
+          "identifier": null
+        },
+        "journeySSRs": [
+          {
+            "category": "baggage",
+            "limit": 1,
+            "openslider": true,
+            "isMandatory": false,
+            "mandatoryreason": "",
+            "ssrs": [
+              {
+                "group": "International",
+                "currencycode": "INR",
+                "ssrCode": "IXBA",
+                "ssrType": 0,
+                "category": null,
+                "available": null,
+                "name": "INTL Connection Baggage 8 Kg",
+                "limitPerPassenger": 1,
+                "feeCode": "IXBA",
+                "applicableForAllPax": false,
+                "SsrApplicability": "J",
+                "price": 800.0,
+                "passengersSSRKey": [
+                  {
+                    "passengerKey": "MCFBRFQ-",
+                    "ssrKey": "MSFNQ0ZCUkZRLSFJWEJBISFERUwhNkUhNjM4NDY3NDg4MDAwMDAwMDAwIUNPSyE2OTA0ISA-",
+                    "takenssrkey": "",
+                    "takencount": 0
+                  },
+                  {
+                    "passengerKey": "MSFBRFQ-",
+                    "ssrKey": "MSFNU0ZCUkZRLSFJWEJBISFERUwhNkUhNjM4NDY3NDg4MDAwMDAwMDAwIUNPSyE2OTA0ISA-",
+                    "takenssrkey": "",
+                    "takencount": 0
+                  }
+                ]
+              },
+              {
+                "group": "Domestic",
+                "currencycode": "INR",
+                "ssrCode": "XBPE",
+                "ssrType": 0,
+                "category": null,
+                "available": null,
+                "name": "Prepaid Excess Baggage 3 Kg",
+                "limitPerPassenger": 1,
+                "feeCode": "XBPE",
+                "applicableForAllPax": false,
+                "SsrApplicability": "J",
+                "price": 1350.0,
+                "passengersSSRKey": [
+                  {
+                    "passengerKey": "MCFBRFQ-",
+                    "ssrKey": "MSFNQ0ZCUkZRLSFYQlBFISFERUwhNkUhNjM4NDY3NDg4MDAwMDAwMDAwIUNPSyE2OTA0ISA-",
+                    "takenssrkey": "",
+                    "takencount": 0
+                  },
+                  {
+                    "passengerKey": "MSFBRFQ-",
+                    "ssrKey": "MSFNU0ZCUkZRLSFYQlBFISFERUwhNkUhNjM4NDY3NDg4MDAwMDAwMDAwIUNPSyE2OTA0ISA-",
+                    "takenssrkey": "",
+                    "takencount": 0
+                  }
+                ]
+              },
+              {
+                "group": "International",
+                "currencycode": "INR",
+                "ssrCode": "IXBB",
+                "ssrType": 0,
+                "category": null,
+                "available": null,
+                "name": "INTL Connection Baggage 15 Kg",
+                "limitPerPassenger": 1,
+                "feeCode": "IXBB",
+                "applicableForAllPax": false,
+                "SsrApplicability": "J",
+                "price": 1500.0,
+                "passengersSSRKey": [
+                  {
+                    "passengerKey": "MCFBRFQ-",
+                    "ssrKey": "MSFNQ0ZCUkZRLSFJWEJCISFERUwhNkUhNjM4NDY3NDg4MDAwMDAwMDAwIUNPSyE2OTA0ISA-",
+                    "takenssrkey": "",
+                    "takencount": 0
+                  },
+                  {
+                    "passengerKey": "MSFBRFQ-",
+                    "ssrKey": "MSFNU0ZCUkZRLSFJWEJCISFERUwhNkUhNjM4NDY3NDg4MDAwMDAwMDAwIUNPSyE2OTA0ISA-",
+                    "takenssrkey": "",
+                    "takencount": 0
+                  }
+                ]
+              },
+              {
+                "group": "Domestic",
+                "currencycode": "INR",
+                "ssrCode": "XBPA",
+                "ssrType": 0,
+                "category": null,
+                "available": null,
+                "name": "Prepaid Excess Baggage 5 kg",
+                "limitPerPassenger": 1,
+                "feeCode": "XBPA",
+                "applicableForAllPax": false,
+                "SsrApplicability": "J",
+                "price": 2250.0,
+                "passengersSSRKey": [
+                  {
+                    "passengerKey": "MCFBRFQ-",
+                    "ssrKey": "MSFNQ0ZCUkZRLSFYQlBBISFERUwhNkUhNjM4NDY3NDg4MDAwMDAwMDAwIUNPSyE2OTA0ISA-",
+                    "takenssrkey": "",
+                    "takencount": 0
+                  },
+                  {
+                    "passengerKey": "MSFBRFQ-",
+                    "ssrKey": "MSFNU0ZCUkZRLSFYQlBBISFERUwhNkUhNjM4NDY3NDg4MDAwMDAwMDAwIUNPSyE2OTA0ISA-",
+                    "takenssrkey": "",
+                    "takencount": 0
+                  }
+                ]
+              },
+              {
+                "group": "International",
+                "currencycode": "INR",
+                "ssrCode": "IXBC",
+                "ssrType": 0,
+                "category": null,
+                "available": null,
+                "name": "INTL Connection Baggage 30 Kg",
+                "limitPerPassenger": 1,
+                "feeCode": "IXBC",
+                "applicableForAllPax": false,
+                "SsrApplicability": "J",
+                "price": 3000.0,
+                "passengersSSRKey": [
+                  {
+                    "passengerKey": "MCFBRFQ-",
+                    "ssrKey": "MSFNQ0ZCUkZRLSFJWEJDISFERUwhNkUhNjM4NDY3NDg4MDAwMDAwMDAwIUNPSyE2OTA0ISA-",
+                    "takenssrkey": "",
+                    "takencount": 0
+                  },
+                  {
+                    "passengerKey": "MSFBRFQ-",
+                    "ssrKey": "MSFNU0ZCUkZRLSFJWEJDISFERUwhNkUhNjM4NDY3NDg4MDAwMDAwMDAwIUNPSyE2OTA0ISA-",
+                    "takenssrkey": "",
+                    "takencount": 0
+                  }
+                ]
+              },
+              {
+                "group": "Domestic",
+                "currencycode": "INR",
+                "ssrCode": "XBPB",
+                "ssrType": 0,
+                "category": null,
+                "available": null,
+                "name": "Prepaid Excess Baggage 10 kg",
+                "limitPerPassenger": 1,
+                "feeCode": "XBPB",
+                "applicableForAllPax": false,
+                "SsrApplicability": "J",
+                "price": 4500.0,
+                "passengersSSRKey": [
+                  {
+                    "passengerKey": "MCFBRFQ-",
+                    "ssrKey": "MSFNQ0ZCUkZRLSFYQlBCISFERUwhNkUhNjM4NDY3NDg4MDAwMDAwMDAwIUNPSyE2OTA0ISA-",
+                    "takenssrkey": "",
+                    "takencount": 0
+                  },
+                  {
+                    "passengerKey": "MSFBRFQ-",
+                    "ssrKey": "MSFNU0ZCUkZRLSFYQlBCISFERUwhNkUhNjM4NDY3NDg4MDAwMDAwMDAwIUNPSyE2OTA0ISA-",
+                    "takenssrkey": "",
+                    "takencount": 0
+                  }
+                ]
+              },
+              {
+                "group": "Domestic",
+                "currencycode": "INR",
+                "ssrCode": "XBPC",
+                "ssrType": 0,
+                "category": null,
+                "available": null,
+                "name": "Prepaid Excess Baggage 15 Kg",
+                "limitPerPassenger": 1,
+                "feeCode": "XBPC",
+                "applicableForAllPax": false,
+                "SsrApplicability": "J",
+                "price": 6750.0,
+                "passengersSSRKey": [
+                  {
+                    "passengerKey": "MCFBRFQ-",
+                    "ssrKey": "MSFNQ0ZCUkZRLSFYQlBDISFERUwhNkUhNjM4NDY3NDg4MDAwMDAwMDAwIUNPSyE2OTA0ISA-",
+                    "takenssrkey": "",
+                    "takencount": 0
+                  },
+                  {
+                    "passengerKey": "MSFBRFQ-",
+                    "ssrKey": "MSFNU0ZCUkZRLSFYQlBDISFERUwhNkUhNjM4NDY3NDg4MDAwMDAwMDAwIUNPSyE2OTA0ISA-",
+                    "takenssrkey": "",
+                    "takencount": 0
+                  }
+                ]
+              },
+              {
+                "group": "Domestic",
+                "currencycode": "INR",
+                "ssrCode": "XBPJ",
+                "ssrType": 0,
+                "category": null,
+                "available": null,
+                "name": "Prepaid Excess Baggage 20 Kg",
+                "limitPerPassenger": 1,
+                "feeCode": "XBPJ",
+                "applicableForAllPax": false,
+                "SsrApplicability": "J",
+                "price": 9000.0,
+                "passengersSSRKey": [
+                  {
+                    "passengerKey": "MCFBRFQ-",
+                    "ssrKey": "MSFNQ0ZCUkZRLSFYQlBKISFERUwhNkUhNjM4NDY3NDg4MDAwMDAwMDAwIUNPSyE2OTA0ISA-",
+                    "takenssrkey": "",
+                    "takencount": 0
+                  },
+                  {
+                    "passengerKey": "MSFBRFQ-",
+                    "ssrKey": "MSFNU0ZCUkZRLSFYQlBKISFERUwhNkUhNjM4NDY3NDg4MDAwMDAwMDAwIUNPSyE2OTA0ISA-",
+                    "takenssrkey": "",
+                    "takencount": 0
+                  }
+                ]
+              },
+              {
+                "group": "Domestic",
+                "currencycode": "INR",
+                "ssrCode": "XBPD",
+                "ssrType": 0,
+                "category": null,
+                "available": null,
+                "name": "Prepaid Excess Baggage 30 Kg",
+                "limitPerPassenger": 1,
+                "feeCode": "XBPD",
+                "applicableForAllPax": false,
+                "SsrApplicability": "J",
+                "price": 13500.0,
+                "passengersSSRKey": [
+                  {
+                    "passengerKey": "MCFBRFQ-",
+                    "ssrKey": "MSFNQ0ZCUkZRLSFYQlBEISFERUwhNkUhNjM4NDY3NDg4MDAwMDAwMDAwIUNPSyE2OTA0ISA-",
+                    "takenssrkey": "",
+                    "takencount": 0
+                  },
+                  {
+                    "passengerKey": "MSFBRFQ-",
+                    "ssrKey": "MSFNU0ZCUkZRLSFYQlBEISFERUwhNkUhNjM4NDY3NDg4MDAwMDAwMDAwIUNPSyE2OTA0ISA-",
+                    "takenssrkey": "",
+                    "takencount": 0
+                  }
+                ]
+              }
+            ],
+            "takenssr": []
+          },
+          {
+            "category": "ABHF",
+            "limit": 1,
+            "openslider": false,
+            "isMandatory": false,
+            "mandatoryreason": "",
+            "ssrs": [
+              {
+                "group": "NA",
+                "currencycode": "INR",
+                "ssrCode": "ABHF",
+                "ssrType": 0,
+                "category": null,
+                "available": null,
+                "name": "Additional bag piece",
+                "limitPerPassenger": 2,
+                "feeCode": "ABPF",
+                "applicableForAllPax": false,
+                "SsrApplicability": "J",
+                "price": 900.0,
+                "passengersSSRKey": [
+                  {
+                    "passengerKey": "MCFBRFQ-",
+                    "ssrKey": "MSFNQ0ZCUkZRLSFBQkhGISFERUwhNkUhNjM4NDY3NDg4MDAwMDAwMDAwIUNPSyE2OTA0ISA-",
+                    "takenssrkey": "",
+                    "takencount": 0
+                  },
+                  {
+                    "passengerKey": "MSFBRFQ-",
+                    "ssrKey": "MSFNU0ZCUkZRLSFBQkhGISFERUwhNkUhNjM4NDY3NDg4MDAwMDAwMDAwIUNPSyE2OTA0ISA-",
+                    "takenssrkey": "",
+                    "takencount": 0
+                  }
+                ]
+              }
+            ],
+            "takenssr": []
+          },
+          {
+            "category": "BRB",
+            "limit": 1,
+            "openslider": true,
+            "isMandatory": false,
+            "mandatoryreason": "",
+            "ssrs": [
+              {
+                "group": "NA",
+                "currencycode": "INR",
+                "ssrCode": "LBG",
+                "ssrType": 0,
+                "category": null,
+                "available": null,
+                "name": "Delayed and Lost Baggage Protection Service",
+                "limitPerPassenger": 1,
+                "feeCode": "LBG",
+                "applicableForAllPax": true,
+                "SsrApplicability": "P",
+                "price": 95.0,
+                "passengersSSRKey": [
+                  {
+                    "passengerKey": "MCFBRFQ-",
+                    "ssrKey": "MCFNQ0ZCUkZRLSFMQkchIUhZRCE2RSE2Mzg0NjY2MjQwMDAwMDAwMDAhREVMITYwNjUhIA--",
+                    "takenssrkey": "",
+                    "takencount": 0
+                  },
+                  {
+                    "passengerKey": "MSFBRFQ-",
+                    "ssrKey": "MCFNU0ZCUkZRLSFMQkchIUhZRCE2RSE2Mzg0NjY2MjQwMDAwMDAwMDAhREVMITYwNjUhIA--",
+                    "takenssrkey": "",
+                    "takencount": 0
+                  }
+                ]
+              }
+            ],
+            "takenssr": []
+          },
+          {
+            "category": "FFWD",
+            "limit": 1,
+            "openslider": false,
+            "isMandatory": false,
+            "mandatoryreason": "",
+            "ssrs": [
+              {
+                "group": "NA",
+                "currencycode": "INR",
+                "ssrCode": "FFWD",
+                "ssrType": 0,
+                "category": null,
+                "available": null,
+                "name": "Fast forward",
+                "limitPerPassenger": 1,
+                "feeCode": "FFWD",
+                "applicableForAllPax": true,
+                "SsrApplicability": "J",
+                "price": 450.0,
+                "passengersSSRKey": [
+                  {
+                    "passengerKey": "MCFBRFQ-",
+                    "ssrKey": "MCFNQ0ZCUkZRLSFGRldEISFNQUEhNkUhNjM4NDY3NDg4MDAwMDAwMDAwIUNPSyE2OTA0ISA-",
+                    "takenssrkey": "",
+                    "takencount": 0
+                  },
+                  {
+                    "passengerKey": "MSFBRFQ-",
+                    "ssrKey": "MCFNU0ZCUkZRLSFGRldEISFNQUEhNkUhNjM4NDY3NDg4MDAwMDAwMDAwIUNPSyE2OTA0ISA-",
+                    "takenssrkey": "",
+                    "takencount": 0
+                  }
+                ]
+              }
+            ],
+            "takenssr": []
+          },
+          {
+            "category": "PRBG",
+            "limit": 1,
+            "openslider": false,
+            "isMandatory": false,
+            "mandatoryreason": "",
+            "ssrs": [],
+            "takenssr": []
+          },
+          {
+            "category": "PROT",
+            "limit": 1,
+            "openslider": false,
+            "isMandatory": false,
+            "mandatoryreason": "",
+            "ssrs": [
+              {
+                "group": "NA",
+                "currencycode": "INR",
+                "ssrCode": "PROT",
+                "ssrType": 0,
+                "category": null,
+                "available": null,
+                "name": "Travel Assistance",
+                "limitPerPassenger": 1,
+                "feeCode": "PROT",
+                "applicableForAllPax": true,
+                "SsrApplicability": "P",
+                "price": 159.0,
+                "passengersSSRKey": [
+                  {
+                    "passengerKey": "MCFBRFQ-",
+                    "ssrKey": "MSFNQ0ZCUkZRLSFQUk9UISFDT0shNkUhNjM4NDY2NjI0MDAwMDAwMDAwIURFTCE2MDY1ISA-",
+                    "takenssrkey": "",
+                    "takencount": 0
+                  },
+                  {
+                    "passengerKey": "MSFBRFQ-",
+                    "ssrKey": "MSFNU0ZCUkZRLSFQUk9UISFDT0shNkUhNjM4NDY2NjI0MDAwMDAwMDAwIURFTCE2MDY1ISA-",
+                    "takenssrkey": "",
+                    "takencount": 0
+                  }
+                ]
+              }
+            ],
+            "takenssr": []
+          },
+          {
+            "category": "IFNR",
+            "limit": 1,
+            "openslider": false,
+            "isMandatory": false,
+            "mandatoryreason": "",
+            "ssrs": [
+              {
+                "group": "NA",
+                "currencycode": "INR",
+                "ssrCode": "IFNR",
+                "ssrType": 0,
+                "category": null,
+                "available": null,
+                "name": "Cancellation Assistance",
+                "limitPerPassenger": 1,
+                "feeCode": "IFNR",
+                "applicableForAllPax": false,
+                "SsrApplicability": "J",
+                "price": 499.0,
+                "passengersSSRKey": [
+                  {
+                    "passengerKey": "MCFBRFQ-",
+                    "ssrKey": "MCFNQ0ZCUkZRLSFJRk5SISFNQUEhNkUhNjM4NDY3NDg4MDAwMDAwMDAwIUNPSyE2OTA0ISA-",
+                    "takenssrkey": "",
+                    "takencount": 0
+                  },
+                  {
+                    "passengerKey": "MSFBRFQ-",
+                    "ssrKey": "MCFNU0ZCUkZRLSFJRk5SISFNQUEhNkUhNjM4NDY3NDg4MDAwMDAwMDAwIUNPSyE2OTA0ISA-",
+                    "takenssrkey": "",
+                    "takencount": 0
+                  }
+                ]
+              }
+            ],
+            "takenssr": []
+          },
+          {
+            "category": "SPEQ",
+            "limit": 3,
+            "openslider": false,
+            "isMandatory": false,
+            "mandatoryreason": "",
+            "ssrs": [
+              {
+                "group": "NA",
+                "currencycode": "INR",
+                "ssrCode": "SPEQ",
+                "ssrType": 0,
+                "category": null,
+                "available": null,
+                "name": "Sports Equipments",
+                "limitPerPassenger": 3,
+                "feeCode": "SPEQ",
+                "applicableForAllPax": false,
+                "SsrApplicability": "J",
+                "price": 1500.0,
+                "passengersSSRKey": [
+                  {
+                    "passengerKey": "MCFBRFQ-",
+                    "ssrKey": "MSFNQ0ZCUkZRLSFTUEVRISFERUwhNkUhNjM4NDY3NDg4MDAwMDAwMDAwIUNPSyE2OTA0ISA-",
+                    "takenssrkey": "",
+                    "takencount": 0
+                  },
+                  {
+                    "passengerKey": "MSFBRFQ-",
+                    "ssrKey": "MSFNU0ZCUkZRLSFTUEVRISFERUwhNkUhNjM4NDY3NDg4MDAwMDAwMDAwIUNPSyE2OTA0ISA-",
+                    "takenssrkey": "",
+                    "takencount": 0
+                  }
+                ]
+              }
+            ],
+            "takenssr": []
+          },
+          {
+            "category": "WCHR",
+            "limit": 1,
+            "openslider": true,
+            "isMandatory": false,
+            "mandatoryreason": "",
+            "ssrs": [
+              {
+                "group": "NA",
+                "currencycode": "INR",
+                "ssrCode": "WCHR",
+                "ssrType": 0,
+                "category": null,
+                "available": null,
+                "name": "WheelChair - Ramp",
+                "limitPerPassenger": 1,
+                "feeCode": null,
+                "applicableForAllPax": false,
+                "SsrApplicability": "J",
+                "price": 0.0,
+                "passengersSSRKey": [
+                  {
+                    "passengerKey": "MCFBRFQ-",
+                    "ssrKey": "MSFNQ0ZCUkZRLSFXQ0hSISFERUwhNkUhNjM4NDY3NDg4MDAwMDAwMDAwIUNPSyE2OTA0ISA-",
+                    "takenssrkey": "",
+                    "takencount": 0
+                  },
+                  {
+                    "passengerKey": "MSFBRFQ-",
+                    "ssrKey": "MSFNU0ZCUkZRLSFXQ0hSISFERUwhNkUhNjM4NDY3NDg4MDAwMDAwMDAwIUNPSyE2OTA0ISA-",
+                    "takenssrkey": "",
+                    "takencount": 0
+                  }
+                ]
+              },
+              {
+                "group": "NA",
+                "currencycode": "INR",
+                "ssrCode": "WCHC",
+                "ssrType": 0,
+                "category": null,
+                "available": null,
+                "name": "WheelChair - Cabin",
+                "limitPerPassenger": 1,
+                "feeCode": null,
+                "applicableForAllPax": false,
+                "SsrApplicability": "J",
+                "price": 0.0,
+                "passengersSSRKey": [
+                  {
+                    "passengerKey": "MCFBRFQ-",
+                    "ssrKey": "MSFNQ0ZCUkZRLSFXQ0hDISFERUwhNkUhNjM4NDY3NDg4MDAwMDAwMDAwIUNPSyE2OTA0ISA-",
+                    "takenssrkey": "",
+                    "takencount": 0
+                  },
+                  {
+                    "passengerKey": "MSFBRFQ-",
+                    "ssrKey": "MSFNU0ZCUkZRLSFXQ0hDISFERUwhNkUhNjM4NDY3NDg4MDAwMDAwMDAwIUNPSyE2OTA0ISA-",
+                    "takenssrkey": "",
+                    "takencount": 0
+                  }
+                ]
+              }
+            ],
+            "takenssr": []
+          },
+          {
+            "category": "FTIM",
+            "limit": 1,
+            "openslider": true,
+            "isMandatory": false,
+            "mandatoryreason": "",
+            "ssrs": [
+              {
+                "group": "NA",
+                "currencycode": "INR",
+                "ssrCode": "FTIM",
+                "ssrType": 0,
+                "category": null,
+                "available": null,
+                "name": "First Time Traveller Identification",
+                "limitPerPassenger": 1,
+                "feeCode": null,
+                "applicableForAllPax": false,
+                "SsrApplicability": "J",
+                "price": 0.0,
+                "passengersSSRKey": [
+                  {
+                    "passengerKey": "MCFBRFQ-",
+                    "ssrKey": "MSFNQ0ZCUkZRLSFGVElNISFERUwhNkUhNjM4NDY3NDg4MDAwMDAwMDAwIUNPSyE2OTA0ISA-",
+                    "takenssrkey": "",
+                    "takencount": 0
+                  },
+                  {
+                    "passengerKey": "MSFBRFQ-",
+                    "ssrKey": "MSFNU0ZCUkZRLSFGVElNISFERUwhNkUhNjM4NDY3NDg4MDAwMDAwMDAwIUNPSyE2OTA0ISA-",
+                    "takenssrkey": "",
+                    "takencount": 0
+                  }
+                ]
+              }
+            ],
+            "takenssr": []
+          }
+        ],
+        "segments": [
+          {
+            "segmentDetails": {
+              "destination": "MAA",
+              "origin": "COK",
+              "arrival": "2024-03-23T23:20:00",
+              "departure": "2024-03-23T22:20:00",
+              "identifier": {
+                "identifier": "6904",
+                "carrierCode": "6E",
+                "opSuffix": null
+              }
+            },
+            "journeyType": "Domestic",
+            "segmentKey": "NkV_NjkwNH4gfn5DT0t_MDMvMjMvMjAyNCAyMjoyMH5NQUF_MDMvMjMvMjAyNCAyMzoyMH5_",
+            "segmentSSRs": [
+              {
+                "category": "Meal",
+                "limit": 2,
+                "openslider": true,
+                "isMandatory": false,
+                "ssrs": [
+                  {
+                    "group": "NA",
+                    "currencycode": "INR",
+                    "ssrCode": "AGSW",
+                    "ssrType": 0,
+                    "category": null,
+                    "available": null,
+                    "name": "#IndiaByIndiGo regional favourite (veg) + beverage",
+                    "limitPerPassenger": 1,
+                    "feeCode": "AGSW",
+                    "applicableForAllPax": false,
+                    "SsrApplicability": "S",
+                    "price": 400.0,
+                    "passengersSSRKey": [
+                      {
+                        "passengerKey": "MCFBRFQ-",
+                        "ssrKey": "MiFNQ0ZCUkZRLSFBR1NXISFNQUEhNkUhNjM4NDY3NDg4MDAwMDAwMDAwIUNPSyE2OTA0ISA-",
+                        "takenssrkey": "",
+                        "takencount": 0
+                      },
+                      {
+                        "passengerKey": "MSFBRFQ-",
+                        "ssrKey": "MiFNU0ZCUkZRLSFBR1NXISFNQUEhNkUhNjM4NDY3NDg4MDAwMDAwMDAwIUNPSyE2OTA0ISA-",
+                        "takenssrkey": "",
+                        "takencount": 0
+                      }
+                    ]
+                  },
+                  {
+                    "group": "NA",
+                    "currencycode": "INR",
+                    "ssrCode": "CJSW",
+                    "ssrType": 0,
+                    "category": null,
+                    "available": null,
+                    "name": "Chicken Junglee Sandwich + beverage",
+                    "limitPerPassenger": 1,
+                    "feeCode": "NVGF",
+                    "applicableForAllPax": false,
+                    "SsrApplicability": "S",
+                    "price": 500.0,
+                    "passengersSSRKey": [
+                      {
+                        "passengerKey": "MCFBRFQ-",
+                        "ssrKey": "MiFNQ0ZCUkZRLSFDSlNXISFNQUEhNkUhNjM4NDY3NDg4MDAwMDAwMDAwIUNPSyE2OTA0ISA-",
+                        "takenssrkey": "",
+                        "takencount": 0
+                      },
+                      {
+                        "passengerKey": "MSFBRFQ-",
+                        "ssrKey": "MiFNU0ZCUkZRLSFDSlNXISFNQUEhNkUhNjM4NDY3NDg4MDAwMDAwMDAwIUNPSyE2OTA0ISA-",
+                        "takenssrkey": "",
+                        "takencount": 0
+                      }
+                    ]
+                  },
+                  {
+                    "group": "NA",
+                    "currencycode": "INR",
+                    "ssrCode": "DBVG",
+                    "ssrType": 0,
+                    "category": null,
+                    "available": null,
+                    "name": "Diabetic veg Special + beverage",
+                    "limitPerPassenger": 1,
+                    "feeCode": "DBVG",
+                    "applicableForAllPax": false,
+                    "SsrApplicability": "S",
+                    "price": 400.0,
+                    "passengersSSRKey": [
+                      {
+                        "passengerKey": "MCFBRFQ-",
+                        "ssrKey": "MiFNQ0ZCUkZRLSFEQlZHISFNQUEhNkUhNjM4NDY3NDg4MDAwMDAwMDAwIUNPSyE2OTA0ISA-",
+                        "takenssrkey": "",
+                        "takencount": 0
+                      },
+                      {
+                        "passengerKey": "MSFBRFQ-",
+                        "ssrKey": "MiFNU0ZCUkZRLSFEQlZHISFNQUEhNkUhNjM4NDY3NDg4MDAwMDAwMDAwIUNPSyE2OTA0ISA-",
+                        "takenssrkey": "",
+                        "takencount": 0
+                      }
+                    ]
+                  },
+                  {
+                    "group": "NA",
+                    "currencycode": "INR",
+                    "ssrCode": "JNML",
+                    "ssrType": 0,
+                    "category": null,
+                    "available": null,
+                    "name": "Jain Special + beverage",
+                    "limitPerPassenger": 1,
+                    "feeCode": "JNML",
+                    "applicableForAllPax": false,
+                    "SsrApplicability": "S",
+                    "price": 400.0,
+                    "passengersSSRKey": [
+                      {
+                        "passengerKey": "MCFBRFQ-",
+                        "ssrKey": "MiFNQ0ZCUkZRLSFKTk1MISFNQUEhNkUhNjM4NDY3NDg4MDAwMDAwMDAwIUNPSyE2OTA0ISA-",
+                        "takenssrkey": "",
+                        "takencount": 0
+                      },
+                      {
+                        "passengerKey": "MSFBRFQ-",
+                        "ssrKey": "MiFNU0ZCUkZRLSFKTk1MISFNQUEhNkUhNjM4NDY3NDg4MDAwMDAwMDAwIUNPSyE2OTA0ISA-",
+                        "takenssrkey": "",
+                        "takencount": 0
+                      }
+                    ]
+                  },
+                  {
+                    "group": "NA",
+                    "currencycode": "INR",
+                    "ssrCode": "LCVG",
+                    "ssrType": 0,
+                    "category": null,
+                    "available": null,
+                    "name": "Low calorie veg Special + beverage",
+                    "limitPerPassenger": 1,
+                    "feeCode": "LCVG",
+                    "applicableForAllPax": false,
+                    "SsrApplicability": "S",
+                    "price": 400.0,
+                    "passengersSSRKey": [
+                      {
+                        "passengerKey": "MCFBRFQ-",
+                        "ssrKey": "MiFNQ0ZCUkZRLSFMQ1ZHISFNQUEhNkUhNjM4NDY3NDg4MDAwMDAwMDAwIUNPSyE2OTA0ISA-",
+                        "takenssrkey": "",
+                        "takencount": 0
+                      },
+                      {
+                        "passengerKey": "MSFBRFQ-",
+                        "ssrKey": "MiFNU0ZCUkZRLSFMQ1ZHISFNQUEhNkUhNjM4NDY3NDg4MDAwMDAwMDAwIUNPSyE2OTA0ISA-",
+                        "takenssrkey": "",
+                        "takencount": 0
+                      }
+                    ]
+                  },
+                  {
+                    "group": "NA",
+                    "currencycode": "INR",
+                    "ssrCode": "NUSW",
+                    "ssrType": 0,
+                    "category": null,
+                    "available": null,
+                    "name": "6E Eats choice of the day (non-veg) + beverage",
+                    "limitPerPassenger": 1,
+                    "feeCode": "NUSW",
+                    "applicableForAllPax": false,
+                    "SsrApplicability": "S",
+                    "price": 500.0,
+                    "passengersSSRKey": [
+                      {
+                        "passengerKey": "MCFBRFQ-",
+                        "ssrKey": "MiFNQ0ZCUkZRLSFOVVNXISFNQUEhNkUhNjM4NDY3NDg4MDAwMDAwMDAwIUNPSyE2OTA0ISA-",
+                        "takenssrkey": "",
+                        "takencount": 0
+                      },
+                      {
+                        "passengerKey": "MSFBRFQ-",
+                        "ssrKey": "MiFNU0ZCUkZRLSFOVVNXISFNQUEhNkUhNjM4NDY3NDg4MDAwMDAwMDAwIUNPSyE2OTA0ISA-",
+                        "takenssrkey": "",
+                        "takencount": 0
+                      }
+                    ]
+                  },
+                  {
+                    "group": "NA",
+                    "currencycode": "INR",
+                    "ssrCode": "VCSW",
+                    "ssrType": 0,
+                    "category": null,
+                    "available": null,
+                    "name": "6E Eats choice of the day (veg) + beverage",
+                    "limitPerPassenger": 1,
+                    "feeCode": "VCSW",
+                    "applicableForAllPax": false,
+                    "SsrApplicability": "S",
+                    "price": 400.0,
+                    "passengersSSRKey": [
+                      {
+                        "passengerKey": "MCFBRFQ-",
+                        "ssrKey": "MiFNQ0ZCUkZRLSFWQ1NXISFNQUEhNkUhNjM4NDY3NDg4MDAwMDAwMDAwIUNPSyE2OTA0ISA-",
+                        "takenssrkey": "",
+                        "takencount": 0
+                      },
+                      {
+                        "passengerKey": "MSFBRFQ-",
+                        "ssrKey": "MiFNU0ZCUkZRLSFWQ1NXISFNQUEhNkUhNjM4NDY3NDg4MDAwMDAwMDAwIUNPSyE2OTA0ISA-",
+                        "takenssrkey": "",
+                        "takencount": 0
+                      }
+                    ]
+                  },
+                  {
+                    "group": "NA",
+                    "currencycode": "INR",
+                    "ssrCode": "VGAN",
+                    "ssrType": 0,
+                    "category": null,
+                    "available": null,
+                    "name": "Vegan Special + beverage",
+                    "limitPerPassenger": 1,
+                    "feeCode": "VGAN",
+                    "applicableForAllPax": false,
+                    "SsrApplicability": "S",
+                    "price": 400.0,
+                    "passengersSSRKey": [
+                      {
+                        "passengerKey": "MCFBRFQ-",
+                        "ssrKey": "MiFNQ0ZCUkZRLSFWR0FOISFNQUEhNkUhNjM4NDY3NDg4MDAwMDAwMDAwIUNPSyE2OTA0ISA-",
+                        "takenssrkey": "",
+                        "takencount": 0
+                      },
+                      {
+                        "passengerKey": "MSFBRFQ-",
+                        "ssrKey": "MiFNU0ZCUkZRLSFWR0FOISFNQUEhNkUhNjM4NDY3NDg4MDAwMDAwMDAwIUNPSyE2OTA0ISA-",
+                        "takenssrkey": "",
+                        "takencount": 0
+                      }
+                    ]
+                  }
+                ],
+                "takenssr": [],
+                "mandatoryreason": ""
+              },
+              {
+                "category": "Lounge",
+                "limit": 1,
+                "openslider": false,
+                "isMandatory": false,
+                "ssrs": [],
+                "takenssr": [],
+                "mandatoryreason": ""
+              },
+              {
+                "category": "6EBar",
+                "limit": 1,
+                "openslider": false,
+                "isMandatory": false,
+                "ssrs": [],
+                "takenssr": [],
+                "mandatoryreason": ""
+              },
+              {
+                "category": "Goodnight",
+                "limit": 1,
+                "openslider": true,
+                "isMandatory": false,
+                "ssrs": [],
+                "takenssr": [],
+                "mandatoryreason": ""
+              }
+            ],
+            "legs": [
+              {
+                "legKey": "NjM4NDY4MjkyMDAwMDAwMDAwITZFITY5MDQhICFDT0shTUFBITgxODgwNTI-",
+                "legDetails": {
+                  "destination": "MAA",
+                  "origin": "COK",
+                  "arrival": "2024-03-23T23:20:00",
+                  "departure": "2024-03-23T22:20:00",
+                  "identifier": null
+                }
+              }
+            ]
+          },
+          {
+            "segmentDetails": {
+              "destination": "DEL",
+              "origin": "MAA",
+              "arrival": "2024-03-24T05:20:00",
+              "departure": "2024-03-24T02:30:00",
+              "identifier": {
+                "identifier": "2368",
+                "carrierCode": "6E",
+                "opSuffix": null
+              }
+            },
+            "journeyType": "Domestic",
+            "segmentKey": "NkV_MjM2OH4gfn5NQUF_MDMvMjQvMjAyNCAwMjozMH5ERUx_MDMvMjQvMjAyNCAwNToyMH5_",
+            "segmentSSRs": [
+              {
+                "category": "Meal",
+                "limit": 2,
+                "openslider": true,
+                "isMandatory": false,
+                "ssrs": [
+                  {
+                    "group": "NA",
+                    "currencycode": "INR",
+                    "ssrCode": "AGSW",
+                    "ssrType": 0,
+                    "category": null,
+                    "available": null,
+                    "name": "#IndiaByIndiGo regional favourite (veg) + beverage",
+                    "limitPerPassenger": 1,
+                    "feeCode": "AGSW",
+                    "applicableForAllPax": false,
+                    "SsrApplicability": "S",
+                    "price": 400.0,
+                    "passengersSSRKey": [
+                      {
+                        "passengerKey": "MCFBRFQ-",
+                        "ssrKey": "MiFNQ0ZCUkZRLSFBR1NXISFERUwhNkUhNjM4NDY4MzUyMDAwMDAwMDAwIU1BQSEyMzY4ISA-",
+                        "takenssrkey": "",
+                        "takencount": 0
+                      },
+                      {
+                        "passengerKey": "MSFBRFQ-",
+                        "ssrKey": "MiFNU0ZCUkZRLSFBR1NXISFERUwhNkUhNjM4NDY4MzUyMDAwMDAwMDAwIU1BQSEyMzY4ISA-",
+                        "takenssrkey": "",
+                        "takencount": 0
+                      }
+                    ]
+                  },
+                  {
+                    "group": "NA",
+                    "currencycode": "INR",
+                    "ssrCode": "CJSW",
+                    "ssrType": 0,
+                    "category": null,
+                    "available": null,
+                    "name": "Chicken Junglee Sandwich + beverage",
+                    "limitPerPassenger": 1,
+                    "feeCode": "NVGF",
+                    "applicableForAllPax": false,
+                    "SsrApplicability": "S",
+                    "price": 500.0,
+                    "passengersSSRKey": [
+                      {
+                        "passengerKey": "MCFBRFQ-",
+                        "ssrKey": "MiFNQ0ZCUkZRLSFDSlNXISFERUwhNkUhNjM4NDY4MzUyMDAwMDAwMDAwIU1BQSEyMzY4ISA-",
+                        "takenssrkey": "",
+                        "takencount": 0
+                      },
+                      {
+                        "passengerKey": "MSFBRFQ-",
+                        "ssrKey": "MiFNU0ZCUkZRLSFDSlNXISFERUwhNkUhNjM4NDY4MzUyMDAwMDAwMDAwIU1BQSEyMzY4ISA-",
+                        "takenssrkey": "",
+                        "takencount": 0
+                      }
+                    ]
+                  },
+                  {
+                    "group": "NA",
+                    "currencycode": "INR",
+                    "ssrCode": "DBVG",
+                    "ssrType": 0,
+                    "category": null,
+                    "available": null,
+                    "name": "Diabetic veg Special + beverage",
+                    "limitPerPassenger": 1,
+                    "feeCode": "DBVG",
+                    "applicableForAllPax": false,
+                    "SsrApplicability": "S",
+                    "price": 400.0,
+                    "passengersSSRKey": [
+                      {
+                        "passengerKey": "MCFBRFQ-",
+                        "ssrKey": "MiFNQ0ZCUkZRLSFEQlZHISFERUwhNkUhNjM4NDY4MzUyMDAwMDAwMDAwIU1BQSEyMzY4ISA-",
+                        "takenssrkey": "",
+                        "takencount": 0
+                      },
+                      {
+                        "passengerKey": "MSFBRFQ-",
+                        "ssrKey": "MiFNU0ZCUkZRLSFEQlZHISFERUwhNkUhNjM4NDY4MzUyMDAwMDAwMDAwIU1BQSEyMzY4ISA-",
+                        "takenssrkey": "",
+                        "takencount": 0
+                      }
+                    ]
+                  },
+                  {
+                    "group": "NA",
+                    "currencycode": "INR",
+                    "ssrCode": "JNML",
+                    "ssrType": 0,
+                    "category": null,
+                    "available": null,
+                    "name": "Jain Special + beverage",
+                    "limitPerPassenger": 1,
+                    "feeCode": "JNML",
+                    "applicableForAllPax": false,
+                    "SsrApplicability": "S",
+                    "price": 400.0,
+                    "passengersSSRKey": [
+                      {
+                        "passengerKey": "MCFBRFQ-",
+                        "ssrKey": "MiFNQ0ZCUkZRLSFKTk1MISFERUwhNkUhNjM4NDY4MzUyMDAwMDAwMDAwIU1BQSEyMzY4ISA-",
+                        "takenssrkey": "",
+                        "takencount": 0
+                      },
+                      {
+                        "passengerKey": "MSFBRFQ-",
+                        "ssrKey": "MiFNU0ZCUkZRLSFKTk1MISFERUwhNkUhNjM4NDY4MzUyMDAwMDAwMDAwIU1BQSEyMzY4ISA-",
+                        "takenssrkey": "",
+                        "takencount": 0
+                      }
+                    ]
+                  },
+                  {
+                    "group": "NA",
+                    "currencycode": "INR",
+                    "ssrCode": "LCVG",
+                    "ssrType": 0,
+                    "category": null,
+                    "available": null,
+                    "name": "Low calorie veg Special + beverage",
+                    "limitPerPassenger": 1,
+                    "feeCode": "LCVG",
+                    "applicableForAllPax": false,
+                    "SsrApplicability": "S",
+                    "price": 400.0,
+                    "passengersSSRKey": [
+                      {
+                        "passengerKey": "MCFBRFQ-",
+                        "ssrKey": "MiFNQ0ZCUkZRLSFMQ1ZHISFERUwhNkUhNjM4NDY4MzUyMDAwMDAwMDAwIU1BQSEyMzY4ISA-",
+                        "takenssrkey": "",
+                        "takencount": 0
+                      },
+                      {
+                        "passengerKey": "MSFBRFQ-",
+                        "ssrKey": "MiFNU0ZCUkZRLSFMQ1ZHISFERUwhNkUhNjM4NDY4MzUyMDAwMDAwMDAwIU1BQSEyMzY4ISA-",
+                        "takenssrkey": "",
+                        "takencount": 0
+                      }
+                    ]
+                  },
+                  {
+                    "group": "NA",
+                    "currencycode": "INR",
+                    "ssrCode": "NUSW",
+                    "ssrType": 0,
+                    "category": null,
+                    "available": null,
+                    "name": "6E Eats choice of the day (non-veg) + beverage",
+                    "limitPerPassenger": 1,
+                    "feeCode": "NUSW",
+                    "applicableForAllPax": false,
+                    "SsrApplicability": "S",
+                    "price": 500.0,
+                    "passengersSSRKey": [
+                      {
+                        "passengerKey": "MCFBRFQ-",
+                        "ssrKey": "MiFNQ0ZCUkZRLSFOVVNXISFERUwhNkUhNjM4NDY4MzUyMDAwMDAwMDAwIU1BQSEyMzY4ISA-",
+                        "takenssrkey": "",
+                        "takencount": 0
+                      },
+                      {
+                        "passengerKey": "MSFBRFQ-",
+                        "ssrKey": "MiFNU0ZCUkZRLSFOVVNXISFERUwhNkUhNjM4NDY4MzUyMDAwMDAwMDAwIU1BQSEyMzY4ISA-",
+                        "takenssrkey": "",
+                        "takencount": 0
+                      }
+                    ]
+                  },
+                  {
+                    "group": "NA",
+                    "currencycode": "INR",
+                    "ssrCode": "VCSW",
+                    "ssrType": 0,
+                    "category": null,
+                    "available": null,
+                    "name": "6E Eats choice of the day (veg) + beverage",
+                    "limitPerPassenger": 1,
+                    "feeCode": "VCSW",
+                    "applicableForAllPax": false,
+                    "SsrApplicability": "S",
+                    "price": 400.0,
+                    "passengersSSRKey": [
+                      {
+                        "passengerKey": "MCFBRFQ-",
+                        "ssrKey": "MiFNQ0ZCUkZRLSFWQ1NXISFERUwhNkUhNjM4NDY4MzUyMDAwMDAwMDAwIU1BQSEyMzY4ISA-",
+                        "takenssrkey": "",
+                        "takencount": 0
+                      },
+                      {
+                        "passengerKey": "MSFBRFQ-",
+                        "ssrKey": "MiFNU0ZCUkZRLSFWQ1NXISFERUwhNkUhNjM4NDY4MzUyMDAwMDAwMDAwIU1BQSEyMzY4ISA-",
+                        "takenssrkey": "",
+                        "takencount": 0
+                      }
+                    ]
+                  },
+                  {
+                    "group": "NA",
+                    "currencycode": "INR",
+                    "ssrCode": "VGAN",
+                    "ssrType": 0,
+                    "category": null,
+                    "available": null,
+                    "name": "Vegan Special + beverage",
+                    "limitPerPassenger": 1,
+                    "feeCode": "VGAN",
+                    "applicableForAllPax": false,
+                    "SsrApplicability": "S",
+                    "price": 400.0,
+                    "passengersSSRKey": [
+                      {
+                        "passengerKey": "MCFBRFQ-",
+                        "ssrKey": "MiFNQ0ZCUkZRLSFWR0FOISFERUwhNkUhNjM4NDY4MzUyMDAwMDAwMDAwIU1BQSEyMzY4ISA-",
+                        "takenssrkey": "",
+                        "takencount": 0
+                      },
+                      {
+                        "passengerKey": "MSFBRFQ-",
+                        "ssrKey": "MiFNU0ZCUkZRLSFWR0FOISFERUwhNkUhNjM4NDY4MzUyMDAwMDAwMDAwIU1BQSEyMzY4ISA-",
+                        "takenssrkey": "",
+                        "takencount": 0
+                      }
+                    ]
+                  }
+                ],
+                "takenssr": [],
+                "mandatoryreason": ""
+              },
+              {
+                "category": "Lounge",
+                "limit": 1,
+                "openslider": false,
+                "isMandatory": false,
+                "ssrs": [],
+                "takenssr": [],
+                "mandatoryreason": ""
+              },
+              {
+                "category": "6EBar",
+                "limit": 1,
+                "openslider": false,
+                "isMandatory": false,
+                "ssrs": [],
+                "takenssr": [],
+                "mandatoryreason": ""
+              },
+              {
+                "category": "Goodnight",
+                "limit": 1,
+                "openslider": true,
+                "isMandatory": false,
+                "ssrs": [],
+                "takenssr": [],
+                "mandatoryreason": ""
+              }
+            ],
+            "legs": [
+              {
+                "legKey": "NjM4NDY4NDQyMDAwMDAwMDAwITZFITIzNjghICFNQUEhREVMITgzOTIxODE-",
+                "legDetails": {
+                  "destination": "DEL",
+                  "origin": "MAA",
+                  "arrival": "2024-03-24T05:20:00",
+                  "departure": "2024-03-24T02:30:00",
+                  "identifier": null
+                }
+              }
+            ]
+          }
+        ],
+        "productClass": "N",
+        "fareType": "Saver",
+        "currencyCode": "INR",
+        "specialFareCode": null
+      }
+    ],
+    "bundles": [
+      {
+        "hasPrice": false,
+        "pricesByJourney": [
+          {
+            "journeyKey": "NkV_NjA2NX4gfn5ERUx_MDMvMjIvMjAyNCAwOTo0NX5IWUR_MDMvMjIvMjAyNCAxMTo1NX5_XjZFfiAzNDl_IH5_SFlEfjAzLzIyLzIwMjQgMTg6MTV_Q09LfjAzLzIyLzIwMjQgMTk6NTB_fg--",
+            "includedSsrs": [
+              {
+                "ssrCode": "CPML",
+                "bundleSsrPrice": 0.0,
+                "upgradableSsrs": {
+                  "segments": [
+                    {
+                      "segmentDetails": {
+                        "destination": "HYD",
+                        "origin": "DEL",
+                        "arrival": "2024-03-22T11:55:00",
+                        "departure": "2024-03-22T09:45:00",
+                        "identifier": {
+                          "identifier": "6065",
+                          "carrierCode": "6E",
+                          "opSuffix": null
+                        }
+                      },
+                      "journeyType": "Domestic",
+                      "segmentKey": "NkV_NjA2NX4gfn5ERUx_MDMvMjIvMjAyNCAwOTo0NX5IWUR_MDMvMjIvMjAyNCAxMTo1NX5_",
+                      "segmentSSRs": [
+                        {
+                          "category": "Meal",
+                          "limit": 1,
+                          "openslider": true,
+                          "isMandatory": true,
+                          "ssrs": [
+                            {
+                              "group": "NA",
+                              "currencycode": "INR",
+                              "ssrCode": "CJSW",
+                              "ssrType": 0,
+                              "category": null,
+                              "available": null,
+                              "name": "Chicken Junglee Sandwich + beverage",
+                              "limitPerPassenger": 1,
+                              "feeCode": "NVGF",
+                              "applicableForAllPax": false,
+                              "SsrApplicability": "S",
+                              "price": 0.0,
+                              "passengersSSRKey": [
+                                {
+                                  "passengerKey": "MCFBRFQ-",
+                                  "ssrKey": "MiFNQ0ZCUkZRLSFDSlNXISFIWUQhNkUhNjM4NDY2NjI0MDAwMDAwMDAwIURFTCE2MDY1ISA-",
+                                  "takenssrkey": "",
+                                  "takencount": 0
+                                },
+                                {
+                                  "passengerKey": "MSFBRFQ-",
+                                  "ssrKey": "MiFNU0ZCUkZRLSFDSlNXISFIWUQhNkUhNjM4NDY2NjI0MDAwMDAwMDAwIURFTCE2MDY1ISA-",
+                                  "takenssrkey": "",
+                                  "takencount": 0
+                                }
+                              ]
+                            }
+                          ],
+                          "takenssr": [],
+                          "mandatoryreason": "Bundle:PRIM"
+                        }
+                      ],
+                      "legs": [
+                        {
+                          "legKey": "NjM4NDY2OTc1MDAwMDAwMDAwITZFITYwNjUhICFERUwhSFlEITc3MTIyOTc-",
+                          "legDetails": {
+                            "destination": "HYD",
+                            "origin": "DEL",
+                            "arrival": "2024-03-22T11:55:00",
+                            "departure": "2024-03-22T09:45:00",
+                            "identifier": null
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "segmentDetails": {
+                        "destination": "COK",
+                        "origin": "HYD",
+                        "arrival": "2024-03-22T19:50:00",
+                        "departure": "2024-03-22T18:15:00",
+                        "identifier": {
+                          "identifier": "349",
+                          "carrierCode": "6E",
+                          "opSuffix": null
+                        }
+                      },
+                      "journeyType": "Domestic",
+                      "segmentKey": "NkV_IDM0OX4gfn5IWUR_MDMvMjIvMjAyNCAxODoxNX5DT0t_MDMvMjIvMjAyNCAxOTo1MH5_",
+                      "segmentSSRs": [
+                        {
+                          "category": "Meal",
+                          "limit": 1,
+                          "openslider": true,
+                          "isMandatory": true,
+                          "ssrs": [],
+                          "takenssr": [],
+                          "mandatoryreason": "Bundle:PRIM"
+                        }
+                      ],
+                      "legs": [
+                        {
+                          "legKey": "NjM4NDY3MjgxMDAwMDAwMDAwITZFITM0OSEgIUhZRCFDT0shNzI5MzAzOA--",
+                          "legDetails": {
+                            "destination": "COK",
+                            "origin": "HYD",
+                            "arrival": "2024-03-22T19:50:00",
+                            "departure": "2024-03-22T18:15:00",
+                            "identifier": null
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              },
+              {
+                "ssrCode": "FFWD",
+                "bundleSsrPrice": 0.0,
+                "upgradableSsrs": null
+              }
+            ],
+            "totalPrice": 1099.0,
+            "isConfirmed": false,
+            "currencyCode": "INR",
+            "canBeRemoved": true,
+            "isTaken": false,
+            "taxTotal": 0.0,
+            "additionalSsrs": null,
+            "passengerType": "ADT",
+            "program": null
+          },
+          {
+            "journeyKey": "NkV_NjkwNH4gfn5DT0t_MDMvMjMvMjAyNCAyMjoyMH5NQUF_MDMvMjMvMjAyNCAyMzoyMH5_XjZFfjIzNjh_IH5_TUFBfjAzLzI0LzIwMjQgMDI6MzB_REVMfjAzLzI0LzIwMjQgMDU6MjB_fg--",
+            "includedSsrs": [
+              {
+                "ssrCode": "CPML",
+                "bundleSsrPrice": 0.0,
+                "upgradableSsrs": {
+                  "segments": [
+                    {
+                      "segmentDetails": {
+                        "destination": "MAA",
+                        "origin": "COK",
+                        "arrival": "2024-03-23T23:20:00",
+                        "departure": "2024-03-23T22:20:00",
+                        "identifier": {
+                          "identifier": "6904",
+                          "carrierCode": "6E",
+                          "opSuffix": null
+                        }
+                      },
+                      "journeyType": "Domestic",
+                      "segmentKey": "NkV_NjkwNH4gfn5DT0t_MDMvMjMvMjAyNCAyMjoyMH5NQUF_MDMvMjMvMjAyNCAyMzoyMH5_",
+                      "segmentSSRs": [
+                        {
+                          "category": "Meal",
+                          "limit": 1,
+                          "openslider": true,
+                          "isMandatory": true,
+                          "ssrs": [
+                            {
+                              "group": "NA",
+                              "currencycode": "INR",
+                              "ssrCode": "AGSW",
+                              "ssrType": 0,
+                              "category": null,
+                              "available": null,
+                              "name": "#IndiaByIndiGo regional favourite (veg) + beverage",
+                              "limitPerPassenger": 1,
+                              "feeCode": "AGSW",
+                              "applicableForAllPax": false,
+                              "SsrApplicability": "S",
+                              "price": 0.0,
+                              "passengersSSRKey": [
+                                {
+                                  "passengerKey": "MCFBRFQ-",
+                                  "ssrKey": "MiFNQ0ZCUkZRLSFBR1NXISFNQUEhNkUhNjM4NDY3NDg4MDAwMDAwMDAwIUNPSyE2OTA0ISA-",
+                                  "takenssrkey": "",
+                                  "takencount": 0
+                                },
+                                {
+                                  "passengerKey": "MSFBRFQ-",
+                                  "ssrKey": "MiFNU0ZCUkZRLSFBR1NXISFNQUEhNkUhNjM4NDY3NDg4MDAwMDAwMDAwIUNPSyE2OTA0ISA-",
+                                  "takenssrkey": "",
+                                  "takencount": 0
+                                }
+                              ]
+                            },
+                            {
+                              "group": "NA",
+                              "currencycode": "INR",
+                              "ssrCode": "CJSW",
+                              "ssrType": 0,
+                              "category": null,
+                              "available": null,
+                              "name": "Chicken Junglee Sandwich + beverage",
+                              "limitPerPassenger": 1,
+                              "feeCode": "NVGF",
+                              "applicableForAllPax": false,
+                              "SsrApplicability": "S",
+                              "price": 0.0,
+                              "passengersSSRKey": [
+                                {
+                                  "passengerKey": "MCFBRFQ-",
+                                  "ssrKey": "MiFNQ0ZCUkZRLSFDSlNXISFNQUEhNkUhNjM4NDY3NDg4MDAwMDAwMDAwIUNPSyE2OTA0ISA-",
+                                  "takenssrkey": "",
+                                  "takencount": 0
+                                },
+                                {
+                                  "passengerKey": "MSFBRFQ-",
+                                  "ssrKey": "MiFNU0ZCUkZRLSFDSlNXISFNQUEhNkUhNjM4NDY3NDg4MDAwMDAwMDAwIUNPSyE2OTA0ISA-",
+                                  "takenssrkey": "",
+                                  "takencount": 0
+                                }
+                              ]
+                            },
+                            {
+                              "group": "NA",
+                              "currencycode": "INR",
+                              "ssrCode": "DBVG",
+                              "ssrType": 0,
+                              "category": null,
+                              "available": null,
+                              "name": "Diabetic veg Special + beverage",
+                              "limitPerPassenger": 1,
+                              "feeCode": "DBVG",
+                              "applicableForAllPax": false,
+                              "SsrApplicability": "S",
+                              "price": 0.0,
+                              "passengersSSRKey": [
+                                {
+                                  "passengerKey": "MCFBRFQ-",
+                                  "ssrKey": "MiFNQ0ZCUkZRLSFEQlZHISFNQUEhNkUhNjM4NDY3NDg4MDAwMDAwMDAwIUNPSyE2OTA0ISA-",
+                                  "takenssrkey": "",
+                                  "takencount": 0
+                                },
+                                {
+                                  "passengerKey": "MSFBRFQ-",
+                                  "ssrKey": "MiFNU0ZCUkZRLSFEQlZHISFNQUEhNkUhNjM4NDY3NDg4MDAwMDAwMDAwIUNPSyE2OTA0ISA-",
+                                  "takenssrkey": "",
+                                  "takencount": 0
+                                }
+                              ]
+                            },
+                            {
+                              "group": "NA",
+                              "currencycode": "INR",
+                              "ssrCode": "JNML",
+                              "ssrType": 0,
+                              "category": null,
+                              "available": null,
+                              "name": "Jain Special + beverage",
+                              "limitPerPassenger": 1,
+                              "feeCode": "JNML",
+                              "applicableForAllPax": false,
+                              "SsrApplicability": "S",
+                              "price": 0.0,
+                              "passengersSSRKey": [
+                                {
+                                  "passengerKey": "MCFBRFQ-",
+                                  "ssrKey": "MiFNQ0ZCUkZRLSFKTk1MISFNQUEhNkUhNjM4NDY3NDg4MDAwMDAwMDAwIUNPSyE2OTA0ISA-",
+                                  "takenssrkey": "",
+                                  "takencount": 0
+                                },
+                                {
+                                  "passengerKey": "MSFBRFQ-",
+                                  "ssrKey": "MiFNU0ZCUkZRLSFKTk1MISFNQUEhNkUhNjM4NDY3NDg4MDAwMDAwMDAwIUNPSyE2OTA0ISA-",
+                                  "takenssrkey": "",
+                                  "takencount": 0
+                                }
+                              ]
+                            },
+                            {
+                              "group": "NA",
+                              "currencycode": "INR",
+                              "ssrCode": "LCVG",
+                              "ssrType": 0,
+                              "category": null,
+                              "available": null,
+                              "name": "Low calorie veg Special + beverage",
+                              "limitPerPassenger": 1,
+                              "feeCode": "LCVG",
+                              "applicableForAllPax": false,
+                              "SsrApplicability": "S",
+                              "price": 0.0,
+                              "passengersSSRKey": [
+                                {
+                                  "passengerKey": "MCFBRFQ-",
+                                  "ssrKey": "MiFNQ0ZCUkZRLSFMQ1ZHISFNQUEhNkUhNjM4NDY3NDg4MDAwMDAwMDAwIUNPSyE2OTA0ISA-",
+                                  "takenssrkey": "",
+                                  "takencount": 0
+                                },
+                                {
+                                  "passengerKey": "MSFBRFQ-",
+                                  "ssrKey": "MiFNU0ZCUkZRLSFMQ1ZHISFNQUEhNkUhNjM4NDY3NDg4MDAwMDAwMDAwIUNPSyE2OTA0ISA-",
+                                  "takenssrkey": "",
+                                  "takencount": 0
+                                }
+                              ]
+                            },
+                            {
+                              "group": "NA",
+                              "currencycode": "INR",
+                              "ssrCode": "NUSW",
+                              "ssrType": 0,
+                              "category": null,
+                              "available": null,
+                              "name": "6E Eats choice of the day (non-veg) + beverage",
+                              "limitPerPassenger": 1,
+                              "feeCode": "NUSW",
+                              "applicableForAllPax": false,
+                              "SsrApplicability": "S",
+                              "price": 0.0,
+                              "passengersSSRKey": [
+                                {
+                                  "passengerKey": "MCFBRFQ-",
+                                  "ssrKey": "MiFNQ0ZCUkZRLSFOVVNXISFNQUEhNkUhNjM4NDY3NDg4MDAwMDAwMDAwIUNPSyE2OTA0ISA-",
+                                  "takenssrkey": "",
+                                  "takencount": 0
+                                },
+                                {
+                                  "passengerKey": "MSFBRFQ-",
+                                  "ssrKey": "MiFNU0ZCUkZRLSFOVVNXISFNQUEhNkUhNjM4NDY3NDg4MDAwMDAwMDAwIUNPSyE2OTA0ISA-",
+                                  "takenssrkey": "",
+                                  "takencount": 0
+                                }
+                              ]
+                            },
+                            {
+                              "group": "NA",
+                              "currencycode": "INR",
+                              "ssrCode": "VCSW",
+                              "ssrType": 0,
+                              "category": null,
+                              "available": null,
+                              "name": "6E Eats choice of the day (veg) + beverage",
+                              "limitPerPassenger": 1,
+                              "feeCode": "VCSW",
+                              "applicableForAllPax": false,
+                              "SsrApplicability": "S",
+                              "price": 0.0,
+                              "passengersSSRKey": [
+                                {
+                                  "passengerKey": "MCFBRFQ-",
+                                  "ssrKey": "MiFNQ0ZCUkZRLSFWQ1NXISFNQUEhNkUhNjM4NDY3NDg4MDAwMDAwMDAwIUNPSyE2OTA0ISA-",
+                                  "takenssrkey": "",
+                                  "takencount": 0
+                                },
+                                {
+                                  "passengerKey": "MSFBRFQ-",
+                                  "ssrKey": "MiFNU0ZCUkZRLSFWQ1NXISFNQUEhNkUhNjM4NDY3NDg4MDAwMDAwMDAwIUNPSyE2OTA0ISA-",
+                                  "takenssrkey": "",
+                                  "takencount": 0
+                                }
+                              ]
+                            },
+                            {
+                              "group": "NA",
+                              "currencycode": "INR",
+                              "ssrCode": "VGAN",
+                              "ssrType": 0,
+                              "category": null,
+                              "available": null,
+                              "name": "Vegan Special + beverage",
+                              "limitPerPassenger": 1,
+                              "feeCode": "VGAN",
+                              "applicableForAllPax": false,
+                              "SsrApplicability": "S",
+                              "price": 0.0,
+                              "passengersSSRKey": [
+                                {
+                                  "passengerKey": "MCFBRFQ-",
+                                  "ssrKey": "MiFNQ0ZCUkZRLSFWR0FOISFNQUEhNkUhNjM4NDY3NDg4MDAwMDAwMDAwIUNPSyE2OTA0ISA-",
+                                  "takenssrkey": "",
+                                  "takencount": 0
+                                },
+                                {
+                                  "passengerKey": "MSFBRFQ-",
+                                  "ssrKey": "MiFNU0ZCUkZRLSFWR0FOISFNQUEhNkUhNjM4NDY3NDg4MDAwMDAwMDAwIUNPSyE2OTA0ISA-",
+                                  "takenssrkey": "",
+                                  "takencount": 0
+                                }
+                              ]
+                            }
+                          ],
+                          "takenssr": [],
+                          "mandatoryreason": "Bundle:PRIM"
+                        }
+                      ],
+                      "legs": [
+                        {
+                          "legKey": "NjM4NDY4MjkyMDAwMDAwMDAwITZFITY5MDQhICFDT0shTUFBITgxODgwNTI-",
+                          "legDetails": {
+                            "destination": "MAA",
+                            "origin": "COK",
+                            "arrival": "2024-03-23T23:20:00",
+                            "departure": "2024-03-23T22:20:00",
+                            "identifier": null
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "segmentDetails": {
+                        "destination": "DEL",
+                        "origin": "MAA",
+                        "arrival": "2024-03-24T05:20:00",
+                        "departure": "2024-03-24T02:30:00",
+                        "identifier": {
+                          "identifier": "2368",
+                          "carrierCode": "6E",
+                          "opSuffix": null
+                        }
+                      },
+                      "journeyType": "Domestic",
+                      "segmentKey": "NkV_MjM2OH4gfn5NQUF_MDMvMjQvMjAyNCAwMjozMH5ERUx_MDMvMjQvMjAyNCAwNToyMH5_",
+                      "segmentSSRs": [
+                        {
+                          "category": "Meal",
+                          "limit": 1,
+                          "openslider": true,
+                          "isMandatory": true,
+                          "ssrs": [],
+                          "takenssr": [],
+                          "mandatoryreason": "Bundle:PRIM"
+                        }
+                      ],
+                      "legs": [
+                        {
+                          "legKey": "NjM4NDY4NDQyMDAwMDAwMDAwITZFITIzNjghICFNQUEhREVMITgzOTIxODE-",
+                          "legDetails": {
+                            "destination": "DEL",
+                            "origin": "MAA",
+                            "arrival": "2024-03-24T05:20:00",
+                            "departure": "2024-03-24T02:30:00",
+                            "identifier": null
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              },
+              {
+                "ssrCode": "FFWD",
+                "bundleSsrPrice": 0.0,
+                "upgradableSsrs": null
+              }
+            ],
+            "totalPrice": 999.0,
+            "isConfirmed": false,
+            "currencyCode": "INR",
+            "canBeRemoved": true,
+            "isTaken": false,
+            "taxTotal": 0.0,
+            "additionalSsrs": null,
+            "passengerType": "ADT",
+            "program": null
+          }
+        ],
+        "bundleCode": "PRIM",
+        "applicableForAllPax": true,
+        "SsrApplicability": "JOURNEYS"
+      },
+      {
+        "hasPrice": false,
+        "pricesByJourney": [
+          {
+            "journeyKey": "NkV_NjA2NX4gfn5ERUx_MDMvMjIvMjAyNCAwOTo0NX5IWUR_MDMvMjIvMjAyNCAxMTo1NX5_XjZFfiAzNDl_IH5_SFlEfjAzLzIyLzIwMjQgMTg6MTV_Q09LfjAzLzIyLzIwMjQgMTk6NTB_fg--",
+            "includedSsrs": [
+              {
+                "ssrCode": "CPML",
+                "bundleSsrPrice": 0.0,
+                "upgradableSsrs": {
+                  "segments": [
+                    {
+                      "segmentDetails": {
+                        "destination": "HYD",
+                        "origin": "DEL",
+                        "arrival": "2024-03-22T11:55:00",
+                        "departure": "2024-03-22T09:45:00",
+                        "identifier": {
+                          "identifier": "6065",
+                          "carrierCode": "6E",
+                          "opSuffix": null
+                        }
+                      },
+                      "journeyType": "Domestic",
+                      "segmentKey": "NkV_NjA2NX4gfn5ERUx_MDMvMjIvMjAyNCAwOTo0NX5IWUR_MDMvMjIvMjAyNCAxMTo1NX5_",
+                      "segmentSSRs": [
+                        {
+                          "category": "Meal",
+                          "limit": 1,
+                          "openslider": true,
+                          "isMandatory": true,
+                          "ssrs": [
+                            {
+                              "group": "NA",
+                              "currencycode": "INR",
+                              "ssrCode": "CJSW",
+                              "ssrType": 0,
+                              "category": null,
+                              "available": null,
+                              "name": "Chicken Junglee Sandwich + beverage",
+                              "limitPerPassenger": 1,
+                              "feeCode": "NVGF",
+                              "applicableForAllPax": false,
+                              "SsrApplicability": "S",
+                              "price": 0.0,
+                              "passengersSSRKey": [
+                                {
+                                  "passengerKey": "MCFBRFQ-",
+                                  "ssrKey": "MiFNQ0ZCUkZRLSFDSlNXISFIWUQhNkUhNjM4NDY2NjI0MDAwMDAwMDAwIURFTCE2MDY1ISA-",
+                                  "takenssrkey": "",
+                                  "takencount": 0
+                                },
+                                {
+                                  "passengerKey": "MSFBRFQ-",
+                                  "ssrKey": "MiFNU0ZCUkZRLSFDSlNXISFIWUQhNkUhNjM4NDY2NjI0MDAwMDAwMDAwIURFTCE2MDY1ISA-",
+                                  "takenssrkey": "",
+                                  "takencount": 0
+                                }
+                              ]
+                            }
+                          ],
+                          "takenssr": [],
+                          "mandatoryreason": "Bundle:MLST"
+                        }
+                      ],
+                      "legs": [
+                        {
+                          "legKey": "NjM4NDY2OTc1MDAwMDAwMDAwITZFITYwNjUhICFERUwhSFlEITc3MTIyOTc-",
+                          "legDetails": {
+                            "destination": "HYD",
+                            "origin": "DEL",
+                            "arrival": "2024-03-22T11:55:00",
+                            "departure": "2024-03-22T09:45:00",
+                            "identifier": null
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "segmentDetails": {
+                        "destination": "COK",
+                        "origin": "HYD",
+                        "arrival": "2024-03-22T19:50:00",
+                        "departure": "2024-03-22T18:15:00",
+                        "identifier": {
+                          "identifier": "349",
+                          "carrierCode": "6E",
+                          "opSuffix": null
+                        }
+                      },
+                      "journeyType": "Domestic",
+                      "segmentKey": "NkV_IDM0OX4gfn5IWUR_MDMvMjIvMjAyNCAxODoxNX5DT0t_MDMvMjIvMjAyNCAxOTo1MH5_",
+                      "segmentSSRs": [
+                        {
+                          "category": "Meal",
+                          "limit": 1,
+                          "openslider": true,
+                          "isMandatory": true,
+                          "ssrs": [],
+                          "takenssr": [],
+                          "mandatoryreason": "Bundle:MLST"
+                        }
+                      ],
+                      "legs": [
+                        {
+                          "legKey": "NjM4NDY3MjgxMDAwMDAwMDAwITZFITM0OSEgIUhZRCFDT0shNzI5MzAzOA--",
+                          "legDetails": {
+                            "destination": "COK",
+                            "origin": "HYD",
+                            "arrival": "2024-03-22T19:50:00",
+                            "departure": "2024-03-22T18:15:00",
+                            "identifier": null
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              }
+            ],
+            "totalPrice": 699.0,
+            "isConfirmed": false,
+            "currencyCode": "INR",
+            "canBeRemoved": true,
+            "isTaken": false,
+            "taxTotal": 0.0,
+            "additionalSsrs": null,
+            "passengerType": "ADT",
+            "program": null
+          },
+          {
+            "journeyKey": "NkV_NjkwNH4gfn5DT0t_MDMvMjMvMjAyNCAyMjoyMH5NQUF_MDMvMjMvMjAyNCAyMzoyMH5_XjZFfjIzNjh_IH5_TUFBfjAzLzI0LzIwMjQgMDI6MzB_REVMfjAzLzI0LzIwMjQgMDU6MjB_fg--",
+            "includedSsrs": [
+              {
+                "ssrCode": "CPML",
+                "bundleSsrPrice": 0.0,
+                "upgradableSsrs": {
+                  "segments": [
+                    {
+                      "segmentDetails": {
+                        "destination": "MAA",
+                        "origin": "COK",
+                        "arrival": "2024-03-23T23:20:00",
+                        "departure": "2024-03-23T22:20:00",
+                        "identifier": {
+                          "identifier": "6904",
+                          "carrierCode": "6E",
+                          "opSuffix": null
+                        }
+                      },
+                      "journeyType": "Domestic",
+                      "segmentKey": "NkV_NjkwNH4gfn5DT0t_MDMvMjMvMjAyNCAyMjoyMH5NQUF_MDMvMjMvMjAyNCAyMzoyMH5_",
+                      "segmentSSRs": [
+                        {
+                          "category": "Meal",
+                          "limit": 1,
+                          "openslider": true,
+                          "isMandatory": true,
+                          "ssrs": [
+                            {
+                              "group": "NA",
+                              "currencycode": "INR",
+                              "ssrCode": "AGSW",
+                              "ssrType": 0,
+                              "category": null,
+                              "available": null,
+                              "name": "#IndiaByIndiGo regional favourite (veg) + beverage",
+                              "limitPerPassenger": 1,
+                              "feeCode": "AGSW",
+                              "applicableForAllPax": false,
+                              "SsrApplicability": "S",
+                              "price": 0.0,
+                              "passengersSSRKey": [
+                                {
+                                  "passengerKey": "MCFBRFQ-",
+                                  "ssrKey": "MiFNQ0ZCUkZRLSFBR1NXISFNQUEhNkUhNjM4NDY3NDg4MDAwMDAwMDAwIUNPSyE2OTA0ISA-",
+                                  "takenssrkey": "",
+                                  "takencount": 0
+                                },
+                                {
+                                  "passengerKey": "MSFBRFQ-",
+                                  "ssrKey": "MiFNU0ZCUkZRLSFBR1NXISFNQUEhNkUhNjM4NDY3NDg4MDAwMDAwMDAwIUNPSyE2OTA0ISA-",
+                                  "takenssrkey": "",
+                                  "takencount": 0
+                                }
+                              ]
+                            },
+                            {
+                              "group": "NA",
+                              "currencycode": "INR",
+                              "ssrCode": "CJSW",
+                              "ssrType": 0,
+                              "category": null,
+                              "available": null,
+                              "name": "Chicken Junglee Sandwich + beverage",
+                              "limitPerPassenger": 1,
+                              "feeCode": "NVGF",
+                              "applicableForAllPax": false,
+                              "SsrApplicability": "S",
+                              "price": 0.0,
+                              "passengersSSRKey": [
+                                {
+                                  "passengerKey": "MCFBRFQ-",
+                                  "ssrKey": "MiFNQ0ZCUkZRLSFDSlNXISFNQUEhNkUhNjM4NDY3NDg4MDAwMDAwMDAwIUNPSyE2OTA0ISA-",
+                                  "takenssrkey": "",
+                                  "takencount": 0
+                                },
+                                {
+                                  "passengerKey": "MSFBRFQ-",
+                                  "ssrKey": "MiFNU0ZCUkZRLSFDSlNXISFNQUEhNkUhNjM4NDY3NDg4MDAwMDAwMDAwIUNPSyE2OTA0ISA-",
+                                  "takenssrkey": "",
+                                  "takencount": 0
+                                }
+                              ]
+                            },
+                            {
+                              "group": "NA",
+                              "currencycode": "INR",
+                              "ssrCode": "DBVG",
+                              "ssrType": 0,
+                              "category": null,
+                              "available": null,
+                              "name": "Diabetic veg Special + beverage",
+                              "limitPerPassenger": 1,
+                              "feeCode": "DBVG",
+                              "applicableForAllPax": false,
+                              "SsrApplicability": "S",
+                              "price": 0.0,
+                              "passengersSSRKey": [
+                                {
+                                  "passengerKey": "MCFBRFQ-",
+                                  "ssrKey": "MiFNQ0ZCUkZRLSFEQlZHISFNQUEhNkUhNjM4NDY3NDg4MDAwMDAwMDAwIUNPSyE2OTA0ISA-",
+                                  "takenssrkey": "",
+                                  "takencount": 0
+                                },
+                                {
+                                  "passengerKey": "MSFBRFQ-",
+                                  "ssrKey": "MiFNU0ZCUkZRLSFEQlZHISFNQUEhNkUhNjM4NDY3NDg4MDAwMDAwMDAwIUNPSyE2OTA0ISA-",
+                                  "takenssrkey": "",
+                                  "takencount": 0
+                                }
+                              ]
+                            },
+                            {
+                              "group": "NA",
+                              "currencycode": "INR",
+                              "ssrCode": "JNML",
+                              "ssrType": 0,
+                              "category": null,
+                              "available": null,
+                              "name": "Jain Special + beverage",
+                              "limitPerPassenger": 1,
+                              "feeCode": "JNML",
+                              "applicableForAllPax": false,
+                              "SsrApplicability": "S",
+                              "price": 0.0,
+                              "passengersSSRKey": [
+                                {
+                                  "passengerKey": "MCFBRFQ-",
+                                  "ssrKey": "MiFNQ0ZCUkZRLSFKTk1MISFNQUEhNkUhNjM4NDY3NDg4MDAwMDAwMDAwIUNPSyE2OTA0ISA-",
+                                  "takenssrkey": "",
+                                  "takencount": 0
+                                },
+                                {
+                                  "passengerKey": "MSFBRFQ-",
+                                  "ssrKey": "MiFNU0ZCUkZRLSFKTk1MISFNQUEhNkUhNjM4NDY3NDg4MDAwMDAwMDAwIUNPSyE2OTA0ISA-",
+                                  "takenssrkey": "",
+                                  "takencount": 0
+                                }
+                              ]
+                            },
+                            {
+                              "group": "NA",
+                              "currencycode": "INR",
+                              "ssrCode": "LCVG",
+                              "ssrType": 0,
+                              "category": null,
+                              "available": null,
+                              "name": "Low calorie veg Special + beverage",
+                              "limitPerPassenger": 1,
+                              "feeCode": "LCVG",
+                              "applicableForAllPax": false,
+                              "SsrApplicability": "S",
+                              "price": 0.0,
+                              "passengersSSRKey": [
+                                {
+                                  "passengerKey": "MCFBRFQ-",
+                                  "ssrKey": "MiFNQ0ZCUkZRLSFMQ1ZHISFNQUEhNkUhNjM4NDY3NDg4MDAwMDAwMDAwIUNPSyE2OTA0ISA-",
+                                  "takenssrkey": "",
+                                  "takencount": 0
+                                },
+                                {
+                                  "passengerKey": "MSFBRFQ-",
+                                  "ssrKey": "MiFNU0ZCUkZRLSFMQ1ZHISFNQUEhNkUhNjM4NDY3NDg4MDAwMDAwMDAwIUNPSyE2OTA0ISA-",
+                                  "takenssrkey": "",
+                                  "takencount": 0
+                                }
+                              ]
+                            },
+                            {
+                              "group": "NA",
+                              "currencycode": "INR",
+                              "ssrCode": "NUSW",
+                              "ssrType": 0,
+                              "category": null,
+                              "available": null,
+                              "name": "6E Eats choice of the day (non-veg) + beverage",
+                              "limitPerPassenger": 1,
+                              "feeCode": "NUSW",
+                              "applicableForAllPax": false,
+                              "SsrApplicability": "S",
+                              "price": 0.0,
+                              "passengersSSRKey": [
+                                {
+                                  "passengerKey": "MCFBRFQ-",
+                                  "ssrKey": "MiFNQ0ZCUkZRLSFOVVNXISFNQUEhNkUhNjM4NDY3NDg4MDAwMDAwMDAwIUNPSyE2OTA0ISA-",
+                                  "takenssrkey": "",
+                                  "takencount": 0
+                                },
+                                {
+                                  "passengerKey": "MSFBRFQ-",
+                                  "ssrKey": "MiFNU0ZCUkZRLSFOVVNXISFNQUEhNkUhNjM4NDY3NDg4MDAwMDAwMDAwIUNPSyE2OTA0ISA-",
+                                  "takenssrkey": "",
+                                  "takencount": 0
+                                }
+                              ]
+                            },
+                            {
+                              "group": "NA",
+                              "currencycode": "INR",
+                              "ssrCode": "VCSW",
+                              "ssrType": 0,
+                              "category": null,
+                              "available": null,
+                              "name": "6E Eats choice of the day (veg) + beverage",
+                              "limitPerPassenger": 1,
+                              "feeCode": "VCSW",
+                              "applicableForAllPax": false,
+                              "SsrApplicability": "S",
+                              "price": 0.0,
+                              "passengersSSRKey": [
+                                {
+                                  "passengerKey": "MCFBRFQ-",
+                                  "ssrKey": "MiFNQ0ZCUkZRLSFWQ1NXISFNQUEhNkUhNjM4NDY3NDg4MDAwMDAwMDAwIUNPSyE2OTA0ISA-",
+                                  "takenssrkey": "",
+                                  "takencount": 0
+                                },
+                                {
+                                  "passengerKey": "MSFBRFQ-",
+                                  "ssrKey": "MiFNU0ZCUkZRLSFWQ1NXISFNQUEhNkUhNjM4NDY3NDg4MDAwMDAwMDAwIUNPSyE2OTA0ISA-",
+                                  "takenssrkey": "",
+                                  "takencount": 0
+                                }
+                              ]
+                            },
+                            {
+                              "group": "NA",
+                              "currencycode": "INR",
+                              "ssrCode": "VGAN",
+                              "ssrType": 0,
+                              "category": null,
+                              "available": null,
+                              "name": "Vegan Special + beverage",
+                              "limitPerPassenger": 1,
+                              "feeCode": "VGAN",
+                              "applicableForAllPax": false,
+                              "SsrApplicability": "S",
+                              "price": 0.0,
+                              "passengersSSRKey": [
+                                {
+                                  "passengerKey": "MCFBRFQ-",
+                                  "ssrKey": "MiFNQ0ZCUkZRLSFWR0FOISFNQUEhNkUhNjM4NDY3NDg4MDAwMDAwMDAwIUNPSyE2OTA0ISA-",
+                                  "takenssrkey": "",
+                                  "takencount": 0
+                                },
+                                {
+                                  "passengerKey": "MSFBRFQ-",
+                                  "ssrKey": "MiFNU0ZCUkZRLSFWR0FOISFNQUEhNkUhNjM4NDY3NDg4MDAwMDAwMDAwIUNPSyE2OTA0ISA-",
+                                  "takenssrkey": "",
+                                  "takencount": 0
+                                }
+                              ]
+                            }
+                          ],
+                          "takenssr": [],
+                          "mandatoryreason": "Bundle:MLST"
+                        }
+                      ],
+                      "legs": [
+                        {
+                          "legKey": "NjM4NDY4MjkyMDAwMDAwMDAwITZFITY5MDQhICFDT0shTUFBITgxODgwNTI-",
+                          "legDetails": {
+                            "destination": "MAA",
+                            "origin": "COK",
+                            "arrival": "2024-03-23T23:20:00",
+                            "departure": "2024-03-23T22:20:00",
+                            "identifier": null
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "segmentDetails": {
+                        "destination": "DEL",
+                        "origin": "MAA",
+                        "arrival": "2024-03-24T05:20:00",
+                        "departure": "2024-03-24T02:30:00",
+                        "identifier": {
+                          "identifier": "2368",
+                          "carrierCode": "6E",
+                          "opSuffix": null
+                        }
+                      },
+                      "journeyType": "Domestic",
+                      "segmentKey": "NkV_MjM2OH4gfn5NQUF_MDMvMjQvMjAyNCAwMjozMH5ERUx_MDMvMjQvMjAyNCAwNToyMH5_",
+                      "segmentSSRs": [
+                        {
+                          "category": "Meal",
+                          "limit": 1,
+                          "openslider": true,
+                          "isMandatory": true,
+                          "ssrs": [],
+                          "takenssr": [],
+                          "mandatoryreason": "Bundle:MLST"
+                        }
+                      ],
+                      "legs": [
+                        {
+                          "legKey": "NjM4NDY4NDQyMDAwMDAwMDAwITZFITIzNjghICFNQUEhREVMITgzOTIxODE-",
+                          "legDetails": {
+                            "destination": "DEL",
+                            "origin": "MAA",
+                            "arrival": "2024-03-24T05:20:00",
+                            "departure": "2024-03-24T02:30:00",
+                            "identifier": null
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              }
+            ],
+            "totalPrice": 699.0,
+            "isConfirmed": false,
+            "currencyCode": "INR",
+            "canBeRemoved": true,
+            "isTaken": false,
+            "taxTotal": 0.0,
+            "additionalSsrs": null,
+            "passengerType": "ADT",
+            "program": null
+          }
+        ],
+        "bundleCode": "MLST",
+        "applicableForAllPax": true,
+        "SsrApplicability": "JOURNEYS"
+      }
+    ],
+    "ssrDisplayList": [
+      {
+        "name": "ExcessBaggage",
+        "catogoryIncluded": "baggage,ABFH,LBG"
+      },
+      {
+        "name": "Meal",
+        "catogoryIncluded": "Meal"
+      },
+      {
+        "name": "LBG",
+        "catogoryIncluded": "LBG"
+      },
+      {
+        "name": "FFWD",
+        "catogoryIncluded": "FFWD"
+      },
+      {
+        "name": "ABFH",
+        "catogoryIncluded": "ABFH"
+      }
+    ]
+  },
+  "metadata": null,
+  "Error": null
+}

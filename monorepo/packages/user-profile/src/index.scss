@@ -1,0 +1,21 @@
+@import './styles/main';
+
+.user-profile {
+  &-container {
+    display: flex;
+    gap: rem(16px);
+    max-width: rem(1150px);
+    box-sizing: border-box;
+    * {
+      box-sizing: border-box;
+    }
+    .btn-link {
+      border: 0;
+      background: 0;
+      color: var(--text-primary);
+      @include body-large-regular;
+      cursor: pointer;
+      width: 100%;
+    }
+  }
+}

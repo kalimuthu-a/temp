@@ -1,0 +1,309 @@
+.booking-header-widget {
+  border-radius: rem(24px);
+  display: flex;
+  gap: rem(4px);
+  align-items: center;
+  justify-content: center;
+  width: fit-content;
+  border: none;
+
+  .bw-popover__content {
+    height: 100vh;
+    height: 100dvh;
+    inset: inherit;
+    min-height: unset;
+    top: rem(-8px);
+
+    @include media('>=tablet') {
+      min-height: min-content;
+    }
+  }
+
+  .icon-Indigo_Logo {
+    &::before {
+      color: get-color(white);
+    }
+  }
+
+  @include media('>=tablet') {
+    border: var(--border-secondary);
+  }
+
+  &__box {
+    &.disabled {
+      color: get-color(text-primary);
+    }
+
+    font-weight: 500;
+    font-size: rem(16px);
+    line-height: 1.5;
+    color: get-color(text-primary);
+    font-family: var(--font-family-bauhuas-std-medium);
+    padding: 0;
+
+    @include media('>=tablet') {
+      color: get-color(primary-main);
+      font-family: var(--font-family-poppins-medium);
+      padding: rem(4px) rem(32px);
+      max-height: rem(40px);
+      height: rem(40px);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    &:not(:nth-child(1)) {
+      border: none;
+
+      @include media('>=tablet') {
+        background-image: radial-gradient(
+          circle closest-side,
+          get-color(text-tertiary) calc(100% - 0.5px),
+          transparent 100%
+        );
+        background-repeat: repeat-y;
+        background-size: rem(1.4px) rem(3px);
+      }
+    }
+
+    &:nth-child(2),
+    &:nth-child(3) {
+      display: none;
+
+      @include media('>=tablet') {
+        display: flex;
+      }
+    }
+
+    display: flex;
+    align-items: center;
+    gap: rem(4px);
+
+    span {
+      border-bottom: 1px dotted get-color(text-primary);
+      height: 1px;
+      width: rem(40px);
+
+      @include media('>=tablet') {
+        border-bottom: 2px solid get-color(primary-main);
+        width: rem(8px);
+      }
+    }
+
+    &.city {
+      display: flex;
+
+      u {
+        text-decoration: none;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        &::after {
+          content: '.......';
+          margin-top: rem(-8px);
+          letter-spacing: rem(2px);
+          top: rem(4px);
+          width: rem(40px);
+
+          @include media('>=tablet') {
+            content: '-';
+            width: auto;
+            margin-top: 0;
+          }
+        }
+      }
+    }
+  }
+
+  .sky-icons {
+    cursor: pointer;
+
+    &.icon-switch-destination {
+      color: var(--text-tertiary);
+      display: block;
+    }
+
+    &.icon-accordion-down-simple {
+      color: var(--text-primary);
+    }
+
+    &::after {
+      line-height: 1.5;
+    }
+  }
+
+  .skyplus-offcanvas.top {
+    .skyplus-offcanvas__contents {
+      padding: 0;
+      position: fixed;
+      top: 0;
+      bottom: 0;
+      left: 0%;
+      width: 100%;
+      height: 100vh;
+      overflow: auto;
+      transition: all 0.25s ease-in-out;
+      transform: translate(0%, 0%);
+      background-color: get-color(text-alice-blue);
+      z-index: 1032;
+
+      @include media('>=tablet') {
+        background: var(--blur-overlay);
+      }
+
+      &--body {
+        background: none;
+        padding: 0;
+        margin-bottom: 0 !important;
+      }
+
+      .booking-widget-srp {
+        color: get-color(primary-main);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        .action-wrapper {
+          padding: rem(32px) rem(16px);
+          align-self: flex-start;
+          background-color: transparent;
+
+          @include media('>=tablet') {
+            background-color: #f7fafa;
+          }
+
+          background-color: linear-gradient(
+            180deg,
+            hsl(0deg 0% 100% / 0%),
+            hsl(0deg 0% 100% / 95.9%) 8.73%,
+            #f7f9fe 17.51%,
+            #ecf7fc 81.97%
+          );
+
+          @include media('>=tablet') {
+            padding: rem(8px) 0 0;
+            width: 100%;
+            align-self: auto;
+          }
+
+          .tab-pill {
+            display: none !important;
+
+            @include media('>=tablet') {
+              display: inherit !important;
+            }
+          }
+
+          .icon-close-simple {
+            @include media('>=tablet') {
+              position: absolute;
+              right: rem(100px);
+              top: rem(30px);
+            }
+          }
+        }
+
+        .book-flight-button {
+          background: var(--white);
+          border-radius: rem(24px);
+          padding: rem(8px) rem(32px);
+          margin: rem(8px) 0 rem(16px);
+          border: var(--border-secondary);
+          gap: rem(24px);
+          align-items: center;
+          display: none;
+          font-family: var(--font-family-poppins-medium);
+
+          @include media('>=tablet') {
+            display: flex;
+            margin: rem(8px) 0;
+          }
+
+          .icon-flight {
+            font-size: rem(24px);
+          }
+        }
+
+        .booking-widget-overlay {
+          margin: 0 auto rem(16px);
+
+          @include media('>=tablet') {
+            background-color: #f7fafa;
+          }
+
+          .form-wrapped {
+            border-radius: rem(12px);
+            width: 100%;
+            box-shadow: 0 0 28px 16px #4c5d9e0a;
+
+            @include media('>=tablet') {
+              padding: rem(24px);
+              width: calc(100% - rem(40px));
+              background: var(--white);
+            }
+          }
+
+          @include media('>=tablet') {
+            width: 100%;
+            background-color: #f7fafa;
+            padding: rem(16px) rem(64px) rem(48px);
+            margin: auto;
+          }
+
+          .search-widget-form-top {
+            background-color: transparent;
+          }
+
+          &-bg {
+            flex: 1;
+            width: 100%;
+            display: none;
+
+            @include media('>=tablet') {
+              display: block;
+            }
+          }
+        }
+
+        .search-widget-form-body {
+          background-color: transparent;
+          border-radius: 0;
+
+          @include media('>=tablet') {
+            border-radius: rem(12px);
+          }
+
+          > div {
+            background-color: get-color(white);
+          }
+        }
+      }
+    }
+  }
+
+  .pax-fare-selection-popover--mobile-bottom {
+    bottom: 0;
+  }
+
+  .city-selection-header-pill-item .icon-switch-destination {
+    top: rem(2px) !important;
+  }
+}
+
+.booking-widget-header {
+  display: flex;
+  justify-content: center;
+}
+
+.skyplus-offcanvas__contents--footer {
+  box-shadow: var(--box-shadow-bottom-sticky);
+}
+
+.loyality-msg-btn{
+  border-radius: rem(8);
+}
+
+.lh-20{
+  line-height: rem(20) !important;
+}

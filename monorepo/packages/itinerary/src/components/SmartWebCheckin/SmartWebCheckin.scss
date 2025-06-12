@@ -1,0 +1,144 @@
+.smart-web-checkin{
+  border-radius: 8px;
+  background: linear-gradient(103deg, get-color("color-gradient-1") 10.29%, get-color("color-gradient-2") 102.18%);
+  box-shadow: 0px 0px 1.9px 0px rgba(0, 0, 0, 0.07);
+  padding: rem(12px);
+  width: calc(100% - 40px);
+  margin: rem(24px) rem(20px) rem(0px) rem(20px);
+  font-family: var(--font-family-poppins-regular);  
+  border: 1px solid get-color('light-white');
+  @include media('>=tablet'){
+    width: 100%;
+    margin: rem(16px) rem(0px) rem(0px) rem(0px);
+    padding: rem(16px);
+  }
+
+  .top-part {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin-bottom: rem(8px);
+    .view-link{
+      display: flex;
+      align-items: center;
+
+      p {
+        margin: 0;
+      }
+
+      a {
+        color: var(--primary-main);
+        text-align: right;
+        font-family: var(--font-family-poppins-regular); 
+        font-size: rem(14px);
+        font-style: normal;
+        font-weight: 500;
+        line-height:rem(20px);
+        text-decoration-line: underline;
+        text-transform: uppercase;
+
+        @include media('>=tablet'){
+          font-size: rem(16px);
+          line-height:rem(24px);
+        }
+      }
+
+      i {
+        color: var(--primary-main);
+      }
+    }
+  }
+
+  .title {
+    color: var(--text-secondary);
+    font-size: rem(14px);
+    text-transform: uppercase;
+    font-style: normal;
+    font-weight: 400;
+    line-height: rem(20px);
+
+    @include media('>=tablet'){
+      font-size: rem(20px);
+      line-height: rem(32px);
+    }
+   
+  }
+
+  .sub-title {
+    max-width: rem(235px);
+  }
+
+  .benefits{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: rem(18px);
+    
+    &-img{
+      max-width: rem(119px);
+      border-radius: rem(8px);
+      }
+  }
+
+  .benefits-list{
+    margin-right: rem(20px);
+
+    .row{
+      display: flex;
+      margin-bottom: rem(10px);
+      font-size: rem(10px);
+
+      @include media('>=tablet'){
+        & {
+          font-size: rem(12px);
+        }
+      }
+    }
+
+    ul {
+      display: block;
+      position: relative;
+      font-family: var(--font-family-poppins-regular);
+      color: var(--text-secondary);
+
+      li {
+        display: flex;
+        align-items: center;
+        margin-bottom: rem(6px);
+        font-size: rem(10px);
+        line-height: rem(18px);
+        position: relative;
+
+        @include media('>=tablet'){
+          font-size: rem(12px);
+          line-height: rem(20px);
+        }
+
+        &::before {
+          content: "\e93f";
+          display: inline-block;
+          width: rem(20px);
+          height: rem(20px);
+          font-size: rem(12px);
+          margin-right: rem(8px);
+          -webkit-font-smoothing: antialiased;
+          -moz-osx-font-smoothing: grayscale;
+          font-family: $font-family-indigo-icons !important;
+          font-style: normal;
+          color: var(--text-primary);
+          font-weight: 700;
+        }
+      }
+    }
+  }
+
+  .skyplus-text{
+    color:  var(--text-secondary);
+    align-self: center;
+  }
+  &.booking-flow {
+    @include media('<tablet'){
+      margin-bottom: rem(24px);
+    }
+  }
+}

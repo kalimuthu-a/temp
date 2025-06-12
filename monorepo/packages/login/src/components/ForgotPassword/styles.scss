@@ -1,0 +1,396 @@
+$indigo-info: #eaf8ff;
+$text-tertiary: var(--text-tertiary);
+
+.forgot-pwd {
+  padding: 0;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: 'Open Sans', arial, sans-serif;
+
+  @include media('>=tablet') {
+    padding: 0 rem(8px);
+  }
+
+  &-title.popup-modal-with-content__header__title {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  &__resend-container {
+    font-size: rem(16px);
+    padding-bottom: rem(10px);
+    margin-top: rem(20px);
+    font-family: var(--font-family-poppins-regular);
+
+    a span {
+      font-size: rem(14px);
+      color: var(--text-tertiary);
+      font-weight: 300;
+    }
+  }
+
+  &__resend {
+    padding-bottom: rem(5px);
+    font-size: rem(14px);
+
+    a {
+      color: var(--primary-main);
+      cursor: pointer;
+    }
+  }
+
+  &__resend-span {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &-title {
+    margin-bottom: rem(16px);
+    color: var(--text-primary);
+    font-family: 'Bauhaus Std', sans-serif;
+    font-size: rem(32px);
+    font-style: normal;
+    font-weight: 500;
+    line-height: rem(44px);
+    letter-spacing: rem(-0.8px);
+  }
+
+  &-container {
+    display: inline-block;
+    width: 100%;
+
+    &-fieldsContainer {
+      display: flex;
+      column-gap: rem(16px);
+      max-height: rem(80px);
+      margin-bottom: rem(8px);
+
+      @include media('>=tablet') {
+        margin-bottom: rem(14px);
+
+        .design-system-phone-component {
+          width: 100%;
+        }
+      }
+
+      .input-field-wrapper:first-child {
+        width: rem(176px);
+      }
+
+      .input-field-wrapper:nth-child(2) {
+        max-width: rem(283px);
+
+        input {
+          width: 100%;
+        }
+      }
+
+      &--agent {
+        .input-field-wrapper:first-child {
+          width: 100%;
+        }
+
+        input {
+          width: 100%;
+        }
+      }
+    }
+
+    &-inner-title {
+      padding-bottom: rem(10px);
+
+      @include media('>=tablet') {
+        padding-bottom: rem(24px);
+      }
+
+      p {
+        color: #4b5772;
+        font-family: Poppins-Regular, sans-serif;
+        font-size: rem(14px);
+        font-style: normal;
+        font-weight: 400;
+        line-height: rem(24px);
+
+        @include media('>=tablet') {
+          font-size: rem(16px);
+        }
+      }
+    }
+
+    .forgot-pwd-country-code-input {
+      input {
+        width: 100%;
+      }
+    }
+
+    button {
+      margin: rem(10px) 0 rem(20px);
+      font-weight: 700;
+      width: 100%;
+    }
+  }
+
+  &-email-modal-body {
+    margin-top: rem(10px);
+    padding: 0 0 0 rem(10px);
+    max-width: rem(500px);
+
+    h3 {
+      padding-bottom: rem(10px);
+      font-size: rem(24px);
+      line-height: rem(24px);
+    }
+
+    p {
+      font-size: rem(15px);
+      padding-bottom: rem(10px);
+      color: #666;
+    }
+  }
+
+  &-popup {
+    .popup-modal-with-content {
+      &__content {
+        width: 100%;
+        padding: 0;
+
+        @include media('>=tablet') {
+          padding: rem(16px);
+        }
+      }
+
+      &__header__title {
+        margin-right: 0;
+        font-size: rem(15px);
+        color: #222;
+
+        a {
+          color: #007aff;
+          font-size: rem(15px);
+        }
+
+        p {
+          font-size: rem(15px);
+        }
+      }
+    }
+  }
+
+  &--otp-popup {
+    .popup-modal-with-content {
+      &__content {
+        width: auto;
+        padding: 0;
+
+        @include media('>=tablet') {
+          padding: rem(16px);
+        }
+      }
+    }
+
+    .custom-button__loading__circle {
+      left: 0;
+    }
+  }
+
+  &__must-have {
+    font-size: rem(12px);
+    color: var(--text-primary);
+    font-family: var(--font-family-poppins-regular);
+  }
+
+  &__confirm-button {
+    margin-top: rem(10px);
+
+    button {
+      width: 100%;
+      padding: rem(16px) rem(0px);
+      border-radius: rem(28px);
+    }
+  }
+
+  &__user-details {
+    background-color: $indigo-info;
+    display: flex;
+    padding: rem(12px);
+    gap: rem(4px);
+    align-self: stretch;
+    border-radius: rem(8px);
+    font-size: rem(12px);
+
+    span {
+      color: $text-tertiary;
+    }
+  }
+
+  &__instructions {
+    font-size: rem(10px);
+
+    @include media('>=tablet') {
+      font-size: rem(12px);
+    }
+
+    color: $text-tertiary;
+    display: flex;
+    align-items: center;
+  }
+
+  &__otp-field {
+    .design-system-input-field {
+      margin-right: rem(10px);
+
+      input {
+        height: rem(40px);
+        border-color: var(--text-alice-blue);
+        margin-bottom: rem(10px);
+      }
+    }
+  }
+
+  &__resend-time {
+    font-size: rem(14px);
+  }
+
+  &__new-password-header {
+    display: flex;
+    justify-content: center;
+    margin: rem(5px) 0 rem(10px) 0;
+
+    @include media('>=tablet') {
+      align-items: center;
+    }
+
+    a {
+      margin-right: rem(10px);
+    }
+  }
+
+  &__inpt-field {
+    padding-bottom: rem(10px);
+    width: 100%;
+
+    .error-msg {
+      position: absolute;
+      top: rem(45px);
+      left: 0;
+    }
+  }
+
+  &__final-screen {
+    .popup-modal-with-content__content {
+      width: rem(380px);
+      height: 50vh;
+    }
+
+    text-align: center;
+
+    &__title {
+      font-family: var(--font-family-bauhuas-std);
+      text-align: center;
+      color: var(--text-primary);
+      font-size: rem(32px);
+      font-style: normal;
+      font-weight: 500;
+      line-height: rem(44px);
+      letter-spacing: rem(-0.8px);
+      margin-bottom: rem(10px);
+
+      span {
+        color: var(--frog-green-01, #209326);
+      }
+    }
+
+    p {
+      color: var(--frog-grey-text-02, #4b5772);
+      font-family: var(--font-family-poppins-regular);
+      font-size: rem(16px);
+      font-weight: 400;
+      line-height: rem(24px);
+    }
+
+    .popup-modal-with-content__header {
+      margin-bottom: 0 !important;
+    }
+  }
+
+  .skyplus-otpInput {
+    &__otp-input {
+      width: rem(36px);
+      margin: 0 rem(10px);
+
+      @media screen and (width >= 576px) {
+        width: rem(40px);
+        margin: 0 rem(12px);
+      }
+    }
+  }
+
+  .nationality-dropdown-desktop .popover__content {
+    left: unset;
+  }
+
+  .custom-button__loading__circle {
+    left: 0;
+  }
+
+  .login-phone-dropdown {
+    // comment for second forgot password phone
+    .error-msg {
+      position: absolute;
+      left: -100px;
+      padding-top: 8px;
+      top: rem(42px);
+      font-family: var(--font-family-poppins-regular);
+      font-weight: 400;
+      font-size: rem(10px);
+      line-height: rem(16px);
+      color: #c3272e;
+
+      input {
+        border: 1px solid #c3272e;
+      }
+
+      @include media('>=tablet') {
+        font-size: rem(12px);
+        line-height: rem(18px);
+        left: -91px;
+      }
+    }
+
+    width: 100%;
+  }
+
+  .login-otpverify-verify-button {
+    button {
+      padding: rem(16px) rem(0px);
+      border-radius: rem(28px);
+    }
+  }
+}
+
+.skyplus-button {
+  button {
+    width: 100%;
+  }
+}
+
+.login-phone-dropdown-error {
+  input {
+    border: 1px solid #c3272e;
+  }
+}
+
+.popup-modal-with-content__content.forgot-pwd__new-pwd-title {
+  .popup-modal-with-content__header {
+    margin-bottom: rem(10px);
+  }
+}
+
+.In6e2 .design-system-phone-component {
+  min-width: 100%;
+}
+
+.In6e2 .design-system-input-field .mt-10 + .input-field-cross-btn {
+  top: rem(30px);
+}

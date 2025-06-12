@@ -1,0 +1,81 @@
+@import '../../../../styles/main';
+
+
+.travel-assistance-slider-container {
+  
+  .travel-assistance-benefits-container {
+    padding: rem(16) rem(20);
+    background: var(--white);
+    border-radius: rem(8);
+    margin-top: rem(28);
+
+    .travel-assistance-benefits-wrapper {
+
+      .travel-assistance-benefit-item {
+
+        display: flex;
+        gap: rem(12);
+        align-items: start;
+        margin-top: rem(24);
+
+        &:first-child {
+          margin-top: rem(4);
+        }
+
+        .icon-container {
+          width: rem(48);
+          height: rem(48);
+          background-color: var(--secondary-light);
+          border-radius: rem(24);
+          display: flex;
+          justify-content: center;
+          align-items: center;
+
+          .icon-tick::before {
+            color: var(--black);
+          }
+        }
+
+        .travel-assistance-benefit-text-wrapper {
+          flex: 2;
+
+          .travel-assistance-benefit-heading {
+            font-size: rem(12);
+            color: var(--text-tertiary);
+            font-weight: 400;
+            text-transform: uppercase;
+          }
+
+          .travel-assistance-benefit-subHeading {
+            font-size: rem(16);
+            color: var(--text-primary);
+            font-weight: 500;
+            margin-top: rem(4);
+          }
+
+          .travel-assistance-benefit-desc {
+            font-size: rem(14);
+            color: var(--text-secondary);
+            font-weight: 400;
+            margin-top: rem(4);
+          }
+
+        }
+      }
+    }
+  }
+
+  .travel-assistance-benefits-btn {
+    margin-top: rem(28);
+    .viewMoreBtn {
+        border: none;
+        font-size: rem(14);
+        text-decoration: underline;
+        color: var(--primary-main);
+        font-weight: 500;
+        background: transparent;
+        cursor: pointer;
+        align-self: self-end;
+      }
+  }
+}

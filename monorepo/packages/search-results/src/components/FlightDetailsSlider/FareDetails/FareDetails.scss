@@ -1,0 +1,111 @@
+.fare-details {
+  &__heading {
+    margin-bottom: rem(16px);
+
+    @include media('>=tablet') {
+      margin-bottom: rem(16px);
+    }
+
+    .skyplus-chip {
+      &--next {
+        span {
+          text-transform: uppercase;
+          color: get-color(primary-main);
+        }
+      }
+    }
+
+    .pts {
+      color: var(--system-information);
+      background-color: var(--secondary-light);
+      padding: rem(2px) rem(8px);
+      border-radius: rem(12px);
+      border: rem(1px) solid get-color(system-information);
+    }
+  }
+
+  &__card {
+    padding: rem(16px);
+    background-color: var(--white);
+    border: 1px solid var(--secondary-light);
+    border-radius: rem(8px);
+  }
+
+  &__baggage {
+    margin-top: rem(12px);
+
+    &__head {
+      padding-bottom: rem(8px);
+      margin-bottom: rem(16px);
+      border-bottom: 1px dotted var(--action-disabled-stroke);
+
+      .left {
+        font-size: rem(16px);
+        font-weight: 600;
+
+        .sh7 {
+          color: get-color(text-primary);
+        }
+      }
+
+      &__view-detail {
+        font-family: var(--font-family-poppins-regular);
+        color: var(--text-primary-main);
+        font-size: rem(12px);
+        font-weight: 500;
+        display: flex;
+        align-items: center;
+        text-decoration: none;
+
+        &::after {
+          content: '\e971';
+          font-size: rem(16px);
+          color: var(--text-primary-main);
+          font-family: $font-family-indigo;
+          margin-left: rem(2px);
+        }
+      }
+    }
+  }
+
+  .show-more-btn {
+    border-top: 1px dotted var(--secondary-deep);
+    padding-top: rem(4px);
+
+    &::after {
+      content: '\e971';
+      display: inline-block;
+      font-size: rem(16px);
+      color: var(--text-primary-main);
+      font-family: $font-family-indigo;
+      margin-left: rem(2px);
+    }
+
+    &.up {
+      &::after {
+        transform: translate(0, 2px) rotate(90deg);
+      }
+    }
+    &.down {
+      &::after {
+        transform: translate(0, 2px) rotate(-90deg);
+      }
+    }
+
+    span {
+      cursor: pointer;
+      color: var(--text-primary-main);
+    }
+  }
+
+  .show-more-wrapper ~ .show-more-btn {
+    border: none;
+    padding-top: 0;
+  }
+
+  .skyplus-chip {
+    &--next {
+      padding: rem(4px) rem(8px);
+    }
+  }
+}

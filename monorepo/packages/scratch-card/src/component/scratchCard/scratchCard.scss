@@ -1,0 +1,9 @@
+.sc-img{
+  height: rem(170px);
+  z-index: 2;
+  width: 100%;
+
+  @include media('>=tablet') {
+    height: rem(230px);
+  }
+}

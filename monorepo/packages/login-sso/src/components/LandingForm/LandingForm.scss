@@ -1,0 +1,5 @@
+@import '../../styles/main';
+
+.design-system-phone-component.design-system-email-component {
+  margin-left: 0 !important; //comment !important mandatory due to .ms-md-8 in global component
+}

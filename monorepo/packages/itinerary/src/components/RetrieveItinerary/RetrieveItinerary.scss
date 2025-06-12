@@ -1,0 +1,53 @@
+.skp-retrieve-pnr {
+	.retrieve-pnr-cta {
+		width: 100%;
+		padding: 0 rem(20px);
+		display: inline-grid;
+		.skyplus-button {
+			width: 100%;
+		}
+		button {
+			font-weight: 500;
+		}
+		&.disabled {
+			button {
+				background-color: var(--btn-disabled-background);
+				pointer-events: none;
+			} 
+		}
+	}
+	.skyplus-offcanvas__contents {
+		&--body {
+			margin-bottom: 0;
+		}
+		&--footer {
+			background-color: transparent;
+			border-top:none;
+		}
+	}
+	.itinerary-retrieve-slider {
+		&-title {
+			p {
+				margin: rem(12px) 0;
+				font-size: rem(24px);
+				font-style: normal;
+				font-weight: 500;
+				color: var(--text-primary);
+				font-family: var(--font-family-bauhuas-std-medium);
+				letter-spacing: -0.6px;
+				line-height: rem(32px);
+				padding-left: 20px;  
+				@include media(">=tablet") {
+					padding-left: 0;
+				}   
+				.text-green {
+					color: var(--accent-dark);
+				}
+			}
+		}
+		&-firstbox {
+			padding-bottom: rem(4px);
+		}
+	}
+	
+}

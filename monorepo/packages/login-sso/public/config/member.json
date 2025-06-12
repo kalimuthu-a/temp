@@ -1,0 +1,366 @@
+{
+  "data": {
+    "loginmainByPath": {
+      "item": {
+        "variation": null,
+        "bannerImage": {
+          "_publishUrl": "https://aem-s6web-qa-skyplus6e.goindigo.in/content/dam/s6web/in/en/assets/loyalty/loyalty-login-web.jpg"
+        },
+        "bannerImageMobile": {
+          "_publishUrl": "https://aem-s6web-qa-skyplus6e.goindigo.in/content/dam/s6web/in/en/assets/loyalty/loyalty-login-web.jpg"
+        },
+        "bannerMessage": {
+          "html": null
+        },
+        "loginLabel": "Login",
+        "signUpLabel": "Sign Up",
+        "loginBannerImage": {
+          "_publishUrl": "https://aem-s6web-qa-skyplus6e.goindigo.in/content/dam/s6web/in/en/assets/login/Loyalty-Login-web.jpg"
+        },
+        "welcomeBannerText": {
+          "html": "<p>Hi there,</p>\n<p>Welcome back!</p>\n"
+        },
+        "loginTitle": {
+          "html": "<p>Login or Sign up for IndiGo BluChip</p>\n"
+        },
+        "defaultCountryCode": "+91",
+        "userIdPlaceholder": "Enter Mobile No",
+        "signInSuccessLoginNowLabel": "Sign up Successfull! Please login Now",
+        "sendOtpLabel": "Send OTP",
+        "signInWithApple": "Sign In with Apple",
+        "mobileValidationText": "*Please enter a valid phone number",
+        "mobileNotRegisteredText": "The mobile number entered doesn't match an account",
+        "mobileNotRegisteredNote": {
+          "html": "<p>The mobile number entered doesn't match an account. Please try again or <a href=\"#\">sign up</a> instead</p>\n"
+        },
+        "orLabel": "or",
+        "continueAsGuestText": {
+          "html": "<p><a href=\"#\">CONTINUE AS A GUEST</a></p>\n"
+        },
+        "privacyDescription": {
+          "html": "<p>By joining you agree to our <a href=\"/content/indigo/in/en/information/terms-and-conditions.html\">Terms &amp; Conditions</a></p>\n"
+        },
+        "enterOtpLabel": "Enter OTP",
+        "otpSentNote": "We have sent you an OTP via SMS on {mobileNumber}",
+        "incorrectOtpText": "*OTP entered is incorrect! Try again",
+        "submitOtpLabel": "Confirm OTP",
+        "otpNotRecievedText": "Didn’t receive OTP ?",
+        "otpExpiryNote": "OTP will expire in the next {time} min",
+        "resendOtpLabel": {
+          "html": "<p><a href=\"#\">Resend</a></p>\n"
+        },
+        "otpResentLabel": "OTP resent",
+        "loginWithPasswordLabel": {
+          "html": "<p><a href=\"#\">Login with password</a></p>\n"
+        },
+        "welcomeMessage": "Hi there, Welcome!",
+        "addDetailsNote": "Add details for an improved experience.",
+        "enterMailIdLabel": "Enter Email Id",
+        "genderIdentity": [
+          "Male",
+          "Female"
+        ],
+        "firstNameLabel": "First Name",
+        "lastNameLabel": "Last Name",
+        "dateOfBirthLabel": "Date of Birth",
+        "enterDobLabel": "Please enter the date of birth(Cannot be Blank)",
+        "dobInvalidLabel": "Please enter valid date of birth",
+        "dobAgeRangeErrorLabel": "Date of Birth Must be between 12 and 100 years of age",
+        "registerationDescription": [
+          {
+            "key": "privacyPolicy",
+            "required": true,
+            "preSelected": true,
+            "validationMessage": "This is required",
+            "description": {
+              "html": "<p>By clicking Next you agree to the terms of IndiGo's <a href=\"/content/indigo/in/en/information/privacy.html\" target=\"_blank\">Privacy Policy</a></p>\n"
+            }
+          },
+          {
+            "key": "privacyPolicyEuropean",
+            "required": false,
+            "preSelected": false,
+            "validationMessage": null,
+            "description": {
+              "html": "<p>If you are a resident of any member state of the European Union, refer to the&nbsp;<a href=\"/content/indigo/in/en/information/privacy.html\">T&amp;C.</a></p>\n"
+            }
+          }
+        ],
+        "createPassword": "Create Password",
+        "enterPasswordLabel": "Enter Password",
+        "passwordPlaceholder": "Password",
+        "incorrectPasswordLabel": "*Password entered is incorrect.",
+        "incorrectPasswordNote": "Password entered is incorrect. Please try again. (Chances left: {left}/{total})",
+        "incorrectPasswordLimitNote": {
+          "html": "<p>You have entered wrong password 3 times. Please try after sometime or <b>Login with OTP</b></p>\n"
+        },
+        "forgotPasswordLabel": {
+          "html": "<p><a href=\"#\">Forgot password?</a></p>\n"
+        },
+        "forgotPasswordTitle": "Forgot password?",
+        "loginWithOtpLabel": {
+          "html": "<p><a href=\"#\">Login with OTP</a></p>\n"
+        },
+        "forgotPasswordNote": "You will receive an OTP if account exists",
+        "newPasswordTitle": "New Password",
+        "newPasswordNote": "You will be logged out and asked to login again.",
+        "userDetailsLabel": "User Details: {name} | {mobile}",
+        "oldPasswordPlaceholder": "Enter Old Password",
+        "newPasswordPlaceholder": "Enter New Password",
+        "confirmPasswordPlaceholder": "Confirm New Password",
+        "continueCtaLabel": "Continue",
+        "enterNewPasswordLabel": "Please Enter New Password",
+        "enterConfirmPasswordLabel": "Please Enter Confirm Password",
+        "enterValidPasswordLabel": "Please Enter Valid Password",
+        "passwordsDontMatchLabel": "The Passwords Entered Don't Match",
+        "passwordResetSection": {
+          "description": {
+            "html": "<p>Password <span class=\"text-green\">Reset</span></p>\n"
+          },
+          "note": "Your password has been updated successfully.",
+          "image": {
+            "_publishUrl": "https://aem-s6web-qa-skyplus6e.goindigo.in/content/dam/s6app/in/en/assets/smart-web-checkin.jpg"
+          }
+        },
+        "passwordEligibility": [
+          {
+            "key": "6char",
+            "value": "Have at least 6 characters"
+          },
+          {
+            "key": "uppercase",
+            "value": "Have at least one UPPERCASE letter"
+          },
+          {
+            "key": "numeric",
+            "value": "Have one Numeric character"
+          }
+        ],
+        "passwordEligibilityTitle": "Your Password Must",
+        "setPasswordLabel": "Set Password",
+        "completeProfileText": "Please complete your profile details for a better.",
+        "secureAccountLabel": "Secure Your Account",
+        "secureAccountNote": "You have not set Password for your account",
+        "securePasswordLabel": "Set Password",
+        "secureLaterLabel": "I will do it Later",
+        "autoDismissTimer": 2000,
+        "minPhoneLength": 7,
+        "maxPhoneLength": 15,
+        "maxPasswordLength": 16,
+        "timeConfig": {
+          "minute": 10,
+          "seconds": 0
+        },
+        "loyaltyInformation": {
+          "loyaltyProgramName": "loyalty program name",
+          "bannerData": [
+            {
+              "image": {
+                "_publishUrl": "https://aem-s6web-qa-skyplus6e.goindigo.in/content/dam/s6web/in/en/assets/loyalty/loyalty-web.png"
+              },
+              "heading": null,
+              "description": {
+                "html": null
+              }
+            },
+            {
+              "image": {
+                "_publishUrl": "https://aem-s6web-qa-skyplus6e.goindigo.in/content/dam/s6web/in/en/assets/loyalty/loyalty-web.png"
+              },
+              "heading": null,
+              "description": {
+                "html": null
+              }
+            },
+            {
+              "image": {
+                "_publishUrl": "https://aem-s6web-qa-skyplus6e.goindigo.in/content/dam/s6web/in/en/assets/loyalty/loyalty-web.png"
+              },
+              "heading": null,
+              "description": {
+                "html": null
+              }
+            }
+          ],
+          "welcomeTitle": "Hi there, Welcome! ",
+          "announcementLabel": "Exciting News! ",
+          "announcementLabelIcon": {
+            "_publishUrl": "https://aem-s6web-qa-skyplus6e.goindigo.in/content/dam/s6web/in/en/assets/loyalty/star.svg"
+          },
+          "welcomeDescription": {
+            "html": "<p>Introducing the Indigo Loyalty Program – Your Passport to Exclusive Member Benefits!</p>\n"
+          },
+          "benefitsLabel": "Member Benefits",
+          "benefitsContent": [
+            "No Joining Fees",
+            "10% Discount on Seat",
+            "10% Discount on Meal",
+            "10% Discount on Fast Forward",
+            "10 % Discount Pre-Book Excess Baggage"
+          ],
+          "benefitsContentIcon": {
+            "_publishUrl": "https://aem-s6web-qa-skyplus6e.goindigo.in/content/dam/s6web/in/en/assets/loyalty/star_icon.svg"
+          },
+          "note1": {
+            "html": "<p>*for travelers above 18yrs</p>\n"
+          },
+          "loginEnrollTitle": {
+            "html": "<p><b>Welcome to IndiGo BluChip!</b></p>\n"
+          },
+          "activateTitle": {
+            "html": "<p>Let's get&nbsp;<span class=\"text-green\">Activated</span></p>\n"
+          },
+          "enrollMeCtaLabel": "Enroll Me Now",
+          "enrollMeCtaLink": "#",
+          "enrollAfterLabel": "I will do it later",
+          "enrollAfterLink": "#",
+          "enrollTitle": "Welcome to IndiGo BluChip!",
+          "personalInformationLabel": null,
+          "verifyInformationLabel": "Verify contact information",
+          "enrollDescription": {
+            "html": "<p>Experience a rewarding journey as an IndiGo BluChip Member</p>\n"
+          },
+          "verifyInformationDescription": {
+            "html": "<p>Please verify your gender, name and date of birth exactly as they appear on your government-issued ID</p>\n"
+          },
+          "enrollRegistrationDescription": [
+            {
+              "key": "sixeloyalty",
+              "required": true,
+              "preSelected": true,
+              "validationMessage": "This is required",
+              "description": {
+                "html": "<p>Join 6E Loyalty for free today. I agree to loyalty TNC</p>\n"
+              }
+            }
+          ],
+          "enrollRegistrationActivation": [
+            {
+              "key": "sixeloyalty",
+              "required": false,
+              "preSelected": true,
+              "validationMessage": "This is required",
+              "description": {
+                "html": "<p>Join 6E Loyalty for free today. I agree to loyalty TNC</p>\n"
+              }
+            },
+            {
+              "key": "privacyPolicy",
+              "required": true,
+              "preSelected": true,
+              "validationMessage": "This is required",
+              "description": {
+                "html": "<p>By clicking Next you agree to the terms of IndiGo's <a href=\"/content/indigo/in/en/information/privacy.html\" target=\"_blank\">Privacy Policy</a></p>\n"
+              }
+            },
+            {
+              "key": "privacyPolicyEuropean",
+              "required": false,
+              "preSelected": false,
+              "validationMessage": null,
+              "description": {
+                "html": "<p>If you are a resident of any member state of the European Union, refer to the&nbsp;<a href=\"/content/indigo/in/en/information/privacy.html\">T&amp;C.</a></p>\n"
+              }
+            }
+          ],
+          "enrollContinueLabel": "Continue",
+          "enrollContinueLink": "#",
+          "enrollNowLabel": "Enroll Now",
+          "enrollNowLink": "#",
+          "enrollBackLabel": "Back",
+          "enrollBackLink": "#",
+          "dashboardTitle": "Loyalty Dashboard",
+          "dashboardSubtitle": "Welcome to IndiGo BluChip!",
+          "dashboardContent": {
+            "html": "<p>Earn IndiGo BluChips on every IndiGo Flight</p>\n<p>No blackout dates, use your IndiGo BluChips, anytime</p>\n<p>IndiGo BluChips are valid for as long as you're program active</p>\n<p>Simplified Tier system, move up the Tiers and open exclusive privileges</p>\n"
+          },
+          "bookFlightLabel": "Book Flight Now",
+          "bookFlightLink": "#",
+          "loyaltyDashboardLabel": "Loyalty Dashboard",
+          "loyaltyDashboardLink": "#",
+          "loyaltyDashboardRedirectURL": "/loyalty/dashboard.html",
+          "incorrectMobileOtpText": "*OTP entered is incorrect! Try again",
+          "incorrectMailOtpText": "*OTP entered is incorrect! Try again",
+          "nextLabel": "Next",
+          "dobRestrictionLabel": "*Age should be 18 years or above",
+          "dobFormatText": "Enter date of birth in (DD-MM-YYYY) format",
+          "dobErrorObject": {
+            "invalidDate": "Invalid Date",
+            "minAge": "*Age should be 18 years or above",
+            "maxAge": "Age should be less than 100 years",
+            "presentDate": "Date cannot be greater than present date"
+          },
+          "invalidEmailLabel": "*Please enter a valid email ID",
+          "genderIdentity": [
+            "Male",
+            "Female",
+            "Others"
+          ],
+          "emailOtpSentNote": "We have sent you an OTP via SMS on {mail}",
+          "passwordNotMatchLabel": "Password do not match",
+          "enterPasswordLabel": "Please enter a valid mobile number",
+          "ffPlaceholder": "Enter Mobile No. /Email Id",
+          "ffErrorText": "FF no. and password do not match",
+          "verifyLoginText": "Login with verify Link",
+          "verifyLoginMailText": "You will receive a verify linnk if account exists",
+          "passwordResetMessage": "Set a new password for your account.",
+          "migratedPasswordResetMessage": null,
+          "passwordEligibility": [
+            {
+              "key": "8char",
+              "value": "Have at least 8 characters"
+            },
+            {
+              "key": "uppercase",
+              "value": "Have at least one UPPERCASE letter"
+            },
+            {
+              "key": "numeric",
+              "value": "Have one Numeric character"
+            },
+            {
+              "key": "specialChar",
+              "value": "Have one Special character"
+            }
+          ],
+          "continueToCoBrandApplication": "Continue to Co-Brand Application",
+          "redirectingToPartnerBank": {
+            "html": "<p>Redirecting to <span class=\"text-green\">partner bank</span></p>\n"
+          },
+          "verifyOtp": "verify OTP",
+          "coBrandRegistrationDescription": [
+            {
+              "key": "bankTC",
+              "required": true,
+              "preSelected": false,
+              "validationMessage": "This is required",
+              "description": {
+                "html": "<p>I agree to bank <a href=\"/\" target=\"_blank\">T&amp;C.</a></p>\n"
+              }
+            }
+          ],
+          "tierWelcomeText": {
+            "html": "<p>Welcome to IndiGo <span class=\"text-green\">6E Loyalty Program</span></p>\n"
+          },
+          "tierStatus": [
+            {
+              "active": true,
+              "title": "Base Tier",
+              "note": "Your FF No: {ffno}"
+            },
+            {
+              "active": false,
+              "title": "Silver Tier",
+              "note": "Collect 4000 points and complete 4 flights"
+            },
+            {
+              "active": false,
+              "title": "Gold Tier",
+              "note": "Collect 8000 points and complete 8 flights"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

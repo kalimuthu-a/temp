@@ -1,0 +1,18 @@
+@import './../../../styles/utils/utils';
+
+.passengers-details-form {
+    .design-system-input-field {
+        min-width: 48%;
+        width: 100%;
+    }
+
+    .extra-seats-wrapper {
+        border: rem(1.25) dotted var(--secondary-main);
+        border-radius: rem(8);
+        padding: rem(16) rem(24);
+    }
+
+    .minor-conset-radio{
+        margin: rem(15px) 0 0 0;
+    }
+}

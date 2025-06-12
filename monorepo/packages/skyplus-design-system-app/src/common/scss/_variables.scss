@@ -1,0 +1,33 @@
+$font-family-indigo: 'indigo-icons';
+
+// colors
+$light-black-bg : #00000066;
+$color-text-primary: #25304b;
+$color-text-success: #209326;
+$color-text-secondary: #4b5772;
+$indigo-primary: #000099;
+$white: #ffffff;
+$color-text-tertiary: #00000066;
+$light-white: #E2EBF2;
+$color-text-error: #c3272e;
+$Bluish-Grey: #7A85A0;
+
+
+// font weights
+$font-weight-600: 600;
+$font-weight-700: 700;
+
+// ----------------- Media query --------------------
+
+$screen-m-xxs: 320px;
+$screen-m-xs: 375px;
+$screen-m-sm: 540px;
+$screen-t-sm: 768px;
+$screen-t-lg: 900px;
+$screen-d-sm: 1024px;
+$screen-d-md: 1280px;
+$screen-d-ml: 1440px;
+$screen-d-xl: 1600px;
+$screen-d-xxl: 1920px;
+
+$toast-box-shadow-primary: #4c5d9e0a;

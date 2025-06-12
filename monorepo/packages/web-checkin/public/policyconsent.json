@@ -1,0 +1,17 @@
+{
+  "data": {
+    "success": true,
+    "message": "success"
+  },
+  "errors": {
+    "type": null,
+    "code": null,
+    "message": null,
+    "subType": null,
+    "requestStartTime": null,
+    "correlationId": null,
+    "timeTaken": null,
+    "Type": null,
+    "methodName": null
+  }
+}

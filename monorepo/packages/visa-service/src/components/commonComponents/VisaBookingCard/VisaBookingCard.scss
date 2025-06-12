@@ -1,0 +1,145 @@
+.visa-booking-card {
+  margin: auto;
+  text-align: center;
+  width: 100%;
+  height: auto;
+  position: relative;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+
+  @include media('>=desktop') {
+    margin-bottom: rem(32px);
+  }
+
+  &-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-direction: row;
+    font-size: rem(16px);
+    line-height: rem(24px);
+    font-family: var(--font-family-poppins-regular);
+    background-color: var(--secondary-light);
+    width: 100%;
+    height: auto;
+    gap: rem(0px);
+    padding: rem(12px) rem(16px);
+    border-top-left-radius: rem(12px);
+    border-top-right-radius: rem(12px);
+    position: relative;
+    color: var(--text-primary);
+    border: rem(1px) solid var(--secondary-deep);
+
+    @include media('>=desktop') {
+      gap: rem(16px);
+      font-size: rem(20px);
+      line-height: rem(32px);
+      flex-direction: row;
+    }
+
+    &-date {
+      color: var(--text-primary);
+      font-size: rem(16px);
+    }
+
+    &-bookingid{
+      color: var(--text-secondary);
+      font-size: rem(14px);
+    }
+
+    .booking-id-highlight {
+      color: var(--text-primary);
+      font-size: rem(14px);
+      font-weight: 600;
+    }
+  }
+ 
+  &-body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    min-height: rem(120px);
+    position: relative;
+    background-color: var(--white);
+    padding: rem(20px) 0;
+    border-bottom-left-radius: rem(12px);
+    border-bottom-right-radius: rem(12px);
+    width: 100%;
+    margin-top: - rem(8px);
+    border: rem(1px) solid var(--secondary-deep);
+
+    .visa-icon {
+      font-size: rem(32px);
+    }
+  
+ 
+    &-heading {
+      font-size: 1.5rem;
+      line-height: 2.25rem;
+      display: flex;
+      justify-content: right;
+      align-items: center;
+      gap: rem(12px);
+
+      @include media('>=desktop') {
+        font-size: rem(24px);
+        line-height: rem(36px);
+      }    
+      
+    }
+
+    .visa-info{
+      display: flex;
+      align-items: center;
+      margin-top: rem(-24px);
+      font-size: rem(12px);
+      font-family: var(--font-family-poppins-regular);
+      line-height: 18px;
+      color: var(--system-warning);
+      background: var(--system-warning-light);
+      border: 0.0625rem solid var(--system-warning);
+      border-radius: 0.75rem;
+      padding: 0 0.3125rem;
+    }
+
+    &-list {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      width: 100%;
+      font-family: var(--font-family-poppins-regular);
+      letter-spacing: 0;
+      color: var(--text-secondary);
+      list-style-type: none;
+      gap: rem(8px);
+
+      @include media('>=desktop') {
+        list-style-type: disc;
+        flex-direction: row;
+        gap: rem(20px);
+      }
+
+      li {
+        font-size: rem(12px);
+        line-height: rem(18px);
+        font-weight: 500;
+        gap: rem(2px);
+
+        &:first-child {
+          list-style:none;
+          list-style-type:none;
+        }
+
+        @include media('>=desktop') {
+          gap: rem(0px);
+          font-size: rem(16px);
+          line-height: rem(24px);
+        }
+      }
+    }
+  }
+}

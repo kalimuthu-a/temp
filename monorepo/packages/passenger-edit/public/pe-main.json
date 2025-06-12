@@ -1,0 +1,143 @@
+{
+  "data": {
+    "passengerDetailsMainByPath": {
+      "item": {
+        "backToSearchResultsLabel": "Back to Search Results",
+        "backToSearchResultsPath": "/content/skyplus6e/in/en/book/flight-select.html",
+        "label": "Enter Passenger Details",
+        "loginWithSavedPaxDetails": {
+          "html": "\u003Cp\u003E\u003Ca href=\"/content/skyplus6e/in/en/home/homepage.html\"\u003ELogin\u003C/a\u003E to book with your saved details&nbsp;\u003C/p\u003E\n"
+        },
+        "nextLabel": "Next",
+        "accessSavedPassenger": {
+          "html": "\u003Cp\u003EAccess your \u003Cspan class=\"text-green\"\u003Esaved details\u003C/span\u003E\u003C/p\u003E\n"
+        },
+        "signInTitle": "Sign In now",
+        "signInNote": "Sign in to view your",
+        "signInDescription": "Saved Passenger list and payment details",
+        "savedListNote": "Choose from saved list",
+        "viewAllLabel": "View All",
+        "mandatoryFieldLabel": "Error ! This field is mandatory",
+        "invalidMailIdLabel": "Enter valid E-mail ID!",
+        "additionalInformationLabel": "Additional Information (Optional)",
+        "passengerDetails": [
+          {
+            "typeCode": "ADT",
+            "paxLabel": "Adult"
+          },
+          {
+            "typeCode": "ADT",
+            "paxLabel": "Senior Citizen"
+          },
+          {
+            "typeCode": "CHD",
+            "paxLabel": "Children"
+          },
+          {
+            "typeCode": "INFT",
+            "paxLabel": "Infant"
+          }
+        ],
+        "contactDetailsTitle": "Contact Details",
+        "contactDetailsNote": "Booking information will be sent to this contact.",
+        "contactDetailsErrorMessage": "*The mobile number already exists",
+        "defaultCountryCode": "+91",
+        "primaryContactLabel": "Primary Contact Number",
+        "emailIdLabel": "Email Id",
+        "addAnotherContact": "ADD ANOTHER CONTACT",
+        "privacyDescription": [
+          {
+            "checked": true,
+            "key": "privacyPolicy",
+            "title": "Privacy ",
+            "description": {
+              "html": "\u003Cp\u003EBy clicking &quot;Next&quot; you agree to the terms of IndiGo's&nbsp;\u003Ca href=\"/content/indigo/in/en/information/privacy.html\" target=\"_blank\"\u003EPrivacy Policy.\u003C/a\u003E\u003C/p\u003E\n"
+            },
+            "required": true,
+            "validationMessage": "Please accept the terms and conditions to proceed!",
+            "image": null
+          },
+          {
+            "checked": false,
+            "key": "europeanResident",
+            "title": null,
+            "description": {
+              "html": "\u003Cp\u003EIf you are a resident of any member state of the European Union, refer to the&nbsp;\u003Ca href=\"https://www.goindigo.in/information/terms-and-conditions.html\"\u003ET&amp;C's\u003C/a\u003E.\u003Cbr\u003E\n\u003C/p\u003E\n"
+            },
+            "required": false,
+            "validationMessage": null,
+            "image": null
+          },
+          {
+            "checked": false,
+            "key": "whatsapp",
+            "title": "Get updates on",
+            "description": {
+              "html": "\u003Cp\u003EBy subscribing to this, you agree to the terms and conditions of WhatsApp and to IndiGo’s Privacy Policy.\u003C/p\u003E\n"
+            },
+            "required": false,
+            "validationMessage": null,
+            "image": {
+              "_publishUrl": "https://aem-s6web-dev-skyplus6e.goindigo.in/content/dam/s6web/in/en/assets/social-media-icons/whatsApp-updated.png"
+            }
+          }
+        ],
+        "enterGstLabel": "Enter GST details",
+        "gstAccordionTitle": "GST Deatails",
+        "gstNumberLabel": "GST Number",
+        "gstNumberErrorMessage": "Please enter valid GST Number",
+        "gstEmailLabel": "GST Email",
+        "gstCompanyNameLabel": "GST Company Name",
+        "gstSavedListLabel": "Choose GST details from saved list",
+        "usePaxDetailsForLoyalty": {
+          "title": "Use my passenger details to sign up for 6E Loyalty.",
+          "description": {
+            "html": "\u003Cp\u003EContact details below will be used to create loyalty account\u003Cbr\u003E\n\u003C/p\u003E\n"
+          },
+          "note": "Note"
+        },
+        "loyaltyMemberAgeInvalidError": "You must be atleast 18 years old for loyalty enrollment",
+        "noteLabel": "Note",
+        "infantNote": {
+          "html": "\u003Cp\u003EInfant fare ₹ {amount} will be charged in cash\u003C/p\u003E\n"
+        },
+        "userPermittedForMiles": {
+          "html": "\u003Cp\u003EOnly 6E Loyalty Members&nbsp; &amp; nominees of are permitted to travel using miles&nbsp;\u003C/p\u003E\n"
+        },
+        "loyaltyMembers": null,
+        "loyaltySignUpBanner": {
+          "heading": "6E Loyalty is free to join!",
+          "description": {
+            "html": "\u003Cp\u003EJoin now for unbeatable discounts! Get a minimum {discountPercentage} off Seats, Excess Baggage, and Fast Forward.\u003C/p\u003E\n"
+          },
+          "image": {
+            "_publishUrl": "https://aem-s6web-dev-skyplus6e.goindigo.in/content/dam/s6web/in/en/assets/add-ons/meals/6E-Choice-veg-SW.png.png"
+          },
+          "ctaLabel": "Login/Sign Up to earn {numberOfMiles} Miles",
+          "ctaPath": null,
+          "secondaryCtaLabel": "Join now to earn {numberOfMiles} Miles",
+          "secondaryCtaPath": null
+        },
+        "loyaltySignUpBannerMobile": {
+          "heading": "6E Loyalty is free to join!",
+          "description": {
+            "html": "\u003Cp\u003EJoin now for unbeatable discounts!\u003C/p\u003E\n"
+          },
+          "image": {
+            "_publishUrl": "https://aem-s6web-dev-skyplus6e.goindigo.in/content/dam/s6web/in/en/assets/add-ons/meals/6E-Choice-veg-SW.png.png"
+          },
+          "ctaLabel": "Enroll",
+          "ctaPath": null,
+          "secondaryCtaLabel": "Login/Sign Up",
+          "secondaryCtaPath": null
+        },
+        "frequentFlyerDetails": {
+          "title": "Add Frequent Flyer Number",
+          "placeholder": "Frequent Flyer Number (Optional)",
+          "validationMessage": "Error ! Frequent Flyer Number is Invalid"
+        },
+        "duplicateNameError": "Name can not be duplicate for same passenger type"
+      }
+    }
+  }
+}

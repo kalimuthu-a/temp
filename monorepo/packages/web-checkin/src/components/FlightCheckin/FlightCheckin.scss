@@ -1,0 +1,390 @@
+.wc-flight-checkin {
+  font-family: var(--font-family-poppins-regular);
+
+  &__details-label {
+    font-family: var(--font-family-poppins-medium);
+    font-weight: 600;
+    font-size: rem(16px);
+    color: var(--text-primary);
+    margin: rem(16px) 0;
+  }
+
+  &__container {
+    position: relative;
+
+    &__pnr {
+      background-color: var(--secondary-medium);
+      padding: rem(16px) rem(16px) rem(12px);
+      border-top-left-radius: rem(12px);
+      border-top-right-radius: rem(12px);
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+
+      .date {
+        font-family: var(--font-family-bauhuas-std-medium);
+        font-size: rem(14px);
+        color: var(--text-primary);
+        line-height: rem(18px);
+        @include media('>=tablet') {
+          font-size: rem(20px);
+          line-height: rem(20px);
+        }
+      }
+
+      .pnr {
+        font-family: var(--font-family-poppins-regular);
+        font-size: rem(12px);
+        color: var(--text-tertiary);
+        font-weight: 400;
+        line-height: rem(20px);
+        @include media('>=tablet') {
+          font-size: rem(14px);
+        }
+
+        b {
+          font-family: var(--font-family-poppins-medium);
+          font-weight: 500;
+          line-height: rem(20px);
+          color: var(--text-secondary);
+        }
+      }
+
+      &-chip {
+        color: var(--system-success-light) !important;
+
+        .skyplus-chip-filled-col-primary-size-sm-bg-none-txtcol- {
+          background-color: get-color(system-success-light) !important;
+        }
+
+        span {
+          color: var(--system-success) !important;
+          font-size: rem(10px);
+          line-height: rem(16px);
+          font-family: var(--font-family-poppins-medium);
+
+          @include media('>=tablet') {
+            font-size: rem(12px);
+            line-height: rem(18px);
+          }
+        }
+      }
+
+      &-chip.partial-checkin {
+        span {
+          color: get-color(system-warning) !important;
+        }
+        div {
+          background-color: get-color(system-warning-light) !important;
+        }
+      }
+
+      &__chip-text {
+        font-size: rem(10px);
+        line-height: rem(16px);
+
+        @include media('>=tablet') {
+          font-size: rem(12px);
+          line-height: rem(18px);
+        }
+      }
+
+      h5 {
+        font-size: rem(16px) !important;
+
+        @include media('>=tablet') {
+          font-size: rem(20px);
+        }
+      }
+    }
+
+    &__flight-details-container {
+      background-color: var(--secondary-medium);
+      border-bottom-left-radius: rem(12px);
+      border-bottom-right-radius: rem(12px);
+    }
+
+    &__flight-details {
+      background-color: var(--secondary-white);
+      border-radius: rem(12px);
+      box-shadow: 0px 0px rem(2px) 0px rgb(223 223 223 / 50%);
+      padding: 0 rem(12px) rem(4px) rem(12px);
+
+      @include media('>=tablet') {
+        padding: rem(4px) rem(20px) rem(4px) rem(20px);
+      }
+
+      &-pnr {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: rem(16px);
+
+        &-flight {
+          font-size: rem(10px);
+          line-height: rem(16px);
+
+          @include media('>=tablet') {
+            font-size: rem(12px);
+            line-height: rem(18px);
+          }
+
+          font-weight: 400;
+          color: var(--text-tertiary);
+        }
+
+        &-number {
+          @include body-small-regular;
+
+          span {
+            font-weight: 500;
+          }
+
+          color: var(--text-secondary);
+        }
+      }
+
+      .duration {
+        font-size: rem(12px);
+      }
+    }
+  }
+
+  &__journey-detail {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+
+    &__from,
+    &__to {
+      span {
+        color: var(--text-secondary);
+        font-family: var(--font-family-poppins-regular);
+        font-size: rem(10px);
+
+        @include media('>=tablet') {
+          font-size: rem(14px);
+        }
+
+        font-weight: 400;
+        line-height: rem(20px);
+      }
+
+      h4 {
+        font-family: var(--font-family-poppins-regular);
+        font-size: rem(16px);
+
+        @include media('>=tablet') {
+          font-size: rem(24px);
+        }
+
+        font-style: normal;
+        font-weight: 600;
+        color: var(--text-primary);
+      }
+
+      .from-details {
+        display: block;
+        align-items: center;
+
+        @include media('>=tablet') {
+          display: flex;
+        }
+
+        span {
+          font-size: rem(14px);
+        }
+      }
+    }
+
+    &__from {
+      .from-details {
+        span {
+          color: get-color(text-tertiary);
+          @include media('>=tablet') {
+            padding-left: rem(30px);
+          }
+        }
+      }
+    }
+
+    &__to {
+      text-align: end;
+
+      .from-details {
+        display: flex;
+        flex-direction: column-reverse;
+        color: get-color(text-tertiary);
+
+        @include media('>=tablet') {
+          flex-direction: unset;
+        }
+
+        span {
+          @include media('>=tablet') {
+            padding-right: rem(30px);
+          }
+        }
+      }
+    }
+
+    &__duration {
+      p {
+        color: var(--text-tertiary);
+        font-family: var(--font-family-poppins-regular);
+        font-size: rem(10px);
+        font-weight: 500;
+        line-height: rem(16px);
+        text-align: center;
+
+        @include media('>=tablet') {
+          font-size: rem(12px);
+          line-height: rem(18px);
+        }
+      }
+
+      p:first-child {
+        padding-bottom: rem(4px);
+        margin-bottom: 0;
+      }
+    }
+  }
+
+  &__date-pax {
+    display: flex;
+    justify-content: space-between !important;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .pax-info {
+      span {
+        font-family: var(--font-family-poppins-medium);
+        text-transform: capitalize;
+        &.text-capitalize {
+          color: var(--text-secondary);
+          font-weight: 500;
+        }
+      }
+    }
+
+    .checkin-closes {
+      font-size: rem(12px);
+      color: get-color(text-secondary);
+      @include media('>=tablet') {
+        font-size: rem(14px);
+      }
+    }
+
+    span {
+      font-size: rem(12px);
+
+      @include media('>=tablet') {
+        font-size: rem(14px);
+      }
+
+      font-weight: 500;
+      line-height: rem(20px);
+    }
+  }
+
+  &__dotted {
+    border-top: 1.5px dotted var(--text-alice-blue);
+    margin: rem(12px) 0;
+  }
+
+  &__start-detail {
+    padding: rem(16px) rem(12px);
+    gap: rem(4px);
+    border-radius: rem(8px);
+    background: var(--system-information-light);
+    text-align: center;
+    line-height: rem(20px);
+
+    p {
+      font-size: rem(12px);
+
+      @include media('>=tablet') {
+        font-size: rem(14px);
+      }
+
+      font-weight: 500;
+      color: var(--text-primary);
+    }
+
+    span {
+      font-size: rem(12px);
+
+      @include media('>=tablet') {
+        font-size: rem(14px);
+
+        font-weight: 400;
+        color: var(--text-secondary);
+      }
+    }
+  }
+
+  .checkin-status {
+    margin-top: rem(12px);
+    padding: rem(12px) rem(10px);
+    font-size: rem(12px);
+    font-family: var(--font-family-poppins-regular);
+    text-align: center;
+    line-height: 1.5;
+    color: var(--text-primary);
+    border-radius: rem(8px);
+    background-color: var(--secondary-light);
+
+    @include media('>=tablet') {
+      padding: rem(16px) rem(12px);
+      margin-top: rem(16px);
+      font-size: rem(14px);
+    }
+
+    &.isumnr {
+      background-color: var(--system-warning-light);
+    }
+
+    &.checkinClosed {
+      background-color: var(--system-warning-light) !important;
+    }
+
+    span {
+      font-family: var(--font-family-poppins-medium);
+      font-weight: 500;
+      display: block;
+
+      .error {
+        display: inline;
+        color: get-color(system-error);
+      }
+    }
+
+    a {
+      font-family: var(--font-family-poppins-medium);
+    }
+  }
+
+  .flight-number {
+    font-family: var(--font-family-poppins-regular);
+    color: get-color(text-tertiary);
+    font-size: rem(10px);
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    @include media('>=tablet') {
+      font-size: rem(12px);
+    }
+
+    img {
+      margin-right: rem(8px);
+    }
+  }
+}
+
+.isWebCheckinDoneForAnyPassenger {
+  background-color: var(--accent-light) !important;
+}

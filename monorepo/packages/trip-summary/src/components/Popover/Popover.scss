@@ -1,0 +1,54 @@
+@import '../../index';
+
+
+.trip-summary {
+   .popover__content {
+    opacity: 0;
+    transform: translate(0, 10px);
+    position: fixed !important;
+    inset: rem(-10px) 0 rem(-10px);
+    width: 100vw;
+    border-radius: 0 !important;
+    background: rgb(40 30 168 / 55%);
+    box-shadow: 0 rem(4px) rem(30px) rgb(0 0 0 / 10%);
+    backdrop-filter: blur(4.1px);
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+    height: -webkit-fill-available;
+
+    @include media('>=desktop') {
+      border-radius: rem(12px) !important;
+      position: relative !important;
+      background-color: get-color(white) !important;
+      left: rem(-75px);
+      bottom: unset;
+      height: auto !important;
+      width: fit-content !important;
+      border: none;
+      padding-bottom: 0 !important;
+      min-height: 100%;
+      height: auto !important;
+      width: rem(222px) !important;
+    }
+      }
+
+  .popover__wrapper.focused .popover__content {
+    z-index: 1;
+
+    @include media('>=tablet') {
+      z-index: 1;
+    }
+
+    
+    opacity: 1;
+    visibility: visible;
+    transition: all 0.5s cubic-bezier(0.75, -0.02, 0.2, 0.97);
+  }
+
+  .popover__wrapper.focused {
+    width: rem(20px);
+    height: rem(20px);
+  }
+
+}

@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "akamai-edgegrid": "^3.4.0"
+  }
+}

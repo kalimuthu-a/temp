@@ -1,0 +1,14 @@
+.img-link-card {
+  &__wrapper {
+    min-height: 200px;
+    max-height: 300px;
+  }
+  &__gradient {
+    background: linear-gradient(178deg, rgba(121, 157, 165, 0.69) -68.53%, rgba(33, 25, 17, 0.69) 98.21%);
+  }
+  &__flight {
+    width: 40px;
+    height: 40px;
+    transform: translate(-12px, 12px);
+  }
+}

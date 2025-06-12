@@ -1,0 +1,4 @@
+export const ANALTIC_PRODUCT_DETAILS_EVAR_TEMPLATE =
+'eVar19={eVar19}|eVar20={eVar20}|eVar22={eVar22}|eVar23={eVar23}';
+
+export default ANALTIC_PRODUCT_DETAILS_EVAR_TEMPLATE;

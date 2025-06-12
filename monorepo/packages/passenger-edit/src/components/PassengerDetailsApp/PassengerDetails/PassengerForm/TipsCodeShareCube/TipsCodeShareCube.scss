@@ -1,0 +1,88 @@
+@import '../../../../../styles/main';
+
+.partner-heading {
+    color: var(--text-secondary, var(--text-secondary, #4B5772));
+    font-size: rem(12px);
+    font-style: normal;
+    font-weight: 600;
+    line-height: rem(24px);
+    border-bottom: rem(1px) solid var(--secondary-main, #AFE4FF) !important;
+    @include media(">=tablet") {
+        font-size: rem(14px);
+    }
+}
+
+.frame-wrapper {
+    .frame-container {
+        margin-bottom: rem(16px);
+        display: flex;
+        padding: rem(12px);
+        flex-direction: column;
+        align-self: stretch;
+        gap: rem(8px);
+        background: var(--secondary-medium, #DAF1FF);
+        border-radius: rem(8px);
+        @include media(">=tablet") {
+            gap: rem(12px);
+        }
+
+        .content-wrap {
+            display: flex;
+            flex-direction: column;
+            gap: rem(8px);
+            @include media(">=tablet") {
+                gap: rem(12px);
+            }
+        }
+
+        p {
+            color: var(--text-primary, var(--text-secondary, #25304B));
+            font-size: rem(12px);
+            font-style: normal;
+            font-weight: 500;
+            line-height: rem(18px);
+        }
+
+        .name-wrap {
+            display: flex;
+            width: 100%;
+            align-items: flex-start;
+            flex-shrink: 0;
+            justify-content: space-between;
+        }
+
+        .name {
+            width: 48%;
+            background: #FFF;
+            border-radius: rem(4px);
+
+            @include media(">phone") {
+                min-height: auto;
+            }
+        }
+
+        .fnu-name {
+            color: var(--text-primary, #25304B);
+            font-size: rem(10px);
+            font-style: normal;
+            font-weight: 600;
+            border-bottom: rem(1px) dotted var(--dark-lighter, #999);
+            padding: rem(8px) rem(10px);
+            @include media(">=tablet") {
+                font-size: rem(12px);
+            }
+        }
+
+        .fnu {
+            color: var(--text-primary, #25304B);
+            font-size: rem(10px);
+            font-style: normal;
+            font-weight: 400;
+            line-height: rem(16px);
+            padding: rem(8px) rem(10px);
+            @include media(">=tablet") {
+                font-size: rem(12px);
+            }
+        }
+    }
+}

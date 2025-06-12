@@ -1,0 +1,52 @@
+{
+  "data": {
+    "retrievePnrByPath": {
+      "item": {
+        "checkInTitle": "Check-in",
+        "bookingTitle": "FIND YOUR BOOKING",
+        "bookingDescription": {
+          "html": "<p>Check-in online for free 48hrs to 60mins <span class=\"text-green\">before the flight</span></p>\n"
+        },
+        "pnrBookingPlaceholder": "PNR / Booking Reference",
+        "emailNamePlaceholder": "Email ID / Last Name",
+        "getStartedCTALabel": "Get Started",
+        "getStartedCtaLink": "https://www.google.com",
+        "loginSubHeading": "Access your bookings quickly",
+        "loginHeading": "Login to choose from your existing bookings on IndiGo App",
+        "loginText": "Login Now",
+        "loginLink": "https://www.google.com",
+        "loginIconImage": {
+          "_publishUrl": "https://aem-s6web-dev-skyplus6e.goindigo.in/content/dam/s6app/in/en/assets/offers2.jpg"
+        },
+        "tripToCityTitle": "Round Trip to {city}",
+        "pnrLabel": "PNR",
+        "pnrStatus": {
+          "confirmed": "confirmed"
+        },
+        "onTimeLabel": "On Time",
+        "onTimeBoardingGateAndTime": "On time, Boarding at Gate No. {gateNumber} - closes in {time} mins",
+        "flightType": {
+          "nonStop": "Nonstop",
+          "connecting": "Connect",
+          "via": "Through"
+        },
+        "hourLabel": "h",
+        "minuteLabel": "m",
+        "viewBoardingPassLabel": "View Boarding Pass",
+        "viewBoardingPassLink": "#",
+        "undoWebCheckInLabel": "Undo Web Check-In",
+        "undoWebCheckInLink": "#",
+        "webCheckInNowCTALabel": "Web Check-in Now",
+        "webCheckInNowCtaLink": "https://www.google.com",
+        "webCheckInLabel": "Web Check-in",
+        "webCheckInDetails": "Starts on {time}, {date}",
+        "paxLabel": "pax",
+        "smartCheckInCTALabel": "Schedule Smart Check-in",
+        "smartCheckInCtaLink": "https://www.google.com",
+        "minorCheckInDescription": "Checkin will be done at the airport counter for unaccompanied minor.",
+        "smartCheckInScheduledLabel": "Smart Check-in Scheduled",
+        "smartCheckInScheduledDescription": "Your boarding pass will be generated automatically."
+      }
+    }
+  }
+}

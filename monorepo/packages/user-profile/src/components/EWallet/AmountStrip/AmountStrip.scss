@@ -1,0 +1,147 @@
+.paymentstrip {
+  border-radius: rem(8px);
+  padding: rem(16px) 0;
+  margin-top: rem(24px);
+
+  @include media('>=desktop') {
+    padding: rem(24px) 0;
+    margin-top: rem(16px);
+  }
+
+  &-left {
+    height: rem(41px);
+    border-left: rem(4px) solid var(--secondary-medium);
+    margin-left: rem(12px);
+    padding: rem(6px);
+    font-weight: 600;
+
+    @include media('>=desktop') {
+      padding: rem(11px);
+      height: rem(96px);
+      margin-left: rem(24px);
+    }
+  }
+
+  &-right {
+    display: flex;
+    flex-direction: column;
+
+    span {
+      color: var(--primary-main);
+      font-family: var(--font-family-poppins-regular);
+      font-weight: 600;
+      font-size: rem(16px);
+
+      @include media('>=desktop') {
+        font-weight: 700;
+        font-size: rem(32px);
+        line-height: rem(48px);
+        padding-bottom: rem(8px);
+      }
+    }
+
+    p {
+      color: var(--text-tertiary);
+      font-family: var(--font-family-poppins-regular);
+      font-weight: 400;
+      font-size: rem(12px);
+
+      @include media('>=desktop') {
+        font-size: rem(24px);
+      }
+    }
+  }
+
+  &-logo {
+    height: rem(38px);
+    width: rem(67px);
+    margin-left: rem(12px);
+
+  img {
+      height: rem(38px);
+      width: rem(67.89px);
+      object-fit: cover;
+    }
+
+    @include media('>=desktop') {
+      height: rem(76px);
+      width: rem(136px);
+      margin-left: rem(24px);
+
+    img {
+      height: 100%;
+      width: 100%;
+      object-fit: cover;
+    }
+    }
+  }
+}
+
+.transcation {
+  border-radius: rem(8px);
+  justify-content: space-between;
+  display: flex;
+  align-items: center;
+  background-color: var(--secondary-main);
+  // min-height: rem(72px);
+  margin: rem(16px) 0;
+  padding: rem(16px);
+
+  @include media('>=desktop') {
+    padding: rem(18px) rem(24px);
+    margin: rem(24px) 0 0;
+  }
+
+  color: var(--text-secondary);
+
+  &__booknowbtn {
+    margin-right: rem(32px);
+    font-size: rem(14px);
+    padding-left: rem(5px);
+    padding-right: rem(5px);
+
+    @include media('>=desktop') {
+      font-size: rem(16px);
+    }
+  }
+
+  &__back-to-home {
+    font-size: rem(14px);
+    font-family: var(--font-family-poppins-regular);
+    font-weight: 500;
+    line-height: rem(24px);
+    color: var(--primary-main);
+    align-items: center;
+    display: flex;
+    padding-top: rem(16px);
+    
+    @include media('>=desktop') {
+      font-size: rem(16px);
+      padding: rem(20px) rem(0px) rem(6px);
+    }
+
+    a {
+      color: var(--primary-main);
+    }
+  }
+
+  p {
+    font-size: rem(10px);
+    font-family: var(--font-family-poppins-regular);
+    font-weight: 400;
+    padding-right: rem(18px);
+
+    @include media('>=desktop') {
+      font-size: rem(16px);
+      font-weight: 500;
+    }
+  }
+}
+
+.skyplus-button .transcation__booknowbtn {
+  padding: rem(6px) rem(12px);
+
+  @include media('>=desktop') {
+    padding: rem(8px) rem(17px);
+  }
+}

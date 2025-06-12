@@ -1,0 +1,49 @@
+.strip {
+  border-radius: rem(8px);
+  padding: rem(12px);
+  margin: rem(8px) 0;
+
+  @include media('>=desktop') {
+    padding: rem(24px);
+    margin: rem(24px) 0;
+  }
+
+  &-left {
+    &__heading {
+      font-size: rem(12px);
+      color: var( --text-dark-blue);
+
+      @include media('>=desktop') {
+        font-size: rem(16px);
+      }
+    }
+
+    &__detail {
+      color: var(--text-tertiary);
+      font-size: rem(10px);
+
+      @include media('>=desktop') {
+        font-size: rem(14px);
+        padding-bottom: rem(1px);
+      }
+    }
+  }
+
+  &-right {
+    font-family: var(--font-family-poppins-regular);
+    font-weight: 400;
+    font-size: rem(16px);
+
+    @include media('>=desktop') {
+      font-size: rem(20px);
+    }
+  }
+
+  &-credit {
+    color: var(--accent-dark);
+  }
+
+  &-debit {
+    color: var(--system-error);
+  }
+}

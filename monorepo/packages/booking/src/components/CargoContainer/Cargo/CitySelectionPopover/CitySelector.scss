@@ -1,0 +1,263 @@
+.city-selection {
+  overflow: hidden auto;
+  position: relative;
+  background-color: get-color(white);
+  border-top-left-radius: rem(12px);
+  border-top-right-radius: rem(12px);
+  flex: 1;
+  max-width: 100vw;
+  flex-grow: 5;
+  margin: rem(-5px) rem(-1px);
+
+  @include media('>=desktop') {
+    max-height: rem(350px);
+    width: rem(400px);
+    padding-bottom: 30px;
+  }
+
+  &::before {
+    height: rem(16px);
+    background-color: get-color(white);
+    content: '';
+    position: absolute;
+    top: 0;
+  }
+
+  &__list {
+    gap: 8px;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+
+    @include media('>=desktop') {
+      height: auto;
+    }
+
+    &-group {
+      text-transform: uppercase;
+      font-size: 14px;
+      line-height: 1.5;
+      font-weight: 400;
+      padding: 10px 20px 0;
+      color: #7a85a0;
+    }
+
+    .city-selection__list-item-wrapper {
+      &:hover,
+      &:focus {
+        background-color: get-color(secondary-light);
+      }
+
+      .nationality-msg {
+        color: get-color(system-warning);
+      }
+
+      &[data-group] {
+        &::before {
+          content: attr(data-group);
+          text-transform: uppercase;
+          padding: rem(10px) rem(16px);
+          color: get-color(text-tertiary);
+          font-size: rem(14px);
+          margin-bottom: rem(4px);
+          display: block;
+          background-color: white;
+        }
+      }
+    }
+
+    &-item {
+      display: flex;
+      padding: rem(8px) rem(20px);
+
+      .sky-icons {
+        align-self: flex-start;
+
+        &::before {
+          font-size: rem(16px);
+          @include media('>=desktop') {
+            font-size: rem(20px);
+          }
+        }
+      }
+
+      &--info {
+        display: flex;
+        justify-content: space-between;
+        font-size: 14px;
+        line-height: 1.5;
+        flex: 1;
+        gap: rem(4px);
+
+        .body-medium-regular {
+          font-size: rem(12px);
+
+          @include media('>=desktop') {
+            color: get-color(text-primary);
+          }
+        }
+
+        .body-small-regular {
+          color: get-color(text-primary);
+
+          @include media('>=desktop') {
+            color: get-color(text-secondary);
+          }
+        }
+
+        .body-extra-small-regular {
+          color: get-color(text-secondary);
+        }
+      }
+    }
+
+    .no-airport-found {
+      border: 1px dotted get-color(secondary-main);
+      border-radius: rem(5px);
+    }
+  }
+
+  &-header {
+    position: sticky;
+    top: 0;
+    background-color: get-color(white);
+
+    .skyplus-heading,
+    .skyplus-dropdown-list__searchbox {
+      @include media('>=desktop') {
+        display: none;
+      }
+    }
+
+    &-pill {
+      display: flex;
+      padding: rem(2px);
+      margin: rem(16px);
+      border: var(--border-secondary);
+
+      @include media('>=desktop') {
+        display: none;
+      }
+
+      &-item {
+        padding: rem(8px);
+        background-color: get-color(white);
+        color: get-color(other-divider);
+        flex: 1;
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: rem(14px);
+
+        .sky-icons {
+          display: none;
+        }
+
+        .icon-switch-destination {
+          position: absolute;
+          top: rem(7px) !important;
+          right: rem(8px) !important;
+          &::before {
+            font-size: rem(16px);
+          }
+        }
+
+        .icon-location {
+          position: absolute;
+          left: rem(8px);
+        }
+      }
+
+      &-item.active {
+        background-color: get-color(primary-main);
+        color: get-color(white);
+
+        .sky-icons {
+          display: block;
+        }
+      }
+    }
+
+    .skyplus-dropdown-list__searchbox {
+      position: sticky;
+      top: 0;
+      background-color: var(--action-active-background);
+
+      .search-inputbox {
+        margin: rem(16px) rem(8px);
+        padding: 10px 12px;
+        font-size: 16px;
+        border-radius: rem(25px);
+        border: var(--border-secondary);
+
+        &:focus-visible {
+          outline: none;
+        }
+
+        input {
+          &::placeholder {
+            font-size: rem(12px);
+            color: gate-color(text-primary);
+          }
+        }
+      }
+
+      hr {
+        border: none;
+        border-top: 1px solid #daf1ff;
+        width: 100%;
+      }
+    }
+  }
+
+  &__get-current-location {
+    padding: rem(12px);
+    margin: rem(6px);
+    line-height: 1.5;
+    position: sticky;
+    top: 0;
+    display: flex;
+    gap: rem(8px);
+    align-items: center;
+
+    &:focus-within {
+      .skyplus-text {
+        outline: rem(1px) solid get-color(secondary-main) !important;
+        outline-offset: rem(2px);
+      }
+    }
+
+    .link {
+      font-family: var(--font-family-poppins-medium);
+    }
+  }
+
+  input {
+    background-color: transparent;
+  }
+
+  .search-inputbox.focused {
+    background-color: get-color(secondary-main);
+  }
+}
+
+.city-selection-header
+  > .city-selection__get-current-location.withDottedBorder {
+  &::after {
+    content: '';
+    background-image: radial-gradient(
+      circle closest-side,
+      get-color(secondary-main) calc(100% - 0.5px),
+      transparent 100%
+    );
+    background-repeat: repeat-x;
+    background-size: 4px 2px;
+    height: rem(2px);
+    position: absolute;
+    bottom: 0;
+    top: 100%;
+    width: 100%;
+    left: 0;
+  }
+}

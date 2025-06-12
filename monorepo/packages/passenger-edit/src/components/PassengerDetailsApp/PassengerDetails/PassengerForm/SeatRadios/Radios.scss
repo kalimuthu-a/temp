@@ -1,0 +1,80 @@
+@import '../../../../../styles/utils/utils';
+
+.custom-radio-btn {
+  position: relative;
+  left: rem(-8px);
+  cursor: pointer;
+  width: rem(20px);
+  height: rem(20px);
+  border: rem(1.5px) solid get-color(sel-con-selected-background);
+  appearance: none;
+  border-radius: 50%;
+
+  &:focus-visible {
+    outline: rem(1px) solid get-color(secondary-main);
+    outline-offset: rem(2px);
+  }
+}
+
+/* Inner part of the radio button (initially hidden) */
+.custom-radio-btn::after {
+  content: '';
+  width: rem(10px);
+  height: rem(10px);
+  position: absolute;
+  border-radius: 50%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 0;
+  transition: opacity 0.2s;
+}
+
+.custom-radio-label {
+  color: get-color(text-secondary);
+  font-size: rem(14px);
+  font-weight: 400;
+  -webkit-tap-highlight-color: transparent;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  line-height: rem(20px);
+  padding: rem(10px) 0;
+  }
+
+.radio-disabled {
+  pointer-events: none !important;
+
+  input {
+    accent-color: var(--text-disabled) !important;
+    border-color: var(--text-disabled) !important;
+  }
+
+  label {
+    color: var(--text-disabled) !important;
+  }
+}
+
+.custom-radio-btn:checked::after, 
+.custom-radio-btn:disabled:checked::after, 
+.radio-disabled.radio-checked  input::after,
+.radio-disabled.radio-checked  input:disabled:checked::after { 
+  opacity: 1;
+  background: get-color(sel-con-selected-background);
+}
+
+.radio-checked {
+  label {
+    color: var(--primary-main) !important;
+  }
+}
+
+.radio-box-group-error-msg {
+  color: var(--bs-red);
+}
+
+.extra-seats-on-accordion-close {
+  border: none !important;
+  padding: 0 !important;
+  margin: 0;
+}

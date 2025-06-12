@@ -1,0 +1,8 @@
+@mixin card-border {
+  border: 1px solid #e2ebf2;
+  border-radius: 12px;
+}
+
+@function get-color($key: 'primary') {
+  @return var(--#{$key});
+}

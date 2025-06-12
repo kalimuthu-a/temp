@@ -1,0 +1,137 @@
+$baseFontSize: 16;
+
+@function rem($pixels, $context: $baseFontSize) {
+  @if unitless($pixels) {
+    $pixels: $pixels * 1px;
+  }
+
+  @if unitless($context) {
+    $context: $context * 1px;
+  }
+
+  @return calc($pixels / $context) + rem;
+}
+
+@function get-color($key: 'primary') {
+  @return var(--#{$key});
+}
+
+.trip-summary-app,
+.trip-summary-details-modal {
+  .flex-h-between {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .f-14 {
+    font-size: rem(14px);
+  }
+
+  .f-12 {
+    font-size: rem(12px);
+  }
+
+  .t-3 {
+    color: var(--text-tertiary);
+    font-size: rem(14px);
+  }
+
+  .lh-2 {
+    line-height: 2;
+  }
+
+  .lh-1-5 {
+    line-height: 1.5;
+  }
+
+  .btn-link {
+    border: none;
+    background-color: transparent;
+    text-align: left;
+    text-decoration: underline;
+    color: var(--primary-main);
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 500;
+    cursor: pointer;
+
+    &--arrow {
+      position: relative;
+      padding-right: rem(16px);
+
+      &::after {
+        font-size: 1.3em;
+        position: absolute;
+        content: '>';
+        right: 0;
+        top: 50%;
+        transform: translateY(-50%);
+      }
+
+      &--down {
+        &::after {
+          transform: translateY(-50%) rotate(90deg);
+        }
+      }
+
+      &--up {
+        &::after {
+          transform: translateY(-50%) rotate(-90deg);
+        }
+      }
+    }
+  }
+
+  .divider {
+    margin: rem(12px) auto;
+    height: 0;
+    width: 100%;
+    border-bottom: 1px solid var(--secondary-deep);
+  }
+
+  .trip-divider {
+    margin: rem(12px) auto;
+    height: 0;
+    width: 100%;
+    border-bottom: 1px dotted var(--secondary-deep);
+  }
+
+  .stop-divider {
+    border-color:  #DAF1FF;
+    margin: rem(5px);
+    width: rem(80px);
+  }
+
+  .btn-unstyled {
+    border: none;
+    background-color: transparent;
+  }
+
+  .skyplus-chip [class*="chip-filled"] {
+		padding: rem(4px) rem(12px);
+    background-color: var(--secondary-light);
+    
+    span {
+      color:  var(--system-information);
+    }
+	}
+
+  .flex-col {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .flex-center {
+    justify-content: center;
+    align-items: center;
+  }
+
+  .flex-align-start {
+    align-items: flex-start;
+  }
+
+  .flex-align-end {
+    align-items: flex-end;
+  }
+}

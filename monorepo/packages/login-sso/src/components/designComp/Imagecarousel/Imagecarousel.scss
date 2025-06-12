@@ -1,0 +1,64 @@
+@import '../../../styles/main';
+
+.carousel {
+  position: relative;
+  width: rem(470px);
+  // max-height: rem(590px);
+  height: auto;
+  flex-shrink: 0;
+  margin: 0;
+  overflow: hidden;
+  border-radius: rem(10px);
+
+  &__slides {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+    width: 100%;
+    height: 100%;
+  }
+
+  &__slide {
+    min-width: 100%;
+
+    img {
+      width: 100%;
+      height: 100%;
+      display: block;
+      object-fit: cover;
+    }
+
+    &__text {
+      position: relative;
+      bottom: 25%;
+      left: rem(50px);
+    }
+  }
+
+  &__dots {
+    width: 90%;
+    text-align: center;
+    margin-top: rem(10px);
+    position: absolute;
+    bottom: rem(15px);
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 10;
+  }
+
+  &__dot {
+    display: inline-block;
+    height: rem(4px);
+    margin: 0 rem(5px);
+    background-color: var(--action-disabled-stroke);
+    transition: background-color 0.3s ease-in-out;
+    cursor: pointer;
+    opacity: 0.5;
+    border-radius: rem(4px);
+
+    &--active {
+      background-color: var(--white);
+      opacity: 1;
+      transition: opacity ease-in-out 0.5s;
+    }
+  }
+}

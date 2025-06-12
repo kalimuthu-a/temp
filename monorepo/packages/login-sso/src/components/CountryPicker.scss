@@ -1,0 +1,147 @@
+@import '../styles/main';
+
+.login-sso-form-V2 {
+  .nationality-dropdown-desktop {
+    .skyplus-dropdown-list__searchbox {
+      position: sticky;
+      top: 0;
+      z-index: 9;
+      background-color: var(--action-active-background);
+
+      @include media('>=tablet') {
+        border-radius: rem(12px) rem(12px) 0 0;
+      }
+
+      .search-inputbox {
+        padding: rem(10px) rem(12px);
+        margin: rem(16px);
+
+        @include media('>=tablet') {
+          border: 1px solid var(--secondary-deep);
+        }
+
+        &:focus-visible {
+          outline: none;
+        }
+
+        input {
+          border: none;
+        }
+
+        .search-input {
+          padding: rem(10px) rem(12px);
+          font-size: rem(16px);
+          border-radius: rem(25px);
+          width: 100%;
+          z-index: 1;
+          position: relative;
+          border: 1px dotted #afe4ff;
+        }
+      }
+
+      hr {
+        width: 100%;
+        background-image: radial-gradient(
+          circle closest-side,
+          get-color(secondary-main) calc(100% - 0.5px),
+          transparent 100%
+        );
+        background-position: 0 0, 100% 0, 0 100%;
+        background-repeat: repeat-x;
+        background-size: rem(4px) rem(2px), rem(2px) rem(4px);
+        height: rem(2px);
+        border: none;
+      }
+    }
+
+    .scrollable-content {
+      overflow: auto;
+    }
+
+    .skyplus-dropdown-list--container {
+      background-color: get-color(secondary-white);
+      position: relative;
+      z-index: 1;
+      top: rem(12px);
+
+      @include media('>=tablet') {
+        top: rem(2px);
+        height: calc(50vh);
+        overflow: hidden auto;
+        padding-bottom: rem(31px);
+      }
+    }
+
+    .body-md-reg {
+      padding: rem(8px) rem(16px);
+    }
+
+    .country-menu-item {
+      padding: rem(8px) rem(16px);
+      display: flex;
+      justify-content: space-between;
+      cursor: pointer;
+      align-items: center;
+
+      &:hover {
+        background-color: get-color(secondary-light);
+      }
+
+      .fs-14 {
+        gap: 1rem;
+        display: flex;
+        align-items: center;
+
+        .fw-500 {
+          font-family: var(--font-family-poppins-regular);
+          font-size: rem(18px);
+          color: var(--text-primary);
+        }
+
+        .phone-code {
+          text-wrap: nowrap;
+          margin-right: rem(16px);
+          color: var(--text-secondary);
+          align-self: center;
+          font-family: var(--font-family-poppins-light);
+        }
+      }
+    }
+
+    .skyplus-dropdown-popover {
+      max-height: rem(520px);
+      overflow-y: auto;
+
+      @include media('>=tablet') {
+        overflow: hidden;
+        height: 60vh;
+      }
+    }
+
+    .scroll-container {
+      overflow: hidden auto;
+      height: calc(100vh - rem(280px));
+
+      @include media('>=tablet') {
+        max-height: rem(420px);
+      }
+    }
+
+    .popover__content {
+      left: auto;
+      min-width: rem(320px);
+      position: absolute;
+
+      @include media('>=tablet') {
+        z-index: 99999999;
+        opacity: 1;
+        visibility: visible;
+        transition: all 0.5s cubic-bezier(0.75, -0.02, 0.2, 0.97);
+      }
+    }
+  }
+}
+
+.Cfflag {
+  background-image: url('../styles/images/flags-react-intl.png') !important;
+}

@@ -1,0 +1,33 @@
+@import '../../common/scss/utils';
+@import '../../common/scss/main';
+
+.form-multi-radio {
+  cursor: pointer;
+
+  input[type='checkbox'] {
+    cursor: pointer;
+    appearance: none;
+    width: rem(20);
+    height: rem(20);
+    border: rem(2) solid var(--primary-main);
+    border-radius: 50%;
+    display: grid;
+    place-content: center;
+
+    &::before {
+      content: '';
+      width: rem(12);
+      height: rem(12);
+      border-radius: 50%;
+      transform: scale(0);
+      transition: 0.12s transform ease-in-out;
+      background: var(--primary-main);
+    }
+
+    &:checked {
+      &::before {
+        transform: scale(1);
+      }
+    }
+  }
+}

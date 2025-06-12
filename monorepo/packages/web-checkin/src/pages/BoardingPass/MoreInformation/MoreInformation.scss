@@ -1,0 +1,269 @@
+/* stylelint-disable no-descending-specificity */
+/* stylelint-disable */
+.accordion {
+  margin-bottom: rem(12px);
+  padding: 0 0 rem(12px) 0;
+  min-width: rem(335px);
+  width: 100%;
+  box-shadow: none;
+  @include media('>=tablet') {
+    padding: 0 rem(0px) rem(12px) rem(0px);
+  }
+  @include media('>desktop') {
+    width: 100%;
+    border-radius: rem(4px);
+    padding: 0 0 rem(24px) 0;
+  }
+  &__container {
+    display: inline-block;
+    padding: rem(12px);
+    width: 100%;
+    position: relative;
+    box-shadow: 0px 0px 12px 0px rgba(76, 93, 158, 0.08);
+    background-color: var(--secondary-white);
+    border-radius: rem(12px);
+    border: 1px solid get-color('light-white');
+    @include media('>=tablet') {
+      padding: rem(16px);
+    }
+  }
+  &__heading {
+    margin-bottom: rem(12px);
+    font-size: rem(20px);
+    font-style: normal;
+    font-weight: 500;
+    color: var(--text-primary);
+    font-family: var(--font-family-bauhuas-std-medium);
+    letter-spacing: -0.6px;
+    line-height: rem(24px);
+    .green {
+      color: var(--accent-dark);
+    }
+    @include media('>=tablet') {
+      font-size: rem(24px);
+      line-height: rem(32px);
+    }
+  }
+  &__header {
+    &__title {
+      background-color: var(--secondary-white);
+      color: var(--text-primary);
+      font-size: rem(14px);
+      font-style: normal;
+      font-weight: 400;
+      line-height: rem(20px); /* 142.857% */
+      font-family: var(--font-family-poppins-regular);
+    }
+    &:last-of-type {
+      margin-bottom: 0;
+    }
+  }
+  a {
+    text-decoration: none;
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+
+  &__header {
+    display: flex;
+    margin-bottom: rem(10px);
+    cursor: pointer;
+    font-family: var(--font-family-poppins-regular);
+    align-items: center;
+    border-bottom: 2px var(--action-disabled-stroke);
+    border-style: dotted;
+    padding: 0 rem(12px);
+    width: 100%;
+    &:last-child {
+      border-bottom: none;
+    }
+    &:hover {
+      .accordion__header {
+        &__logo {
+          background-color: var(--secondary-white);
+        }
+        &__title {
+          font-style: normal;
+          font-weight: 400;
+          font-family: var(--font-family-poppins-regular);
+          // background-color: var(--action-disabled-stroke);
+          background-color: transparent;
+          -webkit-tap-highlight-color: transparent;
+        }
+        &__arrowicon {
+          background-color: var(--secondary-white);
+          &.icon-accordion-left-24 {
+            &::after {
+              display: none;
+            }
+          }
+        }
+      }
+    }
+
+    &__logo {
+      font-size: rem(20px);
+      line-height: rem(20px);
+      float: left;
+      width: rem(20px);
+      height: rem(20px);
+      text-align: center;
+      color: var(--blue-1);
+      border-radius: rem(8px);
+      background: var(--lavendar-1);
+
+      .iconcommons {
+        font-size: 24px;
+        top: 18px;
+        right: 0;
+      }
+      &__iconnotes {
+        &::after {
+          content: '\e94d';
+          @extend .iconcommons;
+        }
+      }
+      &__icbaggageallowance {
+        font-family: 'icomoon';
+
+        &::after {
+          content: '\e954';
+          @extend .iconcommons;
+        }
+      }
+      &__icservice {
+        &::after {
+          content: '\e967';
+          @extend .iconcommons;
+        }
+      }
+      &__ictermsandcondition {
+        &::after {
+          content: '\e954';
+          @extend .iconcommons;
+        }
+      }
+      &__icterminal {
+        &::after {
+          content: ' \e94f';
+          @extend .iconcommons;
+        }
+      }
+      &__iccancelleddelayed {
+        &::after {
+          content: '\e939';
+          @extend .iconcommons;
+        }
+      }
+      .icon-baggage-allowance {
+        position: absolute;
+        display: inline-block;
+        margin-top: -8px;
+        left: rem(24px);
+      }
+    }
+
+    &__title {
+      flex: 2;
+      margin-left: rem(10px);
+      padding: rem(9px) 0;
+      line-height: rem(20px);
+      font-size: rem(14px);
+    }
+
+    &__arrowicon {
+      margin-right: 0;
+      padding: rem(12px) 0;
+      font-family: 'indigo';
+      &::after {
+        display: none;
+      }
+
+      &--expanded {
+        &::after {
+          display: block;
+          transform: rotate(180deg);
+        }
+      }
+    }
+    &__subtitle {
+      font-family: var(--font-family-poppins-regular);
+      color: var(--text-tertiary);
+      font-size: rem(12px);
+      font-style: normal;
+      font-weight: 400;
+      line-height: rem(18px);
+    }
+  }
+  .seat-num {
+    color: var(--blue-1);
+  }
+  &__service-table {
+    width: auto;
+    margin-left: rem(0px);
+    margin-bottom: rem(30px);
+    overflow-x: auto;
+    font-family: var(--font-family-poppins-regular);
+    p {
+      font-size: rem(16px);
+      color: var(--text-tertiary);
+      font-size: rem(12px);
+      font-style: normal;
+      font-weight: 400;
+      line-height: rem(18px);
+    }
+    ul {
+      font-size: rem(14px);
+      color: var(--text-tertiary);
+      font-family: var(--font-family-poppins-regular);
+      li {
+        font-style: normal;
+        font-weight: 400;
+        font-size: rem(12px);
+        line-height: rem(18px);
+        margin-bottom: rem(8px);
+      }
+    }
+    ul li::before {
+      font-weight: 700;
+      display: inline-block;
+      width: 1em;
+      margin-left: -1em;
+      content: '\2022';
+      color: #999;
+    }
+
+    &__addons-list {
+      width: 100%;
+      height: auto;
+      background-color: #efeff4;
+      padding: rem(10px) rem(12px);
+      color: #666;
+      border-radius: rem(4px);
+    }
+    .change-seat-click {
+      text-decoration: none;
+    }
+
+    .skyplus-table__body__row__col:first-child {
+      font-size: rem(14px);
+      font-weight: 600;
+    }
+    .skyplus-table__header__row__col {
+      font-size: rem(15px);
+      font-weight: 400;
+    }
+    .skyplus-table {
+      width: 100%;
+      &__header {
+        text-transform: none;
+        &__row {
+          th {
+            white-space: nowrap;
+          }
+        }
+      }
+    }
+  }
+}

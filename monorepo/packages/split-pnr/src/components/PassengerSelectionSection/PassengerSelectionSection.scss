@@ -1,0 +1,9 @@
+.passenger_selection_section {
+  display: flex;
+  flex-direction: column;
+  row-gap: rem(12px);
+
+  @include media('>=tablet') {
+    row-gap: rem(16px);
+  }
+}

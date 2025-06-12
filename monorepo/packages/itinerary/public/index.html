@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en" class="In6e2">
+
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>Itinerary Application V2</title>
+	<script src="./config/env-config.js"></script>
+	<link rel="stylesheet" href="
+		http://localhost:6006/clientlib-site/site.css">
+	<link rel="stylesheet" href="
+		http://localhost:6006/clientlib-dependencies/dependencies.css">
+
+	<!-- Comment above line and uncomment below line to load css from local design system. Before doing make sure design system has latest build -->
+	<link rel="stylesheet"
+		href="https://aem-s6web-preprod-skyplus6e.goindigo.in/etc.clientlibs/skyplus6ev2/clientlibs/clientlib-dependencies.min.5e1cc09472103e6c420f6a112052bac5.css">
+	<link rel="stylesheet" href="./main.css">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+	<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+	<style>
+		body {
+			padding-top: 50px;
+			padding-bottom: 150px;
+			background-color: #fff;
+			/* font-family: "Open Sans", arial, sans-serif; */
+		}
+
+		#__itinerary__microapp__dev-only {
+			width: 100%;
+			margin: auto;
+		}
+
+		@media only screen and (min-width: 600px) {
+			#__itinerary__microapp__dev-only {
+				width: 90%;
+			}
+		}
+	</style>
+	<script>
+		const tokenObj = { "token": "", "createdAtMilliSeconds": 1714732218993, "expiresInMilliSeconds": 900000, "validTillMilliSeconds": 1714733118993 };
+		document.cookie = `auth_token=${JSON.stringify(tokenObj)}`
+	</script>
+</head>
+
+<body>
+	<div id="__itinerary__microapp__dev-only"></div>
+	<script>
+		window.adobeDataLayer = [];
+		window.dataLayer = [];
+		document.cookie = '';
+		window.pageType = "Flight Booking  itinerary/ Flight Modification itinerary";
+	</script>
+</body>
+
+</html>

@@ -1,0 +1,377 @@
+.visa-pax-selection {
+  font-family: var(--font-family-poppins-regular);
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+  width: 100%;
+  position: relative;
+
+  @include media('>=tablet') {
+    // height: rem(300px);
+    height: auto;
+    max-height: rem(320px);
+    overflow: auto;
+  }
+
+  &-container {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    width: 100%;
+    flex-direction: column;
+    gap: rem(16px);
+    padding: rem(24px);
+
+    @include media('>tablet') {
+      gap: rem(24px);
+    }
+
+    .skyplus-chip span {
+      color: var(--system-information);
+    }
+  }
+
+
+
+  &-booking-container {
+    margin-top: rem(32px);
+
+    @include media('>tablet') {
+      margin-top: rem(40px);
+    }
+
+    .booking-info-cancel-flight {
+      width: 100%;
+
+      .booking-info-container {
+        display: flex;
+        flex-direction: column;
+        gap: rem(0px);
+        padding: rem(12px) rem(16px) rem(20px);
+        box-shadow: none;
+
+        @include media('>tablet') {
+          gap: rem(20px);
+        }
+
+        .booking-info-container-transaction-block {
+          display: flex;
+          justify-content: space-between;
+          padding-bottom: rem(14px);
+          position: relative;
+
+          &::after {
+            content: '';
+            position: absolute;
+            width: 100%;
+            height: rem(1px);
+            border-bottom: rem(1px) dotted get-color("light-white");
+            top: rem(39px);
+          }
+        }
+
+        .booking-info-container-transaction,
+        .booking-info-container-other-info {
+          width: 100%;
+        }
+      }
+    }
+  }
+
+  &-verify-container {
+    display: block;
+    position: relative;
+    width: 100%;
+    height: auto;
+    margin-top: rem(32px);
+
+    @include media('>tablet') {
+      margin-top: rem(48px);
+      padding-bottom: rem(100px);
+    }
+  }
+
+  &-verify-pax-details {
+    display: inline-block;
+    position: relative;
+    width: 100%;
+    margin-bottom: rem(12px);
+
+    @include media('>tablet') {
+      margin-bottom: rem(48px);
+    }
+
+    &-title {
+      display: inline-block;
+      width: 100%;
+      position: relative;
+      font-size: rem(16px);
+      line-height: rem(20px);
+      color: var(--text-primary);
+      font-family: 500;
+      letter-spacing: rem(-0.4px);
+      margin-bottom: rem(10px);
+
+      @include media('>tablet') {
+        letter-spacing: rem(-0.6px);
+        font-family: var(--font-family-poppins-regular);
+        font-size: rem(20px);
+        line-height: rem(32px);
+        margin-bottom: rem(16px);
+      }
+    }
+
+    .common-msg {
+      display: inline-block;
+      width: 100%;
+      font-family: var(--font-family-poppins-regular);
+      font-size: rem(12px);
+      line-height: rem(18px);
+      font-weight: 400;
+
+      &.error-msg {
+        color: get-color("color-text-error");
+      }
+
+      &.success-msg {
+        color: var(--accent-dark);
+      }
+
+      .icon-check {
+        margin-right: rem(8px);
+      }
+    }
+
+    .design-system-input-field {
+      margin-bottom: rem(8px) !important;
+    }
+  }
+
+  &-btn {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: calc(100% + 40px);
+    margin: 0 auto;
+    height: rem(68px);
+    flex-direction: row;
+    padding: rem(0px) rem(20px);
+    box-shadow: 0px -12px 24px 0px #4C5D9E14;
+    backdrop-filter: blur(24px);
+    margin-left: - rem(20px);
+    margin-top: rem(16px);
+
+    @include media('>tablet') {
+      width: 100%;
+      padding: rem(0px);
+      margin-top: rem(12px);
+      padding: rem(16px) rem(20px);
+      margin-left: unset;
+      margin-top: unset;
+    }
+
+    .skyplus-button {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: auto;
+
+      button {
+        font-size: rem(14px);
+        line-height: rem(20px);
+        max-width: 100%;
+
+        @include media('>tablet') {
+          font-size: rem(16px);
+          line-height: rem(24px);
+          padding: rem(6px) auto;
+          max-width: rem(120px);
+          border-radius: rem(28px);
+        }
+      }
+    }
+
+    &-left {
+      display: flex;
+      align-items: flex-start;
+      justify-content: flex-start;
+      font-size: rem(14px);
+      line-height: rem(20px);
+      font-weight: 500;
+      color: var(--primary-main);
+    }
+
+  }
+
+  .skyplus-checkbox-container {
+    label {
+      &::before {
+        border-color: var(--primary-main);
+        margin-right: 0;
+      }
+    }
+  }
+
+}
+
+.flight-card {
+  width: 100%;
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  flex-direction: row;
+  padding: rem(12px);
+  border-radius: rem(12px);
+  border: 1px solid var(--secondary-deep);
+  background-color: var(--white);
+  cursor: pointer;
+  -webkit-tap-highlight-color: transparent;
+
+  &-passenger {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: row;
+
+    &-avtar {
+      width: rem(36px);
+      height: rem(36px);
+      color: var(--primary-main);
+      background-color: var(--secondary-main);
+      font-family: var(--font-family-poppins-regular);
+      border-radius: 50%;
+      font-size: rem(16px);
+      line-height: rem(24px);
+      padding: rem(8px);
+      text-align: center;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+
+      @include media('>tablet') {
+        padding: rem(12px);
+        width: rem(44px);
+        height: rem(44px);
+      }
+    }
+
+    &-info {
+      display: flex;
+      align-items: flex-start;
+      flex-direction: column;
+      margin-left: rem(8px);
+      gap: rem(4px);
+      justify-content: 'center';
+
+      @include media('>tablet') {
+        margin-left: rem(16px);
+        justify-content: 'initial'
+      }
+
+      &-prename {
+        font-family: var(--font-family-poppins-medium);
+        font-size: rem(12px);
+        line-height: rem(18px);
+        color: var(--text-tertiary);
+        font-weight: 400;
+        margin-bottom: rem(4px);
+
+        @include media('>tablet') {
+          font-family: var(--font-family-poppins-regular);
+          font-size: rem(14px);
+          line-height: rem(20px);
+        }
+      }
+
+      &-name {
+        font-family: var(--font-family-poppins-medium);
+        font-size: rem(14px);
+        line-height: rem(20px);
+        color: var(--text-primary);
+        font-weight: 400;
+
+        @include media('>tablet') {
+          font-family: var(--font-family-poppins-regular);
+          font-size: rem(16px);
+          line-height: rem(24px);
+        }
+      }
+
+      &-container {
+        display: flex;
+        align-items: flex-start;
+        justify-content: flex-start;
+        flex-direction: row;
+        color: var(--text-tertiary);
+        gap: rem(8px);
+        font-size: rem(14px);
+        font-weight: 400;
+        line-height: rem(20px);
+
+        &-paxInfo,
+        &-gender,
+        &-age {
+          display: flex;
+          align-items: flex-start;
+          justify-content: flex-start;
+          gap: rem(8px);
+        }
+
+        &-passportNumber {
+          display: flex;
+          align-items: flex-start;
+          justify-content: flex-start;
+          gap: rem(8px);
+          color: var(--text-tertiary);
+          font-weight: 600;
+        }
+      }
+
+    }
+
+    &-edit {
+      font-family: var(--font-family-poppins-medium);
+      line-height: rem(20px);
+      font-size: rem(14px);
+      color: var(--primary-main);
+      text-decoration: underline;
+      text-transform: uppercase;
+    }
+  }
+
+  &.selected {
+    background-color: var(--secondary-light);
+    border-color: var(--secondary-main);
+  }
+}
+
+.body-medium-regular {
+  width: 100%;
+}
+
+.skyplus-accordion {
+  width: 100%;
+
+  .skyplus-accordion__header {
+    background: none;
+    padding: 0 rem(16px);
+  }
+
+  .skyplus-accordion__header-left {
+    display: none;
+  }
+
+  .skyplus-accordion__body {
+    padding: 0;
+  }
+
+  .skyplus-accordion__header-name {
+    font-weight: 600;
+  }
+
+  .skyplus-accordion__header-container {
+    margin-bottom: 0;
+    padding: rem(12px) 0;
+  }
+}

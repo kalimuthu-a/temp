@@ -1,0 +1,11 @@
+#!/bin/bash
+
+npm run sonar/login
+npm run sonar/booking
+npm run sonar/srp
+npm run sonar/pe
+npm run sonar/addon
+npm run sonar/seat
+npm run sonar/fare-summary
+npm run sonar/trip-summary
+npm run sonar/itinerary

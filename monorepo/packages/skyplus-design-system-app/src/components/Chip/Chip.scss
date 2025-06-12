@@ -1,0 +1,185 @@
+.skyplus-chip {
+  font-size: rem(12px);
+  line-height: 1.5;
+  font-weight: 500;
+  cursor: pointer;
+  display: inline-block;
+  border-radius: rem(32px);
+  border: 1px solid transparent;
+
+  [class*='chip-outlined'] {
+    border: 1px solid currentcolor;
+    border-radius: rem(32px);
+
+    span {
+      color: get-color(text-primary);
+    }
+  }
+
+  [class*='chip-filled'] {
+    background-color: currentcolor;
+
+    span {
+      color: get-color(white);
+    }
+  }
+
+  [class*='text-filled'] {
+    background-color: currentcolor;
+    border: 1px solid get-color();
+
+    span {
+      color: get-color(text-primary);
+    }
+  }
+
+  [class*='col-system-success'] {
+    color: get-color(system-success);
+  }
+
+  [class*='col-primary-main'] {
+    color: get-color(primary-main);
+  }
+
+  [class*='col-secondary-main'] {
+    color: get-color(secondary-main);
+  }
+
+  [class*='col-secondary-light'] {
+    color: get-color(secondary-light);
+  }
+
+  [class*='col-white'] {
+    color: get-color(white);
+  }
+
+  [class*='size-xs'] {
+    padding: rem(2px) rem(6px);
+  }
+
+  [class*='size-sm'] {
+    padding: rem(4px) rem(9px);
+    border-radius: rem(32px);
+  }
+
+  [class*='size-md'] {
+    padding: rem(8px) rem(12px);
+    border-radius: rem(32px);
+  }
+
+  [class*='size-lg'] {
+    padding: rem(8px) rem(24px);
+    border-radius: rem(32px);
+  }
+
+  [class*='text-outlined'] {
+    border-radius: rem(32px);
+    border: 1px solid currentcolor;
+  }
+
+  [class*='bg-secondary-main'] {
+    border-radius: rem(32px);
+    border: 1px solid get-color(secondary-main);
+  }
+
+  [class*='bg-secondary-light'] {
+    border-radius: rem(32px);
+    border: 1px solid get-color(secondary-light);
+  }
+
+  [class*='bg-alice-blue'] {
+    border-radius: rem(32px);
+    border: 1px solid get-color(text-alice-blue);
+  }
+
+  [class*='bg-system-information'] {
+    border-radius: rem(32px);
+    border: 1px solid get-color(system-information);
+  }
+
+  [class*='txtcol-system-information'] {
+    span {
+      color: get-color(system-information);
+    }
+  }
+
+  [class*='txtcol-system-success'] {
+    span {
+      color: get-color(system-success);
+    }
+  }
+
+  [class*='bg-system-success'] {
+    border-radius: rem(32px);
+    border: 1px solid get-color(system-success);
+  }
+
+  [class*='txtcol-text-primary'] {
+    span {
+      color: get-color(text-primary);
+    }
+  }
+
+  [class*='txtcol-text-secondary'] {
+    span {
+      color: get-color(text-secondary);
+    }
+  }
+
+  .text-text-primary {
+    color: var(--text-primary);
+  }
+
+  .text-primary-main {
+    color: var(--primary-main);
+  }
+
+  &--next {
+    background: linear-gradient(180deg, #e0fed7 0%, #c1edc1 100%);
+    color: get-color(primary-main);
+    font-family: var(--font-family-poppins-medium);
+    line-height: rem(16px);
+    padding: rem(8px);
+    border: none;
+    font-size: rem(12px);
+    border-radius: rem(8px);
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+
+    &[tabindex='-1'] {
+      cursor: default;
+    }
+
+    &.withBorder {
+      border: 1px solid get-color(secondary-main);
+      padding: rem(8px) rem(16px);
+    }
+
+    .skyplus-checkbox-container {
+      display: flex;
+      align-items: center;
+
+      .styled-checkbox + label::before {
+        width: rem(12px);
+        height: rem(12px);
+        border-radius: rem(4px);
+        margin-right: rem(8px);
+      }
+
+      .styled-checkbox:checked + label::after {
+        top: rem(2px);
+        left: rem(5px);
+        display: inline-block;
+        transform: rotate(45deg);
+        height: rem(6px);
+        width: rem(2px);
+        border-bottom: 2px solid get-color(white);
+        border-right: 2px solid get-color(white);
+        box-shadow: none;
+        background: none;
+      }
+    }
+  }
+}

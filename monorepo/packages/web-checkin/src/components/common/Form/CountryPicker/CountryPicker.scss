@@ -1,0 +1,64 @@
+.country-picker-field,
+.gender-picker-field {
+  position: relative;
+  .design-system-input-field {
+    cursor: pointer;
+    input {
+      pointer-events: none;
+    }
+  }
+
+  .wc-popover__content {
+    width: 100%;
+
+    .scroll-container {
+      max-height: rem(320px);
+    }
+  }
+
+  .country-menu-item {
+    padding: rem(8px) rem(16px);
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+
+    .fw-500,
+    .fw-400 {
+      font-family: var(--font-family-poppins-regular);
+      font-weight: 400;
+    }
+
+    &:hover {
+      background-color: get-color(white);
+    }
+
+    .fs-14 {
+      font-family: var(--font-family-poppins-regular);
+    }
+
+    u {
+      text-decoration: none;
+    }
+  }
+}
+
+.gender-picker-field {
+  position: relative;
+
+  .wc-popover__content {
+    width: 100%;
+
+    .scroll-container {
+      max-height: rem(320px);
+    }
+  }
+
+  .skyplus-dropdown-popover {
+    width: 100%;
+    overflow: hidden;
+
+    .scroll-container {
+      overflow: auto;
+    }
+  }
+}

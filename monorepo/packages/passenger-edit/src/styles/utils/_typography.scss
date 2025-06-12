@@ -1,0 +1,481 @@
+
+@mixin h0 {
+  @include defaultTypoStyles(14, 0, 20, normal, var(--font-family-poppins-regular));
+  @include media('>=tablet') {
+    @include defaultTypoStyles(20, 0, 32, normal, var(--font-family-poppins-regular));
+  }
+}
+
+@mixin h1 {
+  @include defaultTypoStyles(
+    44,
+    -0.8,
+    52,
+    normal,
+    var(--font-family-bauhuas-std-medium)
+  ); // TO-DO
+  @include media('>=tablet') {
+    @include defaultTypoStyles(
+      44,
+      -0.8,
+      52,
+      normal,
+      var(--font-family-bauhuas-std-medium)
+    );
+  }
+}
+
+@mixin h2 {
+  @include defaultTypoStyles(
+    40,
+    -0.8,
+    48,
+    normal,
+    var(--font-family-bauhuas-std-medium)
+  ); // TO-DO
+  @include media('>=tablet') {
+    @include defaultTypoStyles(
+      40,
+      -0.8,
+      48,
+      normal,
+      var(--font-family-bauhuas-std-medium)
+    );
+  }
+}
+
+@mixin h3 {
+  @include defaultTypoStyles(
+    32,
+    -0.8,
+    44,
+    normal,
+    var(--font-family-bauhuas-std-medium)
+  ); // TO-DO
+  @include media('>=tablet') {
+    @include defaultTypoStyles(
+      32,
+      -0.8,
+      44,
+      normal,
+      var(--font-family-bauhuas-std-medium)
+    );
+  }
+}
+
+@mixin h4 {
+  @include defaultTypoStyles(
+    24,
+    -0.6,
+    32,
+    normal,
+    var(--font-family-bauhuas-std-medium)
+  ); // TO-DO
+  @include media('>=tablet') {
+    @include defaultTypoStyles(
+      24,
+      -0.6,
+      32,
+      normal,
+      var(--font-family-bauhuas-std-medium)
+    );
+  }
+}
+
+@mixin h5 {
+  @include defaultTypoStyles(
+    20,
+    -0.6,
+    24,
+    normal,
+    var(--font-family-bauhuas-std-medium)
+  ); // TO-DO
+  @include media('>=tablet') {
+    @include defaultTypoStyles(
+      20,
+      -0.6,
+      24,
+      normal,
+      var(--font-family-bauhuas-std-medium)
+    );
+  }
+}
+
+@mixin h6 {
+  @include defaultTypoStyles(
+    24,
+    0,
+    36,
+    normal,
+    var(--font-family-poppins-medium)
+  ); // TO-DO
+  @include media('>=tablet') {
+    @include defaultTypoStyles(24, 0, 36, normal, var(--font-family-poppins-medium));
+  }
+}
+
+@mixin h7 {
+  @include defaultTypoStyles(
+    24,
+    0,
+    36,
+    normal,
+    var(--font-family-poppins-semibold)
+  ); // TO-DO
+  @include media('>=tablet') {
+    @include defaultTypoStyles(
+      24,
+      0,
+      36,
+      normal,
+      var(--font-family-poppins-semibold)
+    );
+  }
+}
+
+@mixin sh1 {
+  @include defaultTypoStyles(
+    20,
+    0,
+    32,
+    normal,
+    var(--font-family-poppins-regular)
+  ); // TO-DO
+  @include media('>=tablet') {
+    @include defaultTypoStyles(20, 0, 32, normal, var(--font-family-poppins-regular));
+  }
+}
+
+@mixin sh2 {
+  @include defaultTypoStyles(
+    20,
+    0,
+    32,
+    normal,
+    var(--font-family-poppins-medium)
+  ); // TO-DO
+  @include media('>=tablet') {
+    @include defaultTypoStyles(20, 0, 32, normal, var(--font-family-poppins-medium));
+  }
+}
+
+@mixin sh3 {
+  @include defaultTypoStyles(
+    20,
+    0,
+    32,
+    normal,
+    var(--font-family-poppins-semibold)
+  ); // TO-DO
+  @include media('>=tablet') {
+    @include defaultTypoStyles(
+      20,
+      0,
+      32,
+      normal,
+      var(--font-family-poppins-semibold)
+    );
+  }
+}
+
+@mixin sh4 {
+  @include defaultTypoStyles(
+    18,
+    -0.4,
+    24,
+    normal,
+    var(--font-family-bauhuas-std-medium)
+  ); // TO-DO
+  @include media('>=tablet') {
+    @include defaultTypoStyles(
+      18,
+      -0.4,
+      24,
+      normal,
+      var(--font-family-bauhuas-std-medium)
+    );
+  }
+}
+
+@mixin sh5 {
+  @include defaultTypoStyles(
+    16,
+    -0.4,
+    20,
+    normal,
+    var(--font-family-bauhuas-std-medium)
+  ); // TO-DO
+  @include media('>=tablet') {
+    @include defaultTypoStyles(
+      16,
+      -0.4,
+      20,
+      normal,
+      var(--font-family-bauhuas-std-medium)
+    );
+  }
+}
+
+@mixin sh6 {
+  @include defaultTypoStyles(
+    16,
+    0,
+    24,
+    normal,
+    var(--font-family-poppins-medium)
+  ); // TO-DO
+  @include media('>=tablet') {
+    @include defaultTypoStyles(16, 0, 24, normal, var(--font-family-poppins-medium));
+  }
+}
+
+@mixin sh7 {
+  @include defaultTypoStyles(
+    16,
+    0,
+    24,
+    normal,
+    var(--font-family-poppins-regular)
+  ); // TO-DO
+  @include media('>=tablet') {
+    @include defaultTypoStyles(16, 0, 24, normal, var(--font-family-poppins-regular));
+  }
+}
+
+@mixin sh8 {
+  @include defaultTypoStyles(
+    14,
+    0,
+    20,
+    normal,
+    var(--font-family-poppins-semibold)
+  ); // TO-DO
+  @include media('>=tablet') {
+    @include defaultTypoStyles(
+      14,
+      0,
+      20,
+      normal,
+      var(--font-family-poppins-semibold)
+    );
+  }
+}
+
+@mixin btn {
+  @include defaultTypoStyles(14, 0, 20, normal, var(--font-family-poppins-medium));
+  @include media('>=tablet') {
+    @include defaultTypoStyles(16, 0, 24, normal, var(--font-family-poppins-medium));
+  }
+}
+
+@mixin link {
+  @include defaultTypoStyles(14, 0, 20, normal, var(--font-family-poppins-medium));
+  text-decoration: underline;
+  @include media('>=tablet') {
+    @include defaultTypoStyles(16, 0, 24, normal, var(--font-family-poppins-medium));
+  }
+}
+
+@mixin link-sm {
+  @include defaultTypoStyles(12, 0, 18, normal, var(--font-family-poppins-regular));
+  @include media('>=tablet') {
+    @include defaultTypoStyles(14, 0, 20, normal, var(--font-family-poppins-regular));
+  }
+}
+
+@mixin body-l-md {
+  @include defaultTypoStyles(
+    16,
+    0,
+    24,
+    normal,
+    var(--font-family-poppins-medium)
+  ); // TO-DO
+  @include media('>=tablet') {
+    @include defaultTypoStyles(16, 0, 24, normal, var(--font-family-poppins-medium));
+  }
+}
+
+@mixin body-l-reg {
+  @include defaultTypoStyles(
+    16,
+    0,
+    24,
+    normal,
+    var(--font-family-poppins-regular)
+  ); // TO-DO
+  @include media('>=tablet') {
+    @include defaultTypoStyles(16, 0, 24, normal, var(--font-family-poppins-regular));
+  }
+}
+
+@mixin body-l-lt {
+  @include defaultTypoStyles(
+    16,
+    0,
+    24,
+    normal,
+    var(--font-family-poppins-light)
+  ); // TO-DO
+  @include media('>=tablet') {
+    @include defaultTypoStyles(16, 0, 24, normal, var(--font-family-poppins-light));
+  }
+}
+
+@mixin body-md-md {
+  @include defaultTypoStyles(
+    14,
+    0,
+    20,
+    normal,
+    var(--font-family-poppins-medium)
+  ); // TO-DO
+  @include media('>=tablet') {
+    @include defaultTypoStyles(14, 0, 20, normal, var(--font-family-poppins-medium));
+  }
+}
+
+@mixin body-md-reg {
+  @include defaultTypoStyles(
+    14,
+    0,
+    20,
+    normal,
+    var(--font-family-poppins-regular)
+  ); // TO-DO
+  @include media('>=tablet') {
+    @include defaultTypoStyles(14, 0, 20, normal, var(--font-family-poppins-regular));
+  }
+}
+
+@mixin body-md-lt {
+  @include defaultTypoStyles(
+    14,
+    0,
+    20,
+    normal,
+    var(--font-family-poppins-light)
+  ); // TO-DO
+  @include media('>=tablet') {
+    @include defaultTypoStyles(14, 0, 20, normal, var(--font-family-poppins-light));
+  }
+}
+
+@mixin placeholder-labels {
+  @include defaultTypoStyles(
+    14,
+    0,
+    20,
+    normal,
+    var(--font-family-poppins-light)
+  ); // TO-DO
+  @include media('>=tablet') {
+    @include defaultTypoStyles(14, 0, 20, normal, var(--font-family-poppins-light));
+  }
+}
+
+@mixin body-sm-md {
+  @include defaultTypoStyles(
+    12,
+    0,
+    18,
+    normal,
+    var(--font-family-poppins-medium)
+  ); // TO-DO
+  @include media('>=tablet') {
+    @include defaultTypoStyles(12, 0, 18, normal, var(--font-family-poppins-medium));
+  }
+}
+
+@mixin body-sm-reg {
+  @include defaultTypoStyles(
+    12,
+    0,
+    18,
+    normal,
+    var(--font-family-poppins-regular)
+  ); // TO-DO
+  @include media('>=tablet') {
+    @include defaultTypoStyles(12, 0, 18, normal, var(--font-family-poppins-regular));
+  }
+}
+
+@mixin body-sm-lt {
+  @include defaultTypoStyles(
+    12,
+    0,
+    18,
+    normal,
+    var(--font-family-poppins-light)
+  ); // TO-DO
+  @include media('>=tablet') {
+    @include defaultTypoStyles(12, 0, 18, normal, var(--font-family-poppins-light));
+  }
+}
+
+@mixin body-xs-reg {
+  @include defaultTypoStyles(
+    10,
+    0,
+    16,
+    normal,
+    var(--font-family-poppins-regular)
+  ); // TO-DO
+  @include media('>=tablet') {
+    @include defaultTypoStyles(10, 0, 16, normal, var(--font-family-poppins-regular));
+  }
+}
+
+@mixin tags-sm {
+  @include defaultTypoStyles(
+    10,
+    0,
+    16,
+    normal,
+    var(--font-family-poppins-medium)
+  ); // TO-DO
+  @include media('>=tablet') {
+    @include defaultTypoStyles(10, 0, 16, normal, var(--font-family-poppins-medium));
+  }
+}
+
+@mixin tags-md {
+  @include defaultTypoStyles(
+    12,
+    0,
+    18,
+    normal,
+    var(--font-family-poppins-medium)
+  ); // TO-DO
+  @include media('>=tablet') {
+    @include defaultTypoStyles(12, 0, 18, normal, var(--font-family-poppins-medium));
+  }
+}
+
+@mixin price-reg-stroked {
+  @include defaultTypoStyles(
+    12,
+    0,
+    18,
+    normal,
+    var(--font-family-poppins-regular)
+  ); // TO-DO
+  text-decoration: line-through;
+  @include media('>=tablet') {
+    @include defaultTypoStyles(12, 0, 18, normal, var(--font-family-poppins-regular));
+  }
+}
+
+@mixin price-md-stroked {
+  @include defaultTypoStyles(
+    14,
+    0,
+    20,
+    normal,
+    var(--font-family-poppins-regular)
+  ); // TO-DO
+  text-decoration: line-through;
+  @include media('>=tablet') {
+    @include defaultTypoStyles(14, 0, 20, normal, $font-family-poppins-regular);
+  }
+}

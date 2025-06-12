@@ -1,0 +1,27 @@
+@import './../../../styles/utils/utils';
+
+.gst-form {
+  &__container {
+    border-radius: rem(8);
+    box-shadow: 0px 0px 12px 0px rgba(76, 93, 158, 0.08);
+  }
+
+  &__wrapper {
+    grid-template-columns: 1fr;
+    @include media('>=tablet') {
+      grid-template-columns: 1fr 1fr;
+    }
+  }
+
+  &__input:nth-child(3) {
+    @include media('>=tablet') {
+      grid-column: span 2;
+    }
+  }
+
+  &__input {
+    .design-system-input-field {
+      margin-bottom: 0 !important;
+    }
+  }
+}

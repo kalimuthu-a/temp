@@ -1,0 +1,430 @@
+$bottom-margin: 16px;
+.payment-details {
+  display: inline-block;
+  position: relative;
+  width: calc(100% - 40px);
+  margin: rem(24px) rem(20px) 0 rem(20px);
+  box-shadow: none;
+  @include media('>=tablet') {
+    margin: 0;
+    margin-top: rem(32px);
+    width: 100%;
+  }
+  .flight-payment {
+    margin-bottom: rem($bottom-margin);
+    border: 1px solid get-color('light-white');
+    border-radius: 8px;
+    .skyplus-accordion {
+      margin-bottom: 0;
+      box-shadow: none;
+    }
+  }
+  .skyplus-heading {
+    margin-bottom: 8px;
+    @include media('>=tablet') {
+      & {
+        margin-bottom: rem(11px);
+      }
+    }
+  }
+.flexi_pay_detail{
+    background-color: var(--system-warning-light);
+    padding: rem(8px);
+    font-family: var(--font-family-poppins-regular);
+    font-size: rem(16px);
+    margin-bottom: rem(16px);
+    border-radius: rem(8px);
+  }
+  .price-summary__list__list-item {
+    .price-summary__list__price {
+      font-family: var(--font-family-poppins-regular);
+    }
+    span.green-text{
+      color: var(--accent-dark);
+    }
+  }
+  .skyplus-accordion {
+    .skyplus-accordion__header {
+      background: none;
+      padding: 0 16px;
+    }
+    .skyplus-accordion__header-left {
+      display: none;
+    }
+
+    .skyplus-accordion__body {
+      padding: 0;
+    }
+
+    .skyplus-accordion__header-name {
+      font-weight: 600;
+    }
+
+    .skyplus-accordion__header-container {
+      margin-bottom: 0;
+      padding: 12px 0;
+    }
+
+    .skyplus-accordion__header--active {
+      .skyplus-accordion__header-container {
+        border-bottom: 1px dotted get-color('light-white');
+      }
+    }
+    .skyplus-accordion__subtitle {
+      position: absolute;
+      top: rem(45px);
+      left: rem(108px);
+      background-color: var(--secondary-light);
+      color: get-color('light-blue-7');
+      padding: rem(3px) rem(8px);
+      display: inline-block;
+      width: auto;
+      font-family: var(--font-family-poppins-medium);
+      font-size: rem(10px);
+      line-height: rem(16px);
+      font-weight: 500;
+      border-radius: rem(12px);
+      @include media('>=tablet') {
+        top: rem(57px);
+        left: rem(122px);
+      }
+      @include media('>=desktop') {
+        top: rem(57px);
+        left: rem(122px);
+        font-size: rem(12px);
+        line-height: rem(18px);
+      }
+    }
+  }
+  .gst-contact-info {
+    .card.box-shadow-card-soft {
+      box-shadow: none;
+    }
+    .title-container {
+      @include media('>tablet') {
+        padding: rem(12px) rem(16px) rem(8px);
+      }
+    }
+  }
+  .total-fare {
+    display: flex;
+    justify-content: space-between;
+    font-family: $font-family-default;
+    background-color: var(--white);
+    border-radius: 0 0 8px 8px;
+    padding: $padding-8 $padding-16;
+    align-items: flex-start;
+    .title {
+      font-size: $font-size-14;
+      font-weight: 500;
+      line-height: 20px;
+      color: var(--text-primary);
+      font-family: var(--font-family-poppins-medium);
+      text-transform: UPPERCASE;
+      @include media('>=tablet') {
+        & {
+          font-size: $font-size-16;
+          line-height: 24px;
+        }
+      }
+    }
+    .subtitle {
+      font-size: $font-size-12;
+      font-weight: 400;
+      line-height: 18px;
+      color: var(--text-secondary);
+      @include media('>=tablet') {
+        & {
+          font-size: $font-size-14;
+          line-height: 20px;
+        }
+      }
+    }
+    .price {
+      font-size: $font-size-16;
+      font-weight: 600;
+      line-height: rem(24px);
+      color: var(--color-text-primary);
+      font-family: var(--font-family-poppins-regular);
+      @include media('>=tablet') {
+        & {
+          font-size: $font-size-20;
+          line-height: rem(32px);
+        }
+      }
+    }
+  }
+  .payment-summary-table {
+    .payment-summary {
+      padding: $padding-16;
+    }
+
+    li {
+      font-family: var(--font-family-poppins-regular);
+      display: flex;
+      justify-content: space-between;
+      color: var(--text-secondary);
+      font-size: $font-size-12;
+      font-weight: 400;
+      line-height: 20px;
+
+      span.xl-premium{
+        color: var(--white);;
+        background-color: var(--accent-dark);
+        border-radius: rem(20px);
+        padding: rem(4px) rem(10px);
+        margin-left: rem(10px);
+      }
+
+      @include media('>=tablet') {
+        & {
+          font-size: $font-size-14;
+          line-height: 20px;
+          margin-bottom: 3px;
+        }
+      }
+    }
+
+    .payment-summary-total {
+      font-family: var(--font-family-bauhuas-std-medium);
+      text-align: right;
+      color: var(--text-primary);
+      background-color: get-color('border-color-secondary');
+      font-size: $font-size-16;
+      font-weight: 500;
+      line-height: 20px;
+      padding: $padding-8 $padding-16;
+      @include media('>=tablet') {
+        & {
+          font-size: $font-size-18;
+          line-height: 24px;
+        }
+      }
+    }
+  }
+
+  .card {
+    font-family: var(--font-family-poppins-regular);
+    margin-bottom: rem(0);
+    @include media('>=tablet') {
+      margin-bottom: rem($bottom-margin);
+    }
+    .title-container {
+      border-radius: 8px 8px 0px 0px;
+      background-color: get-color('border-color-secondary');
+      padding: rem(8px) rem(12px);
+      @include media('>=tablet') {
+        padding: rem(12px) rem(16px) rem(8px);
+      }
+    }
+    .title {
+      color: var(--text-primary);
+      font-size: $font-size-14;
+      font-weight: 600;
+      line-height: 20px;
+      @include media('>=tablet') {
+        & {
+          font-size: $font-size-16;
+          line-height: 24px;
+        }
+      }
+    }
+
+    .subtitle {
+      color: var(--text-secondary);
+      font-size: $font-size-12;
+      font-weight: 400;
+      line-height: 18px;
+    }
+
+    .content {
+      padding: rem(12px) rem(16px);
+      color: var(--text-secondary);
+      font-size: $font-size-12;
+      font-weight: 400;
+      line-height: rem(18px);
+      border-radius: 0 0 rem(8px) rem(8px);
+      border: 1px solid get-color('light-white');
+      background: get-color('white');
+      &-value {
+        color: var(--text-primary);
+      }
+    }
+  }
+}
+
+.In6e2 .payment-details .skyplus-accordion {
+  margin-bottom: 0;
+  border-radius: 8px;
+}
+
+.payment-miles-info {
+  .skyplus-accordion {
+    margin-bottom: 0;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+  }
+
+  .total-fare {
+    margin-bottom: rem(16px);
+    flex-wrap: wrap;
+    .subtitle {
+      color: var(--system-information);
+      width: 100%;
+      gap: 8px;
+      display: flex;
+      margin-top: rem(8px);
+      flex: 1; 
+      font-size: rem(12px); 
+      @include media('>=tablet'){
+        flex: unset; 
+      }
+
+      .icon-info {
+        font-size: rem(20px);
+      }
+    }
+  }
+}
+.payment-fare-badges{
+  position: absolute;
+
+  font-size: 0.75rem;
+  line-height: 1.125rem;
+
+  top: rem(42px);
+  left: rem(112px);
+
+  @include media('>=tablet') {
+    top: rem(54px);
+    left: rem(112px);
+  }
+
+  .skyplus-chip--next {
+    padding: 0.25rem 0.5625rem;
+    span {
+      font-family: var(--font-family-poppins-medium);
+      color: var(--primary-main);
+    }
+  }
+}
+
+.flight-payment.flex-hold {
+  .payment-fare-badges {
+    top: rem(123px);
+    @include media('>=tablet') {
+      top: rem(111px);
+    }
+  }
+  .skyplus-accordion__header:focus {
+    border: none;
+  }
+  
+  .skyplus-accordion {
+    .skyplus-accordion__subtitle {
+      display: none;
+    }
+  }
+}
+
+.price-summary__list{
+  &__addon-loyalty-saving {
+    padding-bottom: rem(10px);
+    .price-summary__list {
+      &__price {
+        color: var(--accent-dark);
+      }
+    }
+  }
+
+}
+
+.payment-miles-burn {
+  .title-note {
+    font-size: 14px;
+    line-height: 20px;
+    font-family: var(--font-family-poppins-regular);
+    color: get-color("dark-grey-3");
+    font-weight: 400;
+    
+  }
+}
+
+
+.passenger-no-show-container{
+	display: flex;
+	width: calc(100% - 40px);
+	align-items: flex-start;
+	padding: rem(10px);
+	background-color: var(--system-warning-light);
+	border: rem(1px) solid var(--system-warning-light);
+	border-radius: rem(4px);
+  margin: rem(24px) rem(20px) rem(24px) rem(20px);
+  color: var(--text-primary);
+  flex-direction: column;
+  justify-content: flex-start;
+  @include media('>=tablet') {
+    flex-direction: row;
+    align-items: center;
+    width:100%;
+    margin: rem(32px) rem(0px) rem(32px) rem(0px);
+  }
+  &-left {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: row;
+    width: 100%;
+    @include media('>=tablet') {
+      align-items: center;
+      width: auto;
+    }
+  }
+	&__message{
+		font-size: rem(14px);
+		font-weight: normal;		
+		margin-bottom: 0;
+		position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+	}
+
+	&__link{
+		color: var(--primary-main);
+		text-decoration: none;
+		cursor: pointer;
+    margin-left: rem(28px);
+    border: none;
+    background-color: transparent;
+    font-weight: 600;
+    display: inline-block;
+    width: 100%;
+    text-align: left;
+    margin-top: rem(4px);
+    font-size: rem(14px);
+    @include media('>=tablet') {
+      margin-left: rem(4px);
+      width: auto;
+      margin-top: unset;
+      font-size: rem(16px);
+    }
+		&:hover{
+			color: var(--primary-main);
+			text-decoration: none;
+			cursor: pointer;
+		}
+	
+	}
+	&__icon {
+		margin-right: rem(10px);
+		&::before{
+			// font-family: "icomoon";
+			color: var(--system-warning-bright);		
+			// content: "\e9c6";
+			font-size: rem(26px);
+			width: rem(20px);
+			height: rem(20px);
+		}
+	}		
+}

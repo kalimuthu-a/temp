@@ -1,0 +1,236 @@
+$background-status-done: #e7ffe5; // Not in the list
+
+.application-container {
+  height: auto;
+  width: 100%;
+  top: rem(72px);
+  gap: rem(48px);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  @include media('>tablet') {
+    width: 100%;
+    border-radius: rem(8px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: rem(32px);
+    text-align: center;
+    transition: background-color 0.3s ease;
+  }
+
+  &.complete {
+    background-color: $background-status-done;
+  }
+
+  &.pending {
+    background-color: var(--system-warning-light);
+  }
+
+  &.failed {
+    background-color: var(--system-error-light);
+  }
+
+  .heading {
+    font-family: var(--font-family-bauhuas-std-medium);
+    line-height: rem(24px);
+    letter-spacing: rem(-0.6px);
+    width: 100%;    
+    text-align: center;
+    font-size: rem(20px);
+    vertical-align: middle;    
+    color: var(--text-primary);
+    margin-top: rem(-40px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    margin-bottom: rem(12px);
+
+    @include media('>tablet') {
+      font-family: var(--font-family-bauhuas-std-medium);
+      line-height: rem(44px);
+      letter-spacing: rem(0.08px);      
+      text-align: center;
+      vertical-align: middle;
+      font-size: rem(32px);
+      color: var(--text-primary);
+      margin-top: rem(-51px);
+
+    }
+  }
+
+  .sub-heading {
+    font-family: var(--font-family-poppins-regular);
+    font-size: rem(14px);
+    line-height: rem(20px);
+    letter-spacing: rem(0px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    @include media('>tablet') {
+      font-family: var(--font-family-poppins-regular);
+      font-size: rem(16px);
+      line-height: rem(20px);
+      letter-spacing: rem(-0.4px);
+      color: var(--text-primary);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+    }
+  }
+
+  .booking-details {
+    font-family: var(--font-family-poppins-regular);
+    font-size: rem(16px);
+    letter-spacing: rem(-0.4px);
+    color: var(--text-tertiary);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    @include media('>tablet') {
+      font-family: var(--font-family-poppins-regular);
+      font-size: rem(14px);
+      letter-spacing: rem(0px);
+      color: var(--text-tertiary);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+    }
+  }
+}
+
+.visa-booking-card-image {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: rem(453px);
+  height: rem(143px);
+  gap: rem(12px);
+  align-items: center;
+}
+
+.rightCircle {
+  width: rem(28px);
+  height: rem(28px);
+  border-radius: 50%;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  text-decoration: none;
+
+  @include media('>tablet') {
+    border-radius: 50%;
+    height: rem(40px);
+    width: rem(40px);
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    min-height: rem(40px);
+    text-decoration: none;
+  }
+
+  span {
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    display: flex;
+    color: var(--system-error);
+  }
+}
+
+.visa-booking-card-body-list {
+  font-family: var(--font-family-poppins-semibold);
+  font-weight: 600;
+  font-size: rem(12px);
+  line-height: rem(20px);
+  letter-spacing: rem(0px);
+  margin-top: rem(12px);
+
+  @include media('>tablet') {
+    font-family: var(--font-family-poppins-semibold);
+    font-size: rem(16px);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-weight: 600;
+    color: var(--text-secondary);
+
+    li {
+      margin-right: rem(12px);
+    }
+  }
+}
+
+.sky-icons.sm::before {
+  font-size: rem(9.92px);
+  width: rem(25.92px);
+  height: rem(25.92px);
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  display: flex;
+
+  @include media('>tablet') {
+    font-size: rem(12.8px);
+    width: rem(15px);
+    height: rem(15px);
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: flex;
+  }
+}
+
+.bg-system-warnings{
+  background-color: var(--system-warning-bright);
+}
+
+.bs-fail{
+  background-color: var(--system-error);
+}
+
+.visa-review--left--section{
+  &__power-by{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    font-weight: 400;
+    font-size: rem(10px);
+    line-height: rem(16px);
+    color: var(--text-tertiary);
+    padding: 0 rem(28px) 0 0;
+  }
+
+  &__visa-booking-status-desc{
+    font-family: var(--font-family-poppins-regular);
+    font-weight: 400;
+    font-size: rem(12px);
+    line-height: rem(18px);
+    color: var(--text-tertiary);
+    padding: rem(15px) rem(10px) rem(15px) rem(4px);
+
+    span { 
+      color: var(--primary-main);
+    }
+
+    .text-blue{
+      color: var(--primary-main);
+    }
+
+    @include media('>tablet') {
+      font-size: rem(14px);
+      line-height: rem(20px);
+
+    }
+  }
+}

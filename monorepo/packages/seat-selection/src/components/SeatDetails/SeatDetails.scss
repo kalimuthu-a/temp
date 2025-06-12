@@ -1,0 +1,140 @@
+@import '../../index';
+
+.seat-details {
+  & > .skyplus-offcanvas {
+    &__overlay {
+      background: var(--other-overlay-gradient);
+    }
+
+    &__contents {
+      @include media('<tablet') {
+        box-sizing: border-box;
+        padding: rem(24px) rem(24px) rem(36px);
+        width: 90%;
+        height: 90%;
+        top: 5%;
+        transform: translate(-105%);
+      }
+
+      & > div[class='skyplus-offcanvas__contents--body'] {
+        padding: 0;
+        scrollbar-width: none;
+      }
+
+      & > div[class='skyplus-offcanvas__contents--footer'] {
+        @include media('<tablet') {
+          left: 0;
+          right: 0;
+          width: auto;
+        }
+      }
+    }
+  }
+
+  &--header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: var(--box-shadow-card-soft);
+    padding: rem(11px) 0;
+
+    @include media('>=tablet') {
+      padding: rem(12px) rem(16px);
+    }
+
+    & > span {
+      display: inline-block;
+
+      @include font-styles(14px, 500, 20px, var(--text-primary));
+    }
+
+    & > .seat-details--close {
+      cursor: pointer;
+      color: var(--emergency-close-icon-c);
+
+      &::before {
+        font-size: rem(14px);
+      }
+    }
+  }
+
+  &--body {
+    padding: rem(24px) 0 rem(96px);
+
+    @include media('>=tablet') {
+      padding: rem(24px) rem(20px) rem(104px);
+    }
+
+    & > .passenger-name {
+      margin: 0;
+
+      @include font-styles(14px, 600, 20px, var(--text-primary));
+
+      @include media('>=tablet') {
+        @include font-styles(16px, 600, 24px);
+      }
+    }
+
+    & > .clicked-seat-info {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin: rem(12px) 0 rem(16px);
+
+      @include media('>=tablet') {
+        margin: rem(8px) 0 rem(24px);
+      }
+
+      & > .clicked-price-info {
+        @include font-styles(12px, 500, 18px);
+
+        @include media('>=tablet') {
+          @include font-styles(14px, 500, 20px);
+        }
+      }
+    }
+
+    & > .seat-description p {
+      margin-bottom: rem(14px);
+
+      @include font-styles(12px, 400, 18px, var(--text-secondary));
+
+      @include media('>=tablet') {
+        @include font-styles(14px, 400, 20px);
+      }
+    }
+  }
+
+  &--footer {
+    flex: 1;
+    padding: 0 rem(48px);
+    display: flex;
+    gap: rem(24px);
+    justify-content: center;
+
+    > div {
+      flex: 1;
+    }
+
+    @include media('>=tablet') {
+      padding: 0 rem(43.5px);
+    }
+
+    & > .seat-details {
+      &--cancel,
+      &--add {
+        & > button {
+          padding: rem(12px) rem(32px);
+          box-sizing: border-box;
+          
+          @include font-styles(14px, 500, 20px);
+          
+          @include media('>=tablet') {
+            min-width: rem(180px);
+            min-height: rem(40px);
+          }
+        }
+      }
+    }
+  }
+}

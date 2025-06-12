@@ -1,0 +1,692 @@
+$box-shadow-bottom-sticky: 0px -12px 24px 0px rgba(76, 93, 158, 0.08);
+$box-shadow-cards: 0px 0px 28px 16px rgba(76, 93, 158, 0.04);
+.webcheckin-container {
+  * {
+    -webkit-tap-highlight-color: rgb(0 0 0 / 0%);
+  }
+
+  .wc-back-button {
+    .icon {
+      font-style: normal;
+
+      &::before {
+        transform: rotate(90deg);
+        font-family: $font-family-indigo;
+        content: '\e966';
+        color: get-color(primary-main);
+        margin-right: rem(4px);
+        font-size: rem(16px);
+        display: inline-block;
+      }
+    }
+
+    color: get-color(primary-main);
+    text-transform: uppercase;
+    font-size: rem(14px);
+    line-height: 1.5;
+    text-decoration: underline;
+    font-family: var(--font-family-poppins-regular);
+  }
+
+  .swiper-button {
+    &-next,
+    &-prev {
+      display: none;
+    }
+  }
+
+  .wc-popover {
+    &__content {
+      z-index: 10;
+      position: absolute;
+      top: rem(50px);
+
+      .pop-over-header-mobile {
+        display: none;
+      }
+
+      .date-selection-header {
+        display: none;
+      }
+    }
+  }
+
+  .wc-dropdown {
+    position: relative;
+
+    .wc-popover {
+      &__content {
+        z-index: 10;
+        position: absolute;
+        top: rem(50px);
+      }
+    }
+
+    &-item {
+      padding: rem(8px) rem(10px);
+      cursor: pointer;
+      color: get-color(text-secondary);
+
+      &:hover {
+        color: get-color(text-primary);
+        background-color: get-color(secondary-main);
+      }
+    }
+  }
+
+  .search-inputbox {
+    input {
+      border: none;
+    }
+  }
+
+  .dangerous-goods-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: rem(16px);
+    justify-items: center;
+
+    .body-medium-regular {
+      line-height: rem(20px);
+    }
+
+    @include media('>=tablet') {
+      grid-template-columns: repeat(auto-fill, minmax(rem(114px), 1fr));
+      gap: rem(12px);
+    }
+  }
+
+  .body-medium-regular {
+    font-size: rem(14px);
+  }
+
+  .skyplus-checkbox-container {
+    label {
+      font-size: rem(14px);
+      font-family: var(--font-family-poppins-regular);
+    }
+  }
+
+  .radio-label.checked {
+    .label {
+      color: get-color(primary-main);
+    }
+  }
+
+  .text-right {
+    text-align: right;
+  }
+
+  .error-msg {
+    font-family: var(--font-family-poppins-regular);
+  }
+
+  input {
+    &::placeholder {
+      font-family: var(--font-family-poppins-light);
+      color: get-color(text-tertiary);
+    }
+  }
+
+  sky-icons.lg:before {
+    font-size: rem(32px);
+  }
+
+  &
+    .flight-journey-tab-container__outer.active
+    .flight-journey-tab-container__leg
+    span:first-child:after {
+    background-image: none;
+    border-bottom: 0.0625rem dotted;
+  }
+
+  & .return-flight-banner__card__main-container {
+    padding: rem(16px);
+    justify-content: center;
+    gap: rem(16px);
+
+    & .skyplus-heading.title {
+      font-size: rem(24px);
+      line-height: rem(32px);
+    }
+
+    & .skyplus-heading.return-flight-banner__card__subtitle {
+      font-size: rem(16px);
+      line-height: rem(24px);
+    }
+  }
+}
+
+.wc-toast {
+  pointer-events: all;
+  top: 0;
+  &-container {
+    margin-top: rem(32px);
+  }
+}
+
+.design-system-input-field {
+  .input-field-cross-btn {
+    top: rem(10px);
+  }
+}
+
+div[data-page-type='checkinpassportvisa'],
+div[data-page-type='checkinboardingpass'],
+div[data-page-type='checkindangerousgood'] {
+  padding: rem(4px) rem(20px);
+  @include media('>=tablet') {
+    padding: 0 rem(64px);
+  }
+}
+
+.checkinpassportvisa {
+  .wc-footer {
+    background-color: transparent;
+    box-shadow: none;
+    position: relative;
+
+    @include media('>=tablet') {
+      position: fixed;
+      box-shadow: $box-shadow-bottom-sticky;
+      backdrop-filter: blur(12px);
+      background: var(--other-sticky);
+    }
+
+    .wc-footer-wrapper {
+      padding-right: 0;
+      justify-content: center;
+
+      @include media('>=tablet') {
+        padding-right: rem(60px);
+        justify-content: flex-end;
+      }
+
+      .skyplus-button {
+        button {
+          padding: rem(12px) rem(64px);
+
+          @include media('>=tablet') {
+            padding: rem(12px) rem(32px);
+          }
+        }
+      }
+    }
+  }
+}
+
+.skyplus-dropdown.country-picker-field.focused {
+  .wc-popover__content {
+    width: 84vw;
+    @include media('>=tablet') {
+      max-width: rem(400px);
+    }
+
+    .skyplus-dropdown-popover {
+    }
+  }
+}
+
+.card__description {
+  p {
+    font-size: rem(12px);
+    color: get-color(text-tertiary) !important;
+    font-family: var(--font-family-poppins-regular);
+
+    @include media('>=tablet') {
+      font-size: rem(14px);
+    }
+  }
+}
+
+// Main page
+.cmp-text {
+  span.body-small-regular {
+    display: block;
+  }
+}
+
+#smart-web-checkin {
+  padding: rem(2px) rem(8px);
+  background: linear-gradient(103.39deg, #ffffff 10.29%, #e1eaee 102.18%);
+  width: 100% !important;
+
+  @include media('>=tablet') {
+    padding: rem(16px);
+  }
+
+  .my-6 {
+    margin-bottom: rem(4px) !important;
+    @include media('>=tablet') {
+      margin-bottom: rem(12px) !important;
+    }
+  }
+
+  .boarding-pass {
+    display: contents;
+    font-size: rem(20px);
+
+    @include media('>=tablet') {
+      font-size: rem(24px);
+    }
+  }
+
+  .cmp-text {
+    .h4 {
+      p {
+        span {
+          font-size: rem(14px);
+          color: var(--text-secondary);
+
+          @include media('>=tablet') {
+            font-size: rem(20px);
+          }
+        }
+      }
+    }
+
+    font-size: rem(20px);
+    font-family: var(--font-family-bauhuas-std-medium);
+  }
+
+  .button {
+    border-radius: rem(18px);
+    text-align: center;
+    background-color: var(--secondary-light);
+    padding: rem(8px) rem(24px);
+    font-size: rem(14px);
+    a {
+      text-decoration: none;
+    }
+  }
+
+  li {
+    display: flex;
+    gap: rem(16px);
+    align-items: center;
+    &::before {
+      content: '+';
+      font-size: rem(12px);
+    }
+    font-size: rem(12px);
+    span {
+      font-size: rem(12px);
+    }
+  }
+
+  .image-wrapper {
+    display: flex;
+    justify-content: space-between;
+    gap: rem(12px);
+    align-items: center;
+    padding-bottom: rem(12px);
+
+    @include media('>=tablet') {
+      padding-bottom: 0;
+    }
+
+    img {
+      width: rem(150px);
+      height: 100%;
+      border-radius: rem(12px);
+    }
+
+    .body-medium-regular {
+    }
+  }
+
+  .view-button {
+    color: get-color(primary-main);
+    text-transform: uppercase;
+    font-family: var(--font-family-poppins-medium);
+    font-size: rem(14px);
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+
+    @include media('>=tablet') {
+      font-size: rem(16px);
+    }
+
+    span {
+      color: get-color(primary-main);
+      text-decoration: underline;
+    }
+
+    &:after {
+      content: '>';
+      margin-left: rem(6px);
+      font-size: rem(14px);
+
+      @include media('>=tablet') {
+        font-size: rem(20px);
+        margin-left: rem(12px);
+      }
+    }
+  }
+
+  .boarding-pass {
+    p {
+      span {
+        font-size: rem(24px);
+        text-transform: none;
+      }
+    }
+  }
+}
+
+.information-list {
+  margin: 0;
+
+  @include media('>=tablet') {
+    margin: rem(24px) 0;
+  }
+
+  .card__icon {
+    width: rem(36px) !important;
+    color: var(--text-primary);
+    @include media('>=tablet') {
+      width: rem(42px) !important;
+    }
+    padding: rem(18px) !important;
+  }
+  .card__icon-right {
+    color: var(--text-primary);
+  }
+}
+
+#webcheckin-guest {
+  .rounded-cards {
+    margin-top: rem(16px);
+  }
+
+  h2 {
+    font-family: var(--font-family-bauhuas-std-medium);
+    font-size: rem(26px);
+    font-weight: 500;
+  }
+
+  .p-6 {
+    padding: rem(12px) 0 !important;
+  }
+
+  .campaign__card {
+    border-radius: rem(12px);
+  }
+
+  .cards {
+    background-color: get-color(white);
+    box-shadow: var(--box-shadow-cards);
+    border: rem(1px) solid var(--secondary-light);
+    margin-top: rem(32px);
+    border-radius: rem(16px);
+  }
+
+  .cmp-text__title.h1 {
+    p {
+      span {
+        color: var(--text-primary);
+        font-family: var(--font-family-bauhuas-std-medium);
+        font-size: rem(20px);
+        font-weight: 500;
+        line-height: rem(24px);
+        margin-bottom: rem(12px);
+
+        @include media('>=tablet') {
+          font-size: rem(24px);
+          line-height: rem(32px);
+          margin-bottom: rem(24px);
+        }
+      }
+    }
+  }
+
+  .sh2 {
+    .bauhaus-std-medium {
+      color: var(--text-primary);
+      line-height: 1.5;
+    }
+  }
+
+  .text {
+    .cmp-text {
+      p {
+        line-height: 1;
+      }
+    }
+  }
+  & .cmp-text__note {
+    border-radius: rem(12px);
+    padding: rem(12px) rem(16px);
+    background-color: var(--white);
+    box-shadow: $box-shadow-cards;
+    backdrop-filter: blur(8px);
+    margin-bottom: rem(32px);
+  }
+}
+
+.cmp-container {
+  .imagetextcarousel {
+    .waystoearnredeem__card {
+      width: 100% !important;
+      max-width: 100% !important;
+    }
+  }
+}
+
+.right-container-styling {
+  @include media('>=tablet') {
+    padding-bottom: 0;
+  }
+}
+
+.campaign__card__content {
+  .skyplus-button {
+    button {
+      width: auto;
+    }
+  }
+}
+
+.colctrl-container {
+  margin-top: rem(16px);
+  > .aem-Grid {
+    display: flex;
+    gap: rem(16px);
+
+    flex-direction: column;
+
+    @include media('>=tablet') {
+      flex-direction: row;
+    }
+
+    &::before {
+      display: none;
+    }
+
+    .left {
+      flex: 1;
+    }
+
+    .right {
+      height: 100%;
+      width: 100%;
+      flex: 1;
+
+      .waystoearnredeem__card-content {
+        position: absolute;
+        top: rem(16px);
+        bottom: auto;
+      }
+
+      .imagetextcarousel {
+        margin-top: 0;
+      }
+
+      @include media('>=tablet') {
+        width: 45%;
+      }
+
+      .waystoearnredeem__card-img {
+        height: rem(150px);
+
+        @include media('>=tablet') {
+          height: rem(250px);
+        }
+      }
+    }
+  }
+}
+
+.cmp-container {
+  .h3.pb-6.pt-12 {
+    padding-bottom: 0 !important;
+  }
+
+  &.rounded-cards {
+    padding: rem(20px);
+
+    p {
+      margin-left: 0 !important;
+      &:not(:last-child) {
+        margin-bottom: rem(16px);
+      }
+
+      span {
+        text-transform: uppercase;
+        font-size: rem(14px);
+        color: var(--text-primary);
+      }
+
+      .body-medium-light {
+        font-size: rem(14px);
+        text-transform: none;
+      }
+    }
+
+    h1 {
+      p {
+        margin-left: 0 !important;
+      }
+    }
+
+    .p-6 {
+      padding: 0 !important;
+    }
+  }
+
+  .right-container-styling
+    .rounded-cards
+    .cmp-text
+    .body-medium-regular.p-6.text-secondary {
+    padding: 0 !important;
+    padding-bottom: rem(20px) !important;
+  }
+
+  .body-medium-regular.p-6.text-secondary {
+    padding-bottom: rem(20px);
+  }
+
+  .container-bottom-margin {
+    margin-bottom: rem(32px);
+  }
+}
+
+.custom-radio {
+  min-width: rem(20px);
+}
+
+.skyplus-checkbox-container .styled-checkbox + label:before {
+  border-color: var(--primary-main);
+}
+
+.flight-journey-tab-container.webcheckin-journey {
+  background-color: get-color(white);
+}
+
+.informationList {
+  margin-top: rem(40px);
+  @include media('>=tablet') {
+    margin-top: 0;
+  }
+  .bauhaus-font {
+    color: var(--text-primary);
+    font-size: rem(20px);
+
+    @include media('>=tablet') {
+      font-size: rem(24px);
+    }
+  }
+}
+
+#smart-web-checkin {
+  .image-wrapper {
+    .text-secondary {
+      &::after {
+        content: '';
+      }
+    }
+  }
+
+  & .boarding-pass {
+    color: var(--text-primary);
+    & p {
+      margin-bottom: rem(16px);
+    }
+  }
+
+  & ul li {
+    font-size: rem(14px);
+    line-height: rem(18px);
+    &:not(:last-child) {
+      margin-bottom: rem(24px);
+    }
+  }
+}
+
+.colctrl-container {
+  .left {
+    background: linear-gradient(103.39deg, #ffffff 10.29%, #e1eaee 102.18%);
+    box-shadow: 0px 0px 1.9px 0px rgb(0 0 0 / 7%);
+    border-radius: 0.5rem;
+    width: 100% !important;
+  }
+}
+
+.flights_stats {
+  display: none;
+}
+
+.footer {
+  border-top: none;
+}
+
+.footerv2__wrapper {
+  padding-top: rem(40px);
+}
+
+.headerv2-title-page-type {
+  color: var(--text-primary);
+}
+
+.flight-journey-tab-wrapper {
+  max-width: 90vw;
+  height: rem(52px);
+  overflow: hidden;
+
+  @include media('>=tablet') {
+    max-width: inherit;
+  }
+
+  .webcheckin-journey {
+    @include media('>=tablet') {
+      max-width: 60vw;
+    }
+  }
+
+  .flight-journey-tab-container__outer {
+    @include media('>=tablet') {
+      min-width: rem(200px);
+    }
+  }
+}

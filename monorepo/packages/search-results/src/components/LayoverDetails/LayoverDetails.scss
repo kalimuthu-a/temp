@@ -1,0 +1,62 @@
+.FlightBreakdownModal-positions {
+  margin-bottom: 60px;
+  margin-top: 280px;
+  width: 35% !important;
+  z-index: 99999999999;
+
+  @include media('<tablet') {
+    width: 95% !important;
+  }
+
+  .timer {
+    color: var(--accent-dark);
+    font-weight: 600;
+    font-size: rem(20px);
+
+    @include media('>=tablet') {
+      font-size: rem(24px);
+    }
+  }
+
+  .line-bg {
+    border-top: 1px dotted #afe4ff;
+  }
+
+  .line-bg-black {
+    border-top: 1px dotted #9ba4b8;
+  }
+
+  .flight-info {
+    background-color: #eaf8ff;
+
+    .change-aircraft {
+      display: flex;
+      align-items: center;
+      gap: rem(12px);
+      color: get-color(text-tertiary);
+      font-size: rem(12px);
+
+      &::before {
+        content: '';
+        width: 4px;
+        height: 4px;
+        border-radius: 50%;
+        background-color: get-color(text-tertiary);
+      }
+    }
+  }
+
+  .c-pointer {
+    cursor: pointer;
+  }
+}
+
+.background-cover {
+  background: var(--blur-overlay);
+  opacity: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  left: 0;
+  padding: 50px 0;
+}

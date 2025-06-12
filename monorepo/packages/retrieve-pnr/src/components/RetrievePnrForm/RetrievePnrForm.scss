@@ -1,0 +1,184 @@
+$color-text-grey1: #757c8a;
+.retrieve-pnr {
+  .In6e2 &-form,
+  &-form.initiate-refund{
+    padding-top: rem(12px);
+    padding-bottom: rem(12px);
+    display: flex;
+    @include media('>=tablet') {
+      padding-top: rem(24px);
+      padding-bottom: rem(24px);
+    }
+
+    & > div.retrieve-pnr-form-title{
+      min-width: 100%;
+      font-family: var(--font-family-bauhuas-std-medium);
+      font-size: rem(20px);
+      @include media('>=tablet') {
+        font-size: rem(24px);
+      }
+    }
+    @include media('>=tablet') {
+      flex-direction: row;
+      & div.d-block > .skyplus-button{
+          width: 100%;
+      }
+    }
+  }
+  .info-contact-us {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 0 rem(12px) rem(12px);
+    margin-top: 0 !important;
+
+    @include media('>=tablet') {
+      flex-direction: row;
+      padding: rem(24px);
+    }
+
+    .retrieve-pnr-form-title {
+      min-width: 100%;
+    }
+
+    h3 {
+      display: none;
+      font-family: var(--font-family-bauhuas-std-medium);
+      font-weight: 500;
+      font-size: rem(20px);
+      margin-bottom: rem(16px);
+      color: var(--text-primary);
+
+      @include media('>=tablet') {
+        width: 100%;
+        display: block;
+      }
+    }
+
+    .design-system-input-field + .d-block {
+      flex: 0;
+      min-width: rem(150px);
+    }
+  }
+
+    margin-bottom: rem(24px);
+  @include media('>=tablet') {
+    margin-bottom: rem(32px);
+  }
+  h2 {
+    color: var(--text-secondary);
+    font-size: rem(16px);
+    p {
+      font-size: rem(20px);
+      line-height: rem(24px);
+      font-family: var(--font-family-bauhuas-std-medium);
+      font-weight: 500;
+      margin-bottom: rem(12px);
+      color: var(--text-primary);
+
+      @include media('>=tablet') {
+        font-size: rem(24px);
+        line-height: rem(32px);
+        margin-bottom: rem(16px);
+        letter-spacing: -0.6px;
+      }
+    }
+  }
+
+  .booking-title {
+    font-size: rem(14px);
+    line-height: rem(20px);
+    color: get-color(text-secondary);
+    text-transform: uppercase;
+    font-weight: 400;
+    margin-bottom: rem(8px);
+    font-family: var(--font-family-poppins-regular);
+
+    @include media('>=tablet') {
+      font-size: rem(16px);
+      line-height: rem(24px);
+    }
+  }
+
+  &-form {
+    box-shadow: 0 0 28px 16px #4c5d9e0a;
+    display: flex;
+    width: 100%;
+    flex-flow: column wrap;
+    align-items: flex-start;
+    background-color: get-color(white);
+    gap: rem(12px);
+    padding: rem(12px);
+
+    @include media('>=tablet') {
+      gap: rem(16px);
+      padding: rem(16px);
+    }
+
+    > div {
+      flex: 1;
+      width: 100%;
+    }
+
+    .mb-0 {
+      margin-bottom: 0 !important;
+    }
+
+    input {
+      &::placeholder {
+        font-family: var(--font-family-poppins-regular);
+        @include media('>=tablet') {
+        font-size: rem(12px);
+        }
+      }
+    }
+  }
+}
+
+.info-contact-us {
+  &__heading h3 {
+    margin-bottom: rem(16px);
+    margin-top: rem(8px);
+    letter-spacing: rem(-0.6px);
+    color: var(--text-primary);
+    font-family: var(--font-family-bauhuas-std-medium);
+    font-weight: 500;
+    span {
+      font-size: rem(20px);
+      line-height: rem(24px);
+      @include media('>=tablet') {
+        font-size: rem(32px);
+        line-height: rem(32px);
+      }
+    }
+    @include media('>=tablet') {
+      margin-top: rem(16px);
+    }
+  }
+  &__sub_heading {
+    font-size: rem(14px);
+    margin-bottom: rem(16px);
+    color: $color-text-grey1;
+    font-family: var(--font-family-poppins-regular);
+    text-transform: uppercase;
+    @include media('>=tablet') {
+      font-size: rem(20px);
+    }
+  }
+}
+
+#help-page{
+  .retrieve-pnr {
+    margin-bottom: 0;
+  }
+}
+
+.refund-claim-title {
+  margin: rem(32px) 0 rem(24px);
+  h3 {
+    span,
+    p {
+      font-size: rem(32px);
+    }
+  }
+}

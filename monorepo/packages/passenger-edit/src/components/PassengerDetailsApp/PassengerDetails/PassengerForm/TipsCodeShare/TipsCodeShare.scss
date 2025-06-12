@@ -1,0 +1,30 @@
+@import '../../../../../styles/main';
+
+.tips-heading {
+    color: #222;
+    font-size: rem(14px);
+    font-style: normal;
+    font-weight: 600;
+    line-height: rem(32px);
+    letter-spacing: -0.6px;
+
+    @include media(">=tablet") {
+        font-family: var(--font-family-bauhuas-std-medium);
+        font-size: rem(24px);
+        font-weight: 500;
+    }
+}
+
+.tips-para p {
+    color: var(--text-secondary);
+    font-size: rem(12px);
+    font-style: normal;
+    font-weight: 400;
+    line-height: rem(16px);
+    margin-top: rem(4px);
+
+    @include media(">=tablet") {
+        font-size: rem(14px);
+        margin-top: rem(8px);
+    }
+}

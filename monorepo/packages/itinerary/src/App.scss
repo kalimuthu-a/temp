@@ -1,0 +1,568 @@
+.itinerary-mf {
+	display: inline-block;
+	-webkit-tap-highlight-color: rgb(255 255 255 / 0%);
+}
+
+.view-itinerary {
+	margin-bottom: rem(24px);
+	-webkit-tap-highlight-color: rgb(255 255 255 / 0%);
+	&__whatsapp {
+		display: flex;
+		flex-direction: column;
+		margin: rem(30px) 0;
+		border-radius: rem(4px);
+		border: 1px solid #dadada;
+		padding: rem(20px) rem(24px);
+		background-color: var(--white);
+		position: relative;
+
+		@include media(">=tablet") {
+			align-items: center;
+			flex-direction: row;
+		}
+
+		&--hide{
+			display: none;
+		}
+
+		&__content {
+			margin-left: rem(50px);
+
+			@include media(">=tablet") {
+				width: 60%;
+				float: left;
+				padding-right: rem(10px);
+			}
+
+			&__text {
+				color: $black;
+				font-size: rem(14px);
+				font-weight: bold;
+				margin-bottom: 0;
+				float: left;
+				width: 100%;
+
+				p {
+					display: flex;
+					flex-direction: column;
+				}
+
+				&__heading {
+					float: none;
+					width: 100%;
+					margin: 0 rem(6px) rem(12px) 0;
+					display: inline-block;
+
+					@include media(">=tablet") {
+						float: left;						
+					}
+
+					&__whatsapp-text {
+						color: var(--accent-dark);
+						font-weight: 700;	
+										
+					}
+
+					&__whatsapp-text-black {
+						color: var(--text-dark-charcoal);
+						font-weight: 700;						
+					}
+				}
+			}
+
+			&__subtext ,p{
+				font-size: rem(14px);
+				margin-top: rem(4px);
+				color: $black;
+			}
+		}
+
+		.watsapp-icon {
+			margin-right: rem(20px);
+			float: left;
+
+			&::before {
+				content: "\e945";
+				color: $green;
+				font-size: rem(30px);
+				position: absolute;
+				top: rem(32px);
+			}
+		}
+	}
+	.cardstrip{
+		margin-bottom: rem(32px);
+	}
+	.retrieve-another-itinerary {
+		display: inline-block;
+		margin: 0 auto;
+		width: 100%;
+		text-align: center;
+
+		button {
+			font-size: rem(14px);
+			width: calc(100% - 40px);
+			margin: 0 rem(20px);
+		}
+
+		@include media('>=tablet') {
+			width: 95%;
+
+			button {
+				font-size: rem(14px);
+				width: 100%;
+			}
+		}
+	}
+
+	.itinerary-details-title {
+		display: flex;
+		align-items: flex-start;
+		padding: rem(16px) rem(20px) rem(32px) rem(20px);
+		flex-direction: column;
+		font-size: rem(20px);
+		font-style: normal;
+		font-weight: 500;
+		color: var(--text-primary);
+		font-family: var(--font-family-bauhuas-std-medium);
+		letter-spacing: -0.6px;
+		line-height: rem(24px);
+
+		@include media('>=tablet') {
+			font-size: rem(32px);
+			letter-spacing: -0.8px;
+			line-height: rem(44px);
+			padding: rem(16px) rem(0px) rem(24px) rem(0px);
+			&.itinerary-details-title-flexPay {
+				line-height: rem(35px);
+			}
+		}
+
+		.green {
+			color: var(--accent-dark);
+		}
+	}
+
+	.itinerary-details-description {
+		display: inline-block;
+		width: 100%;
+		padding: rem(8px) rem(20px) rem(16px);
+		text-align: left;
+		position: relative;
+		font-family: var(--font-family-poppins-regular);
+		@include media('>=tablet') {
+			padding: rem(8px) rem(0px) rem(32px);
+		}
+
+		p {
+			display: block;
+			width: 100%;
+			text-align: left;
+			font-family: var(--font-family-poppins-regular);
+			font-size: rem(12px);
+			font-style: normal;
+			font-weight: 400;
+			line-height: rem(20px);
+			color: var(--text-secondary);
+
+			@include media('>=tablet') {
+				font-size: rem(14px);
+				line-height: rem(20px);
+			}
+		}
+
+		&-title {
+			color: var(--text-primary);
+			font-size: rem(14px);
+			font-style: normal;
+			font-weight: 600;
+			line-height: rem(20px);
+			padding: 0 rem(20px);
+
+			@include media('>=tablet') {
+				font-size: rem(16px);
+				line-height: rem(24px);
+				padding: 0;
+			}
+			p {
+				display: block;
+				width: 100%;
+				text-align: left;
+				font-family: var(--font-family-poppins-regular);
+				font-size: rem(14px);
+				font-style: normal;
+				font-weight: 400;
+				line-height: rem(20px);
+				color: var(--text-primary);
+	
+				@include media('>=tablet') {
+					font-size: rem(16px);
+						line-height: 24px;
+						font-weight: 600;
+				}
+			}
+		}
+		&-confirm {
+			color: var(--text-secondary);
+			padding: rem(8px) rem(20px) rem(24px);
+			font-size: rem(12px);
+			font-family: var(--font-family-poppins-regular);
+			font-weight: 400;
+			@include media('>=tablet') {
+				font-size: rem(14px);
+				padding: rem(8px) rem(0px) rem(32px);
+			}
+			p {
+				color: var(--text-secondary);
+				font-size: rem(12px);
+				@include media('>=tablet') {
+					font-size: rem(14px);
+				}
+			}
+		}
+	}
+
+	.webcheckin-cta {
+		display: inline-block;
+		width: 100%;
+		position: relative;
+		margin: 0;
+
+		button {
+			width: 100%;
+			font-size: rem(14px);
+			padding: rem(12px) rem(32px);
+
+			@include media('>=tablet') {
+				width: calc(100% - 32px);
+			}
+		}
+
+		@include media('>=tablet') {
+			width: 100%;
+			margin: rem(24px) rem(0px) rem(0px);
+			margin-left: 0;
+		}
+		&.international-modify {
+			button {
+				margin-top: 0;
+				margin-bottom: rem(24px);
+			}
+		}
+	}
+}
+
+.skp-retrieve-pnr {
+	.retrieve-pnr-cta {
+		width: 100%;
+		padding: 0 rem(20px);
+		display: inline-grid;
+
+		button{
+			margin: 0 auto;
+			width: 100%;
+		}		
+	}
+}
+.skip-itinearary-back-button{
+	display: block;
+	text-align: left;
+	width: 100%;
+	margin: 0 auto;	
+	padding: 0;
+	position: relative;
+	display: none;
+	
+	@include media('>=tablet') {
+		min-width: rem(1152px);
+		max-width: rem(1440px);
+		padding: 0 rem(64px);
+		margin:rem(24px) auto rem(16px) auto;
+		display: block;
+	}
+	.view-itinerary__back-text{
+		color: get-color('dark-sky-blue');
+		font-family: var(--font-family-poppins-regular);
+		font-size: rem(14px);
+		font-weight: 400;
+		text-decoration-line: underline;
+		text-transform: uppercase;
+		cursor: pointer;
+		padding-left: rem(20px);
+		@include media(">tablet"){
+			margin: rem(24px) 0 rem(16px);
+		}
+	}
+	
+	.icon-accordion-down-simple{
+		cursor: pointer;
+		position: relative;
+		&::before{
+			font-size: rem(16px);
+			position: absolute;
+			color: get-color('dark-sky-blue');
+			transform: rotate(92deg);
+			top: 2px;
+			left: 0;
+		}
+	}
+}
+.skp-itinerary-container {
+	justify-content: center;
+	display: flex;
+	column-gap: rem(16px);
+	width: 100%;
+	margin: 0 auto;	
+	margin-bottom: rem(80px);
+	padding: 0;
+	@include media('>=tablet') {
+		min-width: rem(1152px);
+		max-width: rem(1440px);
+		padding: 0 rem(64px);
+	}
+	&--left {
+		width: 100%;
+		@include media('<tablet') {
+			&.modification-flow {
+				margin-bottom: rem(96px);
+			}
+		}
+		
+		@include media('>desktop') {
+			min-width: rem(763px);
+			max-width: 66%;
+		}
+
+		.skyplus-button{			
+			button {
+				margin: 16px auto;
+				line-height: rem(24px);				
+			}
+		}
+		.banner-container__content {
+			.skyplus-button .banner-container__content__btn {
+				margin: unset;
+			}
+		}	
+
+		.webcheckin-cta {
+			width: 100%;
+
+			button {
+				width: calc(100% - 40px);
+				font-size: rem(14px);
+				margin: rem(24px) auto rem(0px) auto;
+				height: rem(44px);
+				border-radius: rem(22px);
+				@include media('>desktop') {
+					margin: rem(32px) auto;
+					height: rem(56px);
+					border-radius: rem(28px);
+				}
+			}
+			&.booking-flow {
+				button {
+					@include media('<tablet') {
+						margin: rem(0px) auto rem(24px) auto;
+					}
+				}
+			}
+		}	
+		.banner-container {
+			@include media('>desktop') {
+				margin-bottom: rem(32px);
+			}
+		}
+	}
+
+	&--right {
+		width: rem(373px);
+
+		@include media('>=tablet') {
+			width: calc(34% - 16px);
+			margin-top:(16px);
+		}
+
+		@include media('>desktop') {
+			min-width: rem(373px);
+			max-width: calc(34% - 16px);
+		}
+
+		.webcheckin-cta {
+			display: inline-block;
+			width: calc(100% - 24px);
+			position: relative;
+			margin: rem(24px) rem(12px) rem(0px);
+
+			button {
+				width: 100%;
+				font-size: rem(14px);
+				padding: rem(12px) rem(32px);
+				height: rem(56px);
+				border-radius: 28px;
+			}
+
+			@include media('>=tablet') {
+				width: 100%;
+				margin: rem(32px) rem(0px) rem(16px);
+			}
+			&.booking-flow {
+				@include media('>=tablet') {
+					margin: rem(32px) rem(0px) rem(0px);
+				}
+			}
+			&.check-in-international {
+				margin-top: rem(16px);
+			}
+		}
+
+		.retrieve-another-itinerary {
+			display: inline-block;
+			margin: 0 auto;
+			width: 100%;
+			text-align: center;
+
+			button {
+				font-size: rem(14px);
+				width: calc(100% - 24px);
+				line-height: rem(24px);
+			}
+
+			@include media('>=tablet') {
+				width: 95%;
+
+				button {
+					font-size: rem(14px);
+					width: 100%;
+				}
+			}
+
+			&.desktop-view {
+				width: 98%;
+				text-align: right;
+				margin: rem(0px) 0 rem(8px);
+				display: inline-flex;
+				justify-content: flex-end;
+
+				button {
+					border-radius: 0;
+					background: transparent;
+					font-size: rem(16px);
+					text-decoration-line: underline;
+					text-transform: uppercase;
+					cursor: pointer;
+					height: auto;
+					padding: 0;
+					color: var(--primary-main);
+					font-family: var(--font-family-poppins-regular);
+					width: auto;
+				}
+				
+			}
+		}
+	}
+	
+	.skyplus-itinerary-bg-banner {
+		display: inline-block;
+		position: absolute;
+		z-index: -1;
+		opacity: 0.5;
+		width: 100%;
+		object-fit: cover;
+		top: 0;
+		height: 75%;
+
+		&__img {
+			display: block;
+			width: 100%;
+			height: 100%;
+		} 
+	}
+
+	.itinerary-toast-container {
+		text-align: center;
+		.notifi-variation {
+			&-container {
+				align-items: flex-start;
+			}
+
+			&-col {
+				.content {
+					.desc {
+						text-align: left;
+					}
+				}
+			}
+		}
+		.modification-success-toast {
+			@include media('>=tablet') {
+				bottom: 0;
+				width: auto;
+				display: inline-block;
+				margin: 0 auto;
+				position: relative;
+				min-width: auto;
+			}
+			.notifi-variation {
+				&-icon-wrapper {
+					padding-top:0;
+					line-height: rem(20px);
+				}
+				&-container {
+					justify-content: flex-start;
+					width: auto;
+					position: relative;
+					align-items: flex-start;
+				}
+				&-col {
+					width: auto;
+					margin-right: rem(16px);
+					display: inline-block;
+					position: relative;
+					.content {
+						.desc {
+							padding-top: 0;
+						}
+					}
+				}
+			}
+			.icon-close-simple {
+				position: relative;
+				right: 0;
+				margin-left: rem(8px);
+				&::before {
+					top: rem(2px);
+					font-size: rem(16px);
+					@include media('>=tablet') {
+						font-size: rem(20px);
+					}
+				}
+			}
+		}
+		.title {
+			text-align: left;
+		}
+	}
+}
+.itinearary-success-toast {
+	.notifi-variation-col{
+		width: 100%;
+	}
+	.skyplus-design-toast__close {
+		position: relative;
+
+		&::before {
+			font-size: 20px;
+			position: absolute;
+			left: rem(-21px);
+			top: 5px;
+		}
+
+	}
+
+	.desc {
+		padding-top: rem(6px);
+		max-width: rem(530px);
+		width: 100%;
+	}
+}

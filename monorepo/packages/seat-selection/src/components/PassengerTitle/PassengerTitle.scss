@@ -1,0 +1,20 @@
+@import '../../index';
+
+.passenger-type-header {
+    font-size: rem(20px);
+    line-height: rem(24px);
+    margin: rem(12px) 0;
+    font-family: var(--font-family-bauhuas-std-medium);
+    font-weight: 500;
+    color: var(--text-primary);
+
+    @include media('>=desktop') {
+        font-size: rem(24px);
+        line-height: rem(32px);
+        margin: rem(30px) 0 rem(20px);
+    }
+
+    .text-green{
+        color: var(--accent-dark);
+    }
+}

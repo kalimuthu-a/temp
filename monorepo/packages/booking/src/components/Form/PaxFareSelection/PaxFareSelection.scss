@@ -1,0 +1,282 @@
+.search-widget-form-body__pax-fare-selection {
+  .label_top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    &::after {
+      content: '\e966';
+      font-family: $font-family-indigo;
+      font-size: rem(16px);
+      transform: rotate(270deg);
+
+      @include media('>=desktop') {
+        transform: rotate(0deg);
+      }
+    }
+  }
+
+  .error6e {
+    font-size: rem(12px);
+  }
+
+  .form-hint-value {
+    max-width: 100% !important;
+
+    @include media('>=desktop') {
+      max-width: rem(300px) !important;
+    }
+  }
+
+  .show-on-hover {
+    display: none;
+
+    @include media('>=tablet') {
+      display: block;
+    }
+  }
+
+  .chip-special-fare {
+    &.checked {
+      span {
+        color: get-color(text-primary) !important;
+        font-family: var(--font-family-poppins-medium);
+      }
+    }
+    span {
+      color: get-color(text-secondary) !important;
+    }
+  }
+
+  .delete-icon {
+    color: var(--btn-disabled-background);
+  }
+}
+
+.pax-fare-selection-popover {
+  border: var(--border-secondary);
+  box-shadow: 0 0 12px 0 #4c5d9e14;
+  background-color: get-color(white);
+  border-top-left-radius: rem(12px);
+  border-top-right-radius: rem(12px);
+  overflow: scroll;
+  height: inherit;
+  margin-bottom: rem(64px);
+  cursor: default;
+
+  @include media('>=desktop') {
+    overflow: hidden scroll;
+    margin-bottom: 0;
+    border: none;
+  }
+
+  &--mobile {
+    display: block;
+    position: sticky;
+    top: 0;
+    background-color: get-color(white);
+    z-index: 2;
+
+    @include media('>=desktop') {
+      display: none;
+    }
+
+    &-bottom {
+      position: fixed;
+      bottom: rem(12px);
+      background-color: get-color(white);
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      padding: rem(12px) rem(16px);
+      align-items: center;
+      box-shadow: 0 -12px 24px 0 #4c5d9e14;
+      border-top-left-radius: rem(12px);
+      border-top-right-radius: rem(12px);
+
+      height: rem(72px);
+
+      > div {
+        background-color: get-color(white);
+        display: flex;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        padding: 0 rem(16px);
+        align-items: center;
+      }
+
+      @include media('>=desktop') {
+        position: relative;
+        border-radius: 0;
+        box-shadow: none;
+        color: get-color(text-secondary);
+        font-size: rem(14px);
+        font-family: var(--font-family-poppins-semibold);
+
+        background-image: radial-gradient(
+          circle closest-side,
+          get-color(text-disabled) calc(100% - 0.5px),
+          transparent 100%
+        );
+        background-repeat: repeat-x;
+        background-size: 4px 2px;
+      }
+    }
+  }
+
+  @include media('>=desktop') {
+    max-width: rem(556px);
+    overflow: hidden;
+  }
+
+  &--special-fares {
+    overflow: scroll;
+
+    @include media('>=desktop') {
+      overflow: hidden;
+    }
+
+    .title {
+      padding: rem(16px) rem(16px) rem(10px);
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 20px;
+      text-transform: uppercase;
+      color: get-color(text-tertiary);
+    }
+
+    &__list {
+      display: flex;
+      margin: 0 rem(16px) rem(8px);
+      gap: rem(12px);
+      overflow: auto hidden;
+
+      padding-bottom: rem(4px);
+
+      &::-webkit-scrollbar {
+        height: 4px;
+        width: 4px;
+        background: gray;
+        margin-top: rem(2px);
+      }
+
+      /* Track */
+      &::-webkit-scrollbar-track {
+        background: get-color(white);
+      }
+
+      /* Handle */
+      &::-webkit-scrollbar-thumb {
+        background: #888;
+      }
+
+      &::-webkit-scrollbar-thumb:horizontal {
+        background-color: get-color(action-disabled-stroke);
+        border-radius: 10px;
+      }
+    }
+    &-bottom-line {
+      height: rem(12);
+      background-position: 0 0, 0 0, 0 0;
+      background-repeat: repeat-x;
+      background-size: rem(4) rem(2);
+      background-image: radial-gradient(circle closest-side, var(--secondary-main) calc(100% - 0.5px), transparent 100%), radial-gradient(circle closest-side, transparent calc(100% - 0.5px), transparent 100%), radial-gradient(circle closest-side, var(--secondary-main) calc(100% - 0.5px), transparent 100%), radial-gradient(circle closest-side, transparent calc(100% - 0.5px), transparent 100%);
+    }
+  }
+
+  &--group-booking {
+    padding: rem(12px) rem(16px);
+    border-left: none;
+    border-right: none;
+    p {
+      font-size: rem(12px);
+      font-weight: 400;
+      border-left: 0;
+      border-right: 0;
+      color: get-color(text-secondary);
+      @include media('>=desktop') {
+        font-size: rem(14px);
+      }
+    }
+
+    a {
+      font-family: var(--font-family-poppins-medium);
+      color: get-color(primary-main);
+    }
+
+    background-image: radial-gradient(
+        circle closest-side,
+        get-color(secondary-main) calc(100% - 0.5px),
+        transparent 100%
+      ),
+      radial-gradient(
+        circle closest-side,
+        transparent calc(100% - 0.5px),
+        transparent 100%
+      ),
+      radial-gradient(
+        circle closest-side,
+        get-color(secondary-main) calc(100% - 0.5px),
+        transparent 100%
+      ),
+      radial-gradient(
+        circle closest-side,
+        transparent calc(100% - 0.5px),
+        transparent 100%
+      );
+    background-position: 0 0, 100% 0, 0 100%;
+    background-repeat: repeat-x;
+    background-size: rem(4px) rem(2px);
+  }
+
+  &--login-container {
+    align-items: center;
+    padding: rem(12px) rem(16px);
+    justify-content: space-between;
+    font-size: rem(14px);
+    line-height: 1.5 !important;
+    color: get-color(text-secondary);
+    background-color: get-color(secondary-main);
+
+    button {
+      white-space: pre;
+    }
+  }
+}
+
+.journey-row {
+  .panel-header {
+    display: none;
+  }
+}
+
+.journey-row.multicity-row {
+  .panel-header {
+    margin-top: rem(8px);
+    font-size: rem(12px);
+    line-height: 1.5;
+    color: get-color(text-primary);
+    padding: rem(12px);
+    font-weight: 500;
+    display: flex;
+    justify-content: space-between;
+    border-top-left-radius: rem(12px);
+    border-top-right-radius: rem(12px);
+    background-color: get-color(secondary-light);
+    font-family: var(--font-family-poppins-semibold);
+    align-items: center;
+
+    .icon-close-circle {
+      font-size: rem(18px);
+    }
+
+    @include media('>=desktop') {
+      display: none;
+    }
+  }
+}
+
+.pax-fare-selection-popover--pax-selction {
+  margin-bottom: rem(16px);
+}

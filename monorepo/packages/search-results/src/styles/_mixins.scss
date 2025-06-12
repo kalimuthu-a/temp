@@ -1,0 +1,18 @@
+@mixin card-border {
+  border: 1px solid #e2ebf2;
+  border-radius: rem(12px);
+  box-shadow: 0 0 12px 0 #4c5d9e14;
+  padding: rem(14px) rem(18px);
+}
+
+@mixin hide-scrollbar {
+  &::-webkit-scrollbar {
+    background-color: transparent;
+    height: 1px;
+  }
+
+  &::-webkit-scrollbar-track {
+    width: 1px;
+    height: 1px;
+  }
+}

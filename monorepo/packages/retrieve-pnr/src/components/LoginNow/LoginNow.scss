@@ -1,0 +1,129 @@
+.retrieve-pnr-infoalert {
+  border-radius: rem(12px);
+  padding: rem(14px) rem(18px);
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.cornflower-blue {
+  background-color: $color-cornflower-blue;
+  color: get-color(text-secondary);
+}
+
+.login-now {
+  margin-top: rem(20px);
+  margin-bottom: rem(40px);
+  
+  @include media('>=tablet') {
+    margin-top: rem(24px);
+    margin-bottom: 0;
+  }
+
+  .login-button-container {
+    width: 100%;
+    cursor: pointer;
+    justify-content: space-between;
+    align-items: center;
+    background-color: get-color(system-information-light);
+    padding: rem(4px);
+    border-radius: rem(20px);
+
+    .skyplus-text {
+      color: get-color(primary-main) !important;
+      margin-left: rem(12px);
+      font-family: var(--font-family-poppins-medium);
+    }
+
+    .right {
+      background-color: get-color(primary-main);
+      border-radius: 20px;
+      height: 2rem;
+      position: relative;
+      width: 2rem;
+    }
+
+    .text-medium-regular {
+      font-size: rem(14px) !important;
+    }
+      
+    &.rt_login_btn {
+      padding: rem(4px) rem(4px) rem(4px) rem(24px);
+
+      .skyplus-text {
+        margin-left: 0;
+      }
+    }
+  }
+
+  .link-container {
+    flex-direction: column;
+    gap: rem(20px);
+    align-items: flex-start !important;
+
+    @include media('>=tablet') {
+      flex-direction: row;
+    }
+  }
+
+  h4 {
+    p {
+      font-size: rem(20px);
+    }
+  }
+}
+
+
+#my-bookings{
+  .login-now{
+    margin-bottom: rem(24px) !important;
+  }
+  @include media('>=tablet') {
+    margin-bottom: 0;
+  }
+}
+
+#retrieve-pnr[data-page-type="my-bookings"] {
+  .retrieve-pnr-infoalert {
+    padding: rem(24px) rem(20px);
+  }
+}
+
+#help-page {
+  div[data-component='mf-retrieve-pnr-v2'][data-page-type="help-page"] {
+    .retrieve-pnr {
+      .login-now {
+          margin-bottom: 0;
+
+        .login-button-container {
+          max-width: initial;
+          margin-right: 0;
+
+          @include media('>=tablet') {
+            max-width: rem(244px);
+            align-self: flex-end;
+          }
+        }
+
+        .flex-class {
+          flex-direction: column;
+
+          @include media('>=tablet') {
+            flex-direction: row;
+            justify-content: space-between;
+          }
+        }
+
+      }
+
+      .retrieve-pnr-infoalert {
+        padding: rem(24px) rem(20px);
+
+        @include media('>=tablet') {
+          padding: rem(16px);
+        }
+      }
+    }
+  }
+}

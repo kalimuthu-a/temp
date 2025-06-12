@@ -1,0 +1,37 @@
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.m-hidden {
+  display: none !important;
+
+  @include media('>=tablet') {
+    display: inherit !important;
+  }
+}
+
+.rotate-90 {
+  transform: rotate(90deg);
+}
+
+.f-w-500 {
+  font-family: var(--font-family-poppins-medium) !important;
+}
+
+.codeshare-icon {
+  width: rem(16px);
+  height: rem(16px);
+  margin-right: rem(4px);
+}
+
+.text-right {
+  text-align: right !important;
+}
+
+.fw-semibold {
+  font-family: var(--font-family-poppins-semibold) !important;
+}
+
+.white-space-pre {
+  white-space: pre;
+}

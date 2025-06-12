@@ -1,0 +1,11 @@
+@import './styles/main';
+
+.pe-container-wrapper>div:first-child {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+    @include media('>=desktop') {
+        flex-direction: row;
+    }
+}

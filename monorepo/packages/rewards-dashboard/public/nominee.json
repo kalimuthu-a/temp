@@ -1,0 +1,50 @@
+{
+  "data": {
+    "accountNomineesByPath": {
+      "item": {
+        "addNomineesTitle": {
+          "html": "\u003Cp\u003EAdd upto \u003Cspan class=\"icon-tick-green\"\u003Efive nominees\u003C/span\u003E\u003C/p\u003E\n"
+        },
+        "dateOfBirthErrorMsg": "Invalid Date",
+        "backToPreviousPageText": "Back To Home Page",
+        "backToPreviousPageLink": "/",
+        "addNomineesDescription": "Nominee once added cannot be removed for 365 days.",
+        "addNomineesMaxCount": 5,
+        "nomineeLabel": "Nominee",
+        "adultLabel": "Adult",
+        "yearsLabel": "years",
+        "completionStatus": {
+          "incomplete": "Incomplete"
+        },
+        "genderIdentity": {
+          "male": "Male",
+          "female": "Female"
+        },
+        "nameDescription": "Name should be as per government ID",
+        "firstNamePlaceholderText": "First & Middle Name",
+        "lastNamePlaceholderText": "Last Name",
+        "dateOfBirthPlaceholderText": "Date of Birth (Mandatory)",
+        "dateOfBirthFormatMsg": "Please enter date of birth in (DD-MM-YYYY) format i.e. 25-04-1998",
+        "addNomineeCtaLabel": "ADD NOMINEE",
+        "nomineeLimitNote": {
+          "html": "\u003Cp\u003ENote:&nbsp;\u003C/p\u003E\n\u003Cp\u003EYou have reached the limit of adding nominees. Remove a nominee to add a new one.\u003C/p\u003E\n"
+        },
+        "removeNomineeCtaLabel": "Remove Nominee",
+        "allLabel": "All",
+        "nomineeRemovalPopup": {
+          "description": {
+            "html": "\u003Cp\u003EPlease select the nominee to \u003Cspan class=\"icon-tick-green\"\u003Eremove\u003C/span\u003E\u003C/p\u003E\n"
+          },
+          "ctaLabel": "Cancel",
+          "secondaryCtaLabel": "Remove"
+        },
+        "nomineeSuccessMessage": "Nominee added successfully",
+        "nomineeRemovedMessage": "Nominee removed successfully",
+        "saveCtaLabel": "Save",
+        "loaderImagePath": {
+          "_publishUrl": "https://aem-s6web-dev-skyplus6e.goindigo.in/content/dam/s6web/in/en/assets/payments-page-icon.gif"
+        }
+      }
+    }
+  }
+}

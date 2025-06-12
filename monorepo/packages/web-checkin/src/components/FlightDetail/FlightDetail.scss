@@ -1,0 +1,143 @@
+@import './FlightItenerary/FlightItenerary';
+
+.flight-details {
+  &__heading {
+    margin-bottom: rem(12px);
+
+    @include media('>=tablet') {
+      margin-bottom: rem(16px);
+    }
+
+    .pts {
+      color: var(--system-information);
+      background-color: var(--secondary-light);
+      padding: rem(2px) rem(8px);
+      border-radius: rem(12px);
+    }
+  }
+
+  .sh7 {
+    font-family: var(--font-family-poppins-semibold);
+  }
+
+  &__card {
+    background-color: var(--white);
+    border-radius: rem(8px);
+    margin-bottom: rem(24px);
+    border: 1px solid var(--secondary-deep);
+  }
+
+  &__top {
+    padding: rem(8px) rem(16px);
+    border-radius: rem(6px) rem(6px) 0 0;
+    background-color: var(--secondary-light);
+
+    @include media('>=tablet') {
+      padding: rem(12px) rem(16px);
+    }
+
+    .date {
+      font-size: rem(14px);
+      color: var(--text-secondary);
+    }
+
+    .pnr {
+      font-size: rem(14px);
+      color: var(--text-secondary);
+      line-height: rem(20px);
+
+      span {
+        font-size: rem(14px);
+      }
+    }
+  }
+
+  &__info {
+    padding: rem(8px) rem(16px) rem(8px);
+
+    @include media('>=tablet') {
+      padding: rem(16px) rem(24px);
+    }
+
+    .location {
+      margin-bottom: rem(2px);
+      line-height: rem(32px);
+      color: var(--accent-dark);
+    }
+
+    .terminal {
+      color: var(--text-secondary);
+    }
+
+    &__duration {
+      .time,
+      .stops {
+        color: var(--text-tertiary);
+        font-size: rem(12px);
+      }
+
+      .stops {
+        color: get-color(primary-main);
+        font-size: rem(12px);
+      }
+
+      .line-bg {
+        width: rem(116px);
+        background-image: radial-gradient(
+          circle closest-side,
+          var(--secondary-main) calc(100% - 0.5px),
+          #0000 100%
+        );
+        background-repeat: repeat-x;
+        background-size: 4px 2px;
+        height: rem(1px);
+      }
+    }
+  }
+
+  &__baggage {
+    background-color: var(--text-alice-blue);
+    padding: rem(12px);
+    margin: rem(24px) rem(16px);
+    border-radius: rem(8px);
+
+    .body-medium-medium {
+      font-size: rem(14px);
+      color: get-color(text-primary);
+    }
+
+    .body-small-regular {
+      color: get-color(text-tertiary);
+      font-size: rem(12px);
+    }
+
+    .text {
+      margin-right: rem(33px);
+    }
+
+    .list {
+      div {
+        margin-right: rem(24px);
+        white-space: nowrap;
+
+        i {
+          margin-right: rem(12px);
+        }
+
+        span {
+          margin-left: rem(8px);
+        }
+      }
+    }
+  }
+}
+
+#flight-number-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: rem(8px) rem(24px) rem(16px);
+  font-size: rem(14px);
+  font-family: var(--font-family-poppins-regular);
+  color: get-color(text-secondary);
+}

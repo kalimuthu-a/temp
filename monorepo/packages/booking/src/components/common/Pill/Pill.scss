@@ -1,0 +1,45 @@
+.bw-pill {
+  display: flex;
+  padding: rem(2px);
+  margin: rem(16px);
+  border: var(--border-secondary);
+
+  @include media('>=desktop') {
+    display: none;
+  }
+
+  &-item {
+    padding: rem(8px);
+    background-color: get-color(white);
+    color: get-color(other-divider);
+    flex: 1;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .sky-icons {
+      display: none;
+    }
+
+    .icon-switch-destination {
+      position: absolute;
+      top: rem(12px) !important;
+      right: rem(8px) !important;
+    }
+
+    .icon-location {
+      position: absolute;
+      left: rem(8px);
+    }
+  }
+
+  &-item.active {
+    background-color: get-color(primary-main);
+    color: get-color(white);
+
+    .sky-icons {
+      display: block;
+    }
+  }
+}

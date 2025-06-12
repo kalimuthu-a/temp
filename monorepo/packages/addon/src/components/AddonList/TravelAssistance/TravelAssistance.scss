@@ -1,0 +1,391 @@
+.skyplus-travel-assistance {
+  margin-bottom: rem(80px);
+  &__heading-container {
+    padding: rem(24px) rem(0px);
+    // TD: update color typography
+    color: var(--storm-grey);
+  }
+  &__title {
+    margin-bottom: rem(12px);
+    text-transform: uppercase;
+  }
+  &-slider {
+    background-color: get-color('white');
+
+    .right-slider-modal__content {
+      &__title {
+        margin-bottom: rem(16px);
+      }
+    }
+
+    .select-wrapper {
+      position: relative;
+      &::after {
+        // font-family: $font-family-indigo;
+        position: absolute;
+        content: '\e9da';
+        right: rem(12px);
+        top: rem(10px);
+        font-size: rem(12px);
+        pointer-events: none;
+      }
+    }
+  }
+  &__description {
+    margin-top: rem(16px);
+    p {
+      color: var(--text-secondary);
+    }
+
+    // .cancellation_price {
+    //   font-weight: 700;
+    // }
+  }
+
+  &__viewbtn {
+    all: unset;
+    color: var(--primary-main);
+    text-decoration: underline;
+    text-transform: capitalize;
+    cursor: pointer;
+    @include link-small;
+  }
+
+  &__benefit {
+    &-head {
+      width: 100%;
+      margin-bottom: rem(16px);
+      padding: rem(12px);
+      border-radius: rem(8px);
+      background: var(--other-background-blur);
+    }
+    &-label {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      align-self: stretch;
+    }
+
+    &-poweredby {
+      color: var(--text-primary);
+    }
+
+    &-information {
+      padding-top: rem(12px);
+      p {
+        color: var(--text-tertiary);
+        @include body-small-regular;
+      }
+
+      a {
+        text-decoration: none;
+        font-weight: 500;
+      }
+    }
+
+    &-poweredbyname {
+      width: 100%;
+      padding: rem(12px);
+      border-radius: rem(8px);
+      background: var(--other-background-blur);
+      align-items: center;
+    }
+
+    &-text {
+      color: var(--text-primary);
+    }
+
+    &-container {
+      padding-top: rem(12px);
+    }
+
+    &-logo {
+      height: rem(41px);
+      width: rem(142px);
+    }
+
+    &-disclaimer {
+      font-weight: normal;
+      color: var(--text-tertiary);
+      cursor: pointer;
+      text-transform: initial;
+      margin-bottom: rem(28px);
+      background-color: var(--text-alice-blue);
+      padding: rem(12px);
+      border-radius: rem(8px);
+      @include body-small-regular;
+
+      b {
+        color: var(--text-primary);
+      }
+      b::after {
+        content: '\A';
+      }
+    }
+
+    &-more {
+      @include link-small;
+      color: var(--primary-main);
+      text-decoration: underline;
+      cursor: pointer;
+    }
+
+    &-list {
+      display: flex;
+      flex-direction: column;
+      gap: rem(26px);
+      margin: rem(16px) 0;
+
+      &-item {
+        display: flex;
+        gap: rem(16px);
+        p {
+          width: rem(48px);
+          height: rem(48px);
+          // background-color: $light-gray;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          border-radius: 50%;
+          margin-bottom: 0;
+          i {
+            font-size: rem(18px);
+            // color: $blue-3;
+          }
+        }
+      }
+    }
+  }
+
+  &__content {
+    &-datelabel {
+      font-size: rem(16px);
+      font-weight: 600;
+      // color: $gray-2;
+      margin: rem(24px) 0 rem(16px);
+    }
+
+    & .dateContainer {
+      justify-content: space-around;
+      margin-left: rem(-5px);
+      gap: rem(6px);
+    }
+
+    &-passport {
+      display: flex;
+      gap: rem(40px);
+      margin-top: rem(20px);
+      flex-direction: column;
+    }
+
+    &-pdetails {
+      .input-text-field__input {
+        margin-top: rem(16px) !important;
+        border: none;
+        // border-bottom: rem(1px) solid $gray-5;
+        outline: none;
+        width: 100%;
+        border-radius: 0;
+      }
+
+      .input-text-field__input:focus {
+        // border-bottom: rem(1px) solid $blue-1;
+      }
+    }
+
+    &-plabel {
+      font-size: rem(16px);
+      font-weight: 600;
+      margin-bottom: rem(16px);
+      // color: $gray-5;
+    }
+
+    &-expirylabel {
+      font-size: rem(16px);
+      font-weight: 600;
+      margin-bottom: rem(16px);
+      // color: $gray-5;
+    }
+
+    &-visa {
+      display: flex;
+      gap: rem(40px);
+      margin-top: rem(20px);
+      flex-direction: column;
+    }
+
+    &-vdetails {
+      .input-text-field__input {
+        margin-top: rem(16px) !important;
+        border: none;
+        // border-bottom: rem(1px) solid $gray-5;
+        outline: none;
+        width: 100%;
+        border-radius: 0;
+      }
+
+      .input-text-field__input:focus {
+        // border-bottom: rem(1px) solid $blue-1;
+      }
+    }
+
+    &-vlabel {
+      font-size: rem(16px);
+      font-weight: 600;
+      margin-bottom: rem(16px);
+      // color: $gray-5;
+    }
+
+    &-vnumber {
+      font-size: rem(16px);
+      font-weight: 600;
+      margin-bottom: rem(16px);
+      // color: $gray-5;
+    }
+
+    &-terms {
+      display: flex;
+      align-items: flex-start;
+
+      &.error input {
+        border: rem(1px) solid get-color('red');
+      }
+    }
+
+    &-checkboxdata {
+      text-transform: initial;
+      margin-left: rem(2px);
+      margin-bottom: rem(24px);
+
+      p {
+        @include body-small-regular;
+        color: var(--text-primary);
+      }
+    }
+
+    // &-disclaimer {
+    //   p {
+    //     // font-size: rem(13px);
+    //     // font-weight: normal;
+    //     // // color: $gray-5;
+    //     // margin-bottom: rem(30px);
+    //     // margin-top: rem(20px);
+    //   }
+    // }
+  }
+
+  &__country {
+    font-size: rem(13px);
+    font-weight: normal;
+    margin-bottom: rem(8px);
+    // color: $gray-6;
+  }
+
+  &__mandatory {
+    font-size: rem(13px);
+    font-weight: normal;
+    margin: rem(24.5px) 0 rem(-4px);
+    // color: $gray-6;
+  }
+
+  &__single {
+    padding-bottom: rem(8px);
+  }
+
+  &__donebtn {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: rem(70px);
+    // background: $white;
+    // border-top: rem(1px) solid $color-done-border;
+
+    .custom-button {
+      position: absolute;
+      bottom: rem(10px);
+      left: rem(10px);
+      right: rem(10px);
+      display: block;
+      width: calc(100% - rem(20px));
+      font-size: rem(18px);
+      font-weight: bold;
+      // color: $white;
+    }
+  }
+
+  &__checkbox {
+    &__error {
+      @include body-small-regular;
+      // TD: Update Color typography
+      color: red;
+    }
+  }
+
+  .tab-container {
+    ul {
+      margin-bottom: rem(24px);
+    }
+  }
+
+  select {
+    background-color: transparent;
+  }
+
+  .styled-checkbox + label:before {
+    border: 1.5px solid var(--primary-main) !important;
+  }
+}
+
+.travel-assitance-benefit-slider {
+  & > .right-slider-modal {
+    background-color: get-color('white');
+  }
+
+  & .right-slider-modal__close {
+    &__icon {
+      &::before {
+        content: '\e9da';
+      }
+    }
+    rotate: 0deg;
+
+    @include media('>=desktop') {
+      rotate: 90deg;
+    }
+  }
+}
+
+.travel-assistnace-add-on-popover {
+  // background-color: $white;
+  width: 90vw;
+  border-radius: 0;
+
+  .popover {
+    padding: rem(32px) rem(30px);
+    min-width: auto;
+    border-radius: 0;
+
+    @include media('>=phone-m') {
+      min-width: rem(500px);
+    }
+
+    &-content {
+      font-size: rem(16px);
+      position: relative;
+
+      & button {
+        right: 0;
+        top: rem(-10px);
+        position: absolute;
+        margin-top: rem(5px);
+        margin-bottom: rem(5px);
+        display: flex;
+        margin-left: auto;
+        i {
+          font-size: rem(12px);
+        }
+      }
+    }
+  }
+}

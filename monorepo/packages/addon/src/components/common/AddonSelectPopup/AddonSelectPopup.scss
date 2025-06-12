@@ -1,0 +1,148 @@
+@mixin title-style($color){
+  color: $color;
+  @include defaultTypoStyles(
+  14,
+  0,
+  20,
+  600,
+  var(--font-family-poppins-bold)
+);
+margin-bottom: rem(8px);
+@include media('>=tablet') {
+  margin-bottom: rem(12px);
+}
+}
+
+@mixin checkbox-label(){
+  color: var(--text-primary);
+  @include defaultTypoStyles(
+    12,
+    0,
+    18,
+    400,
+    var(--font-family-poppins-regular)
+  );
+}
+
+@mixin checkmark-after {
+  content: '';
+      position: absolute;
+      left: rem(3px);
+      top: rem(7px);
+      background: var(--secondary-white);
+      width: rem(2px);
+      height: rem(2px);
+      box-shadow: 2px 0 0 var(--secondary-white), 4px 0 0 var(--secondary-white),
+        4px -2px 0 var(--secondary-white), 4px -4px 0 var(--secondary-white),
+        4px -6px 0 var(--secondary-white), 4px -8px 0 var(--secondary-white),
+        4px 0 0 var(--secondary-white);
+      transform: rotate(45deg);
+}
+
+.addon-select-popup{
+  &__container{
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    background: var(--other-overlay-gradient);
+    top:0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 rem(21px);
+    z-index: 1031;
+  }
+
+  &__content{
+    border-radius: rem(8px);
+    background: var(--white);
+    display: inline-flex;
+    padding: rem(24px) rem(24px) rem(32px) rem(24px);
+    flex-direction: column;
+    height: auto;
+    max-height: 80vh;
+
+    &__title{
+      @include title-style(var(--text-primary));
+      padding-bottom: rem(8px);
+      margin-bottom: rem(20px);
+      border-bottom: 1px dotted var(--action-disabled-stroke);
+
+      @include media('>=tablet') {
+        padding-bottom: rem(18px);
+      }
+    }
+
+    &__main{
+      max-height: rem(400px);
+      overflow-y: auto;
+      margin-bottom: rem(24px);
+    }
+
+
+    &__trip, &__passengers{
+      &__title{
+        @include title-style(var(--text-secondary));
+      }
+      &__checkbox{
+        
+        & .checkbox{
+          padding: rem(12px) 0;
+          margin-left: rem(2px);
+
+          & div:nth-child(2){
+            margin-top: -2px;
+          }
+
+          & label{
+            @include checkbox-label();
+          }
+
+          & .skyplus-checkbox-v2 input{
+            position: relative;
+
+            &:before {
+              content: '';
+              background: #ddd;
+              box-shadow: none
+            }
+            &:after{
+              @include checkmark-after();
+            }
+          }
+        }
+      }
+    }
+
+    &__trip{
+      &__checkbox{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin-bottom: rem(12px);
+        
+         & .checkbox{
+           width: 48%;
+         }
+      }
+    }
+
+    &__button{
+      display: flex;
+      gap:1rem;
+      width: 100%;
+
+      & .skyplus-button, & button{
+        width: 100%;
+      }
+
+      & .skyplus-button button {
+        padding: rem(8px) rem(24px);
+        @include media('>=tablet') {
+          padding: rem(8px) rem(32px);
+        }
+      }
+    }
+  }
+}

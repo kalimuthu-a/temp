@@ -1,0 +1,232 @@
+.shimmer-container-pax-select {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+  min-width: 100%;
+  width: 100%;
+  margin: 0 auto;
+  gap: rem(16px);
+  margin-bottom: rem(40px);
+  position: relative;
+  flex-direction: column;
+
+  @include media('>=tablet') {
+    max-width: rem(1440px);
+    min-width: rem(1152px);
+    z-index: 9999;
+    background-color: transparent;
+    height: rem(800px);
+    flex-direction: row;
+  }
+
+  .left-shimmer {
+    width: 100%;
+    min-width: 100%;
+
+    @include media('>=tablet') {
+      width: 64%;
+      min-width: 64%;
+    }
+
+  }
+
+  .right-shimmer {
+    width: 100%;
+    min-width: 100%;
+
+    @include media('>=tablet') {
+      width: calc(34% - 16px);
+      min-width: calc(34% - 16px);
+    }
+  }
+}
+
+@keyframes fullview {
+  100% {
+    width: 100%;
+  }
+}
+
+.animate {
+  animation: shimmer 2s infinite linear;
+  background: linear-gradient(to right, #eff1f3 4%, #e2e2e2 25%, #eff1f3 36%);
+  background-size: 1000px 100%;
+}
+
+@keyframes shimmer {
+  0% {
+    background-position: -1000px 0;
+  }
+
+  100% {
+    background-position: 1000px 0;
+  }
+}
+
+.flight-item-shimmer,
+.passenger-list {
+  @include card-border();
+
+  box-shadow: 0 0 rem(10px) 0 get-color(action-disabled-stroke);
+  padding: rem(2px) rem(10px) rem(40px);
+  background-color: get-color(white);
+  width: 100%;
+
+  @include media('>=tablet') {
+    padding: rem(20px) rem(40px) rem(40px);
+  }
+
+  .wrapper {
+    width: 0;
+    animation: fullview 0.5s forwards cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  }
+
+  .comment {
+    height: rem(10px);
+    margin-top: rem(20px);
+  }
+
+  .w80 {
+    width: 80%;
+  }
+
+  .w5 {
+    width: 25%;
+
+    @include media('>=tablet') {
+      width: 5%;
+    }
+  }
+
+  .w60 {
+    width: 60%;
+  }
+
+  .w40 {
+    width: 40%;
+  }
+
+  .w30 {
+    width: 30%;
+  }
+
+  .w20 {
+    width: 20%;
+  }
+
+  .w10 {
+    width: 10%;
+  }
+
+  .w50 {
+    width: 50%;
+  }
+
+  .w100 {
+    width: 100%;
+  }
+
+  .w15 {
+    width: 15%;
+  }
+
+  .he1 {
+    height: rem(32px);
+  }
+
+  .he2 {
+    height: rem(24px);
+  }
+
+  .he3 {
+    height: rem(18px);
+  }
+
+  .he4 {
+    height: rem(12px);
+  }
+
+  .he5 {
+    height: rem(80px);
+  }
+
+  .he6 {
+    height: rem(110px);
+
+  }
+
+  .heimage {
+    height: rem(160px);
+
+  }
+
+  .br {
+    border-radius: rem(8px);
+  }
+
+  .d-mobile {
+    display: block !important;
+
+    @include media('>=tablet') {
+      display: none !important;
+    }
+  }
+
+  .d-tablet {
+    display: none;
+
+    @include media('>=tablet') {
+      display: block;
+    }
+  }
+}
+
+.flight-journey-shimmer {
+  height: rem(64px);
+  width: rem(84px);
+  padding: rem(4px) rem(8px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: rem(10px);
+
+  @include media('>=tablet') {
+    padding: rem(8px) rem(12px);
+    width: rem(122px);
+    height: rem(84px);
+  }
+
+  .text {
+    height: rem(12px);
+  }
+}
+
+
+.left-shimmer {
+  flex: 2;
+}
+
+.right-shimmer {
+  flex: 1;
+}
+
+.tab {
+  height: rem(60px) !important;
+  border-radius: rem(24px) !important;
+  margin-top: 0 !important;
+}
+
+.tab-shimmer {
+  padding: 0 !important;
+  border-radius: rem(24px) !important;
+}
+
+.shimmer-container {
+  flex-direction: column;
+
+  @include media('>=tablet') {
+    flex-direction: row;
+  }
+}

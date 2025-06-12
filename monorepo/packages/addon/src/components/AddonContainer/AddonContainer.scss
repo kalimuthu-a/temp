@@ -1,0 +1,249 @@
+/* stylelint-disable number-max-precision */
+/* stylelint-disable selector-class-pattern */
+// TD: not in global CSS
+$boxShadow: #4c5d9e14;
+
+.skyplus-addon-mf {
+  &__container {
+    padding: 0 0 rem(150px);
+  }
+
+  &__shimmer {
+    width: 100%;
+  }
+
+  &__next-label {
+    display: inline-block;
+    padding: rem(4px) rem(8px);
+    align-items: center;
+    color: var(--primary-main);
+    text-align: center;
+    font-family: var(--font-family-poppins-regular);
+    font-size: rem(11px);
+    line-height: rem(14px);
+    border-radius: rem(8px);
+    background: var(--gradient-accent);
+    margin-left: rem(12px);
+
+    @include media('>=tablet') {
+      padding: rem(4px) rem(10px);
+      font-size: rem(12px);
+      line-height: rem(16px);
+    }
+  }
+
+  & .flight-journey-tab-wrapper {
+    border-radius: rem(24px);
+    border: 1px solid var(--secondary-deep);
+    background: var(--secondary-white);
+    max-height: rem(47px);
+
+    @include media('>=tablet') {
+      max-height: rem(50px);
+    }
+  }
+
+  &__modal {
+    .modal-component-overlay {
+      background: var(--other-overlay-gradient) !important;
+      backdrop-filter: blur(2.799999952316284px);
+    }
+
+    .modal-content {
+      max-width: rem(360px);
+      width: calc(100% - 42px);
+    }
+
+    &-content {
+      color: var(--text-tertiary);
+    }
+
+    &-button {
+      display: flex;
+      justify-content: center;
+    }
+  }
+
+  &__pax-title {
+    font-size: rem(18px);
+
+    @include media('>=tablet') {
+      @include h4;
+    }
+  }
+
+  &__carousel {
+    padding: rem(12px) rem(16px) rem(16px);
+    box-shadow: 0 0 rem(12px) 0 $boxShadow;
+    background-color: var(--white);
+    margin-bottom: rem(32px);
+    border-radius: rem(12px);
+
+    @include media('>=tablet') {
+      $pad-24: rem(24px);
+
+      padding: rem(16px) $pad-24;
+      padding-right: 0;
+
+      &:has(.inline) {
+        padding-right: $pad-24;
+
+        .skyplus-carousel__header-icon.inline {
+          width: calc(100% + ($pad-24 * 2));
+          left: -$pad-24;
+        }
+      }
+    }
+
+    .icon-accordion-left-ouline-24 {
+      font-size: rem(20px);
+    }
+
+    .icon-accordion-left-circle {
+      font-size: rem(20px);
+    }
+
+    .skyplus-carousel__slide {
+      .skyplus-addon-mf__addon-item {
+        height: 100%;
+      }
+
+      &:first-child {
+        margin-left: 0;
+      }
+    }
+  }
+
+  &__head {
+    margin-top: rem(32px);
+
+    &-back {
+      margin-bottom: rem(24px);
+      display: flex;
+      place-content: center flex-start;
+      flex-direction: row;
+
+      @include media('>=tablet') {
+        margin-bottom: rem(32px);
+      }
+
+      & i.skyplus-accordion__icon {
+        color: var(--primary-main);
+        position: relative;
+        top: 5px;
+        cursor: pointer;
+      }
+
+      &-btn {
+        border: none;
+        background: none;
+        text-decoration: underline;
+        color: var(--primary-main);
+        cursor: pointer;
+        text-transform: uppercase;
+      }
+    }
+
+    &-title {
+      margin: rem(24px) 0;
+
+      @include media('>=tablet') {
+        margin: rem(32px) 0;
+      }
+
+      h3 {
+        color: var(--text-secondary);
+        text-transform: uppercase;
+        display: flex;
+        align-items: center;
+      }
+
+      h2 {
+        color: var(--text-primary);
+        margin-top: rem(12px);
+
+        span {
+          color: var(--accent-dark);
+          font-family: inherit !important;
+        }
+
+        @include media('>=tablet') {
+          margin-top: rem(32px);
+        }
+      }
+    }
+
+    & .flight-journey-tab-container__outer {
+      min-width: rem(142px);
+
+      @include media('>=tablet') {
+        min-width: rem(260px);
+      }
+
+      @include media('<tablet') {
+        .flight-journey-tab-container__leg span {
+          font-size: rem(14px);
+        }
+      }
+    }
+  }
+
+  &__content {
+    h4 {
+      color: var(--text-primary);
+    }
+  }
+
+  &__sub-heading {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 22px;
+    font-family: var(--font-family-bauhuas-std-medium);
+
+    @include media('>=tablet') {
+      @include h1;
+    }
+  }
+
+  &__footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    height: rem(100px);
+    padding: rem(12px) rem(24px) rem(20px);
+    width: 100%;
+    border-radius: 12px 12px 0 0;
+    box-shadow: var(--box-shadow-bottom-sticky);
+    backdrop-filter: blur(12px);
+
+    &-container {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    @include media('>=tablet') {
+      padding: rem(16px) rem(64px) rem(24px);
+
+      &-container {
+        width: rem(420px);
+        margin: 0 0 0 auto;
+      }
+    }
+  }
+
+  .voucher-container {
+    display: flex;
+    flex-direction: column;
+    
+    @include media('>=tablet') {
+      flex-direction: row;
+      column-gap: rem(16px);
+    }
+  }
+}
+
+.skyplus-loyalty-addon-mf {
+  margin-top: rem(16px);
+}

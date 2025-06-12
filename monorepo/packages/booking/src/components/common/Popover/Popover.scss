@@ -1,0 +1,101 @@
+.bookingmf-container {
+  .bw-popover__content {
+    opacity: 0;
+    transform: translate(0, 10px);
+    position: fixed !important;
+    inset: rem(-10px) 0 rem(-10px);
+    width: 100vw;
+    border-radius: 0 !important;
+    background: rgb(40 30 168 / 55%);
+    box-shadow: 0 4px 30px rgb(0 0 0 / 10%);
+    backdrop-filter: blur(4.1px);
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+    height: -webkit-fill-available;
+
+    @include media('>=desktop') {
+      border-radius: rem(12px) !important;
+      position: absolute !important;
+      background-color: get-color(white) !important;
+      top: rem(40px) !important;
+      left: unset;
+      bottom: unset;
+      height: auto !important;
+      width: fit-content !important;
+      border: none;
+      padding-bottom: 0 !important;
+      min-height: 100%;
+      height: auto !important;
+    }
+
+    .skyplus-dropdown-header-mobile {
+      height: rem(240px);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      @include media('>=desktop') {
+        display: none;
+      }
+
+      .icon-circle {
+        border-radius: 50%;
+        padding: rem(12px);
+        background-color: get-color(white);
+      }
+
+      .icon-close-simple {
+        color: get-color(sel-con-active-text);
+      }
+    }
+
+    .pop-over-header-mobile {
+      min-height: rem(100px);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-grow: 1;
+
+      @include media('>=desktop') {
+        display: none;
+      }
+
+      .icon-circle {
+        border-radius: 50%;
+        padding: rem(12px);
+        background-color: get-color(white);
+      }
+
+      .icon-close-simple {
+        color: get-color(sel-con-active-text);
+        pointer-events: none;
+      }
+    }
+
+    .skyplus-heading.h5 {
+      font-size: rem(16px);
+      font-family: var(--font-family-bauhuas-std-medium);
+    }
+
+    hr {
+      display: none;
+
+      @include media('>=desktop') {
+        display: block;
+      }
+    }
+  }
+
+  .popover__wrapper.focused .bw-popover__content {
+    z-index: 99999999;
+
+    @include media('>=tablet') {
+      z-index: 1029;
+    }
+
+    opacity: 1;
+    visibility: visible;
+    transition: all 0.5s cubic-bezier(0.75, -0.02, 0.2, 0.97);
+  }
+}

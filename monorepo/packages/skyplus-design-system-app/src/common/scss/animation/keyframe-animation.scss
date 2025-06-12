@@ -1,0 +1,197 @@
+$default-offset: 20px;
+
+.element-animated {
+  animation-duration: 1s;
+
+  &.short {
+    animation-duration: 0.5s;
+  }
+
+  &.long {
+    animation-duration: 2s;
+  }
+
+  &.infinite {
+    animation-iteration-count: infinite;
+  }
+}
+
+@keyframes pulsate {
+  0%,
+  100% {
+    opacity: 0.8;
+  }
+
+  50% {
+    opacity: 0.6;
+  }
+}
+
+.pulsate {
+  animation-name: pulsate;
+  animation-timing-function: ease-in-out;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+}
+
+$slide-top-bottom-offset: $default-offset/2;
+
+@keyframes slide-top-bottom {
+  0% {
+    transform: translateY(-$slide-top-bottom-offset);
+  }
+
+  50% {
+    transform: none;
+  }
+
+  100% {
+    transform: translateY($slide-top-bottom-offset);
+  }
+}
+
+.slide-top-bottom {
+  animation-name: slide-top-bottom;
+  animation-timing-function: linear;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+}
+
+@keyframes loader {
+  0% {
+    left: -100%;
+  }
+
+  100% {
+    left: 100%;
+  }
+}
+
+@keyframes takeOff {
+  0% {
+    transform: translate(-100%, 30%);
+    opacity: 0;
+  }
+
+  50% {
+    transform: translate(0, -20%);
+    opacity: 1;
+  }
+
+  100% {
+    transform: translate(0, -20%);
+    opacity: 1;
+  }
+}
+
+@keyframes takeOffShadow {
+  0% {
+    transform: translate(-440%, 110%);
+    opacity: 1;
+  }
+
+  100% {
+    transform: translate(0, 0);
+    opacity: 0.8;
+  }
+}
+
+@keyframes flight {
+  0% {
+    transform: translate(0, -20%);
+  }
+
+  25% {
+    transform: translate(0, -10%);
+  }
+
+  75% {
+    transform: translate(0, -5%);
+  }
+
+  100% {
+    transform: translate(0, 0%);
+  }
+}
+
+@keyframes flightShadow {
+  0% {
+    transform: scale(0.8);
+    opacity: 0.8;
+  }
+
+  25% {
+    transform: scale(0.9);
+    opacity: 1;
+  }
+
+  75% {
+    transform: scale(1.1);
+    opacity: 0.6;
+  }
+
+  100% {
+    transform: scale(0.8);
+    opacity: 0.8;
+  }
+}
+
+@keyframes cloudFront {
+  0% {
+    transform: translate(1000%, 0);
+  }
+
+  100% {
+    transform: translate(-600%, 0);
+  }
+}
+
+@keyframes cloudMiddle {
+  0% {
+    transform: translate(2000%, 0);
+  }
+
+  100% {
+    transform: translate(-900%, 0);
+  }
+}
+
+@keyframes cloudBack {
+  0% {
+    transform: translate(3000%, 0);
+  }
+
+  100% {
+    transform: translate(-1000%, 0);
+  }
+}
+
+@keyframes sky {
+  0% {
+    background-color: $skyblue-2;
+  }
+
+  20% {
+    background-color: $skyblue-2;
+  }
+
+  35% {
+    background-color: $skyblue-2;
+  }
+
+  50% {
+    background-color: $skyblue-2;
+  }
+
+  70% {
+    background-color: $skyblue-2;
+  }
+
+  85% {
+    background-color: $skyblue-2;
+  }
+
+  100% {
+    background-color: $skyblue-2;
+  }
+}

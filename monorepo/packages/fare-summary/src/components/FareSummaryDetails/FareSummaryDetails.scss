@@ -1,0 +1,73 @@
+@import '../../index';
+
+.fare-summary-details-modal {
+  z-index: 1034;
+}
+
+.fare-summary-details {
+  height: 100%;
+  display: flex;
+  width: 100%;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  flex-direction: column;
+  overflow: auto;
+  padding: 0;
+
+  &__head {
+    height: rem(48px);
+    box-shadow: var(--modal-head-shadow);
+    display: flex;
+    align-items: center;
+    padding: rem(12px) rem(16px);
+  }
+
+  &__body {
+    padding: rem(12px) rem(16px);
+    margin-top: rem(6px);
+    background: var(--other-side-sheet-background);
+    overflow: auto;
+    max-height: calc(100% - rem(174px));
+  }
+
+  &__close {
+    font-family: initial;
+    font-size: rem(24px);
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+    padding: 0;
+    color: #24409A;
+    height: rem(25px);
+    width: rem(24px);
+
+    span {
+      font-weight: 600 ;
+      margin-left: rem(-3px);
+    }
+
+    .icon-close-simple::before {
+      margin-left: rem(-3px);
+    }
+  }
+
+  &__footer {
+    background-color: var(--secondary-white);
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+    bottom: 0;
+    position: absolute;
+    width: 100%;
+
+    .total-fare {
+      padding: rem(16px);
+      background-color: var(--white);
+
+      &__amount {
+        color: var(--accent-dark);
+        font-size: rem(20px);
+        font-family: unset;
+      }
+    }
+  }
+}

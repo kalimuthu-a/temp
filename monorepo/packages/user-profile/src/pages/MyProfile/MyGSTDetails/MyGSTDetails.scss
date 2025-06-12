@@ -1,0 +1,259 @@
+@import '~skyplus-design-system-app/src/common/scss/base';
+
+.gst-details {
+  @include media('>=tablet') {
+    width: rem(858px);
+  }
+
+  .header {
+    display: flex;
+    justify-content: space-between;
+    margin: 1.125rem;
+    flex-direction: column;
+    gap: 2rem;
+
+    @include media('>=tablet') {
+      flex-direction: row;
+    }
+  }
+
+  .title {
+    font-weight: 500;
+    color: var(--text-primary);
+  }
+
+  .table-container {
+    overflow-x: auto;
+    border: rem(1px) solid var(--secondary-deep);
+    border-radius: rem(8px);
+    background-color: var(--white);
+  }
+
+  .gst-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+
+  .gst-table th {
+    padding: rem(16px) rem(20px);
+    border-left: rem(1px) solid var(--secondary-deep);
+    background-color: var(--secondary-light);
+    color: var(--text-primary);
+    font-weight: 500;
+    white-space: nowrap;
+    vertical-align: middle;
+  }
+
+  .gst-table td {
+    padding: rem(12px) rem(20px);
+    border: rem(1px) solid var(--secondary-deep);
+    font-size: rem(12px);
+
+    @include media('<tablet') {
+      font-size: rem(10px);
+    }
+
+    color: var(--text-tertiary);
+    font-weight: 400;
+    white-space: normal; 
+    word-break: break-word; 
+    overflow-wrap: break-word; 
+    vertical-align: middle;
+  }
+
+  .col-sno {
+    width: 5%;
+  }
+
+  .col-gst-number {
+    width: 15%;
+  }
+
+  .col-gst-email {
+    width: 25%;
+  }
+
+  .col-gst-company {
+    width: 25%;
+  }
+
+  .col-actions {
+    width: 35%;
+  }
+
+  .actions-col{
+    white-space: nowrap !important;
+    text-align: center;
+  }
+
+  .link-button {
+    color: var(--text-primary-main);
+    font-size: rem(16px);
+
+    @include media('<tablet') {
+      font-size: rem(14px);
+    }
+
+    font-weight: 500;
+    line-height: rem(20px);
+    font-family: var(--font-family-poppins-regular);
+    text-transform: uppercase;
+  }
+
+  .remove-gst-popup {
+    &-wrapper {
+      .modal-component-overlay {
+        background: var(--blur-overlay);
+      }
+    }
+
+    &-content {
+      width: rem(408px);
+      height: rem(176px);
+      border-radius: rem(8px);
+
+      @include media('<tablet') {
+        width: rem(320px);
+        height: auto;
+      }
+
+      &-header {
+        font-weight: 600;
+        font-size: rem(16px);
+
+        @include media('<tablet') {
+          font-size: rem(14px);
+        }
+
+        line-height: rem(24px);
+        color: var(--text-primary);
+      }
+
+      &-sub-header {
+        font-weight: 400;
+        font-size: rem(14px);
+
+        @include media('<tablet') {
+          font-size: rem(12px);
+        }
+
+        line-height: rem(20px);
+        color: var(--text-tertiary);
+      }
+
+      &-buttongrp {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-top: rem(24px);
+
+        .skyplus-button {
+          margin: rem(0px);
+        }
+
+        button {
+          width: rem(171px);
+          height: rem(40px);
+          font-size: rem(16px);
+          line-height: rem(24px);
+
+          @include media('<tablet') {
+            font-size: rem(14px);
+            width: rem(130px);
+          }
+        }
+      }
+    }
+  }
+
+  .m-view {
+    button {
+      @include media('<tablet') {
+        width: max-content;
+        padding: rem(6px) rem(12px);
+      }
+    }
+  }
+
+  &>div {
+    @include media('<tablet') {
+      margin-left: 0 !important;
+      margin-right: 0 !important;
+    }
+  }
+
+  .m-view-card {
+    @include media('<tablet') {
+      margin-bottom: rem(76px) !important;
+    }
+  }
+}
+
+.edit-gst-details {
+  &-sidebar-header{
+    font-weight: 500;
+  }
+
+  &-gst-instruction {
+    font-weight: 600;
+    font-size: rem(16px);
+
+    @include media('<tablet') {
+      font-size: rem(12px);
+    }
+
+    line-height: rem(24px);
+    color: var(--text-primary);
+  }
+
+  &-add-gst-btn {
+    width: rem(343px);
+  }
+}
+
+.skyplus-offcanvas__contents {
+  @include media('>=tablet') {
+    width: rem(535px);
+  }
+
+  &--footer {
+    height: rem(72px) !important;
+    box-shadow: 0 rem(-12px) rem(24px) 0 rgb(76 93 158 / 8%) !important;
+  }
+}
+
+.add-gst {
+  .skyplus-offcanvas__contents {
+    width: rem(535px);
+    background: var(--other-side-sheet-background) !important;
+
+    &--header {
+      background-color: var(--white) !important;
+      height: rem(48px);
+    }
+
+    &--footer {
+      height: rem(72px);
+    }
+  }
+}
+
+.gst-fields {
+  .design-system-input-field:last-child {
+    margin-bottom: 0 !important;
+  }
+
+  input {
+    line-height: rem(16px);
+
+    @include media('<tablet') {
+      font-size: rem(12px);
+    }
+  }
+
+  @include media('>=tablet') {
+    input {
+      line-height: rem(18px);
+    }
+  }
+}

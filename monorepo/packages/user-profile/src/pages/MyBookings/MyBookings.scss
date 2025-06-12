@@ -1,0 +1,58 @@
+@import '~skyplus-design-system-app/src/common/scss/base';
+
+.my-bookings {
+  &__pnr-search {
+    box-shadow: var(--box-shadow-cards);
+  }
+
+  .btn-link {
+    // margin-right: rem(8px);
+    display: inline;
+    margin: auto;
+    background-color: transparent;
+    border: unset;
+    width: 100%;
+    cursor: pointer;
+    color: var(--primary-main);
+    
+    span {
+      color: var(--primary-main);
+      font-weight: 500;
+      line-height: rem(24px);
+      font-size: rem(16px);
+      text-decoration: underline;
+    }
+
+    .icon-accordion-down-simple, .icon-accordion-up-simple {
+      font-size: rem(16px);
+      padding-bottom: rem(2px);
+    }
+  }
+
+  .trips-status-filter{
+    &::-webkit-scrollbar {
+      display: none;
+    }
+  
+    /* Hide scrollbar for IE and Edge */
+    -ms-overflow-style: none;
+  
+    /* Hide scrollbar for Firefox */
+    scrollbar-width: none;
+    
+  }
+
+  .show-more-button {
+    background: transparent;
+    border: 0;
+    cursor: pointer;
+  }
+}
+
+.text-system-error {
+  color: var(--system-error);
+}
+
+.text-system-success {
+  color: var(--system-success);
+}

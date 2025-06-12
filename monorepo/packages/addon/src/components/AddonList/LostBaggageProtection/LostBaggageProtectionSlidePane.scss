@@ -1,0 +1,143 @@
+.skyplus-baggage-protection {
+  margin-top: rem(24px);
+  margin-bottom: 80px;
+  // &__clear {
+  //   @include clear-btn-addon-top();
+  // }
+
+  &__title {
+    text-transform: uppercase;
+    color: var(--storm-grey);
+  }
+
+  &__subtitle {
+    padding: rem(12px) rem(0px) rem(0px) rem(0px);
+    color: var(--text-primary);
+  }
+
+  &__slider-description {
+    margin-top: rem(12px);
+    p {
+      @include body-small-regular;
+      color: var(--text-secondary);
+    }
+  }
+  &__delayed {
+    margin-top: rem(12px);
+    p {
+      // TD: Need to update for desktop
+      @include body-small-regular;
+      color: var(--text-secondary);
+      margin-bottom: rem(24px);
+    }
+  }
+  &__disclaimer-card {
+    margin-top: rem(24px);
+    padding: rem(12px);
+    border-radius: 8px;
+    background: var(--secondary-medium);
+  }
+
+  &__disclaimer {
+    p {
+      // TD: Need to update for desktop
+      @include body-small-regular;
+      color: var(--text-tertiary);
+      b {
+        color: var(--text-primary);
+      }
+      a {
+        // TD: For Desktop
+        color: var(--primary-main);
+        @include link-small;
+      }
+    }
+  }
+
+  &__terms {
+    margin-top: rem(16px);
+    display: flex;
+    justify-content: center;
+    align-items: self-start;
+    // .custom-checkbox__checkbox {
+    //   margin-top: rem(14px);
+    // }
+    // &-checkbox {
+    //   height: rem(5px);
+    //   width: rem(5px);
+    //   margin-right: rem(10px);
+    //   cursor: pointer;
+
+    //   &:checked {
+    //     background-color: red;
+    //   }
+    // }
+    &--conditions {
+      p {
+        font-size: rem(12px);
+        color: var(--text-primary);
+        @include body-small-regular;
+        a {
+          color: var(--primary-main);
+        }
+      }
+    }
+  }
+
+  &__poweredby {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: rem(12px);
+    align-self: stretch;
+    margin-top: rem(16px);
+    @include body-small-regular;
+    color: var(--text-secondary);
+  }
+  &__poweredby-image {
+    height: rem(24px);
+    width: rem(24px);
+  }
+
+  &__benefits-card {
+    margin-top: rem(24px);
+    padding: rem(16px);
+    border-radius: rem(8px);
+    background: var(--other-background-blur);
+    p:first-child {
+      @include body-small-medium;
+      color: var(--text-primary);
+      font-family: var(--font-family-poppins-light);
+      border-bottom: none;
+      padding: rem(0px);
+    }
+    p:last-child {
+      border: none;
+    }
+    p {
+      margin-bottom: 0;
+      // span {
+      //   font-size: rem(14px);
+      //   font-weight: normal;
+      //   color: var(--text-tertiary);
+      //   &::before {
+      //     content: '\e979';
+      //     color: lightgrey;
+      //     font-size: rem(12px);
+      //     margin-right: rem(10px);
+      //   }
+      // }
+      font-size: rem(12px);
+      font-weight: 400;
+      line-height: 1.43;
+      border-bottom: rem(1px) dotted var(--action-disabled-stroke);
+      font-family: var(--font-family-poppins-medium);
+      color: var(--text-tertiary);
+      padding: rem(12px) rem(0px);
+    }
+  }
+
+  .styled-checkbox + label:before {
+    border: 1.5px solid var(--primary-main) !important;
+  }
+}

@@ -1,0 +1,153 @@
+.skyplus-modal {
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  background: var(--blur-overlay);
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  flex-direction: column;
+  gap: rem(32px);
+
+  z-index: 999998;
+
+
+  @include media('>=tablet') {
+    align-items: center;
+    justify-content: center;
+  }
+
+  &-mobile-close {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: rem(40px);
+    width: rem(40px);
+    border-radius: 50%;
+    cursor: pointer;
+    background-color: get-color(white);
+    @include media('>=tablet') {
+      display: none;
+    }
+  }
+
+  &-content {
+    padding: rem(24px);
+    border-radius: rem(12px);
+    background-color: get-color(white);
+    animation-name: animatetop;
+    animation-duration: 1s;
+    width: 100%;
+    margin: 0;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+
+    @include media('>=tablet') {
+      max-width: rem(400px);
+      margin: 0 rem(16px);
+      border-radius: rem(12px);
+    }
+
+    &-heading {
+      font-size: rem(20px);
+      font-family: var(--font-family-bauhuas-std-medium);
+      line-height: rem(24px);
+      display: flex;
+      align-items: center;
+      font-weight: 500;
+      gap: rem(12px);
+      margin-bottom: rem(20px);
+      letter-spacing: rem(-0.6px);
+      .icon-tick-green {
+        font-family: var(--font-family-bauhuas-std-medium) !important;
+        font-size: rem(20px) !important;
+        color: var(--accent-dark);
+      }
+    }
+
+    &-footer {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-top: rem(24px);
+      gap: rem(16px);
+
+      .skyplus-button {
+        flex: 1;
+        button {
+          font-family: var(--font-family-poppins-medium);
+        }
+      }
+    }
+
+    &-body {
+      .passenger-container {
+        background-image: radial-gradient(
+          circle closest-side,
+          var(--action-disabled-stroke) calc(100% - 0.5px),
+          var(--bs-white) 100%
+        );
+        background-repeat: repeat-x;
+        background-size: rem(3px) rem(1px);
+        display: flex;
+        gap: rem(16px);
+        flex-direction: column;
+        padding-top: rem(16px);
+
+        label {
+          font-size: rem(12px);
+          line-height: 1.5;
+
+          @include media('>=tablet') {
+            font-size: rem(14px);
+          }
+        }
+      }
+
+      .skyplus-checkbox-container .styled-checkbox+label:before {
+        border: 1.5px solid var(--primary-main);
+      }
+
+      .skyplus-checkbox-container .styled-checkbox:disabled+label:before {
+        background-color: var(--bs-white);
+        border: 1.5px solid var(--btn-disabled-background);
+      }
+
+      .skyplus-checkbox-container .styled-checkbox:disabled+label {
+        color: var(--text-disabled);
+      }
+
+      .skyplus-checkbox-container {
+        label {
+          font-family: var(--font-family-poppins-regular);
+        }
+      }
+    }
+  }
+}
+
+/* Add Animation */
+@keyframes animatetop {
+  from {
+    top: rem(-300px);
+    opacity: 0;
+  }
+
+  to {
+    top: 0;
+    opacity: 1;
+  }
+}
+
+@keyframes animatetop {
+  from {
+    top: rem(-300px);
+    opacity: 0;
+  }
+
+  to {
+    top: 0;
+    opacity: 1;
+  }
+}

@@ -1,0 +1,71 @@
+.revamp-user-profile {
+  &-settings {
+    font-size: rem(20px);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    row-gap: rem(12px);
+
+    &-card {
+      width: 100%;
+      border-radius: rem(8px);
+      padding: rem(16px);
+
+      .content {
+        display: flex;
+        flex-direction: column;
+        row-gap: rem(16px);
+      }
+
+      .flight-journey-tab-container__outer{
+        min-width: auto;
+      }
+
+      .flight-journey-tab-container__leg span:first-child::after{
+        display: none;
+      }
+    }
+
+    &-blue-link {
+      font-family: var(--font-family-poppins-regular);
+      font-size: rem(12px);
+      font-weight: 400;
+      line-height: rem(18px);
+      text-align: left;
+      color: var(--primary-main);
+    }
+
+    &-delete{
+      @include body-large-regular;
+    }
+
+    .logout-button {
+      width: rem(335px);
+
+      @include media('<tablet') {
+        width: 100%;
+      }
+
+      height: rem(40px);
+    }
+
+    .align-center {
+      align-self: center;
+    }
+  }
+}
+
+.revamp-user-profile-settings-secondary-heading {
+  font-size: rem(16px);
+  line-height: rem(24px);
+}
+
+.no-underline {
+  text-decoration: none;
+}
+
+.delete-account {
+  font-size: rem(16px);
+  line-height: rem(24px);
+  text-transform: uppercase;
+}

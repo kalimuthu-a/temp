@@ -1,0 +1,29 @@
+.update-contact-note {
+  display: flex;
+  width: 100%;
+  padding: rem(12px);
+  background-color: $color-cornflower-blue;
+  margin-top: rem(12px);
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+  font-size: rem(14px);
+  line-height: rem(20px);
+  font-weight: 400;
+  gap: rem(12px);
+  border-radius: rem(8px);
+
+  @include media('>=tablet') {
+    margin-top: rem(32px);
+    padding: rem(20px);
+  }
+
+  .heading {
+    color: var(--text-primary);
+  }
+
+  .desc {
+    color: var(--text-tertiary);
+    font-weight: 400;
+  }
+}

@@ -1,0 +1,15 @@
+.skyplus-checkbox-v2 {
+  input {
+    appearance: none;
+    visibility: hidden;
+    display: none;
+
+    &:disabled ~ span > svg > path{
+      stroke: var(--btn-disabled-background);
+    }
+  }
+
+  &__img {
+    max-height: rem(20);
+  }
+}

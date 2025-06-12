@@ -1,0 +1,263 @@
+$form-title-bg-color: get-color("indigo-secondary");
+$indigo-blue3: get-color("indigo-blue3");
+$border-color: get-color("border");
+$change-aircraft-bg: get-color("extra-seat-panel");
+
+.print-flight-details {
+	padding: rem(10px) 0 0;
+
+	&:last-child {
+		margin-bottom: rem(10px);
+	}
+
+	&__container {
+		border: 1px solid get-color("color-text-primary");
+		border-radius: rem(8px);
+		margin-bottom: rem(20px);
+	}
+
+	@include media(">=1024px") {
+		flex-direction: column;
+	}
+
+	&__flights-result {
+		width: unset;
+		padding: 0 rem(20px);
+		display: flex;
+		flex-direction: column;
+		.passenger-barcode {
+			display: flex;
+			align-items: flex-start;
+			border: none;
+			justify-content: flex-start;
+			padding-left: 0;
+		}
+	}
+
+	&__barcode {
+		display: flex;
+		width: 100%;
+		margin-bottom: rem(20px);
+	}
+
+	&__content {
+		display: flex;
+	}
+
+	&__flt-status-list {
+		list-style: none;
+		padding-left: rem(20px);
+		display: flex;
+		padding-top: rem(10px);
+		position: relative;
+
+		>li {
+			float: left;
+			font-size: rem(14px);
+			font-weight: 600;
+			line-height: rem(24px);
+			padding-right: rem(8px);
+			position: relative;
+
+			&:first-child {
+				padding-right: 0;
+				line-height: rem(22px);
+			}
+
+			&__icon-book-flight {
+				background-position: 0 0;
+				width: rem(20px);
+				height: rem(16px);
+			}
+
+			sup {
+				top: rem(-3px);
+				left: rem(7px);
+				width: rem(4px);
+				height: rem(4px);
+				background-color: get-color("gray-2");
+				border-radius: 50%;
+				display: inline-block;
+				margin: 0 rem(2px);
+				position: relative;
+			}
+		}
+
+		&__flight-type {
+			padding-left: rem(6px);
+		}
+	}
+
+	&__depart-dest-city {
+		margin-bottom: rem(10px);
+		float: left;
+		width: 42%;
+
+		&__destination {
+			font-size: rem(20px);
+			font-weight: 700;
+			margin-bottom: rem(6px);
+			color: get-color("gray-2");
+		}
+
+		&__terminal {
+			font-size: rem(14px);
+			margin-bottom: rem(6px);
+			min-height: rem(54px);
+			color: get-color("gray-2");
+		}
+
+		&__time {
+			font-size: rem(18px);
+			font-weight: 700;
+			margin-bottom: rem(6px);
+			color: get-color("gray-2");
+		}
+
+		&.left-section {
+			float: left;
+			text-align: left;
+		}
+
+		&.right-section {
+			float: right;
+			text-align: right;
+		}
+	}
+
+	&__depart-dest-piconp {
+		float: left;
+		width: 16%;
+		position: relative;
+		display: inline-block;
+		white-space: nowrap;
+
+		i {
+			margin: rem(11px) rem(16px) 0;
+			background-position: 0 rem(-55px);
+			width: rem(15px);
+			height: rem(12px);
+			font-size: rem(24px);
+			vertical-align: top;
+			font-weight: 700;
+		}
+
+		&__reach-time {
+			font-size: rem(14px);
+			margin-top: rem(0px);
+			color: #000;
+			display: inline-block;
+			white-space: nowrap;
+
+			span {
+				padding-right: rem(4px);
+			}
+		}
+	}
+
+	&__change-aircraft {
+		display: flex;
+		width: 100%;
+		max-width: 100%;
+		background-color: transparent;
+		border-top: 1px solid #000;
+		border-bottom: 1px solid #000;
+		padding: 10px 40px;
+		margin-bottom: 20px;
+
+	}
+
+	&__itinerary-sprite {
+		// background-image: url(../../../../../styles/images/itinerary-sprite.png) no-repeat;
+	}
+
+	&__udanlogo {
+		display: flex;
+		justify-content: flex-end;
+		align-items: center;
+		width: 63%;
+	}
+
+	&__border-line {
+		border-right: 2px solid get-color("gray-2");
+		width: rem(60px);
+		height: rem(30px);
+		transform: rotate(90deg);
+		position: absolute;
+
+		&.left {
+			right: auto;
+			top: -34px;
+			left: -60px;
+		}
+
+		&.right {
+			left: auto;
+			top: -34px;
+		}
+	}
+
+	.icon-ica320-200 {
+		padding-right: rem(30px);
+
+		&::before {
+			content: "\e9a1";
+			position: absolute;
+			top: rem(4px);
+		}
+	}
+
+	.piconp-print-arrow-right {
+		&::before {
+			content: "\e9e4";
+			font-size: rem(16px);
+			top: rem(13px);
+		}
+	}
+
+	.icon-depart-flight {
+		&::before {
+			content: "\e95c";
+		}
+	}
+
+	.icon-return-flight {
+		&::before {
+			content: "\e95c";
+			transform: rotate(180deg);
+			display: inline-block;
+		}
+	}
+
+	.icon-turkish {
+		display: inline-block;
+		// background: url("../../../styles/images/TurkishAirlines.png") no-repeat;
+		width: rem(16px);
+		height: rem(16px);
+		margin-right: rem(10px);
+	}
+
+	.icon-arrow-round {
+		&::before {
+			content: "\e91d";
+		}
+	}
+
+	.icon-indigo-flight {
+		height: 25px;
+		width: 25px;
+	}
+}
+
+.print-disclaimer {
+	font-size: rem(12px);
+	margin: rem(12px) 0;
+	color: var(--text-primary);
+
+	p {
+		font-size: rem(12px);
+		margin-top: rem(10px);
+		color: var(--text-primary);
+		line-height: rem(20px);
+	}
+}

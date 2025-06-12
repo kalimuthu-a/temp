@@ -1,0 +1,44 @@
+@import '../../styles/main';
+
+.refund_tracker_wrapper {
+  background-color: var(--secondary-white);
+  border-radius: rem(16px);
+  padding: rem(20px);
+  font-family: var(--font-family-bauhuas-std-medium);
+  font-weight: 300;
+}
+
+.tab__wrapper input:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+.tab__wrapper {
+  margin: rem(12px) 0 rem(32px);
+
+  .tab-container {
+    ul {
+      margin: 0 0 rem(24px);
+      padding: rem(4px);
+      border-radius: rem(24px);
+      border: rem(1px) solid var(--secondary-deep);
+      gap: 0;
+
+      li {
+        flex-basis: 50%;
+
+        .tab-container__btn {
+          button {
+            width: 100%;
+            height: rem(40px);
+            border: none !important;
+
+            &:focus {
+              outline: none;
+            }
+          }
+        }
+      }
+    }
+  }
+}

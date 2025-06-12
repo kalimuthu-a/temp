@@ -1,0 +1,69 @@
+{
+  "data": {
+    "srpMainByPath": {
+      "item": {
+        "selectLabel": "Choose your preferred flight from {from} to {to}",
+        "allFlightsLabel": "ALL FLIGHTS",
+        "filters": {
+          "nonStop": "Non-stop",
+          "lowCostFirst": "Low cost first",
+          "dayDeparture": "Day departures",
+          "next": "Next Only"
+        },
+        "recommendationsLabel": "Recommendations",
+        "recommendedBackgroundImage": {
+          "_publishUrl": "https://aem-s6web-dev-skyplus6e.goindigo.in/content/dam/s6web/in/en/assets/srp/recommended_bg.jpg"
+        },
+        "travelRecommendationLabel": {
+          "recommend": "Recommended",
+          "bestvalue": "Best Value",
+          "fastest": "Fastest",
+          "cheapest": "Cheapest",
+          "highestpoints": "Highest Points"
+        },
+        "fareTypeLabel": "Fare type",
+        "selectFlightLabel": "Select",
+        "startsAtLabel": "Starts at",
+        "fillingFastLabel": "Filling Fast",
+        "nonStopLabel": "Non-stop",
+        "stopsLabel": "stop",
+        "continueNextCtaLabel": "Next",
+        "continueNextPath": "/content/skyplus6e/in/en/book/passenger-edit.html",
+        "modificationContinueNextPath": "/content/skyplus6e/in/en/book/add-on-seat-selection-modification.html",
+        "offers": [
+          {
+            "code": "HDFC10",
+            "image": {
+              "_publishUrl": "https://aem-s6web-dev-skyplus6e.goindigo.in/content/dam/s6web/in/en/assets/offers2.jpg"
+            },
+            "description": {
+              "html": "<p>Use {HDFC10} only on HDFC credit card.</p>\n"
+            },
+            "discountcashback": "Upto 10% OFF"
+          },
+          {
+            "code": "GOOGLE120",
+            "image": {
+              "_publishUrl": "https://aem-s6web-dev-skyplus6e.goindigo.in/content/dam/s6web/in/en/assets/offers2.jpg"
+            },
+            "description": {
+              "html": "<p>Use {GOOGLE120} only on google pay UPI.</p>\n"
+            },
+            "discountcashback": "Upto 120 cashback"
+          }
+        ],
+        "holidayList": null,
+        "economyLabel": "Economy",
+        "nextLabel": "Next",
+        "nextBackground": {
+          "_publishUrl": "https://aem-s6web-dev-skyplus6e.goindigo.in/content/dam/s6web/in/en/assets/srp/recommended_bg.jpg"
+        },
+        "doubleOrTripleSeatNote": "Double/Triple seat will not be applicable on next at SRP",
+        "allPaymentsInfo": null,
+        "earnMilesLabel": "Earn {earningPoints} Points",
+        "mileRedemptionLabel": "Points Redemption",
+        "milesPlusCashInfo": "IndiGo BluChips + Cash Option Now Available ! Select your flight and discover the flexibility of Points + Cash."
+      }
+    }
+  }
+}

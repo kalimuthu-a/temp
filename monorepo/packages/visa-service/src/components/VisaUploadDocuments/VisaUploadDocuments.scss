@@ -1,0 +1,575 @@
+.visa-upload {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+  width: 100%;
+
+  &-section {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    gap: rem(16px);
+    width: 100%;
+    margin: 0 auto;
+
+    .visa-booking-summary-overlay {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: linear-gradient(224.24deg,
+          rgb(21 32 95 / 100%) 6.84%,
+          rgb(36 64 154 / 100%) 73.19%);
+      z-index: 9997;
+    }
+
+    .booking-summary-m-comp-wrapper {
+      top: auto;
+      position: fixed;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      z-index: 999999999;
+      background-color: transparent;
+      margin-bottom: 0 !important;
+    }
+
+    @include media('>=tablet') {
+      flex-direction: row;
+      margin: 0 auto rem(32px) 0;
+    }
+
+    &-left {
+      width: 100%;
+      gap: rem(7px);
+      display: flex;
+      align-items: flex-start;
+      justify-content: flex-start;
+      flex-direction: column;
+
+      @include media('>=tablet') {
+        width: 66%;
+      }
+
+      .journey-bar-container {
+        .visa-title {
+          &::after {
+            display: none;
+          }
+        }
+      }
+
+      .visa-upload-section-heading {
+        font-family: var(--font-family-bauhuas-std-medium);
+        color: var(--text-primary);
+        font-weight: 400;
+        font-size: rem(24px);
+      }
+
+      .visa-upload-section-des {
+        font-family: var(--font-family-poppins-regular);
+        color: var(--text-secondary);
+        font-weight: 400;
+        font-size: rem(16px);
+        margin-bottom: rem(32px);
+      }
+    }
+
+    &-right {
+      width: 100%;
+
+      @include media('>=tablet') {
+        width: calc(34% - 16px);
+        position: sticky;
+        top: rem(90px);
+      }
+    }
+  }
+
+  .visa-upload-documents__documents-upload-header {
+    font-family: var(--font-family-bauhuas-std-medium);
+    font-weight: 400;
+    font-size: rem(14px);
+    line-height: rem(20px);
+    color: var(--text-primary);
+    margin: 0;
+
+  }
+
+  &-container {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    width: 100%;
+    gap: rem(20px);
+
+    .box-shadow-card-soft {
+      border: none !important;
+      box-shadow: rem(0px) rem(0px) rem(12px) rem(0px) #4C5D9E14; // color not in sheet
+      border-radius: rem(8px) !important;
+
+      .skyplus-accordion__header {
+        border: none !important;
+      }
+    }
+  }
+
+  &-documents {
+    width: 100%;
+    height: auto;
+    gap: rem(24px);
+    padding: rem(12px) rem(14px);
+    padding-bottom: rem(20px);
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    position: relative;
+
+    @include media('>=tablet') {
+      padding: rem(20px) rem(24px) rem(24px);
+    }
+
+    &__documents-upload {
+      width: 100%;
+      gap: rem(12px);
+      height: rem(23px);
+
+
+      &-progress-bar {
+        width: 100%;
+        max-width: rem(295px);
+        height: rem(6px);
+        border-radius: rem(32px);
+        background-color: var(--other-disabled-border);
+        overflow: hidden;
+        margin-top: rem(6px);
+      }
+
+      &-progress {
+        height: 100%;
+        border-radius: rem(32px);
+        width: 0%;
+        background: var(--bs-white);
+        transition: width 0.3s ease-in-out, background 0.3s ease-in-out;
+
+        &--uploading {
+          background: var(--system-warning);
+        }
+
+        &--completed {
+          background: var(--system-success)
+        }
+      }
+    }
+
+    &__document-card {
+      width: 100%;
+      height: auto;
+      display: flex;
+      align-items: flex-start;
+      justify-content: space-between;
+      flex-direction: column;
+      position: relative;
+      border-radius: rem(12px);
+      border: rem(1px) solid var(--secondary-deep);
+      padding: rem(12px) rem(16px) rem(20px);
+      gap: rem(24px);
+
+      @include media('>=tablet') {
+        flex-direction: row;
+        padding: rem(20px) rem(28px);
+        height: auto;
+        align-items: center;
+        gap: rem(14px);
+      }
+
+      &--file-uploaded {
+        height: auto;
+        gap: rem(16px);
+        align-items: center;
+
+        @include media('>=tablet') {
+          align-items: flex-start;
+        }
+      }
+
+      &-document-info {
+        display: flex;
+        align-items: flex-start;
+        justify-content: flex-start;
+        flex-grow: 1;
+        width: auto;
+        min-height: rem(26px);
+        height: auto;
+        top: rem(15px);
+        flex-direction: row;
+        gap: rem(16px);
+
+        @include media('>=tablet') {
+          align-items: center;
+          gap: rem(12px);
+          flex-direction: row;
+        }
+
+        &-details {
+          display: flex;
+          flex-direction: column;
+          width: auto;
+          height: auto;
+          gap: rem(0px);
+
+          @include media('>=tablet') {
+            gap: rem(4px);
+          }
+        }
+
+        &-title {
+          display: flex;
+          align-items: center;
+          color: var(--text-primary);
+          font-family: var(--font-family-bauhuas-std-medium);
+          font-weight: 500;
+          font-size: rem(20px);
+          line-height: rem(32px);
+          letter-spacing: rem(-0.6px);
+        }
+
+        &-details-file {
+          font-family: var(--font-family-poppins-regular);
+          font-weight: 400;
+          font-size: rem(12px);
+          line-height: rem(24px);
+          letter-spacing: 0;
+          width: auto;
+          color: var(--text-tertiary);
+        }
+
+        &-header {
+          font-family: var(--font-family-bauhuas-std-medium);
+          font-weight: 500;
+          font-size: rem(16px);
+          line-height: rem(24px);
+          letter-spacing: - rem(0.6px);
+          color: var(--text-primary);
+          display: flex;
+
+          @include media('>=tablet') {
+            font-size: rem(20px);
+            line-height: rem(32px);
+          }
+
+          .sky-icons {
+            &::before {
+              font-size: rem(16px);
+              color: var(--text-primary-main);
+              transform: rotate(180deg);
+            }
+          }
+        }
+
+        &-title p {
+          width: auto;
+          height: auto;
+          font-weight: 400;
+          font-size: rem(12px);
+          line-height: rem(24px);
+          letter-spacing: 0;
+          color: var(--text-tertiary);
+          display: inline-block;
+        }
+
+        &-icon {
+          width: rem(42px);
+          height: rem(42px);
+          background-color: var(--secondary-light);
+          color: var(--text-secondary);
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          border-radius: 50%;
+        }
+      }
+
+      &-error-message {
+        font-family: var(--font-family-poppins-medium);
+        color: var(--system-error);
+        font-weight: rem(400px);
+        font-size: rem(12px);
+        line-height: rem(18px);
+        letter-spacing: rem(0px);
+        width: rem(349px);
+        height: rem(18px);
+        top: rem(76px);
+      }
+
+      &-error-message-documents {
+        font-family: var(--font-family-poppins-medium);
+        color: var(--system-error);
+        font-weight: rem(400px);
+        font-size: rem(12px);
+        line-height: rem(18px);
+        letter-spacing: rem(0px);
+        height: rem(18px);
+        top: rem(76px);
+      }
+
+      &-uploaded-file {
+        display: flex;
+        align-items: center;
+        background-color: var(--other-faq-background);
+        width: rem(277px);
+        height: rem(48px);
+        border-radius: rem(8px);
+        padding: rem(12px);
+        gap: rem(16px);
+        margin-top: rem(12px);
+        margin-left: - rem(60px);
+
+        @include media('>=tablet') {
+          margin-top: rem(8px);
+          margin-left: unset;
+        }
+
+        &-file-name {
+          white-space: nowrap;
+          overflow: hidden;
+          text-overflow: ellipsis;
+          width: rem(180px);
+          font-family: var(--font-family-poppins-medium);
+          font-size: rem(14px);
+        }
+
+        &-remove-icon {
+          width: rem(12.92px);
+          height: rem(12.92px);
+          color: var(--text-primary);
+          cursor: pointer;
+
+          &:hover {
+            color: var(--system-error);
+          }
+        }
+      }
+
+      .icon-tick-filled {
+        width: rem(36px);
+        height: rem(36px);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: absolute;
+        right: 0;
+        top: rem(8px);
+
+        &::before {
+          font-size: rem(24px);
+        }
+
+        @include media('>=tablet') {
+          position: relative;
+          right: unset;
+          top: unset;
+
+          &::before {
+            font-size: rem(36px);
+          }
+        }
+      }
+
+      .icon-close-simple {
+        cursor: pointer;
+      }
+
+      &--file-uploading {
+        pointer-events: none;
+        cursor: auto;
+      }
+    }
+
+    &__upload-btn-wrapper {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 100%;
+      height: rem(36px);
+
+      @include media('>=tablet') {
+        width: auto;
+        height: rem(36px);
+      }
+
+      .skyplus-button {
+        width: 100%;
+        height: 100%;
+
+        .upload-btn {
+          width: 100%;
+          height: 100%;
+          display: inline-flex;
+          align-items: center;
+          justify-content: center;
+          font-family: var(--font-family-poppins-regular);
+          font-size: rem(16px);
+          line-height: rem(24px);
+          font-weight: 500;
+          color: var(--primary-main);
+          border: rem(1px) solid var(--primary-main);
+          border-radius: rem(20px);
+          background-color: var(--white);
+          cursor: pointer;
+          padding: unset;
+
+          @include media('>=tablet') {
+            padding: rem(8px) rem(15px);
+            width: auto;
+            height: rem(36px);
+          }
+
+          &.uploaded {
+            color: var(--other-faq-background);
+            border-color: var(--other-faq-background);
+            cursor: not-allowed;
+          }
+
+          &::before {
+            font-weight: bold;
+            margin-right: rem(5px);
+          }
+
+          .uploading-loader {
+            width: rem(20px);
+            height: rem(20px);
+            border: rem(2px) solid var(--primary-main);
+            border-bottom-color: transparent;
+            border-radius: 50%;
+            display: inline-block;
+            box-sizing: border-box;
+            animation: rotation 1s linear infinite;
+            margin-right: rem(8px);
+          }
+
+          @keyframes rotation {
+            0% {
+              transform: rotate(0deg);
+            }
+
+            100% {
+              transform: rotate(360deg);
+            }
+          }
+
+          &.disabled {
+            pointer-events: none;
+          }
+        }
+      }
+    }
+  }
+
+  &-container-accordion {
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    height: auto;
+
+    .skyplus-accordion {
+      border: rem(1px) solid var(--secondary-deep);
+      border-radius: rem(8px) rem(8px) 0 0;
+
+      .skyplus-accordion__header-container {
+        padding: 0 !important;
+      }
+
+      &__header {
+        background-color: var(--white);
+        border: 1px solid var(--secondary-deep);
+      }
+
+      &__header-left {
+        display: none;
+      }
+
+      &__body {
+        padding: 0;
+      }
+    }
+
+    .flight-card {
+      border: none;
+      background-color: transparent;
+    }
+
+    .box-shadow-card-soft {
+      .skyplus-accordion__header {
+        border-radius: .5rem .5rem 0 0;
+        background-color: #F4FBFF; // not in sheet 
+      }
+    }
+  }
+
+  // handle footer button for mweb and desktop
+  .visa-upload-section+.visa-footer-wrapper {
+    .visa-price-footer {
+      .visa-price-footer-left {
+        width: 60%;
+
+        @include media('>=tablet') {
+          width: initial;
+        }
+      }
+
+      .visa-price-footer-right {
+        width: 40%;
+
+        @include media('>=tablet') {
+          width: initial;
+        }
+      }
+    }
+  }
+}
+
+.document-info-icon {
+  cursor: pointer;
+  margin-left: rem(8px);
+}
+
+.skyplus-design-toast_documents-toast {
+  max-width: rem(320px);
+  left: 0;
+  pointer-events: none;
+  position: fixed;
+  z-index: 1000000 !important;
+  width: auto;
+  webkit-line-clamp: 2;
+
+  @include media('>=tablet') {
+    left: 0;
+    pointer-events: none;
+    position: fixed;
+    z-index: 1000000 !important;
+    width: auto;
+    max-width: rem(360px);
+  }
+
+  .skyplus-design-toast-container .notifi-variation-col {
+    width: rem(320px);
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+
+    @include media('>=tablet') {
+      width: rem(360px);
+      display: -webkit-box;
+      -webkit-box-orient: vertical;
+    }
+  }
+}

@@ -1,0 +1,481 @@
+{
+  "data": {
+    "currentJourney": [
+      {
+        "bookingKey": "NDQ3NTkxODk0IUxUVlNZSiFmYWxzZQ--",
+        "isCompleted": false,
+        "daysLeftDeparture": 17,
+        "allowedToModifyGdsBooking": true,
+        "lastName": "Sbop",
+        "bookingStatus": 2,
+        "paymentStatus": 3,
+        "recordLocator": "LTVSYJ",
+        "sourceAgentCode": "9716944214",
+        "sourceOrganizationCode": "6E",
+        "plKey": null,
+        "journey": [
+          {
+            "journeyKey": "NkV_OTUwMX4gfn5ERUx_MDIvMjIvMjAyNSAwMDozMH5CT01_MDIvMjIvMjAyNSAwMjo0NX5_XjZFfiAgMTd_IH5_Qk9NfjAyLzIyLzIwMjUgMDY6NTV_SVNUfjAyLzIyLzIwMjUgMTE6NTV_fl42RX40MjM0fiB_TH5JU1R_MDIvMjIvMjAyNSAxNTowNX5KRkt_MDIvMjIvMjAyNSAxODoxMH5_",
+            "flightType": "Connect",
+            "stops": 2,
+            "journeyDetail": {
+              "destination": "JFK",
+              "origin": "DEL",
+              "arrival": "2025-02-22T18:10:00",
+              "departure": "2025-02-22T00:30:00",
+              "utcArrival": "2025-02-21T21:15:00Z",
+              "utcDeparture": "2025-02-21T19:00:00Z",
+              "estimatedArrival": null,
+              "estimatedDeparture": null,
+              "originCityName": "Delhi",
+              "destinationCityName": "New York"
+            },
+            "segment": [
+              {
+                "identifier": {
+                  "identifier": "9501",
+                  "carrierCode": "6E",
+                  "opSuffix": null
+                },
+                "passengerSegment": null,
+                "externalIdentifier": {
+                  "identifier": null,
+                  "carrierCode": null,
+                  "opSuffix": null
+                },
+                "international": false,
+                "legs": [
+                  {
+                    "operationsInfo": null,
+                    "designator": null,
+                    "legInfo": {
+                      "departureTimeUtc": null,
+                      "arrivalTimeUtc": null,
+                      "adjustedCapacity": 0,
+                      "arrivalTerminal": "1",
+                      "departureTerminal": "2"
+                    }
+                  }
+                ]
+              },
+              {
+                "identifier": {
+                  "identifier": "17",
+                  "carrierCode": "6E",
+                  "opSuffix": null
+                },
+                "passengerSegment": null,
+                "externalIdentifier": {
+                  "identifier": null,
+                  "carrierCode": null,
+                  "opSuffix": null
+                },
+                "international": false,
+                "legs": [
+                  {
+                    "operationsInfo": null,
+                    "designator": null,
+                    "legInfo": {
+                      "departureTimeUtc": null,
+                      "arrivalTimeUtc": null,
+                      "adjustedCapacity": 0,
+                      "arrivalTerminal": null,
+                      "departureTerminal": "2"
+                    }
+                  }
+                ]
+              },
+              {
+                "identifier": {
+                  "identifier": "4234",
+                  "carrierCode": "6E",
+                  "opSuffix": null
+                },
+                "passengerSegment": null,
+                "externalIdentifier": {
+                  "identifier": "1",
+                  "carrierCode": "TK",
+                  "opSuffix": null
+                },
+                "international": false,
+                "legs": [
+                  {
+                    "operationsInfo": null,
+                    "designator": null,
+                    "legInfo": {
+                      "departureTimeUtc": null,
+                      "arrivalTimeUtc": null,
+                      "adjustedCapacity": 0,
+                      "arrivalTerminal": "1",
+                      "departureTerminal": null
+                    }
+                  }
+                ]
+              }
+            ],
+            "boardingInfo": {
+              "departureGate": null,
+              "boardingTime": "2025-02-21T23:45:00"
+            },
+            "webCheckinInfo": {
+              "isWebCheckinStatus": "CLOSE",
+              "checkinStartTime": "2025-02-21T00:30:00",
+              "checkinStartTimeUTC": "2025-02-20T19:00:00Z",
+              "isSmartCheckin": true,
+              "isAutoCheckedin": true,
+              "quickCheckInDisabled": false,
+              "isAllPaxCheckedIn": false
+            }
+          }
+        ],
+        "holdExpiry": null,
+        "numberOfPassengers": 1,
+        "modifiedDateUTC": "2025-02-04T05:57:24.507Z"
+      },
+      {
+        "bookingKey": "NDQ3NTkxODcyIVEzUUg4VSFmYWxzZQ--",
+        "isCompleted": false,
+        "daysLeftDeparture": 1,
+        "allowedToModifyGdsBooking": true,
+        "lastName": "Sbop",
+        "bookingStatus": 2,
+        "paymentStatus": 3,
+        "recordLocator": "Q3QH8U",
+        "sourceAgentCode": "9716944214",
+        "sourceOrganizationCode": "6E",
+        "plKey": null,
+        "journey": [
+          {
+            "journeyKey": "NkV_NjMxOH4gfn5ERUx_MDIvMDUvMjAyNSAxNjowMH5CT01_MDIvMDUvMjAyNSAxODoyMH5_XjZFfjk1MjV_IH5_Qk9NfjAyLzA2LzIwMjUgMDU6MDB_SVNUfjAyLzA2LzIwMjUgMDk6MzB_fl42RX40MjM0fiB_TH5JU1R_MDIvMDYvMjAyNSAxNTowNX5KRkt_MDIvMDYvMjAyNSAxODoxMH5_",
+            "flightType": "Connect",
+            "stops": 2,
+            "journeyDetail": {
+              "destination": "JFK",
+              "origin": "DEL",
+              "arrival": "2025-02-06T18:10:00",
+              "departure": "2025-02-05T16:00:00",
+              "utcArrival": "2025-02-05T12:50:00Z",
+              "utcDeparture": "2025-02-05T10:30:00Z",
+              "estimatedArrival": null,
+              "estimatedDeparture": null,
+              "originCityName": "Delhi",
+              "destinationCityName": "New York"
+            },
+            "segment": [
+              {
+                "identifier": {
+                  "identifier": "6318",
+                  "carrierCode": "6E",
+                  "opSuffix": null
+                },
+                "passengerSegment": null,
+                "externalIdentifier": {
+                  "identifier": null,
+                  "carrierCode": null,
+                  "opSuffix": null
+                },
+                "international": false,
+                "legs": [
+                  {
+                    "operationsInfo": null,
+                    "designator": null,
+                    "legInfo": {
+                      "departureTimeUtc": null,
+                      "arrivalTimeUtc": null,
+                      "adjustedCapacity": 0,
+                      "arrivalTerminal": "2",
+                      "departureTerminal": "1"
+                    }
+                  }
+                ]
+              },
+              {
+                "identifier": {
+                  "identifier": "9525",
+                  "carrierCode": "6E",
+                  "opSuffix": null
+                },
+                "passengerSegment": null,
+                "externalIdentifier": {
+                  "identifier": null,
+                  "carrierCode": null,
+                  "opSuffix": null
+                },
+                "international": false,
+                "legs": [
+                  {
+                    "operationsInfo": null,
+                    "designator": null,
+                    "legInfo": {
+                      "departureTimeUtc": null,
+                      "arrivalTimeUtc": null,
+                      "adjustedCapacity": 0,
+                      "arrivalTerminal": null,
+                      "departureTerminal": "1"
+                    }
+                  }
+                ]
+              },
+              {
+                "identifier": {
+                  "identifier": "4234",
+                  "carrierCode": "6E",
+                  "opSuffix": null
+                },
+                "passengerSegment": null,
+                "externalIdentifier": {
+                  "identifier": "1",
+                  "carrierCode": "TK",
+                  "opSuffix": null
+                },
+                "international": false,
+                "legs": [
+                  {
+                    "operationsInfo": null,
+                    "designator": null,
+                    "legInfo": {
+                      "departureTimeUtc": null,
+                      "arrivalTimeUtc": null,
+                      "adjustedCapacity": 0,
+                      "arrivalTerminal": "1",
+                      "departureTerminal": null
+                    }
+                  }
+                ]
+              }
+            ],
+            "boardingInfo": {
+              "departureGate": null,
+              "boardingTime": "2025-02-05T15:15:00"
+            },
+            "webCheckinInfo": {
+              "isWebCheckinStatus": "CLOSE",
+              "checkinStartTime": "2025-02-04T16:00:00",
+              "checkinStartTimeUTC": "2025-02-04T10:30:00Z",
+              "isSmartCheckin": true,
+              "isAutoCheckedin": true,
+              "quickCheckInDisabled": false,
+              "isAllPaxCheckedIn": false
+            }
+          }
+        ],
+        "holdExpiry": null,
+        "numberOfPassengers": 1,
+        "modifiedDateUTC": "2025-02-04T05:57:26.68Z"
+      },
+      {
+        "bookingKey": "NDQ3NTkxODU4IVVSS0o0UCFmYWxzZQ--",
+        "isCompleted": false,
+        "daysLeftDeparture": 1,
+        "allowedToModifyGdsBooking": true,
+        "lastName": "Rajput",
+        "bookingStatus": 2,
+        "paymentStatus": 3,
+        "recordLocator": "URKJ4P",
+        "sourceAgentCode": "9716944214",
+        "sourceOrganizationCode": "6E",
+        "plKey": null,
+        "journey": [
+          {
+            "journeyKey": "NkV_IDM1NH4gfn5ERUx_MDIvMDUvMjAyNSAxOToxNX5CT01_MDIvMDUvMjAyNSAyMToyMH5_XjZFfiAgMTd_IH5_Qk9NfjAyLzA2LzIwMjUgMDY6NTV_SVNUfjAyLzA2LzIwMjUgMTE6NTV_fl42RX40MjM0fiB_TH5JU1R_MDIvMDYvMjAyNSAxNTowNX5KRkt_MDIvMDYvMjAyNSAxODoxMH5_",
+            "flightType": "Connect",
+            "stops": 2,
+            "journeyDetail": {
+              "destination": "JFK",
+              "origin": "DEL",
+              "arrival": "2025-02-06T18:10:00",
+              "departure": "2025-02-05T19:15:00",
+              "utcArrival": "2025-02-05T15:50:00Z",
+              "utcDeparture": "2025-02-05T13:45:00Z",
+              "estimatedArrival": null,
+              "estimatedDeparture": null,
+              "originCityName": "Delhi",
+              "destinationCityName": "New York"
+            },
+            "segment": [
+              {
+                "identifier": {
+                  "identifier": "354",
+                  "carrierCode": "6E",
+                  "opSuffix": null
+                },
+                "passengerSegment": null,
+                "externalIdentifier": {
+                  "identifier": null,
+                  "carrierCode": null,
+                  "opSuffix": null
+                },
+                "international": false,
+                "legs": [
+                  {
+                    "operationsInfo": null,
+                    "designator": null,
+                    "legInfo": {
+                      "departureTimeUtc": null,
+                      "arrivalTimeUtc": null,
+                      "adjustedCapacity": 0,
+                      "arrivalTerminal": "2",
+                      "departureTerminal": "1"
+                    }
+                  }
+                ]
+              },
+              {
+                "identifier": {
+                  "identifier": "17",
+                  "carrierCode": "6E",
+                  "opSuffix": null
+                },
+                "passengerSegment": null,
+                "externalIdentifier": {
+                  "identifier": null,
+                  "carrierCode": null,
+                  "opSuffix": null
+                },
+                "international": false,
+                "legs": [
+                  {
+                    "operationsInfo": null,
+                    "designator": null,
+                    "legInfo": {
+                      "departureTimeUtc": null,
+                      "arrivalTimeUtc": null,
+                      "adjustedCapacity": 0,
+                      "arrivalTerminal": null,
+                      "departureTerminal": "2"
+                    }
+                  }
+                ]
+              },
+              {
+                "identifier": {
+                  "identifier": "4234",
+                  "carrierCode": "6E",
+                  "opSuffix": null
+                },
+                "passengerSegment": null,
+                "externalIdentifier": {
+                  "identifier": "1",
+                  "carrierCode": "TK",
+                  "opSuffix": null
+                },
+                "international": false,
+                "legs": [
+                  {
+                    "operationsInfo": null,
+                    "designator": null,
+                    "legInfo": {
+                      "departureTimeUtc": null,
+                      "arrivalTimeUtc": null,
+                      "adjustedCapacity": 0,
+                      "arrivalTerminal": "1",
+                      "departureTerminal": null
+                    }
+                  }
+                ]
+              }
+            ],
+            "boardingInfo": {
+              "departureGate": null,
+              "boardingTime": "2025-02-05T18:30:00"
+            },
+            "webCheckinInfo": {
+              "isWebCheckinStatus": "CLOSE",
+              "checkinStartTime": "2025-02-04T19:15:00",
+              "checkinStartTimeUTC": "2025-02-04T13:45:00Z",
+              "isSmartCheckin": true,
+              "isAutoCheckedin": true,
+              "quickCheckInDisabled": false,
+              "isAllPaxCheckedIn": false
+            }
+          }
+        ],
+        "holdExpiry": null,
+        "numberOfPassengers": 1,
+        "modifiedDateUTC": "2025-02-04T05:52:26.757Z"
+      },
+      {
+        "bookingKey": "NDQ3NTkxODM0IVJaQzJLRCFmYWxzZQ--",
+        "isCompleted": false,
+        "daysLeftDeparture": 0,
+        "allowedToModifyGdsBooking": false,
+        "lastName": "Rajput",
+        "bookingStatus": 2,
+        "paymentStatus": 3,
+        "recordLocator": "RZC2KD",
+        "sourceAgentCode": null,
+        "sourceOrganizationCode": null,
+        "plKey": null,
+        "journey": [
+          {
+            "journeyKey": "NkV_MjIwNH4gfn5ERUx_MDIvMDQvMjAyNSAxNTo1MH5KQUl_MDIvMDQvMjAyNSAxNjo0NX5_",
+            "flightType": "NonStop",
+            "stops": 0,
+            "journeyDetail": {
+              "destination": "JAI",
+              "origin": "DEL",
+              "arrival": "2025-02-04T16:45:00",
+              "departure": "2025-02-04T15:50:00",
+              "utcArrival": "2025-02-04T11:15:00Z",
+              "utcDeparture": "2025-02-04T10:20:00Z",
+              "estimatedArrival": null,
+              "estimatedDeparture": null,
+              "originCityName": "Delhi",
+              "destinationCityName": "Jaipur"
+            },
+            "segment": [
+              {
+                "identifier": {
+                  "identifier": "2204",
+                  "carrierCode": "6E",
+                  "opSuffix": null
+                },
+                "passengerSegment": null,
+                "externalIdentifier": {
+                  "identifier": null,
+                  "carrierCode": null,
+                  "opSuffix": null
+                },
+                "international": false,
+                "legs": [
+                  {
+                    "operationsInfo": null,
+                    "designator": null,
+                    "legInfo": {
+                      "departureTimeUtc": null,
+                      "arrivalTimeUtc": null,
+                      "adjustedCapacity": 0,
+                      "arrivalTerminal": "2",
+                      "departureTerminal": "2"
+                    }
+                  }
+                ]
+              }
+            ],
+            "boardingInfo": {
+              "departureGate": null,
+              "boardingTime": "2025-02-04T15:05:00"
+            },
+            "webCheckinInfo": {
+              "isWebCheckinStatus": "OPEN",
+              "checkinStartTime": "2025-02-02T15:50:00",
+              "checkinStartTimeUTC": "2025-02-02T10:20:00Z",
+              "isSmartCheckin": false,
+              "isAutoCheckedin": false,
+              "quickCheckInDisabled": true,
+              "isAllPaxCheckedIn": false
+            }
+          }
+        ],
+        "holdExpiry": null,
+        "numberOfPassengers": 3,
+        "modifiedDateUTC": "2025-02-04T05:45:27.64Z"
+      }
+    ],
+    "completedJourney": [],
+    "cancelledJourney": [],
+    "roleCode": "WWWM",
+    "roleName": "Member"
+  },
+  "errors": null
+}

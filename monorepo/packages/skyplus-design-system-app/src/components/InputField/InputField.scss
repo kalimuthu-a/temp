@@ -1,0 +1,49 @@
+.design-system-input-field {
+    input {
+        border-radius: 8px;
+        border: 1px solid  #E2EBF2;
+        background: #fff;
+        justify-content: space-between;
+        padding: 12px 0 12px 8px;
+        width: 100%;
+        color: #25304B;
+        font-size: 14px;
+        font-weight: 300;
+    }
+
+    input::placeholder {
+        color: #7A85A0;
+    }
+
+    input:focus {
+        border-color: var(--secondary-main);
+    }
+
+    .error-msg {
+        color: var(--system-error);
+    }
+
+    .input-field-cross-btn {
+        right: 15px;
+        top: 13px;
+        color: #009;
+    }
+
+    .info-msg {
+        color: var(--text-secondary);
+
+        [class^="icon-"]{
+            padding-right: rem(2px);
+            color: var(--primary-main);
+        }
+    }
+
+    .input-field-cross-btn,
+    .input-field-eye-btn,
+    .input-field-calendar {
+        right: 15px;
+        top: 13px;
+        color: #009;
+        cursor: pointer;
+    }
+}

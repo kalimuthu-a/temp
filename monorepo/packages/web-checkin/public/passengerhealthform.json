@@ -1,0 +1,710 @@
+{
+  "bookingKey": "NDQ2NDI4Nzc2IUdWSTJZRCFmYWxzZQ--",
+  "recordLocator": "GVI2YD",
+  "currencyCode": "INR",
+  "systemCode": null,
+  "groupName": null,
+  "locators": {
+    "numericRecordLocator": "130817221407",
+    "parentRecordLocator": null,
+    "parentId": 0,
+    "recordLocators": []
+  },
+  "info": {
+    "status": 2,
+    "paidStatus": 1,
+    "priceStatus": 2,
+    "profileStatus": 1,
+    "bookingType": null,
+    "channelType": 6,
+    "bookedDate": "2024-03-08T04:13:52.483Z",
+    "createdDate": "2024-03-08T04:13:52.483Z",
+    "expirationDate": "2024-05-31T03:10:00Z",
+    "modifiedDate": "2024-04-22T07:51:00.9Z",
+    "modifiedAgentId": 16697399,
+    "createdAgentId": 16697399,
+    "owningCarrierCode": "6E",
+    "changeAllowed": true,
+    "nationality": null,
+    "residentCountry": null,
+    "gender": 0,
+    "dateOfBirth": null,
+    "familyNumber": null
+  },
+  "sales": {
+    "created": {
+      "agentCode": "WebAnonSkyplus",
+      "domainCode": "WW2",
+      "locationCode": "WWW",
+      "organizationCode": "6E"
+    },
+    "source": {
+      "isoCountryCode": null,
+      "sourceSystemCode": null,
+      "agentCode": "WebAnonSkyplus",
+      "domainCode": "WW2",
+      "locationCode": "WWW",
+      "organizationCode": "6E"
+    },
+    "modified": null
+  },
+  "typeOfSale": {
+    "residentCountry": "IN",
+    "promotionCode": null,
+    "fareTypes": []
+  },
+  "hold": null,
+  "breakdown": {
+    "balanceDue": 0,
+    "pointsBalanceDue": 0,
+    "authorizedBalanceDue": 0,
+    "totalAmount": 5427,
+    "totalPoints": 0,
+    "totalToCollect": 5427,
+    "totalPointsToCollect": 0,
+    "totalCharged": 5427,
+    "passengerTotals": {
+      "services": null,
+      "specialServices": null,
+      "seats": null,
+      "upgrades": null,
+      "spoilage": null,
+      "nameChanges": null,
+      "convenience": null,
+      "infant": null
+    },
+    "passengers": {
+      "MCFBRFQ-": {
+        "passengerKey": "MCFBRFQ-",
+        "services": null,
+        "specialServices": null,
+        "seats": null,
+        "upgrades": null,
+        "spoilage": null,
+        "nameChanges": null,
+        "convenience": null,
+        "infant": null,
+        "passengerAlternateKey": null,
+        "customerNumber": null,
+        "fees": null,
+        "name": null,
+        "passengerTypeCode": null,
+        "discountCode": null,
+        "bags": null,
+        "program": null,
+        "info": null,
+        "travelDocuments": null,
+        "addresses": null,
+        "weightCategory": 0,
+        "activityDate": null,
+        "baggageAllowanceUsed": false,
+        "baggageAllowanceWeight": 0,
+        "baggageAllowanceWeightType": 0,
+        "boardingSequence": null,
+        "createdDate": null,
+        "liftStatus": 0,
+        "modifiedDate": null,
+        "overBookIndicator": 0,
+        "priorityDate": null,
+        "timeChanged": false,
+        "verifiedTravelDocs": null,
+        "sourcePointOfSale": null,
+        "pointOfSale": null,
+        "ssrs": null,
+        "tickets": null,
+        "scores": null,
+        "boardingPassDetail": null,
+        "hasInfant": false,
+        "seatPreferences": null,
+        "bundleCode": null,
+        "verifiedTravelDocuments": null,
+        "status": 0,
+        "identifier": null,
+        "isValid": false,
+        "documentRequirements": null,
+        "addressRequirements": null,
+        "invalidSsrs": null,
+        "requiredSsrs": null,
+        "restrictions": null
+      }
+    },
+    "journeyTotals": {
+      "totalAmount": 4400,
+      "totalPoints": 0,
+      "totalTax": 1027,
+      "totalDiscount": 0
+    },
+    "journeys": {
+      "journeyDetails": null
+    },
+    "addOnTotals": {
+      "car": null,
+      "hotel": null,
+      "activities": null
+    }
+  },
+  "receivedBy": {
+    "receivedBy": "INET",
+    "latestReceivedBy": null,
+    "receivedReference": null,
+    "latestReceivedReference": null,
+    "referralCode": null
+  },
+  "contacts": {
+    "P": {
+      "contactTypeCode": "P",
+      "phoneNumbers": [
+        {
+          "type": "1",
+          "number": "91*9876543232"
+        }
+      ],
+      "cultureCode": null,
+      "address": null,
+      "emailAddress": "cc@vv.mm",
+      "customerNumber": null,
+      "sourceOrganization": null,
+      "distributionOption": 0,
+      "notificationPreference": 0,
+      "companyName": null,
+      "name": {
+        "first": "Vv",
+        "middle": null,
+        "last": "Test",
+        "title": "MR",
+        "suffix": null
+      }
+    }
+  },
+  "passengers": {
+    "MCFBRFQ-": {
+      "passengerKey": "MCFBRFQ-",
+      "services": null,
+      "specialServices": null,
+      "seats": null,
+      "upgrades": null,
+      "spoilage": null,
+      "nameChanges": null,
+      "convenience": null,
+      "infant": null,
+      "passengerAlternateKey": "NjUwNDc2MDY3",
+      "customerNumber": null,
+      "fees": [],
+      "name": {
+        "first": "Vv",
+        "middle": null,
+        "last": "Test",
+        "title": "MR",
+        "suffix": null
+      },
+      "passengerTypeCode": "ADT",
+      "discountCode": null,
+      "bags": [],
+      "program": null,
+      "info": {
+        "status": 0,
+        "paidStatus": 0,
+        "priceStatus": 0,
+        "profileStatus": 0,
+        "bookingType": null,
+        "channelType": 0,
+        "bookedDate": "0001-01-01T00:00:00",
+        "createdDate": null,
+        "expirationDate": null,
+        "modifiedDate": null,
+        "modifiedAgentId": 0,
+        "createdAgentId": 0,
+        "owningCarrierCode": null,
+        "changeAllowed": false,
+        "nationality": null,
+        "residentCountry": null,
+        "gender": 1,
+        "dateOfBirth": null,
+        "familyNumber": null
+      },
+      "travelDocuments": [],
+      "addresses": [
+        {
+          "status": [],
+          "companyName": [],
+          "lineOne": [],
+          "passengerAddressKey": [],
+          "phone": [],
+          "lineTwo": [],
+          "stationCode": [],
+          "lineThree": [],
+          "emailAddress": [],
+          "countryCode": [],
+          "cultureCode": [],
+          "provinceState": [],
+          "refusedContact": [],
+          "city": [],
+          "postalCode": []
+        }
+      ],
+      "weightCategory": 1,
+      "activityDate": null,
+      "baggageAllowanceUsed": false,
+      "baggageAllowanceWeight": 0,
+      "baggageAllowanceWeightType": 0,
+      "boardingSequence": null,
+      "createdDate": null,
+      "liftStatus": 0,
+      "modifiedDate": null,
+      "overBookIndicator": 0,
+      "priorityDate": null,
+      "timeChanged": false,
+      "verifiedTravelDocs": null,
+      "sourcePointOfSale": null,
+      "pointOfSale": null,
+      "ssrs": null,
+      "tickets": null,
+      "scores": null,
+      "boardingPassDetail": null,
+      "hasInfant": false,
+      "seatPreferences": null,
+      "bundleCode": null,
+      "verifiedTravelDocuments": null,
+      "status": 0,
+      "identifier": null,
+      "isValid": false,
+      "documentRequirements": null,
+      "addressRequirements": null,
+      "invalidSsrs": null,
+      "requiredSsrs": null,
+      "restrictions": null
+    }
+  },
+  "journeys": [
+    {
+      "flightType": 1,
+      "stops": 0,
+      "designator": {
+        "destination": "DEL",
+        "origin": "MAA",
+        "arrival": "2024-05-30T11:30:00",
+        "departure": "2024-05-30T08:40:00"
+      },
+      "move": null,
+      "passengerHealthData": [
+        {
+          "passengerKey": "MCFBRFQ-",
+          "journeyKey": "NkV_MjAzOH4gfn5NQUF_MDUvMzAvMjAyNCAwODo0MH5ERUx_MDUvMzAvMjAyNCAxMTozMH5_",
+          "name": {
+            "first": "Vv",
+            "middle": null,
+            "last": "Test",
+            "title": "MR",
+            "suffix": null
+          },
+          "phoneNumber": null,
+          "countrycode": null,
+          "city": null,
+          "email": null
+        }
+      ],
+      "segments": [
+        {
+          "isStandby": false,
+          "isConfirming": false,
+          "isConfirmingExternal": false,
+          "isBlocked": false,
+          "isHosted": true,
+          "isChangeOfGauge": false,
+          "designator": {
+            "destination": "DEL",
+            "origin": "MAA",
+            "arrival": "2024-05-30T11:30:00",
+            "departure": "2024-05-30T08:40:00"
+          },
+          "isSeatmapViewable": true,
+          "fares": [
+            {
+              "isGoverning": true,
+              "downgradeAvailable": false,
+              "carrierCode": "6E",
+              "fareKey": "MH5Sfn42RX5SMElQfjEwNTd_fjB_MH5_WA--",
+              "classOfService": "R",
+              "classType": null,
+              "fareApplicationType": 0,
+              "fareClassOfService": "R",
+              "fareBasisCode": "R0IP",
+              "fareSequence": 0,
+              "inboundOutBound": 0,
+              "fareStatus": 0,
+              "isAllotmentMarketFare": false,
+              "originalClassOfService": "R",
+              "ruleNumber": "1057",
+              "productClass": "R",
+              "ruleTariff": null,
+              "travelClassCode": "Y",
+              "crossReferenceClassOfService": null,
+              "passengerFares": [
+                {
+                  "serviceCharges": [
+                    {
+                      "amount": 4400,
+                      "code": null,
+                      "detail": null,
+                      "type": 0,
+                      "collectType": 0,
+                      "currencyCode": "INR",
+                      "foreignCurrencyCode": "INR",
+                      "foreignAmount": 4400,
+                      "ticketCode": null
+                    },
+                    {
+                      "amount": 50,
+                      "code": "PHF",
+                      "detail": "MAA-DEL",
+                      "type": 4,
+                      "collectType": 0,
+                      "currencyCode": "INR",
+                      "foreignCurrencyCode": "INR",
+                      "foreignAmount": 50,
+                      "ticketCode": "PHF"
+                    },
+                    {
+                      "amount": 50,
+                      "code": "RCF",
+                      "detail": "MAA-DEL",
+                      "type": 4,
+                      "collectType": 0,
+                      "currencyCode": "INR",
+                      "foreignCurrencyCode": "INR",
+                      "foreignAmount": 50,
+                      "ticketCode": "RCF"
+                    },
+                    {
+                      "amount": 236,
+                      "code": "ASF",
+                      "detail": "MAA-DEL",
+                      "type": 4,
+                      "collectType": 0,
+                      "currencyCode": "INR",
+                      "foreignCurrencyCode": "INR",
+                      "foreignAmount": 236,
+                      "ticketCode": "ASF"
+                    },
+                    {
+                      "amount": 466,
+                      "code": "UDF",
+                      "detail": "MAA-DEL",
+                      "type": 4,
+                      "collectType": 0,
+                      "currencyCode": "INR",
+                      "foreignCurrencyCode": "INR",
+                      "foreignAmount": 466,
+                      "ticketCode": "UDF"
+                    },
+                    {
+                      "amount": 225,
+                      "code": "33GST",
+                      "detail": "MAA-DEL",
+                      "type": 5,
+                      "collectType": 0,
+                      "currencyCode": "INR",
+                      "foreignCurrencyCode": "INR",
+                      "foreignAmount": 225,
+                      "ticketCode": "GST"
+                    }
+                  ],
+                  "discountCode": null,
+                  "fareDiscountCode": null,
+                  "passengerType": "ADT"
+                }
+              ],
+              "fareLink": 0
+            }
+          ],
+          "segmentKey": "NkV_MjAzOH4gfn5NQUF_MDUvMzAvMjAyNCAwODo0MH5ERUx_MDUvMzAvMjAyNCAxMTozMH5_",
+          "identifier": {
+            "identifier": "2038",
+            "carrierCode": "6E",
+            "opSuffix": null
+          },
+          "passengerSegment": {
+            "MCFBRFQ-": {
+              "passengerKey": "MCFBRFQ-",
+              "services": null,
+              "specialServices": null,
+              "seats": [],
+              "upgrades": null,
+              "spoilage": null,
+              "nameChanges": null,
+              "convenience": null,
+              "infant": null,
+              "passengerAlternateKey": null,
+              "customerNumber": null,
+              "fees": null,
+              "name": null,
+              "passengerTypeCode": null,
+              "discountCode": null,
+              "bags": [],
+              "program": null,
+              "info": null,
+              "travelDocuments": null,
+              "addresses": null,
+              "weightCategory": 0,
+              "activityDate": "2024-04-22T07:51:00.913Z",
+              "baggageAllowanceUsed": false,
+              "baggageAllowanceWeight": 0,
+              "baggageAllowanceWeightType": 0,
+              "boardingSequence": "0",
+              "createdDate": "2024-03-08T04:13:52.483Z",
+              "liftStatus": 0,
+              "modifiedDate": "2024-03-08T04:13:52.483Z",
+              "overBookIndicator": 0,
+              "priorityDate": "2024-03-08T04:13:52.56Z",
+              "timeChanged": false,
+              "verifiedTravelDocs": null,
+              "sourcePointOfSale": {
+                "agentCode": "WebAnonSkyplus",
+                "domainCode": "WW2",
+                "locationCode": "WWW",
+                "organizationCode": "6E"
+              },
+              "pointOfSale": {
+                "agentCode": "WebAnonSkyplus",
+                "domainCode": "WW2",
+                "locationCode": "WWW",
+                "organizationCode": "6E"
+              },
+              "ssrs": [
+                {
+                  "isConfirmed": true,
+                  "isConfirmingUnheld": false,
+                  "note": null,
+                  "ssrDuration": 2,
+                  "ssrKey": "MCFNQ0ZCUkZRLSFYU0FUITEhREVMITZFITYzODUyNjU1MjAwMDAwMDAwMCFNQUEhMjAzOCEg",
+                  "count": 1,
+                  "ssrCode": "XSAT",
+                  "feeCode": null,
+                  "inBundle": false,
+                  "passengerKey": "MCFBRFQ-",
+                  "ssrDetail": null,
+                  "ssrNumber": 1,
+                  "market": {
+                    "identifier": {
+                      "identifier": "2038",
+                      "carrierCode": "6E",
+                      "opSuffix": null
+                    },
+                    "destination": "DEL",
+                    "origin": "MAA",
+                    "departureDate": "2024-05-30T08:40:00"
+                  }
+                }
+              ],
+              "tickets": [],
+              "scores": [],
+              "boardingPassDetail": null,
+              "hasInfant": false,
+              "seatPreferences": {
+                "seat": 0,
+                "travelClass": 0,
+                "advancedPreferences": []
+              },
+              "bundleCode": null,
+              "verifiedTravelDocuments": null,
+              "status": 0,
+              "identifier": null,
+              "isValid": false,
+              "documentRequirements": null,
+              "addressRequirements": null,
+              "invalidSsrs": null,
+              "requiredSsrs": null,
+              "restrictions": null
+            }
+          },
+          "channelType": 6,
+          "cabinOfService": "Y",
+          "externalIdentifier": null,
+          "priorityCode": null,
+          "changeReasonCode": 0,
+          "segmentType": 0,
+          "salesDate": "2024-03-08T04:13:52.483Z",
+          "international": false,
+          "flightReference": "20240530 6E2038 MAADEL",
+          "legs": [
+            {
+              "legKey": "NjM4NTI2NTUyMDAwMDAwMDAwITZFITIwMzghICFNQUEhREVMITc0OTAxODk-",
+              "operationsInfo": null,
+              "designator": {
+                "destination": "DEL",
+                "origin": "MAA",
+                "arrival": "2024-05-30T11:30:00",
+                "departure": "2024-05-30T08:40:00"
+              },
+              "legInfo": {
+                "departureTimeUtc": "2024-05-30T03:10:00Z",
+                "arrivalTimeUtc": "2024-05-30T06:00:00Z",
+                "adjustedCapacity": 186,
+                "arrivalTerminal": "2",
+                "arrivalTimeVariant": 330,
+                "backMoveDays": 0,
+                "capacity": 186,
+                "changeOfDirection": false,
+                "codeShareIndicator": 0,
+                "departureTerminal": "1",
+                "departureTimeVariant": 330,
+                "equipmentType": "320",
+                "equipmentTypeSuffix": "32S",
+                "eTicket": false,
+                "irop": false,
+                "lid": 186,
+                "marketingCode": null,
+                "marketingOverride": false,
+                "onTime": null,
+                "operatedByText": null,
+                "operatingCarrier": null,
+                "operatingFlightNumber": null,
+                "operatingOpSuffix": null,
+                "outMoveDays": 0,
+                "arrivalTime": "2024-05-30T11:30:00",
+                "departureTime": "2024-05-30T08:40:00",
+                "prbcCode": "Y186",
+                "scheduleServiceType": null,
+                "sold": 1,
+                "status": 0,
+                "subjectToGovtApproval": false
+              },
+              "nests": [],
+              "ssrs": [],
+              "seatmapReference": "NkUhMjAzOCEgITYzODUyNjU1MjAwMDAwMDAwMCFNQUEhREVM",
+              "flightReference": "20240530 6E2038 MAADEL"
+            }
+          ]
+        }
+      ],
+      "journeyKey": "NkV_MjAzOH4gfn5NQUF_MDUvMzAvMjAyNCAwODo0MH5ERUx_MDUvMzAvMjAyNCAxMTozMH5_",
+      "notForGeneralUser": false,
+      "journeys": null
+    }
+  ],
+  "comments": [
+    {
+      "type": 0,
+      "text": "10.20.104.79",
+      "createdDate": "2024-03-08T04:13:52.483Z",
+      "pointOfSale": {
+        "agentCode": "WebAnonSkyplus",
+        "domainCode": "WW2",
+        "locationCode": "WWW",
+        "organizationCode": "6E"
+      },
+      "commentKey": "ODUwNTQ-"
+    },
+    {
+      "type": 0,
+      "text": "SkyplusWebBooking",
+      "createdDate": "2024-03-08T04:13:52.483Z",
+      "pointOfSale": {
+        "agentCode": "WebAnonSkyplus",
+        "domainCode": "WW2",
+        "locationCode": "WWW",
+        "organizationCode": "6E"
+      },
+      "commentKey": "ODUwNTU-"
+    },
+    {
+      "type": 0,
+      "text": null,
+      "createdDate": "2024-03-08T04:13:52.483Z",
+      "pointOfSale": {
+        "agentCode": "WebAnonSkyplus",
+        "domainCode": "WW2",
+        "locationCode": "WWW",
+        "organizationCode": "6E"
+      },
+      "commentKey": "ODUwNTY-"
+    },
+    {
+      "type": 0,
+      "text": "Advised of Fare Rule",
+      "createdDate": "2024-03-08T04:13:52.483Z",
+      "pointOfSale": {
+        "agentCode": "WebAnonSkyplus",
+        "domainCode": "WW2",
+        "locationCode": "WWW",
+        "organizationCode": "6E"
+      },
+      "commentKey": "ODUwNTc-"
+    },
+    {
+      "type": 0,
+      "text": "Skyplus QuickCheckin : MAADEL",
+      "createdDate": "2024-04-22T07:51:00.9Z",
+      "pointOfSale": {
+        "agentCode": "WebAnonSkyplus",
+        "domainCode": "WW2",
+        "locationCode": "WWW",
+        "organizationCode": "6E"
+      },
+      "commentKey": "MjA2OTMx"
+    }
+  ],
+  "queues": [],
+  "history": [],
+  "payments": [
+    {
+      "paymentKey": "NTY1NDIyNzQ3ITEhQUMhNDQ2NDI4Nzc2",
+      "code": "AC",
+      "approvalDate": "2024-03-08T04:13:52.557Z",
+      "details": {
+        "parentPaymentId": null,
+        "accountName": null,
+        "accountNumber": null,
+        "expirationDate": null,
+        "text": null,
+        "installments": 0,
+        "binRange": 0,
+        "fields": {
+          "orderID": "JPAY0feb4b554b0e94015",
+          "trxid": null
+        }
+      },
+      "amounts": {
+        "amount": 5427,
+        "currencyCode": "INR",
+        "collected": 5427,
+        "collectedCurrencyCode": "INR",
+        "quoted": 5427,
+        "quotedCurrencyCode": "INR"
+      },
+      "authorizationCode": null,
+      "authorizationStatus": 4,
+      "fundedDate": "1800-01-01T00:00:00Z",
+      "transactionCode": null,
+      "dcc": null,
+      "threeDSecure": null,
+      "attachments": [],
+      "createdDate": "2024-03-08T04:13:52.483Z",
+      "modifiedDate": "2024-03-08T04:13:52.483Z",
+      "type": 1,
+      "status": 3,
+      "transferred": false,
+      "channelType": 6,
+      "pointOfSale": {
+        "agentCode": "WebAnonSkyplus",
+        "domainCode": "WW2",
+        "locationCode": "WWW",
+        "organizationCode": "6E"
+      },
+      "sourcePointOfSale": {
+        "agentCode": "WebAnonSkyplus",
+        "domainCode": "WW2",
+        "locationCode": "WWW",
+        "organizationCode": "6E"
+      },
+      "deposit": false,
+      "accountId": 0,
+      "voucher": null,
+      "addedToState": true,
+      "createdAgentId": 16697399,
+      "modifiedAgentId": 16697399,
+      "reference": 565422747
+    }
+  ],
+  "addOns": {}
+}

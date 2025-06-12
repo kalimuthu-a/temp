@@ -1,0 +1,17 @@
+{
+  "data": {
+    "success": true,
+    "message": "success",
+    "pnrDetails": {
+      "parent": {
+        "pnr": "ABCDEF",
+        "lastName": "test"
+      },
+      "child": {
+        "pnr": "ABCDEF",
+        "lastName": "test"
+      }
+    }
+  },
+  "errors": null
+}

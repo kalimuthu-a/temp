@@ -1,0 +1,124 @@
+.popup-modal-global__bg-overlay .popup-modal-global__header {
+  height: unset !important;
+}
+
+
+
+.popup-modal-global__bg-overlay {
+  align-items: flex-end;
+  padding: 0;
+
+  @include media('>=tablet') {
+    align-items: center;
+    padding: rem(12px);
+  }
+}
+
+.visa-confirm-popup {
+  .popup-modal-global__bg-overlay {
+    .popup-modal-global__content {
+      padding: rem(24px) !important;
+      border-radius: rem(8px);
+      width: calc(100% - 40px);
+      height: rem(180px);
+      border-radius: rem(8px);
+      gap: rem(20px);
+      margin: auto;
+
+      @include media('>=tablet') {
+        width: rem(392px);
+        height: rem(167px);
+        border-radius: rem(8px);
+        padding: rem(24px);
+        gap: rem(20px);
+        justify-content: center;
+        align-items: center;
+      }
+
+      .popup-modal-global__header {
+        .popup-modal-global__header__title {
+          font-weight: 400;
+          font-size: rem(24px);
+          line-height: rem(32px);
+          letter-spacing: rem(-0.6px);
+          text-align: center;
+          color: var(--text-primary);
+
+          @include media('>=tablet') {
+            font-weight: 400;
+            font-size: rem(24px);
+            line-height: rem(32px);
+            letter-spacing: rem(-0.6px);
+            text-align: center;
+            color: var(--text-primary);
+            margin-left: rem(16px)
+          }
+        }
+      }
+
+      .confirmation-modal__buttons {
+        display: flex;
+        gap: rem(20px);
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+      }
+
+      .button_no {
+        border: 1px solid var(--primary-main);
+        background-color: var(--white);
+        color: var(--primary-main);
+        border-radius: rem(22px);
+        gap: rem(4px);
+        font-weight: bold;
+        cursor: pointer;
+        transition: all 0.3s ease;
+        width: rem(110px);
+        height: rem(44px);
+        gap: rem(4px);
+        border-width: rem(1px);
+        padding: rem(12px) rem(32px);
+        justify-content: center;
+        align-items: center;
+      }
+
+      .button_yes {
+        border: 1px solid var(--primary-main);
+        background-color: var(--white);
+        color: var(--primary-main);
+        font-weight: bold;
+        cursor: pointer;
+        transition: all 0.3s ease;
+        width: rem(160px);
+        height: rem(44px);
+        border-radius: rem(22px);
+        gap: rem(4px);
+        padding: rem(12px) rem(32px);
+        justify-content: center;
+        align-items: center;
+      }
+
+      .button_no:hover,
+      .button_yes:hover {
+        background-color: var(--primary-main);
+        color: var(--white);
+      }
+
+      .button_no.active,
+      .button_yes.active {
+        background-color: var(--primary-main);
+        color: var(--white);
+      }
+
+      .button_no.active:hover,
+      .button_yes.active:hover {
+        background-color: var(--primary-main);
+        color: var(--white);
+      }
+    }
+
+    .popup-modal-global__close-overlay-button {
+      display: none;
+    }
+  }
+}

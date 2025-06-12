@@ -1,0 +1,39 @@
+@mixin font-h1 {
+	font-size: rem(34px);
+}
+
+@mixin font-h2 {
+	font-size: rem(32px);
+}
+
+@mixin font-h3 {
+	font-size: rem(24px);
+}
+
+@mixin font-h4 {
+	font-size: rem(20px);
+}
+
+@mixin font-h5 {
+	font-size: rem(18px);
+}
+
+@mixin font-p1 {
+	font-size: rem(16px);
+}
+
+@mixin font-p2 {
+	font-size: rem(14px);
+}
+
+@mixin font-p3 {
+	font-size: rem(12px);
+}
+
+@mixin font-p4 {
+	font-size: rem(10px);
+}
+
+@mixin font-p5 {
+	font-size: rem(8px);
+}

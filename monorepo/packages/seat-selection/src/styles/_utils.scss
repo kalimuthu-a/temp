@@ -1,0 +1,39 @@
+.m-r-8 {
+	margin-right: rem(8px);
+}
+
+// Display Block only on mobile and above
+.d-n-m {
+	display: none;
+	@include media(">=tablet") {
+		display: block;
+	}
+}
+
+.z-1000 {
+	z-index: 1000;
+}
+
+.cursor-default {
+	cursor: default !important;
+}
+
+.d-flex {
+	display: flex !important;
+}
+
+.justify-content-between {
+	justify-content: space-between !important;
+}
+
+.fw-500 {
+	font-weight: 500 !important;
+}
+
+.cursor-pointer {
+	cursor: pointer !important;
+}
+
+.align-items-center {
+	align-items: center !important;
+}

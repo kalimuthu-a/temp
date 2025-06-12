@@ -1,0 +1,82 @@
+.schedule-container {
+    .schedule-item {
+        align-items: flex-start;
+        border-radius: rem(12px);
+        justify-content: flex-start;
+        gap: rem(24px);
+
+        @include media('>=desktop') {
+            gap: rem(12px);
+        }
+        
+        .icons {
+            background-color: var(--secondary-main);
+            width: rem(32px);
+            height: rem(32px);
+            border-radius: 50%;
+            padding: rem(8px);
+            margin-right: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-left: 0;
+
+            &::before {
+                font-size: rem(16px);
+            }
+        }
+
+        .schedule-text {
+            .schedule-title {
+                font-weight: 600;
+                font-size: rem(14px);
+                color: var(--text-primary);
+                line-height: 1rem;
+                display: flex;
+                align-items: flex-start;
+                justify-content: flex-start;
+                flex-direction: row;
+                .heading{
+                    padding: rem(3px) rem(0px) rem(10px) rem(15px);
+                }
+
+                @include media('>=desktop') {
+                    line-height: rem(16px);
+                }
+                .datetime{
+                   color: var(--text-secondary); 
+                }
+            }
+
+            .schedule-details {
+                font-weight: 500;
+                font-size: rem(14px);
+                line-height: rem(20px);
+                gap: rem(8px);
+                color: var(--text-tertiary);
+                padding: rem(7px) rem(0px);
+
+                &__item {
+                    padding: rem(4px) rem(0px);
+                    display: flex;
+                    align-items: flex-start;
+                    justify-content: flex-start;
+                    flex-direction: row;
+                }
+
+                @include media('>=desktop') {
+                    font-weight: 400;
+                    line-height: rem(20px);
+                    color: var(--text-secondary);
+                }
+            }
+        }
+
+        display: flex;
+
+        .text-content {
+            padding-left: rem(15px);
+            padding-bottom: rem(21px);
+        }
+    }
+}

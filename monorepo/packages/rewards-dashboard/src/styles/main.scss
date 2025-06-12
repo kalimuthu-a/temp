@@ -1,0 +1,15 @@
+@import '~skyplus-design-system-app/src/common/scss/base';
+@import './variables';
+@import './typography';
+@import './mixins';
+@import './loader';
+@import '../components/MyProfile/MyProfile';
+@import '../components/Help/Help';
+@import '../components/Delete/Delete';
+@import '../components/SavedPassengers/SavedPassengers';
+@import '../components/Settings/Settings';
+@import '../components/SavedPayments/SavedPayments';
+@import '../pages/Nominee/Nominee';
+@import '../pages/Nominee/Footer/Footer';
+@import '../pages/Nominee/Passenger/PassengerContainer';
+@import '../pages/Nominee/Modal/ConfirmSelection';

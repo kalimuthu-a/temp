@@ -1,0 +1,120 @@
+.login-sso-enrollment {
+  .popup-modal-with-content-login-sso-form
+    .popup-modal-with-content__content.login-sso-enrollment_modal {
+    // comment styles only affecting enrollment flow
+
+    .login-sso-image-V2 {
+      max-width: rem(500px);
+      min-width: rem(500px);
+    }
+
+    .signup {
+      &__email-input-field {
+        .design-system-phone-component.w-100.ms-md-8 {
+          margin: 0 !important;
+        }
+
+        .design-system-email-component {
+          .email-signup-enroll + .error-msg {
+            position: absolute;
+          }
+        }
+      }
+
+      &__checkbox-conditions {
+        display: flex;
+        margin-bottom: rem(10px);
+
+        p {
+          font-family: var(--font-family-poppins-regular);
+          font-size: rem(12px);
+          line-height: rem(18px);
+          margin-left: rem(12px);
+
+          a {
+            font-size: rem(14px);
+            font-weight: 500;
+            line-height: rem(20px);
+            color: #24409a;
+            text-decoration: underline;
+            text-transform: uppercase;
+          }
+        }
+      }
+
+      &__fullname {
+        display: block;
+
+        @include media('>=tablet') {
+          display: flex;
+        }
+      }
+
+      &__inpt-field {
+        width: 100%;
+
+        &.date-signup-enroll {
+          .error-msg {
+            position: absolute;
+          }
+        }
+      }
+
+      &__left-input {
+        padding-bottom: 0 !important;
+
+        @include media('>=tablet') {
+          margin-right: rem(8px);
+        }
+      }
+
+      &__radio-btn {
+        margin-bottom: rem(4px);
+        font-family: var(--font-family-poppins-regular);
+
+        label {
+          margin-right: rem(30px);
+          font-size: rem(14px);
+        }
+
+        .radio-label {
+          color: var(--text-secondar);
+        }
+      }
+
+      &__continue-button {
+        margin-top: rem(20px);
+      }
+
+      &_EnrollmentPwd {
+        &_popup {
+          .login-sso-form-V2 {
+            &__lower {
+              display: none;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  &-phone-dropdown {
+    .popover__content {
+      background-color: var(--white);
+    }
+  }
+
+  &-signup-form {
+    input {
+      line-height: 1.33;
+    }
+  }
+  .signup__instructions {
+    svg {
+      overflow: inherit;
+    }
+    .validation-success {
+      color: var(--bs-green);
+    }
+  }
+}

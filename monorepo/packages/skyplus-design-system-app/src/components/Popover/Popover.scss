@@ -1,0 +1,25 @@
+.bw-popover {
+  &__content {
+    opacity: 0;
+    visibility: hidden;
+    position: absolute;
+    transform: translate(0, 10px);
+    box-shadow: 0 2px 5px 0 rgb(0 0 0 / 26%);
+    width: auto;
+    background-color: var(--secondary-white);
+    border-radius: rem(12px);
+  }
+}
+
+.popover {
+  &__wrapper.focused {
+    .bw-popover {
+      &__content {
+        z-index: 10;
+        opacity: 1;
+        visibility: visible;
+        transition: all 0.5s cubic-bezier(0.75, -0.02, 0.2, 0.97);
+      }
+    }
+  }
+}

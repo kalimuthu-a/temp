@@ -1,0 +1,16 @@
+.user-is-tabbing {
+    *:focus {
+        text-decoration: none;
+        outline-offset: rem(4);
+        outline:rem(2) solid gray;
+    }
+    *.active,*:hover{
+        outline:0;
+    }
+}
+
+// Screen Readers
+// -------------------------
+
+.sr-only { @include sr-only; }
+.sr-only-focusable { @include sr-only-focusable; }

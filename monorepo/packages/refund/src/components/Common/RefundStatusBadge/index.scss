@@ -1,0 +1,63 @@
+.flightDetails .refundStatus {
+  display: flex;
+  align-items: flex-start;
+
+  span {
+    text-align: center;
+    font-size: rem(12px);
+    font-style: normal;
+    font-weight: 500;
+    line-height: rem(18px);
+  }
+
+  .statusWrapper {
+    border-radius: 12px;
+    background: $success-light;
+    display: flex;
+    padding: rem(4px) rem(8px) rem(4px) rem(6px);
+    justify-content: center;
+    align-items: center;
+    gap: rem(4px);
+
+    &.success {
+      span {
+        color: $success-color;
+      }
+
+      i {
+        &::before {
+          color: $success-color;
+        }
+      }
+    }
+
+    &.pending {
+      background: $warning-light;
+
+      span {
+        color: $warning-color;
+      }
+
+      i {
+        &::before {
+          color: $warning-color;
+        }
+      }
+    }
+
+    &.failed {
+      background: $error-light;
+
+      span {
+        color: $error-color;
+      }
+
+      i {
+        &::before {
+          color: $error-color;
+        }
+      }
+    }
+  }
+}
+

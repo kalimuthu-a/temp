@@ -1,0 +1,22 @@
+@mixin font-styles($fs, $fw, $lh, $clr: null, $ff: var(--font-family-poppins-regular)) {
+  font-family: $ff;
+  font-size: rem($fs);
+  font-weight: $fw;
+  line-height: rem($lh);
+
+  @if $clr {
+    color: $clr;
+  }
+}
+
+@mixin scroll-snap-styles($spi: 4px) {
+  overflow-x: auto;
+  overscroll-behavior-inline: contain;
+  scrollbar-width: none; 
+  scroll-snap-type: inline mandatory;
+  scroll-padding-inline: rem($spi);
+
+  & > * {
+    scroll-snap-align: start;
+  }
+}

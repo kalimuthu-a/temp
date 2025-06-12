@@ -1,0 +1,386 @@
+{
+  "data": {
+    "splitPnrByPath": {
+      "item": {
+        "selectPassengersTitle": {
+          "html": "\u003Cp\u003ESelect passengers for \u003Cspan class=\"text-green\"\u003ESplit PNR\u003C/span\u003E\u003C/p\u003E\n"
+        },
+        "splitPnrDescription": {
+          "html": "\u003Cp\u003EIf you wish to make changes/cancellations for a specific passenger on a PNR with multiple passengers, SPLIT PNR generates a new PNR so you can make any further modifications without affecting the original PNR.\u003C/p\u003E\n\u003Cp\u003EPlease select the passenger whose PNR you want to split.\u003C/p\u003E\n"
+        },
+        "pnrLabel": "PNR",
+        "bookingStatus": [
+          {
+            "key": "Confirmed",
+            "title": "Booking confirmed",
+            "description": {
+              "html": "\u003Cp\u003EYour booking is confirmed and we have emailed your itinerary to {mail}.\u003C/p\u003E\n"
+            }
+          },
+          {
+            "key": "Hold",
+            "title": "Your booking is on hold.",
+            "description": {
+              "html": "\u003Cp\u003EYour reservation will remain on hold until  \u003Cb\u003E{date}\u003C/b\u003E\u003C/p\u003E\n"
+            }
+          },
+          {
+            "key": "Cancelled",
+            "title": "Your booking is Cancelled",
+            "description": {
+              "html": "\u003Cp\u003EThe refund IndiGo BluChips and Tier vouchers will be automatically credited back to your IndiGo BluChip account within 3-7 business days. Please check your refund status in&nbsp;\u003Ca href=\"https://www.goindigo.in/edit-booking.html\" target=\"_blank\"\u003Emanage booking\u003C/a\u003E\u003C/p\u003E\n"
+            }
+          },
+          {
+            "key": "NeedPayment",
+            "title": "Your payment has failed!",
+            "description": {
+              "html": "\u003Cp\u003EYour transaction was declined by the bank due to insufficient funds.\u003C/p\u003E\n\u003Cp\u003EAny amount deducted will automatically be refunded within 5-7 business days.\u003C/p\u003E\n\u003Cp\u003EPlease check your refund status in \u003Ca href=\"https://www.goindigo.in/edit-booking.html\" target=\"_blank\"\u003Emanage booking\u003C/a\u003E \u003C/p\u003E\n"
+            }
+          },
+          {
+            "key": "bookingDeclinedDueToSeatUnavailability",
+            "title": "Booking failed",
+            "description": {
+              "html": "\u003Cp\u003E\u003Cb\u003EYour booking could not be confirmed due to unavailability of seats.\u003C/b\u003E\u003C/p\u003E\n\u003Cp\u003EThe deducted amount will be automatically refunded within 3-7 business days.\u003C/p\u003E\n\u003Cp\u003ETo check your refund status, visit&nbsp;\u003Ca href=\"https://www.goindigo.in/edit-booking.html\" target=\"_blank\"\u003Emanage booking\u003C/a\u003E\u003C/p\u003E\n"
+            }
+          },
+          {
+            "key": "paymentv2failed",
+            "title": "Your payment failed!",
+            "description": {
+              "html": "\u003Cp\u003E\u003Cb\u003EYour payment couldn’t be confirmed.\u003C/b\u003E\u003Cbr\u003E\nIn case any amount got deducted, it will be automatically refunded within 3-7 business days.&nbsp;\u003C/p\u003E\n"
+            }
+          },
+          {
+            "key": "paymentv2inprocess",
+            "title": "Awaiting payment confirmation",
+            "description": {
+              "html": "\u003Cp\u003EPlease wait while we await confirmation of your payment.\u003Cbr\u003E\nIn case the payment fails, your bank will refund the money to your account.\u003C/p\u003E\n"
+            }
+          },
+          {
+            "key": "paymentv2bookingfailed",
+            "title": "Your booking failed",
+            "description": {
+              "html": "\u003Cp\u003E\u003Cb\u003EYour booking couldn’t be confirmed.\u003C/b\u003E\u003Cbr\u003E\nThe booking failed. The deducted amount will be refunded within 3-7 business days.Please check your refund status in \u003Ca href=\"#\" target=\"_blank\"\u003EManage booking\u003C/a\u003E\u003C/p\u003E\n"
+            }
+          },
+          {
+            "key": "Pending",
+            "title": "Your booking is put on hold!",
+            "description": {
+              "html": "\u003Cp\u003EWe are continuously checking the status of your payment. we request you to not make multiple payment and wait for few minutes till the status is updated.\u003C/p\u003E\n\u003Cp\u003E&nbsp;\u003C/p\u003E\n\u003Cp\u003EDon't worry, in case the payment fails your bank will automatically refund money to your account.\u003C/p\u003E\n"
+            }
+          },
+          {
+            "key": "paymentv2bookingnotconfirmed",
+            "title": "We couldn’t confirm your payment",
+            "description": {
+              "html": "\u003Cp\u003EPlease make the booking again as your payment could not be processed. In case any amount got deducted, it will be refunded within 3-7 business days.\u003C/p\u003E\n"
+            }
+          },
+          {
+            "key": "ConfirmedLoyalty",
+            "title": "Congratulations! Booking Confirmed  You have booked flight tickets with IndiGo BluChip!",
+            "description": {
+              "html": "\u003Cp\u003EYour booking confirmation has been emailed to you on {mail}.\u003C/p\u003E\n"
+            }
+          }
+        ],
+        "passengersInPnrLabel": "Passengers in this PNR",
+        "splitPnrSuccessMessage": "Split PNR Succesful",
+        "deselectPassengerToSplitMessage": "Deselect atleast one passenger to split PNR",
+        "continueCTALabel": "Split PNR",
+        "findNewPNRSTitle": "Please find below the New PNRs",
+        "youLabel": "you",
+        "viewDetailedItineraryCtaLabel": "View detailed Itinerary",
+        "viewDetailedItineraryCtaLink": "/content/skyplus6e/in/en/book/itinerary.html",
+        "backButtonTitle": "Back",
+        "backButtonLink": "/content/skyplus6e/in/en/book/itinerary.html",
+        "paxLabel": "Pax",
+        "myTripBackButtonTitle": "Back to my trips",
+        "myTripBackButtonLink": "/content/skyplus6e/in/en/split-pnr/manage.html",
+        "codeShare": [
+          {
+            "equipmentType": "32B",
+            "carrierCode": "6E",
+            "equipmentTypeLabel": "32B",
+            "carrierCodePopupIcon": null,
+            "operatedByAirlinesLabel": "Operated by Indigo Airlines",
+            "carrierCodeIcon": {
+              "_publishUrl": "https://aem-s6web-qa-skyplus6e.goindigo.in/content/dam/s6common/in/en/assets/codeshare/images/icFlightStroke%20(1).svg"
+            },
+            "carrierCodeImage": {
+              "_publishUrl": "https://aem-s6web-qa-skyplus6e.goindigo.in/content/dam/s6common/in/en/assets/codeshare/images/IndigoAirlines.png"
+            }
+          },
+          {
+            "equipmentType": "32B",
+            "carrierCode": "BA",
+            "equipmentTypeLabel": "32B",
+            "carrierCodePopupIcon": {
+              "_publishUrl": "https://aem-s6web-qa-skyplus6e.goindigo.in/content/dam/s6common/in/en/assets/codeshare/images/BA_Spd_Col_Logo.jpg"
+            },
+            "operatedByAirlinesLabel": "Operated By",
+            "carrierCodeIcon": {
+              "_publishUrl": "https://aem-s6web-qa-skyplus6e.goindigo.in/content/dam/s6common/in/en/assets/codeshare/images/icFlightStroke%20(1).svg"
+            },
+            "carrierCodeImage": {
+              "_publishUrl": "https://aem-s6web-qa-skyplus6e.goindigo.in/content/dam/s6common/in/en/assets/codeshare/images/IndigoAirlines.png"
+            }
+          },
+          {
+            "equipmentType": "32B",
+            "carrierCode": "CX",
+            "equipmentTypeLabel": "32B",
+            "carrierCodePopupIcon": {
+              "_publishUrl": "https://aem-s6web-qa-skyplus6e.goindigo.in/content/dam/s6common/in/en/assets/codeshare/images/Cathay_pacific2.jpg"
+            },
+            "operatedByAirlinesLabel": "Operated by Cathay Pacific",
+            "carrierCodeIcon": {
+              "_publishUrl": "https://aem-s6web-qa-skyplus6e.goindigo.in/content/dam/s6common/in/en/assets/codeshare/images/Cathay_Pacific_LOGO@3x.png"
+            },
+            "carrierCodeImage": {
+              "_publishUrl": "https://aem-s6web-qa-skyplus6e.goindigo.in/content/dam/s6common/in/en/assets/codeshare/images/Cathay_pacific2.jpg"
+            }
+          },
+          {
+            "equipmentType": "32B",
+            "carrierCode": "QF",
+            "equipmentTypeLabel": "32B",
+            "carrierCodePopupIcon": {
+              "_publishUrl": "https://aem-s6web-qa-skyplus6e.goindigo.in/content/dam/s6common/in/en/assets/codeshare/images/QANTAS_Masterbrand_Vertical_RGB_190816.jpg"
+            },
+            "operatedByAirlinesLabel": "Operated by Qantas Airline",
+            "carrierCodeIcon": {
+              "_publishUrl": "https://aem-s6web-qa-skyplus6e.goindigo.in/content/dam/s6common/in/en/assets/codeshare/images/icFlightStroke%20(1).svg"
+            },
+            "carrierCodeImage": {
+              "_publishUrl": "https://aem-s6web-qa-skyplus6e.goindigo.in/content/dam/s6common/in/en/assets/codeshare/images/IndigoAirlines.png"
+            }
+          },
+          {
+            "equipmentType": "32B",
+            "carrierCode": "TK",
+            "equipmentTypeLabel": "32B",
+            "carrierCodePopupIcon": {
+              "_publishUrl": "https://aem-s6web-qa-skyplus6e.goindigo.in/content/dam/s6common/in/en/assets/codeshare/images/TurkishAirlinesLogo.png"
+            },
+            "operatedByAirlinesLabel": "Operated by Indigo Airlines",
+            "carrierCodeIcon": {
+              "_publishUrl": "https://aem-s6web-qa-skyplus6e.goindigo.in/content/dam/s6common/in/en/assets/codeshare/images/TurkishAirlinesLogo.png"
+            },
+            "carrierCodeImage": {
+              "_publishUrl": "https://aem-s6web-qa-skyplus6e.goindigo.in/content/dam/s6common/in/en/assets/codeshare/images/TurkishAirlines.png"
+            }
+          },
+          {
+            "equipmentType": "32W",
+            "carrierCode": "6E",
+            "equipmentTypeLabel": "32W",
+            "carrierCodePopupIcon": null,
+            "operatedByAirlinesLabel": "Operated by Indigo Airlines",
+            "carrierCodeIcon": {
+              "_publishUrl": "https://aem-s6web-qa-skyplus6e.goindigo.in/content/dam/s6common/in/en/assets/codeshare/images/icFlightStroke%20(1).svg"
+            },
+            "carrierCodeImage": {
+              "_publishUrl": "https://aem-s6web-qa-skyplus6e.goindigo.in/content/dam/s6common/in/en/assets/codeshare/images/icFlightStroke%20(1).svg"
+            }
+          },
+          {
+            "equipmentType": "320",
+            "carrierCode": "6E",
+            "equipmentTypeLabel": "A320",
+            "carrierCodePopupIcon": null,
+            "operatedByAirlinesLabel": "Operated by Indigo Airlines",
+            "carrierCodeIcon": {
+              "_publishUrl": "https://aem-s6web-qa-skyplus6e.goindigo.in/content/dam/s6common/in/en/assets/codeshare/images/icFlightStroke%20(1).svg"
+            },
+            "carrierCodeImage": {
+              "_publishUrl": "https://aem-s6web-qa-skyplus6e.goindigo.in/content/dam/s6common/in/en/assets/codeshare/images/IndigoAirlines.png"
+            }
+          },
+          {
+            "equipmentType": "320",
+            "carrierCode": "TK",
+            "equipmentTypeLabel": "A320",
+            "carrierCodePopupIcon": {
+              "_publishUrl": "https://aem-s6web-qa-skyplus6e.goindigo.in/content/dam/s6common/in/en/assets/codeshare/images/TurkishAirlinesLogo.png"
+            },
+            "operatedByAirlinesLabel": "Operated by Indigo Airlines",
+            "carrierCodeIcon": {
+              "_publishUrl": "https://aem-s6web-qa-skyplus6e.goindigo.in/content/dam/s6common/in/en/assets/codeshare/images/TurkishAirlinesLogo.png"
+            },
+            "carrierCodeImage": {
+              "_publishUrl": "https://aem-s6web-qa-skyplus6e.goindigo.in/content/dam/s6common/in/en/assets/codeshare/images/TurkishAirlines.png"
+            }
+          },
+          {
+            "equipmentType": "321",
+            "carrierCode": "6E",
+            "equipmentTypeLabel": "A321",
+            "carrierCodePopupIcon": null,
+            "operatedByAirlinesLabel": "Operated by Indigo Airlines",
+            "carrierCodeIcon": {
+              "_publishUrl": "https://aem-s6web-qa-skyplus6e.goindigo.in/content/dam/s6common/in/en/assets/codeshare/images/icFlightStroke%20(1).svg"
+            },
+            "carrierCodeImage": {
+              "_publishUrl": "https://aem-s6web-qa-skyplus6e.goindigo.in/content/dam/s6common/in/en/assets/codeshare/images/IndigoAirlines.png"
+            }
+          },
+          {
+            "equipmentType": "321",
+            "carrierCode": "TK",
+            "equipmentTypeLabel": "A321",
+            "carrierCodePopupIcon": {
+              "_publishUrl": "https://aem-s6web-qa-skyplus6e.goindigo.in/content/dam/s6common/in/en/assets/codeshare/images/TurkishAirlinesLogo.png"
+            },
+            "operatedByAirlinesLabel": "Operated by Turkish Airlines",
+            "carrierCodeIcon": {
+              "_publishUrl": "https://aem-s6web-qa-skyplus6e.goindigo.in/content/dam/s6common/in/en/assets/codeshare/images/TurkishAirlinesLogo.png"
+            },
+            "carrierCodeImage": {
+              "_publishUrl": "https://aem-s6web-qa-skyplus6e.goindigo.in/content/dam/s6common/in/en/assets/codeshare/images/TurkishAirlines.png"
+            }
+          },
+          {
+            "equipmentType": "ATR",
+            "carrierCode": "6E",
+            "equipmentTypeLabel": "ATR",
+            "carrierCodePopupIcon": null,
+            "operatedByAirlinesLabel": "Operated by Indigo Airlines",
+            "carrierCodeIcon": {
+              "_publishUrl": "https://aem-s6web-qa-skyplus6e.goindigo.in/content/dam/s6common/in/en/assets/codeshare/images/icATR%20(1).svg"
+            },
+            "carrierCodeImage": {
+              "_publishUrl": "https://aem-s6web-qa-skyplus6e.goindigo.in/content/dam/s6common/in/en/assets/codeshare/images/IndigoAirlines.png"
+            }
+          },
+          {
+            "equipmentType": "ATR",
+            "carrierCode": "TK",
+            "equipmentTypeLabel": "ATR",
+            "carrierCodePopupIcon": {
+              "_publishUrl": "https://aem-s6web-qa-skyplus6e.goindigo.in/content/dam/s6common/in/en/assets/codeshare/images/TurkishAirlinesLogo.png"
+            },
+            "operatedByAirlinesLabel": "Operated by Indigo Airlines",
+            "carrierCodeIcon": {
+              "_publishUrl": "https://aem-s6web-qa-skyplus6e.goindigo.in/content/dam/s6common/in/en/assets/codeshare/images/TurkishAirlinesLogo.png"
+            },
+            "carrierCodeImage": {
+              "_publishUrl": "https://aem-s6web-qa-skyplus6e.goindigo.in/content/dam/s6common/in/en/assets/codeshare/images/TurkishAirlines.png"
+            }
+          },
+          {
+            "equipmentType": "77W",
+            "carrierCode": "6E",
+            "equipmentTypeLabel": "B777",
+            "carrierCodePopupIcon": null,
+            "operatedByAirlinesLabel": "Operated by Indigo Airlines",
+            "carrierCodeIcon": {
+              "_publishUrl": "https://aem-s6web-qa-skyplus6e.goindigo.in/content/dam/s6common/in/en/assets/codeshare/images/icFlightStroke%20(1).svg"
+            },
+            "carrierCodeImage": {
+              "_publishUrl": "https://aem-s6web-qa-skyplus6e.goindigo.in/content/dam/s6common/in/en/assets/codeshare/images/IndigoAirlines.png"
+            }
+          },
+          {
+            "equipmentType": "77W",
+            "carrierCode": "TK",
+            "equipmentTypeLabel": "B777",
+            "carrierCodePopupIcon": {
+              "_publishUrl": "https://aem-s6web-qa-skyplus6e.goindigo.in/content/dam/s6common/in/en/assets/codeshare/images/TurkishAirlinesLogo.png"
+            },
+            "operatedByAirlinesLabel": "Operated by Indigo Airlines",
+            "carrierCodeIcon": {
+              "_publishUrl": "https://aem-s6web-qa-skyplus6e.goindigo.in/content/dam/s6common/in/en/assets/codeshare/images/icFlightStroke%20(1).svg"
+            },
+            "carrierCodeImage": {
+              "_publishUrl": "https://aem-s6web-qa-skyplus6e.goindigo.in/content/dam/s6common/in/en/assets/codeshare/images/IndigoAirlines.png"
+            }
+          },
+          {
+            "equipmentType": "32B",
+            "carrierCode": "MH",
+            "equipmentTypeLabel": "32B",
+            "carrierCodePopupIcon": null,
+            "operatedByAirlinesLabel": "Operated ",
+            "carrierCodeIcon": null,
+            "carrierCodeImage": null
+          }
+        ],
+        "findYourBookingLabel": {
+          "html": "\u003Cp\u003EFind your&nbsp;\u003Cspan class=\"text-green\"\u003Ebooking\u003C/span\u003E\u003C/p\u003E\n"
+        },
+        "pnrBookingReferenceLabel": "PNR/Booking Reference",
+        "emailLastNameLabel": "Email/Last Name",
+        "retrieveBookingCtaText": "Retrieve Booking",
+        "retrieveBookingCtaLink": "/content/skyplus6e/in/en/split-pnr/manage.html",
+        "partnerPnrBookingLabel": "Partner PNR:",
+        "pnrStatus": {
+          "confirmed": "Confirmed",
+          "notGenerated": "Not generated"
+        },
+        "parentChildSplitPnrInfoMessage": "Child will always be tagged to the main/parent PNR after split PNR.",
+        "splitPnrNotApplicableConditionsText": {
+          "html": "\u003Cp\u003E\u003Cspan class=\"text-green\"\u003ESplit PNR\u003C/span\u003E is not applicable in below conditions\u003C/p\u003E\n"
+        },
+        "splitPnrNotApplicableConditionsDetails": [
+          {
+            "key": "In case of unaccompanied minor Split PNR is not eligible.",
+            "value": "In case of unaccompanied minor Split PNR is not eligible.",
+            "icon": "icon-add-simple"
+          },
+          {
+            "key": "If the checkin is done than also split pnr is not allowed.",
+            "value": "If the checkin is done than also split pnr is not allowed.",
+            "icon": "icon-add-simple"
+          },
+          {
+            "key": "In case there is only one passenger than also split pnr is not allowed.",
+            "value": "In case there is only one passenger than also split pnr is not allowed.",
+            "icon": "icon-add-simple"
+          }
+        ],
+        "splitPnrPopupDetails": {
+          "heading": "Are you sure you want to split the pnr ?",
+          "subHeading": {
+            "html": null
+          },
+          "description": {
+            "html": null
+          },
+          "ctaLabel": "Cancel",
+          "ctaPath": null,
+          "secondaryCtaLabel": "Submit",
+          "secondaryCtaPath": null
+        },
+        "noteLabel": "Note :",
+        "noteDescription": "When you split PNR your Add-ons & other services will be carried forward in the parent as well child PNR.",
+        "PnrNotEligibleErrorMessage": [
+          {
+            "key": "SP002",
+            "value": "Split PNR is not applicable for burned PNR.",
+            "icon": "icon-close-simple"
+          },
+          {
+            "key": "SP001",
+            "value": "Split PNR is not applicable for checked-in user.",
+            "icon": "icon-close-simple"
+          },
+          {
+            "key": "SP003",
+            "value": "Split PNR is not applicable for single Passenger.",
+            "icon": "icon-close-simple"
+          },
+          {
+            "key": "SP004",
+            "value": "Split PNR is not applicable if one of the sectors is flown.",
+            "icon": "icon-close-simple"
+          }
+        ]
+      }
+    }
+  }
+}

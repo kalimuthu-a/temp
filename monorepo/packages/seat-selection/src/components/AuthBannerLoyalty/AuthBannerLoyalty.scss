@@ -1,0 +1,20 @@
+@import '../../index';
+
+.seat-selection-app .banner-container {
+  gap: rem(16);
+}
+
+.seat-selection-app .banner-container__content__subHeading p {
+  color: var(--text-secondary);
+  font-family: var(--font-family-poppins-light);
+  font-kerning: auto;
+  font-size: rem(12);
+  font-weight: 300;
+  letter-spacing: 0;
+  line-height: rem(18);
+
+  @include media('>=desktop') {
+      font-size: rem(14);
+      line-height: rem(20);
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "data": {
+    "success": true,
+    "message": "success"
+  },
+  "errors": {
+    "Type": "Error",
+    "Code": "nsk-server:Credentials:Failed",
+    "Message": "No agent found for requested agent name WW2/8376029287",
+    "subType": "BadRequest"
+  }
+}

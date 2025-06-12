@@ -1,0 +1,31 @@
+.webcheckin-infoalert {
+  border-radius: rem(12px);
+  padding: rem(14px) rem(18px);
+  font-family: var(--font-family-poppins-regular);
+}
+
+.webcheckin-infoalert.cornflower-blue {
+  background-color: $color-cornflower-blue;
+  color: get-color(text-secondary);
+
+  p {
+    font-size: rem(12px);
+
+    @include media('>=tablet') {
+      font-size: rem(14px);
+    }
+  }
+}
+
+.webcheckin-infoalert.green {
+  background-color: var(--system-success-light);
+  color: get-color(text-secondary);
+
+  p {
+    font-size: rem(12px);
+
+    @include media('>=tablet') {
+      font-size: rem(14px);
+    }
+  }
+}

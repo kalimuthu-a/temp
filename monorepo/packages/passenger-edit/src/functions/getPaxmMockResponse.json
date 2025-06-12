@@ -1,0 +1,486 @@
+{
+  "passengerInfo": {
+    "bookingDetails": {
+      "recordLocator": null,
+      "bookingStatus": "Default",
+      "bookedDate": "2024-04-23T10:24:40.2881201Z",
+      "utcBookedDate": "2024-04-23T10:24:40.2881201Z",
+      "currencyCode": "INR"
+    },
+    "passengers": [
+      {
+        "passengerKey": "MCFBRFQ-",
+        "extraSeatTag": null,
+        "travelDocumentToTake": null,
+        "name": {
+          "first": "",
+          "middle": "",
+          "last": ""
+        },
+        "passengerTypeCode": "ADT",
+        "discountCode": null,
+        "info": {
+          "nationality": null,
+          "gender": 1,
+          "dateOfBirth": null
+        },
+        "travelDocuments": [],
+        "infant": {
+          "dateOfBirth": null,
+          "gender": "1",
+          "name": null
+        }
+      },
+      {
+        "passengerKey": "MSFBRFQ-",
+        "extraSeatTag": null,
+        "travelDocumentToTake": null,
+        "name": null,
+        "passengerTypeCode": "ADT",
+        "discountCode": null,
+        "info": {
+          "nationality": null,
+          "gender": 1,
+          "dateOfBirth": null
+        },
+        "travelDocuments": [],
+        "infant": null
+      },
+      {
+        "passengerKey": "MiFBRFQ-",
+        "extraSeatTag": null,
+        "travelDocumentToTake": null,
+        "name": null,
+        "passengerTypeCode": "ADT",
+        "discountCode": "SRCT",
+        "info": {
+          "nationality": null,
+          "gender": 1,
+          "dateOfBirth": null
+        },
+        "travelDocuments": [],
+        "infant": null
+      },
+      {
+        "passengerKey": "MyFDSEQ-",
+        "extraSeatTag": null,
+        "travelDocumentToTake": null,
+        "name": null,
+        "passengerTypeCode": "CHD",
+        "discountCode": null,
+        "info": {
+          "nationality": null,
+          "gender": 1,
+          "dateOfBirth": null
+        },
+        "travelDocuments": [],
+        "infant": null
+      }
+    ],
+    "extraSeatKeys": [
+      {
+        "passengerKey": "NCFBRFQ-",
+        "discountCode": "EXT",
+        "name": null
+      },
+      {
+        "passengerKey": "NSFBRFQ-",
+        "discountCode": "EXT",
+        "name": null
+      },
+      {
+        "passengerKey": "NiFBRFQ-",
+        "discountCode": "EXT2",
+        "name": null
+      },
+      {
+        "passengerKey": "NyFBRFQ-",
+        "discountCode": "EXT2",
+        "name": null
+      }
+    ],
+    "agentAccountInfo": {
+      "mobilePhoneCountryCode": null,
+      "mobilePhone": null,
+      "otherPhoneCountryCode": null,
+      "otherPhone": null,
+      "emailAddress": null,
+      "name": null,
+      "info": null
+    },
+    "ssr": [
+      {
+        "journeyKey": "NkV_IDUxOX4gfn5ERUx_MDQvMjQvMjAyNCAyMzozMH5CT01_MDQvMjUvMjAyNCAwMTo0MH5_",
+        "journeydetail": {
+          "destination": "BOM",
+          "origin": "DEL",
+          "arrival": "2024-04-25T01:40:00",
+          "departure": "2024-04-24T23:30:00",
+          "identifier": null
+        },
+        "journeySSRs": [
+          {
+            "category": "WCHR",
+            "limit": 1,
+            "openslider": true,
+            "isMandatory": false,
+            "mandatoryreason": "",
+            "ssrs": [
+              {
+                "group": "NA",
+                "currencycode": "INR",
+                "ssrCode": "WCHR",
+                "ssrType": 0,
+                "category": null,
+                "available": null,
+                "name": "WheelChair - Ramp",
+                "limitPerPassenger": 1,
+                "feeCode": null,
+                "applicableForAllPax": false,
+                "SsrApplicability": "J",
+                "price": 0.0,
+                "passengersSSRKey": [
+                  {
+                    "passengerKey": "MCFBRFQ-",
+                    "ssrKey": "MSFNQ0ZCUkZRLSFXQ0hSISFCT00hNkUhNjM4NDk1MTM2MDAwMDAwMDAwIURFTCE1MTkhIA--",
+                    "takenssrkey": "",
+                    "takencount": 0
+                  },
+                  {
+                    "passengerKey": "MSFBRFQ-",
+                    "ssrKey": "MSFNU0ZCUkZRLSFXQ0hSISFCT00hNkUhNjM4NDk1MTM2MDAwMDAwMDAwIURFTCE1MTkhIA--",
+                    "takenssrkey": "",
+                    "takencount": 0
+                  },
+                  {
+                    "passengerKey": "MiFBRFQ-",
+                    "ssrKey": "MSFNaUZCUkZRLSFXQ0hSISFCT00hNkUhNjM4NDk1MTM2MDAwMDAwMDAwIURFTCE1MTkhIA--",
+                    "takenssrkey": "",
+                    "takencount": 0
+                  },
+                  {
+                    "passengerKey": "MyFDSEQ-",
+                    "ssrKey": "MSFNeUZEU0VRLSFXQ0hSISFCT00hNkUhNjM4NDk1MTM2MDAwMDAwMDAwIURFTCE1MTkhIA--",
+                    "takenssrkey": "",
+                    "takencount": 0
+                  }
+                ]
+              },
+              {
+                "group": "NA",
+                "currencycode": "INR",
+                "ssrCode": "WCHC",
+                "ssrType": 0,
+                "category": null,
+                "available": null,
+                "name": "WheelChair - Cabin",
+                "limitPerPassenger": 1,
+                "feeCode": null,
+                "applicableForAllPax": false,
+                "SsrApplicability": "J",
+                "price": 0.0,
+                "passengersSSRKey": [
+                  {
+                    "passengerKey": "MCFBRFQ-",
+                    "ssrKey": "MSFNQ0ZCUkZRLSFXQ0hDISFCT00hNkUhNjM4NDk1MTM2MDAwMDAwMDAwIURFTCE1MTkhIA--",
+                    "takenssrkey": "",
+                    "takencount": 0
+                  },
+                  {
+                    "passengerKey": "MSFBRFQ-",
+                    "ssrKey": "MSFNU0ZCUkZRLSFXQ0hDISFCT00hNkUhNjM4NDk1MTM2MDAwMDAwMDAwIURFTCE1MTkhIA--",
+                    "takenssrkey": "",
+                    "takencount": 0
+                  },
+                  {
+                    "passengerKey": "MiFBRFQ-",
+                    "ssrKey": "MSFNaUZCUkZRLSFXQ0hDISFCT00hNkUhNjM4NDk1MTM2MDAwMDAwMDAwIURFTCE1MTkhIA--",
+                    "takenssrkey": "",
+                    "takencount": 0
+                  },
+                  {
+                    "passengerKey": "MyFDSEQ-",
+                    "ssrKey": "MSFNeUZEU0VRLSFXQ0hDISFCT00hNkUhNjM4NDk1MTM2MDAwMDAwMDAwIURFTCE1MTkhIA--",
+                    "takenssrkey": "",
+                    "takencount": 0
+                  }
+                ]
+              }
+            ],
+            "takenssr": []
+          },
+          {
+            "category": "FTIM",
+            "limit": 1,
+            "openslider": true,
+            "isMandatory": false,
+            "mandatoryreason": "",
+            "ssrs": [
+              {
+                "group": "NA",
+                "currencycode": "INR",
+                "ssrCode": "FTIM",
+                "ssrType": 0,
+                "category": null,
+                "available": null,
+                "name": "First Time Traveller Identification",
+                "limitPerPassenger": 1,
+                "feeCode": null,
+                "applicableForAllPax": false,
+                "SsrApplicability": "J",
+                "price": 0.0,
+                "passengersSSRKey": [
+                  {
+                    "passengerKey": "MCFBRFQ-",
+                    "ssrKey": "MSFNQ0ZCUkZRLSFGVElNISFCT00hNkUhNjM4NDk1MTM2MDAwMDAwMDAwIURFTCE1MTkhIA--",
+                    "takenssrkey": "",
+                    "takencount": 0
+                  },
+                  {
+                    "passengerKey": "MSFBRFQ-",
+                    "ssrKey": "MSFNU0ZCUkZRLSFGVElNISFCT00hNkUhNjM4NDk1MTM2MDAwMDAwMDAwIURFTCE1MTkhIA--",
+                    "takenssrkey": "",
+                    "takencount": 0
+                  },
+                  {
+                    "passengerKey": "MiFBRFQ-",
+                    "ssrKey": "MSFNaUZCUkZRLSFGVElNISFCT00hNkUhNjM4NDk1MTM2MDAwMDAwMDAwIURFTCE1MTkhIA--",
+                    "takenssrkey": "",
+                    "takencount": 0
+                  },
+                  {
+                    "passengerKey": "MyFDSEQ-",
+                    "ssrKey": "MSFNeUZEU0VRLSFGVElNISFCT00hNkUhNjM4NDk1MTM2MDAwMDAwMDAwIURFTCE1MTkhIA--",
+                    "takenssrkey": "",
+                    "takencount": 0
+                  }
+                ]
+              }
+            ],
+            "takenssr": []
+          },
+          {
+            "category": "DEAF",
+            "limit": 1,
+            "openslider": true,
+            "isMandatory": false,
+            "mandatoryreason": "",
+            "ssrs": [
+              {
+                "group": "NA",
+                "currencycode": "INR",
+                "ssrCode": "DEAF",
+                "ssrType": 0,
+                "category": null,
+                "available": null,
+                "name": "Deaf Pax",
+                "limitPerPassenger": 1,
+                "feeCode": null,
+                "applicableForAllPax": false,
+                "SsrApplicability": "J",
+                "price": 0.0,
+                "passengersSSRKey": [
+                  {
+                    "passengerKey": "MCFBRFQ-",
+                    "ssrKey": "MSFNQ0ZCUkZRLSFERUFGISFCT00hNkUhNjM4NDk1MTM2MDAwMDAwMDAwIURFTCE1MTkhIA--",
+                    "takenssrkey": "",
+                    "takencount": 0
+                  },
+                  {
+                    "passengerKey": "MSFBRFQ-",
+                    "ssrKey": "MSFNU0ZCUkZRLSFERUFGISFCT00hNkUhNjM4NDk1MTM2MDAwMDAwMDAwIURFTCE1MTkhIA--",
+                    "takenssrkey": "",
+                    "takencount": 0
+                  },
+                  {
+                    "passengerKey": "MiFBRFQ-",
+                    "ssrKey": "MSFNaUZCUkZRLSFERUFGISFCT00hNkUhNjM4NDk1MTM2MDAwMDAwMDAwIURFTCE1MTkhIA--",
+                    "takenssrkey": "",
+                    "takencount": 0
+                  },
+                  {
+                    "passengerKey": "MyFDSEQ-",
+                    "ssrKey": "MSFNeUZEU0VRLSFERUFGISFCT00hNkUhNjM4NDk1MTM2MDAwMDAwMDAwIURFTCE1MTkhIA--",
+                    "takenssrkey": "",
+                    "takencount": 0
+                  }
+                ]
+              }
+            ],
+            "takenssr": []
+          },
+          {
+            "category": "BLND",
+            "limit": 1,
+            "openslider": true,
+            "isMandatory": false,
+            "mandatoryreason": "",
+            "ssrs": [
+              {
+                "group": "NA",
+                "currencycode": "INR",
+                "ssrCode": "BLND",
+                "ssrType": 0,
+                "category": null,
+                "available": null,
+                "name": "Pax with Guide Dog",
+                "limitPerPassenger": 1,
+                "feeCode": null,
+                "applicableForAllPax": false,
+                "SsrApplicability": "J",
+                "price": 0.0,
+                "passengersSSRKey": [
+                  {
+                    "passengerKey": "MCFBRFQ-",
+                    "ssrKey": "MSFNQ0ZCUkZRLSFCTE5EISFCT00hNkUhNjM4NDk1MTM2MDAwMDAwMDAwIURFTCE1MTkhIA--",
+                    "takenssrkey": "",
+                    "takencount": 0
+                  },
+                  {
+                    "passengerKey": "MSFBRFQ-",
+                    "ssrKey": "MSFNU0ZCUkZRLSFCTE5EISFCT00hNkUhNjM4NDk1MTM2MDAwMDAwMDAwIURFTCE1MTkhIA--",
+                    "takenssrkey": "",
+                    "takencount": 0
+                  },
+                  {
+                    "passengerKey": "MiFBRFQ-",
+                    "ssrKey": "MSFNaUZCUkZRLSFCTE5EISFCT00hNkUhNjM4NDk1MTM2MDAwMDAwMDAwIURFTCE1MTkhIA--",
+                    "takenssrkey": "",
+                    "takencount": 0
+                  },
+                  {
+                    "passengerKey": "MyFDSEQ-",
+                    "ssrKey": "MSFNeUZEU0VRLSFCTE5EISFCT00hNkUhNjM4NDk1MTM2MDAwMDAwMDAwIURFTCE1MTkhIA--",
+                    "takenssrkey": "",
+                    "takencount": 0
+                  }
+                ]
+              }
+            ],
+            "takenssr": []
+          },
+          {
+            "category": "MUTE",
+            "limit": 1,
+            "openslider": true,
+            "isMandatory": false,
+            "mandatoryreason": "",
+            "ssrs": [
+              {
+                "group": "NA",
+                "currencycode": "INR",
+                "ssrCode": "MUTE",
+                "ssrType": 0,
+                "category": null,
+                "available": null,
+                "name": "Dumb Pax",
+                "limitPerPassenger": 1,
+                "feeCode": null,
+                "applicableForAllPax": false,
+                "SsrApplicability": "J",
+                "price": 0.0,
+                "passengersSSRKey": [
+                  {
+                    "passengerKey": "MCFBRFQ-",
+                    "ssrKey": "MSFNQ0ZCUkZRLSFNVVRFISFCT00hNkUhNjM4NDk1MTM2MDAwMDAwMDAwIURFTCE1MTkhIA--",
+                    "takenssrkey": "",
+                    "takencount": 0
+                  },
+                  {
+                    "passengerKey": "MSFBRFQ-",
+                    "ssrKey": "MSFNU0ZCUkZRLSFNVVRFISFCT00hNkUhNjM4NDk1MTM2MDAwMDAwMDAwIURFTCE1MTkhIA--",
+                    "takenssrkey": "",
+                    "takencount": 0
+                  },
+                  {
+                    "passengerKey": "MiFBRFQ-",
+                    "ssrKey": "MSFNaUZCUkZRLSFNVVRFISFCT00hNkUhNjM4NDk1MTM2MDAwMDAwMDAwIURFTCE1MTkhIA--",
+                    "takenssrkey": "",
+                    "takencount": 0
+                  },
+                  {
+                    "passengerKey": "MyFDSEQ-",
+                    "ssrKey": "MSFNeUZEU0VRLSFNVVRFISFCT00hNkUhNjM4NDk1MTM2MDAwMDAwMDAwIURFTCE1MTkhIA--",
+                    "takenssrkey": "",
+                    "takencount": 0
+                  }
+                ]
+              }
+            ],
+            "takenssr": []
+          },
+          {
+            "category": "PROT",
+            "limit": 1,
+            "openslider": false,
+            "isMandatory": false,
+            "mandatoryreason": "",
+            "ssrs": [
+              {
+                "group": "NA",
+                "currencycode": "INR",
+                "ssrCode": "PROT",
+                "ssrType": 0,
+                "category": null,
+                "available": null,
+                "name": "Travel Assistance",
+                "limitPerPassenger": 1,
+                "feeCode": "PROT",
+                "applicableForAllPax": true,
+                "SsrApplicability": "P",
+                "price": 159.0,
+                "passengersSSRKey": [
+                  {
+                    "passengerKey": "MCFBRFQ-",
+                    "ssrKey": "MSFNQ0ZCUkZRLSFQUk9UISFCT00hNkUhNjM4NDk1MTM2MDAwMDAwMDAwIURFTCE1MTkhIA--",
+                    "takenssrkey": "",
+                    "takencount": 0
+                  },
+                  {
+                    "passengerKey": "MSFBRFQ-",
+                    "ssrKey": "MSFNU0ZCUkZRLSFQUk9UISFCT00hNkUhNjM4NDk1MTM2MDAwMDAwMDAwIURFTCE1MTkhIA--",
+                    "takenssrkey": "",
+                    "takencount": 0
+                  },
+                  {
+                    "passengerKey": "MiFBRFQ-",
+                    "ssrKey": "MSFNaUZCUkZRLSFQUk9UISFCT00hNkUhNjM4NDk1MTM2MDAwMDAwMDAwIURFTCE1MTkhIA--",
+                    "takenssrkey": "",
+                    "takencount": 0
+                  },
+                  {
+                    "passengerKey": "MyFDSEQ-",
+                    "ssrKey": "MSFNeUZEU0VRLSFQUk9UISFCT00hNkUhNjM4NDk1MTM2MDAwMDAwMDAwIURFTCE1MTkhIA--",
+                    "takenssrkey": "",
+                    "takencount": 0
+                  }
+                ]
+              }
+            ],
+            "takenssr": []
+          }
+        ],
+        "segments": null,
+        "productClass": "R",
+        "fareType": null,
+        "currencyCode": "INR",
+        "specialFareCode": null
+      }
+    ],
+    "favoriteTraveller": null,
+    "bookingcontacts": [],
+    "orgGstDetails": null,
+    "configurations": {
+      "adultCount": 2,
+      "childCount": 1,
+      "srctCount": 1,
+      "infantCount": 1,
+      "doubleSeatCount": 2,
+      "tripleSeatCount": 1,
+      "specialFareCode": null,
+      "isToShowContactSection": false,
+      "isToShowGSTSection": false
+    }
+  },
+  "errors": null
+}

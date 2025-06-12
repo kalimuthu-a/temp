@@ -1,0 +1,123 @@
+.booking-widget-field {
+  display: flex;
+  flex-direction: column;
+
+  .label_top {
+    font-size: rem(10px);
+    font-weight: 400;
+    line-height: 18px;
+    color: var(--text-secondary);
+
+    @include media('>=desktop') {
+      font-size: rem(12px);
+      margin-bottom: rem(4px);
+    }
+  }
+
+  input {
+    font-size: rem(16px);
+    line-height: 1.5;
+    font-weight: 500;
+    outline: none;
+    border: none;
+    flex: 1;
+
+    &::placeholder {
+      font-size: rem(16px);
+      font-family: $font-family-default;
+      line-height: 1.5;
+      font-weight: 400;
+    }
+
+    &:focus,
+    &:focus-visible {
+      outline: none;
+      border: none;
+    }
+  }
+
+  .value-wrapper {
+    display: flex;
+    flex-direction: column;
+
+    .label_middle {
+      font-size: rem(14px);
+      font-weight: 500;
+      line-height: 20px;
+      color: get-color(sel-con-active-text);
+      font-family: var(--font-family-poppins-medium);
+
+      @include media('>=desktop') {
+        font-size: rem(16px);
+        line-height: rem(24px);
+      }
+    }
+
+    .label_middle.filled {
+      color: get-color(primary-main);
+    }
+  }
+
+  .label_hint {
+    font-weight: 300;
+    line-height: 1.5;
+    color: #4b5772;
+    font-size: rem(10px);
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 99%;
+    max-width: 36vw;
+    font-family: var(--font-family-poppins-light);
+
+    @include media('>=desktop') {
+      font-size: rem(16px);
+      max-width: rem(240px);
+    }
+
+    p {
+      white-space: break-spaces;
+      font-size: rem(12px);
+    }
+  }
+}
+
+.booking-widget-field + .bw-popover__content {
+  overflow: scroll;
+
+  @include media('>=desktop') {
+    overflow: hidden;
+  }
+
+  .pop-over-wrapper {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+
+    @include media('>=desktop') {
+      min-height: auto;
+    }
+
+    .pax-fare-selection-popover {
+      border-radius: rem(24px);
+      border-bottom-left-radius: 0;
+      border-bottom-right-radius: 0;
+      flex: 1;
+      cursor: default;
+
+      @include media('>=desktop') {
+        border-radius: 0;
+      }
+    }
+  }
+}
+
+.search-widget-form-body__from {
+  &.focused {
+    .form-hint-value {
+      visibility: hidden;
+      display: block !important;
+      height: 0;
+    }
+  }
+}

@@ -1,0 +1,128 @@
+.srp-flight-carousel {
+  @include card-border();
+
+  overflow: auto;
+  padding: rem(16px) 0;
+
+  @include media('>=tablet') {
+    padding: rem(8px) rem(24px);
+    border-color: var(--secondary-medium);
+  }
+
+  background-color: get-color(white);
+
+  .recommended-icon {
+    cursor: pointer;
+    transition: transform 250ms linear;
+  }
+
+  .recommended-icon-close {
+    transform: rotate(180deg);
+  }
+
+  &-header {
+    margin: 0 rem(16px);
+    display: flex;
+    justify-content: space-between;
+
+    @include media('>=tablet') {
+      margin: rem(0);
+    }
+
+    h3 {
+      font-size: rem(18px);
+      font-family: var(--font-family-bauhuas-std-medium);
+      font-weight: 500;
+      line-height: rem(24px);
+
+      @include media('>=tablet') {
+        font-size: rem(24px);
+        line-height: rem(32px);
+      }
+    }
+
+    .recommended-icon {
+      color: get-color(primary-main);
+    }
+  }
+
+  &-container {
+    @include hide-scrollbar();
+
+    display: flex;
+    white-space: nowrap;
+    overflow: auto;
+    margin-top: rem(8px);
+
+    @include media('>=tablet') {
+      gap: rem(16px);
+    }
+
+    &__item {
+      padding: rem(12px);
+      min-width: rem(271px);
+      margin-left: rem(12px);
+
+      &:first-child {
+        margin-left: rem(16px);
+      }
+
+      &:last-child {
+        margin-right: rem(16px);
+      }
+
+      @include media('>=tablet') {
+        padding: rem(8px) rem(12px);
+        min-width: rem(348px);
+        margin: 0;
+
+        &:first-child {
+          margin-left: 0;
+        }
+
+        &:last-child {
+          margin-right: 0;
+        }
+
+        .lh-1-5 {
+          line-height: 1.5;
+        }
+      }
+
+      border: 1px solid rgb(218 241 255 / 100%);
+
+      .recommended-chip {
+        div {
+          background: var(--system-success-light);
+        }
+      }
+
+      .srp__journey-lap {
+        .body-small-regular {
+          font-size: rem(10px);
+
+          @include media('>=tablet') {
+            font-size: rem(12px);
+          }
+        }
+      }
+
+      .airport {
+        font-weight: 300 !important;
+      }
+
+      .line-bg {
+        border-top: 1px dotted #afe4ff;
+      }
+
+      .skyplus-button {
+        button {
+          &:focus {
+            outline: rem(1px) solid get-color(secondary-main);
+            outline-offset: rem(2px);
+          }
+        }
+      }
+    }
+  }
+}

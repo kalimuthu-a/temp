@@ -1,0 +1,17 @@
+.profile-img-avatar {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #AFE4FF;
+  margin-right: 15px;
+}
+
+.profile-img-avatar img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
